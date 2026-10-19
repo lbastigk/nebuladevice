@@ -349,44 +349,17 @@ String::TrimLeft(const String& charSet)
     n_assert(charSet.IsValid());
     if (this->IsValid())
     {
-		// modified by xiongyouyi[08/17/2011]
-		IndexT thisIndex = this->FindStringIndex(charSet, 0);
-		if (thisIndex != InvalidIndex)
-		{
-			String trimmedString(&(this->AsCharPtr()[thisIndex+charSet.strLen]));
-			*this = trimmedString;
-		}
-/*
-        SizeT charSetLen = charSet.strLen;
         IndexT thisIndex = 0;
-        bool stopped = false;
-        while (!stopped && (thisIndex < this->strLen))
+        while (thisIndex < this->strLen)
         {
-            IndexT charSetIndex;
-            bool match = false;
-            for (charSetIndex = 0; charSetIndex < charSetLen; charSetIndex++)
+            if (InvalidIndex == charSet.FindCharIndex((*this)[thisIndex]))
             {
-                if ((*this)[thisIndex] == charSet[charSetIndex])
-                {
-                    // a match
-                    match = true;
-                    break;
-                }
+                break;
             }
-            if (!match)
-            {
-                // stop if no match
-                stopped = true;
-            }
-            else
-            {
-                // a match, advance to next character
-                ++thisIndex;
-            }
+            ++thisIndex;
         }
         String trimmedString(&(this->AsCharPtr()[thisIndex]));
         *this = trimmedString;
-*/
     }
 }
 

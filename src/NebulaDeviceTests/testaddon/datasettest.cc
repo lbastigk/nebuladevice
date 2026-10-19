@@ -3,8 +3,8 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "testaddon/datasettest.h"
-#include "addons/db/dataset.h"
+#include "NebulaDeviceTests/testaddon/datasettest.h"
+#include "Nebuladevice/addons/db/dataset.h"
 #include "testaddon/dbattrs.h"
 #include "io/ioserver.h"
 #include "io/filestream.h"
@@ -150,7 +150,7 @@ DatasetTest::PopulatePersonsTable(Dataset* t)
     guid.Generate();
     values->SetString(Attr::Name, rowIndex, "Franz August");
     values->SetString(Attr::City, rowIndex, "Berlin");
-    values->SetString(Attr::Street, rowIndex, "Bouchéstrasse");
+    values->SetString(Attr::Street, rowIndex, "Bouchï¿½strasse");
     values->SetString(Attr::Phone, rowIndex, "03043423423");
     values->SetGuid(Attr::GUID, rowIndex, guid);
     

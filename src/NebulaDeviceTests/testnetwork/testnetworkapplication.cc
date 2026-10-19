@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "tools/testnetwork/testnetworkapplication.h"
+#include "NebulaDeviceTests/testnetwork/testnetworkapplication.h"
 #include "Nebuladevice/foundation/io/console.h"
 #include "Nebuladevice/foundation/system/byteorder.h"
 #include "corenetwork/netconfig.h"

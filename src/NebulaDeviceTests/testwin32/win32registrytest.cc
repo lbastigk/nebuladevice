@@ -2,7 +2,7 @@
 //  win32registrytest.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "test/win32registrytest.h"
+#include "NebulaDeviceTests/testwin32/win32registrytest.h"
 #include "Nebuladevice/foundation/system/win32/win32registry.h"
 
 namespace Test

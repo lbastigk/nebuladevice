@@ -4,12 +4,12 @@
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
 #include "Nebuladevice/foundation/core/coreserver.h"
-#include "tools/testremoteviewer/animationremoterequesthandler.h"
+#include "NebulaDeviceTests/testremoteviewer/animationremoterequesthandler.h"
 #include "Nebuladevice/foundation/timing/calendartime.h"
 #include "Nebuladevice/addons/remote/remotecontrol.h"
 #include "io/xmlReader.h"
 // for animation tests
-#include "tools/testremoteviewer/testremoteviewerapplication.h"
+#include "NebulaDeviceTests/testremoteviewer/testremoteviewerapplication.h"
 
 namespace Remote
 {

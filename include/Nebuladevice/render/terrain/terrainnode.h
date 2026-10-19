@@ -3,12 +3,12 @@
 /**
 	@class Terrain::TerrainNode
 
-	±íÊ¾Ò»¸öTerrain chunk£¬µØÐÎµÄ×îÐ¡äÖÈ¾µ¥Ôª£¬ÓÐ9*9 + 8*8¸ö¶¥µã×é³É£¬Á½¼¶¾²Ì¬LOD¡£
+	ï¿½ï¿½Ê¾Ò»ï¿½ï¿½Terrain chunkï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½Ð¡ï¿½ï¿½È¾ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½9*9 + 8*8ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬LODï¿½ï¿½
 
 	(C) 2011 xiongyouyi
 */
-#include "models/nodes/statenode.h"
-#include "coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/models/nodes/statenode.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
 
 
 //------------------------------------------------------------------------------

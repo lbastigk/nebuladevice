@@ -3,13 +3,13 @@
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
 
-#include "float4test.h"
+#include "NebulaDeviceTests/spumathtest/job/float4test.h"
 
 #include "Nebuladevice/foundation/math/float4.h"
 #include "Nebuladevice/foundation/math/matrix44.h"
-#include "mathtestutil.h"
-#include "stackalignment.h"
-#include "stackdebug.h"
+#include "NebulaDeviceTests/spumathtest/job/mathtestutil.h"
+#include "NebulaDeviceTests/spumathtest/job/stackalignment.h"
+#include "NebulaDeviceTests/spumathtest/job/stackdebug.h"
 
 #include <vectormath/cpp/vectormath_aos.h>
 

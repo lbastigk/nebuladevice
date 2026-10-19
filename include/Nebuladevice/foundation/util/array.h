@@ -949,87 +949,30 @@ Array<TYPE>::InsertAtEndOfIdenticalRange(IndexT startIndex, const TYPE& elm)
 template<class TYPE> IndexT
 Array<TYPE>::InsertSorted(const TYPE& elm)
 {
-    SizeT num = this->Size();
-    if (num == 0)
+    IndexT lo = 0;
+    IndexT hi = this->size;
+    while (lo < hi)
     {
-        // array is currently empty
-        this->Append(elm);
-        return this->Size() - 1;
-    }
-    else
-    {
-        IndexT half;
-        IndexT lo = 0;
-	    IndexT hi = num - 1;
-	    IndexT mid;
-        while (lo <= hi) 
+        IndexT mid = lo + ((hi - lo) / 2);
+        if (this->elements[mid] < elm)
         {
-            if (0 != (half = num/2)) 
-            {
-                mid = lo + ((num & 1) ? half : (half - 1));
-                if (elm < this->elements[mid])
-                {
-                    hi = mid - 1;
-                    num = num & 1 ? half : half - 1;
-                } 
-                else if (elm > this->elements[mid]) 
-                {
-                    lo = mid + 1;
-                    num = half;
-                } 
-                else
-                {
-                    // element already exists at [mid], append the
-                    // new element to the end of the range
-                    return this->InsertAtEndOfIdenticalRange(mid, elm);
-                }
-            } 
-            else if (0 != num) 
-            {
-                if (elm < this->elements[lo])
-                {
-                    this->Insert(lo, elm);
-                    return lo;
-                }
-                else if (elm > this->elements[lo])
-                {
-                    this->Insert(lo + 1, elm);
-                    return lo + 1;
-                }
-                else      
-                {
-                    // element already exists at [low], append 
-                    // the new element to the end of the range
-                    return this->InsertAtEndOfIdenticalRange(lo, elm);
-                }
-            } 
-            else 
-            {
-                #if NEBULA3_BOUNDSCHECKS
-                n_assert(0 == lo);
-                #endif
-                this->Insert(lo, elm);
-                return lo;
-            }
-        }
-        if (elm < this->elements[lo])
-        {
-            this->Insert(lo, elm);
-            return lo;
-        }
-        else if (elm > this->elements[lo])
-        {
-            this->Insert(lo + 1, elm);
-            return lo + 1;
+            lo = mid + 1;
         }
         else
         {
-            // can't happen(?)
+            hi = mid;
         }
     }
-    // can't happen
-    n_error("Array::InsertSorted: Can't happen!");
-    return InvalidIndex;
+
+    if ((lo < this->size) &&
+        !(elm < this->elements[lo]) &&
+        !(this->elements[lo] < elm))
+    {
+        return InvalidIndex;
+    }
+
+    this->Insert(lo, elm);
+    return lo;
 }
 
 } // namespace Core

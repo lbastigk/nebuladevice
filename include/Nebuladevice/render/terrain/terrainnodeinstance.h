@@ -3,11 +3,11 @@
 /**
 	@class Terrain::TerrainNodeInstance
 
-	±íÊ¾Ò»¸öµØÐÎ¿éÊµÀý
+	ï¿½ï¿½Ê¾Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Î¿ï¿½Êµï¿½ï¿½
 
 	(C) 2011 xiongyouyi
 */
-#include "models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
 
 
 //------------------------------------------------------------------------------

@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "tools/testserver/testserverapplication.h"
+#include "NebulaDeviceTests/testserver/testserverapplication.h"
 
 using namespace Tools;
 using namespace Util;

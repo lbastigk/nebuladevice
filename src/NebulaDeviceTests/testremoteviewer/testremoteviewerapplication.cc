@@ -3,8 +3,8 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "tools/testremoteviewer/testremoteviewerapplication.h"
-#include "tools/testremoteviewer/animationremoterequesthandler.h"
+#include "NebulaDeviceTests/testremoteviewer/testremoteviewerapplication.h"
+#include "NebulaDeviceTests/testremoteviewer/animationremoterequesthandler.h"
 
 namespace Tools
 {

@@ -4,14 +4,15 @@
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/jobs/stdjob.h"
 
-#include "testrunner.h"
-#include "float4test.h"
-#include "matrix44test.h"
-#include "quaterniontest.h"
-#include "planetest.h"
-#include "pointtest.h"
-#include "vectortest.h"
-#include "stackdebug.h"
+#include "NebulaDeviceTests/spumathtest/job/testrunner.h"
+#include "NebulaDeviceTests/spumathtest/job/float4test.h"
+#include "NebulaDeviceTests/spumathtest/job/mathtestutil.h"
+#include "NebulaDeviceTests/spumathtest/job/matrix44test.h"
+#include "NebulaDeviceTests/spumathtest/job/quaterniontest.h"
+#include "NebulaDeviceTests/spumathtest/job/planetest.h"
+#include "NebulaDeviceTests/spumathtest/job/pointtest.h"
+#include "NebulaDeviceTests/spumathtest/job/vectortest.h"
+#include "NebulaDeviceTests/spumathtest/job/stackdebug.h"
 
 extern "C"
 {

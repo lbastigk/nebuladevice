@@ -5,7 +5,7 @@
     
     This is the baseclass for handling animation events.
 
-    Create this ín Main application and register it via RegisterAnimEventHandler
+    Create this ï¿½n Main application and register it via RegisterAnimEventHandler
     to the AnimEventServer. This will call the Handler to handle the AnimEvents.
 
     Finally throw away the pointer on the application side and unregister the
@@ -16,9 +16,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "messaging/handler.h"
-#include "util/stringatom.h"
-#include "animation/animeventinfo.h"
+#include "Nebuladevice/foundation/messaging/handler.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/animation/animeventinfo.h"
 
 //------------------------------------------------------------------------------
 namespace Animation

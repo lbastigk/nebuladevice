@@ -2,7 +2,7 @@
 //  testrunner.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "testrunner.h"
+#include "NebulaDeviceTests/spumathtest/job/testrunner.h"
 
 #include "testcase.h"
 #include "stackdebug.h"
