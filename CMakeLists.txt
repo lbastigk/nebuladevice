@@ -92,6 +92,9 @@ if(NEBULA_BUILD_LEGACY_TESTS)
     set(legacy_excel_xml_fixture
         "${CMAKE_CURRENT_BINARY_DIR}/export/testdata/excelxmlreadertest.xml"
     )
+    set(legacy_zip_fixture
+        "${CMAKE_CURRENT_BINARY_DIR}/work/testdata/ziptest.zip"
+    )
     add_custom_command(
         OUTPUT "${legacy_test_data_file}"
         COMMAND "${Python3_EXECUTABLE}"
@@ -110,10 +113,20 @@ if(NEBULA_BUILD_LEGACY_TESTS)
             "${CMAKE_CURRENT_SOURCE_DIR}/tools/generate_excel_xml_fixture.py"
         VERBATIM
     )
+    add_custom_command(
+        OUTPUT "${legacy_zip_fixture}"
+        COMMAND "${Python3_EXECUTABLE}"
+            "${CMAKE_CURRENT_SOURCE_DIR}/tools/generate_zip_fixture.py"
+            "${legacy_zip_fixture}"
+        DEPENDS
+            "${CMAKE_CURRENT_SOURCE_DIR}/tools/generate_zip_fixture.py"
+        VERBATIM
+    )
     add_custom_target(legacy_test_data
         DEPENDS
             "${legacy_test_data_file}"
             "${legacy_excel_xml_fixture}"
+            "${legacy_zip_fixture}"
     )
 
     file(GLOB legacy_test_directories LIST_DIRECTORIES true

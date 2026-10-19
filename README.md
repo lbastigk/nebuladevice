@@ -87,16 +87,18 @@ the failing process and are captured in the per-test log.
 To enable Bash tab completion for the legacy test names, source
 `buildLegacyTests.bash-completion` from your shell startup file.
 
-## Generated Foundation fixtures
+## Generated test fixtures
 
-Foundation tests generate deterministic XML and BXML fixtures during the
-legacy test build. The generators can also be run directly:
+Foundation and ZIP tests generate deterministic fixtures during the legacy
+test build. The generators can also be run directly:
 
 ```sh
 python3 tools/generate_bxml_fixture.py \
   build-legacy-mingw32/work/testdata/modelloadsavetest.bxml
 python3 tools/generate_excel_xml_fixture.py \
   build-legacy-mingw32/export/testdata/excelxmlreadertest.xml
+python3 tools/generate_zip_fixture.py \
+  build-legacy-mingw32/work/testdata/ziptest.zip
 ```
 
 The old upstream Nebula3 SDK documentation is retained in `_old/` where

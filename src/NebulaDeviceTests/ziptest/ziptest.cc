@@ -8,7 +8,6 @@
 #include "zlib/unzip.h"
 #include "Nebuladevice/foundation/io/stream.h"
 
-static const char *ZIP_ARCHIVE = "c:/nebula3/export_win32.zip";
 static const char *FILE_IN_ARCHIVE = "export_win32/shaders/shaders.dic";
 //static const char *FILE_IN_ARCHIVE = "export_win32/test";
 //static const char *FILE_IN_ARCHIVE = "export_win32/textures/baked/skelett_schwer_baked.dds";
@@ -48,7 +47,7 @@ public:
     void CloseCurrentFile()
     {
         n_assert(this->file);
-        if(UNZ_OK != unzCloseCurrentFile(file)) n_assert(false);
+        if(UNZ_OK != unzCloseCurrentFile(this->file)) n_assert(false);
     }
 
     int ReadCurrentFile(void *buf, int len)
@@ -109,22 +108,40 @@ private:
 
 int main()
 {
-
-    static const int BYTES_TO_WRITE = 16392 * 20;
-    n_assert(!(BYTES_TO_WRITE % 4));
-    FILE *fp = fopen("c:/temp/test", "wb");
-    for(unsigned int i = 0; i < BYTES_TO_WRITE; i += 4)
+    char executablePath[MAX_PATH];
+    DWORD pathLength = GetModuleFileNameA(NULL, executablePath, sizeof(executablePath));
+    if (pathLength == 0 || pathLength >= sizeof(executablePath))
     {
-        fwrite(&i, 4, 1, fp);
+        fprintf(stderr, "Unable to determine the ZIP test executable path\n");
+        return 1;
     }
-    fclose(fp);
-    fp = NULL;
-
+    char *lastSeparator = strrchr(executablePath, '\\');
+    if (lastSeparator == NULL)
+    {
+        fprintf(stderr, "Unable to determine the ZIP test executable directory\n");
+        return 1;
+    }
+    *lastSeparator = '\0';
+    const char *fixtureSuffix = "\\work\\testdata\\ziptest.zip";
+    if (strlen(executablePath) + strlen(fixtureSuffix) >= sizeof(executablePath))
+    {
+        fprintf(stderr, "ZIP fixture path exceeds MAX_PATH\n");
+        return 1;
+    }
+    strcat(executablePath, fixtureSuffix);
 
     ZipArchive archive;
-    if(!archive.Open(ZIP_ARCHIVE)) n_assert(false);
+    if (!archive.Open(executablePath))
+    {
+        fprintf(stderr, "Unable to open ZIP fixture: %s\n", executablePath);
+        return 1;
+    }
 
-    if(!archive.SetCurrentFile(FILE_IN_ARCHIVE)) n_assert(false);
+    if (!archive.SetCurrentFile(FILE_IN_ARCHIVE))
+    {
+        fprintf(stderr, "ZIP fixture is missing: %s\n", FILE_IN_ARCHIVE);
+        return 1;
+    }
 
     unz_file_info info = archive.GetCurrentFileInfo();
     printf("size   compressed: %lu\n", info.compressed_size);
@@ -141,7 +158,7 @@ int main()
     bytesRead = archive.ReadCurrentFile(buffer_current, bytesRequested);
     n_assert(bytesRead == bytesRequested);
     *(buffer_current + bytesRequested) = '\0';
-    printf(buffer_current);
+    printf("%s", buffer_current);
     buffer_current += bytesRead;
 
     archive.SeekCurrentFile(13, IO::Stream::Current);
@@ -151,7 +168,7 @@ int main()
     bytesRead = archive.ReadCurrentFile(buffer_current, bytesRequested);
     n_assert(bytesRead == bytesRequested);
     *(buffer_current + bytesRequested) = '\0';
-    printf(buffer_current);
+    printf("%s", buffer_current);
     buffer_current += bytesRead;
 
 /*        
