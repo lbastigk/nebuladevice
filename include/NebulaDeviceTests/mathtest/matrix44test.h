@@ -7,7 +7,7 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "NebulaDeviceTests/testbase/testcase.h"
+#include "NebulaDeviceTestLogic/testcase.h"
 
 //------------------------------------------------------------------------------
 namespace Test

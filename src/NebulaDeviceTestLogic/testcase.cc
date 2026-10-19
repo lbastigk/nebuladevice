@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "NebulaDeviceTests/testbase/testcase.h"
+#include "NebulaDeviceTestLogic/testcase.h"
 
 namespace Test
 {

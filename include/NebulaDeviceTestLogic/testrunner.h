@@ -11,7 +11,7 @@
 #include "Nebuladevice/foundation/core/refcounted.h"
 #include "Nebuladevice/foundation/core/ptr.h"
 #include "Nebuladevice/foundation/util/array.h"
-#include "NebulaDeviceTests/testbase/testcase.h"
+#include "NebulaDeviceTestLogic/testcase.h"
 
 //------------------------------------------------------------------------------
 namespace Test

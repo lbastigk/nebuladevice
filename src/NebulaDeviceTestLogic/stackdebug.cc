@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
 
-#include "NebulaDeviceTests/testbase/stackdebug.h"
+#include "NebulaDeviceTestLogic/stackdebug.h"
 
 #if __PS3__
 

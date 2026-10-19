@@ -9,7 +9,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "NebulaDeviceTests/testbase/testcase.h"
+#include "NebulaDeviceTestLogic/testcase.h"
 #include "Nebuladevice/foundation/io/ioserver.h"
 #include "Nebuladevice/foundation/io/iointerface.h"
 #include "Nebuladevice/render/coregraphics/displaydevice.h"

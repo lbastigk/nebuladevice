@@ -13,7 +13,7 @@
 #include "Nebuladevice/foundation/math/vector.h"
 #include "NebulaDeviceTests/mathtest/mathtestutil.h"
 #include "NebulaDeviceTests/mathtest/stackalignment.h"
-#include "NebulaDeviceTests/testbase/stackdebug.h"
+#include "NebulaDeviceTestLogic/stackdebug.h"
 
 using namespace Math;
 

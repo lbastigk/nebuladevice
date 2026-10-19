@@ -9,7 +9,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "NebulaDeviceTests/testbase/testcase.h"
+#include "NebulaDeviceTestLogic/testcase.h"
 #include "Nebuladevice/addons/attr/attribute.h"
 #include "Nebuladevice/render/models/model.h"
 

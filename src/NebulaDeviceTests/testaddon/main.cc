@@ -6,7 +6,7 @@
 #include "Nebuladevice/foundation/foundation.h"
 #include "Nebuladevice/foundation/core/coreserver.h"
 #include "Nebuladevice/foundation/core/sysfunc.h"
-#include "NebulaDeviceTests/testbase/testrunner.h"
+#include "NebulaDeviceTestLogic/testrunner.h"
 #include "NebulaDeviceTests/testaddon/databasetest.h"
 #include "NebulaDeviceTests/testaddon/datasettest.h"
 

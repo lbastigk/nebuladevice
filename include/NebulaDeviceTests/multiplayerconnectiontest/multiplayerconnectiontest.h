@@ -6,7 +6,7 @@
 
 (C) 2009 Radon Labs GmbH
 */
-#include "NebulaDeviceTests/testbase/testcase.h"
+#include "NebulaDeviceTestLogic/testcase.h"
 #include "Nebuladevice/foundation/timing/timer.h"
 #include "Nebuladevice/foundation/core/singleton.h"
 

@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "NebulaDeviceTests/testbase/testcase.h"
+#include "NebulaDeviceTestLogic/testcase.h"
 #include "Nebuladevice/addons/db/database.h"
 #include "Nebuladevice/addons/db/table.h"
 

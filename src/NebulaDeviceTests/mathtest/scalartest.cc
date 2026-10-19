@@ -5,7 +5,7 @@
 #include "Nebuladevice/foundation/stdneb.h"
 #include "NebulaDeviceTests/mathtest/scalartest.h"
 #include "Nebuladevice/foundation/math/scalar.h"
-#include "NebulaDeviceTests/testbase/stackdebug.h"
+#include "NebulaDeviceTestLogic/stackdebug.h"
 
 using namespace Math;
 

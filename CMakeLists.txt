@@ -133,9 +133,9 @@ if(NEBULA_BUILD_LEGACY_TESTS)
         "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/*"
     )
     file(GLOB_RECURSE legacy_common_test_sources CONFIGURE_DEPENDS
-        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/testbase/*.cc"
-        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/testbase/*.cpp"
-        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/testbase/*.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTestLogic/*.cc"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTestLogic/*.cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTestLogic/*.c"
     )
     foreach(legacy_test_directory IN LISTS legacy_test_directories)
         if(NOT IS_DIRECTORY "${legacy_test_directory}")

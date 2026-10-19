@@ -5,7 +5,7 @@
 #include "Nebuladevice/foundation/stdneb.h"
 #include "Nebuladevice/foundation/system/appentry.h"
 #include "Nebuladevice/foundation/core/coreserver.h"
-#include "NebulaDeviceTests/testbase/testrunner.h"
+#include "NebulaDeviceTestLogic/testrunner.h"
 
 // tests
 #include "NebulaDeviceTests/mathtest/scalartest.h"
@@ -15,7 +15,7 @@
 #include "NebulaDeviceTests/mathtest/vectortest.h"
 #include "NebulaDeviceTests/mathtest/pointtest.h"
 #include "NebulaDeviceTests/mathtest/planetest.h"
-#include "NebulaDeviceTests/testbase/stackdebug.h"
+#include "NebulaDeviceTestLogic/stackdebug.h"
 
 /*
 #if __PS3__

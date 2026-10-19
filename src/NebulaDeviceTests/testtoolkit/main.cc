@@ -4,7 +4,7 @@
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
 #include "Nebuladevice/foundation/core/coreserver.h"
-#include "NebulaDeviceTests/testbase/testrunner.h"
+#include "NebulaDeviceTestLogic/testrunner.h"
 #include "NebulaDeviceTests/testtoolkit/meshbuildervertextest.h"
 #include "NebulaDeviceTests/testtoolkit/meshbuildertest.h"
 

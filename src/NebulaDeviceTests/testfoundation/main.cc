@@ -7,7 +7,7 @@
 #include "Nebuladevice/foundation/core/coreserver.h"
 #include "Nebuladevice/foundation/core/sysfunc.h"
 #include "Nebuladevice/foundation/io/gamecontentserver.h"
-#include "NebulaDeviceTests/testbase/testrunner.h"
+#include "NebulaDeviceTestLogic/testrunner.h"
 #include "NebulaDeviceTests/testfoundation/stringtest.h"
 #include "NebulaDeviceTests/testfoundation/arraytest.h"
 #include "NebulaDeviceTests/testfoundation/stacktest.h"

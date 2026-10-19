@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "NebulaDeviceTests/testbase/testcase.h"
+#include "NebulaDeviceTestLogic/testcase.h"
 #include "Nebuladevice/foundation/core/refcounted.h"
 #include "Nebuladevice/foundation/core/singleton.h"
 #include "Nebuladevice/foundation/threading/thread.h"

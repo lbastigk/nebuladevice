@@ -12,6 +12,8 @@ Wine-based compatibility layer is working.
 - `include/Nebuladevice/` - engine headers
 - `src/Nebuladevice/` - engine implementation sources
 - `src/NebulaDeviceTests/` - migrated legacy test programs
+- `include/NebulaDeviceTestLogic/` and `src/NebulaDeviceTestLogic/` - shared
+  test-case and test-runner implementation
 - `tools/` - build-time fixture generators and utility scripts
 - `work/` - generated test data and other build work files
 
@@ -56,8 +58,8 @@ Current status:
 
 | Status | Count | Meaning |
 | --- | ---: | --- |
-| 🟢 Success | 6 | Builds and completes successfully |
-| 🟡 Won't build | 27 | The legacy target does not currently compile or link |
+| 🟢 Passed | 7 | Builds and completes successfully |
+| 🟡 Build errors | 26 | The legacy target does not currently compile or link |
 | 🔴 Failed | 0 | Builds, but fails or times out while running |
 
 This status is a progress snapshot, not a permanent test classification. As

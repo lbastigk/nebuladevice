@@ -5,7 +5,7 @@
 #include "Nebuladevice/foundation/stdneb.h"
 #include "Nebuladevice/foundation/core/types.h"
 #include "Nebuladevice/foundation/core/coreserver.h"  
-#include "NebulaDeviceTests/testbase/testrunner.h"
+#include "NebulaDeviceTestLogic/testrunner.h"
 #include "NebulaDeviceTests/multiplayerconnectiontest/multiplayerconnectiontest.h"
 
 

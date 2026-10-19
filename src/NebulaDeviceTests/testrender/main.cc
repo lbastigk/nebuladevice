@@ -7,7 +7,7 @@
 #include "Nebuladevice/render/render_classregistry.h"
 #include "Nebuladevice/foundation/core/coreserver.h"
 #include "Nebuladevice/foundation/core/sysfunc.h"
-#include "NebulaDeviceTests/testbase/testrunner.h"
+#include "NebulaDeviceTestLogic/testrunner.h"
 #include "NebulaDeviceTests/testrender/loadmeshtest.h"
 #include "NebulaDeviceTests/testrender/loadtexturetest.h"
 #include "NebulaDeviceTests/testrender/modelloadsavetest.h"
