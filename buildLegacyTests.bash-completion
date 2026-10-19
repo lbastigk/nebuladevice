@@ -1,0 +1,38 @@
+_buildLegacyTests_completion() {
+  local current_word="${COMP_WORDS[COMP_CWORD]}"
+  local command_name="${COMP_WORDS[0]}"
+  local script_path
+  local repository_root
+  local test_root
+  local -a test_names
+
+  if [[ "$command_name" == */* ]]; then
+    script_path="$command_name"
+  else
+    script_path="$(command -v "$command_name")"
+  fi
+  if [[ -z "$script_path" ]]; then
+    return 0
+  fi
+
+  repository_root="$(cd "$(dirname "$script_path")" && pwd)"
+  test_root="$repository_root/src/NebulaDeviceTests"
+  if [[ ! -d "$test_root" ]]; then
+    return 0
+  fi
+
+  mapfile -t test_names < <(
+    find "$test_root" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | sort
+  )
+
+  if (( COMP_CWORD == 1 )); then
+    COMPREPLY=(
+      $(compgen -W "--help --list ${test_names[*]}" -- "$current_word")
+    )
+  else
+    COMPREPLY=()
+  fi
+}
+
+complete -F _buildLegacyTests_completion buildLegacyTests.sh
+complete -F _buildLegacyTests_completion buildLegacyTests
