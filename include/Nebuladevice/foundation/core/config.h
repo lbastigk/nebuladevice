@@ -85,7 +85,7 @@ static const int JobMaxSliceSize = 0x3FFF;
 #define NEBULA3_USE_SERIAL_JOBSYSTEM (0)
 
 // enable/disable thread-local StringAtom tables
-#if (__WII__)
+#if (__WII__ || defined(NEBULA_MINGW))
 #define NEBULA3_ENABLE_THREADLOCAL_STRINGATOM_TABLES (0)
 #else
 #define NEBULA3_ENABLE_THREADLOCAL_STRINGATOM_TABLES (1)

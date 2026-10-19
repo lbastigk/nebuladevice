@@ -46,6 +46,7 @@ if(NEBULA_BUILD_MINGW64 OR NEBULA_BUILD_MINGW32)
     )
     target_compile_definitions(nebuladevice_foundation PRIVATE
         __WIN32__
+        NEBULA_MINGW
         WIN32
         _HAS_EXCEPTIONS=0
     )
@@ -142,6 +143,7 @@ if(NEBULA_BUILD_LEGACY_TESTS)
         add_dependencies("${legacy_target}" legacy_test_data)
         target_compile_definitions("${legacy_target}" PRIVATE
             __WIN32__
+            NEBULA_MINGW
             WIN32
             _HAS_EXCEPTIONS=0
         )

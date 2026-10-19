@@ -46,9 +46,9 @@ IOInterfaceTest::Run()
     n_printf("Writing large file...\n");
     Ptr<MemoryStream> writeStream = MemoryStream::Create();
     writeStream->SetAccessMode(Stream::WriteAccess);
-    writeStream->SetSize(fileSize);
     if (writeStream->Open())
     {
+        writeStream->SetSize(fileSize);
         void* ptr = writeStream->Map();
         Memory::Clear(ptr, writeStream->GetSize());
         writeStream->Unmap();

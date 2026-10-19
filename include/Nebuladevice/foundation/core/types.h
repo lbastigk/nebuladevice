@@ -69,6 +69,8 @@ inline unsigned long long    _byteswap_uint64(unsigned long long x)  { return ((
 
 #if __MAYA__
 #define ThreadLocal
+#elif __WIN32__ && defined(NEBULA_MINGW)
+#define ThreadLocal thread_local
 #elif __WIN32__
 #define ThreadLocal __declspec(thread)
 #elif __XBOX360__
