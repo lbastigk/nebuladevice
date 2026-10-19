@@ -69,6 +69,7 @@ if(NEBULA_BUILD_MINGW64 OR NEBULA_BUILD_MINGW32)
         user32
         dbghelp
         dxerr9
+        rpcrt4
         winmm
     )
 endif()
@@ -78,6 +79,20 @@ if(NEBULA_BUILD_LEGACY_TESTS)
         message(FATAL_ERROR
             "NEBULA_BUILD_LEGACY_TESTS requires a MinGW Foundation build.")
     endif()
+    find_package(Python3 COMPONENTS Interpreter REQUIRED)
+    set(legacy_test_data_file
+        "${CMAKE_CURRENT_BINARY_DIR}/work/testdata/modelloadsavetest.bxml"
+    )
+    add_custom_command(
+        OUTPUT "${legacy_test_data_file}"
+        COMMAND "${Python3_EXECUTABLE}"
+            "${CMAKE_CURRENT_SOURCE_DIR}/../../tools/generate_bxml_fixture.py"
+            "${legacy_test_data_file}"
+        DEPENDS
+            "${CMAKE_CURRENT_SOURCE_DIR}/../../tools/generate_bxml_fixture.py"
+        VERBATIM
+    )
+    add_custom_target(legacy_test_data DEPENDS "${legacy_test_data_file}")
 
     file(GLOB legacy_test_directories LIST_DIRECTORIES true
         "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/*"
@@ -108,6 +123,7 @@ if(NEBULA_BUILD_LEGACY_TESTS)
             ${legacy_test_sources}
             ${legacy_common_test_sources}
         )
+        add_dependencies("${legacy_target}" legacy_test_data)
         target_compile_definitions("${legacy_target}" PRIVATE
             __WIN32__
             WIN32
@@ -124,6 +140,7 @@ if(NEBULA_BUILD_LEGACY_TESTS)
             )
         endif()
         target_link_options("${legacy_target}" PRIVATE
+            -static
             -static-libgcc
             -static-libstdc++
         )
@@ -133,6 +150,7 @@ if(NEBULA_BUILD_LEGACY_TESTS)
         )
         target_link_libraries("${legacy_target}" PRIVATE
             nebuladevice_foundation
+            winpthread
         )
     endforeach()
 endif()
