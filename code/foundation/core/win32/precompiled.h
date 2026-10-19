@@ -65,7 +65,7 @@
 #include <dxerr.h>
 #include <xinput.h>
 #include <xact3.h>
-#include <xact3d3.h>
+//#include <xact3d3.h> // TEMP: disabled for now.
 #define DIRECTINPUT_VERSION 0x0800
 #include <dinput.h>
 //------------------------------------------------------------------------------
