@@ -3,7 +3,7 @@
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/testhttpviewer/testhttpviewerapplication.h"
+#include "NebuladeviceTests/testhttpviewer/testhttpviewerapplication.h"
 #include "debugrender/debugrender.h"
 #include "debugrender/debugshaperenderer.h"
 #include "math/quaternion.h"

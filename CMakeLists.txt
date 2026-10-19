@@ -1,17 +1,17 @@
 cmake_minimum_required(VERSION 3.24)
 
-project(NebulaDevice LANGUAGES C CXX)
+project(Nebuladevice LANGUAGES C CXX)
 
 option(NEBULA_FETCH_DEPENDENCIES
-       "Download NebulaDevice dependencies with FetchContent" ON)
+       "Download Nebuladevice dependencies with FetchContent" ON)
 option(NEBULA_BUILD_ENGINE
-       "Build the native Linux NebulaDevice engine" OFF)
+       "Build the native Linux Nebuladevice engine" OFF)
 option(NEBULA_BUILD_MINGW64
-       "Build the NebulaDevice Foundation layer for MinGW-w64" OFF)
+       "Build the Nebuladevice Foundation layer for MinGW-w64" OFF)
 option(NEBULA_BUILD_TESTS
-       "Build NebulaDevice GoogleTest tests" ON)
+       "Build Nebuladevice GoogleTest tests" ON)
 option(NEBULA_BUILD_LEGACY_TESTS
-       "Build the legacy Tests/legacy programs" OFF)
+       "Build the legacy NebuladeviceTests programs" OFF)
 
 if(NEBULA_FETCH_DEPENDENCIES AND NOT TARGET nebuladevice_dependencies)
     include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/Dependencies.cmake")
@@ -19,7 +19,7 @@ endif()
 
 if(NEBULA_BUILD_ENGINE)
     message(FATAL_ERROR
-        "The NebulaDevice Linux backend is not implemented yet. "
+        "The Nebuladevice Linux backend is not implemented yet. "
         "Set NEBULA_BUILD_ENGINE=OFF until the platform layer is ported.")
 endif()
 
@@ -48,6 +48,7 @@ if(NEBULA_BUILD_MINGW64)
     target_include_directories(nebuladevice_foundation PUBLIC
         "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice"
         "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice/foundation"
+        "${CMAKE_CURRENT_SOURCE_DIR}/include/NebuladeviceTests"
         "${CMAKE_CURRENT_SOURCE_DIR}/code/extlibs"
     )
     target_link_libraries(nebuladevice_foundation PUBLIC
@@ -67,7 +68,7 @@ if(NEBULA_BUILD_LEGACY_TESTS)
     endif()
 
     file(GLOB legacy_test_directories LIST_DIRECTORIES true
-        "${CMAKE_CURRENT_SOURCE_DIR}/Tests/legacy/*"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebuladeviceTests/*"
     )
     foreach(legacy_test_directory IN LISTS legacy_test_directories)
         if(NOT IS_DIRECTORY "${legacy_test_directory}")
@@ -76,7 +77,7 @@ if(NEBULA_BUILD_LEGACY_TESTS)
 
         get_filename_component(legacy_test_name
             "${legacy_test_directory}" NAME)
-        file(GLOB legacy_test_sources CONFIGURE_DEPENDS
+        file(GLOB_RECURSE legacy_test_sources CONFIGURE_DEPENDS
             "${legacy_test_directory}/*.cc"
             "${legacy_test_directory}/*.cpp"
             "${legacy_test_directory}/*.c"
@@ -97,8 +98,11 @@ if(NEBULA_BUILD_LEGACY_TESTS)
             -fno-rtti
         )
         target_include_directories("${legacy_target}" PRIVATE
+            "${CMAKE_CURRENT_SOURCE_DIR}/include"
             "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice"
             "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice/foundation"
+            "${CMAKE_CURRENT_SOURCE_DIR}/include/NebuladeviceTests"
+            "${CMAKE_CURRENT_SOURCE_DIR}/include/NebuladeviceTests/${legacy_test_name}"
             "${CMAKE_CURRENT_SOURCE_DIR}/code/extlibs"
         )
         target_link_libraries("${legacy_target}" PRIVATE
@@ -135,6 +139,6 @@ endif()
 
 add_custom_target(nebuladevice_status
     COMMAND ${CMAKE_COMMAND} -E echo
-        "NebulaDevice build is staged; select NEBULA_BUILD_MINGW64 for MinGW-w64."
+        "Nebuladevice build is staged; select NEBULA_BUILD_MINGW64 for MinGW-w64."
     VERBATIM
 )

@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/testhttpviewer/testhttpviewerapplication.h"
+#include "NebuladeviceTests/testhttpviewer/testhttpviewerapplication.h"
 
 ImplementNebulaApplication()
 

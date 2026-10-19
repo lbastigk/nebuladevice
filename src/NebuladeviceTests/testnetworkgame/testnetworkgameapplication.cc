@@ -3,10 +3,10 @@
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/testnetworkgame/testnetworkgameapplication.h"
-#include "tests/testnetworkgame/testgamestate.h"
-#include "tests/testnetworkgame/lobbygamestate.h"
-#include "tests/testnetworkgame/testgamenotificationhandler.h"
+#include "NebuladeviceTests/testnetworkgame/testnetworkgameapplication.h"
+#include "NebuladeviceTests/testnetworkgame/testgamestate.h"
+#include "NebuladeviceTests/testnetworkgame/lobbygamestate.h"
+#include "NebuladeviceTests/testnetworkgame/testgamenotificationhandler.h"
 #include "application/basegamefeature/statehandlers/gamestatehandler.h"
 #include "basegamefeature/basegamefeatureunit.h"
 #include "graphicsfeature/graphicsfeatureunit.h"

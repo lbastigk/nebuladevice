@@ -1,9 +1,9 @@
 //------------------------------------------------------------------------------
-//  testviewer.cc
+//  forestviewer.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/testnetworkgame/testnetworkgameapplication.h"
+#include "NebuladeviceTests/forestviewer/forestviewerapplication.h"
 
 ImplementNebulaApplication()
 
@@ -16,9 +16,9 @@ using namespace Util;
 void
 NebulaMain(const CommandLineArgs& args)
 {
-    TestNetworkGameApplication app;
+    ForestViewerApplication app;
     app.SetCompanyName("Radon Labs GmbH");
-    app.SetAppTitle("Test Network Game");
+    app.SetAppTitle("Forest Viewer");
     app.SetCmdLineArgs(args);
     if (app.Open())
     {

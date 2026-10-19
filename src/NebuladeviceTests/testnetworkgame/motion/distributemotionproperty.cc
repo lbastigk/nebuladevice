@@ -3,7 +3,7 @@
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/testnetworkgame/motion/distributemotionproperty.h"
+#include "NebuladeviceTests/testnetworkgame/motion/distributemotionproperty.h"
 #include "game/entity.h"
 #include "basegameattr/basegameattributes.h"
 #include "basegameprotocol.h"

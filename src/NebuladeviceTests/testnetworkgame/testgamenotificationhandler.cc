@@ -6,7 +6,7 @@
 #include "testgamenotificationhandler.h"
 #include "multiplayerfeature/distributionmanager.h"
 #include "multiplayer/multiplayermanager.h"
-#include "tests/testnetworkgame/testnetworkgameapplication.h"
+#include "NebuladeviceTests/testnetworkgame/testnetworkgameapplication.h"
 #include "testgamestate.h"
 #include "multiplayerfeature/distributionmanager.h"
 

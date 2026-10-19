@@ -1,13 +1,13 @@
 //------------------------------------------------------------------------------
-//  testviewer.cc
-//  (C) 2006 Radon Labs GmbH
+//  drasa3testui.cc
+//  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/testviewer/testviewerapplication.h"
+#include "NebuladeviceTests/drasa3testui/drasa3testuiapplication.h"
 
 ImplementNebulaApplication()
 
-using namespace Tools;
+using namespace Test;
 using namespace Util;
 
 //------------------------------------------------------------------------------
@@ -16,9 +16,9 @@ using namespace Util;
 void
 NebulaMain(const CommandLineArgs& args)
 {
-    TestViewerApplication app;
+    Drasa3TestUiApplication app;
     app.SetCompanyName("Radon Labs GmbH");
-    app.SetAppTitle("Test Viewer");
+    app.SetAppTitle("Drasa3 Test UI");
     app.SetCmdLineArgs(args);
     if (app.Open())
     {

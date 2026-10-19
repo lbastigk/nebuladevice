@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/forestviewer/forestviewerapplication.h"
+#include "NebuladeviceTests/forestviewer/forestviewerapplication.h"
 #include "debugrender/debugrender.h"
 #include "debugrender/debugshaperenderer.h"
 #include "math/quaternion.h"

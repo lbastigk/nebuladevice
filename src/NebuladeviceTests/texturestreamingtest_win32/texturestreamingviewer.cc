@@ -1,13 +1,13 @@
 //------------------------------------------------------------------------------
-//  forestviewer.cc
-//  (C) 2006 Radon Labs GmbH
+//  texturestreamingviewer.cc
+//  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/forestviewer/forestviewerapplication.h"
+#include "NebuladeviceTests/texturestreamingtest_win32/texturestreamingapplication.h"
 
 ImplementNebulaApplication()
 
-using namespace Tools;
+using namespace Tests;
 using namespace Util;
 
 //------------------------------------------------------------------------------
@@ -16,9 +16,9 @@ using namespace Util;
 void
 NebulaMain(const CommandLineArgs& args)
 {
-    ForestViewerApplication app;
+    TextureStreamingApplication app;
     app.SetCompanyName("Radon Labs GmbH");
-    app.SetAppTitle("Forest Viewer");
+    app.SetAppTitle("Test Viewer");
     app.SetCmdLineArgs(args);
     if (app.Open())
     {

@@ -1,13 +1,13 @@
 //------------------------------------------------------------------------------
-//  texturestreamingviewer.cc
-//  (C) 2010 Radon Labs GmbH
+//  testviewer.cc
+//  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/texturestreamingtest_win32/texturestreamingapplication.h"
+#include "NebuladeviceTests/testnetworkgame/testnetworkgameapplication.h"
 
 ImplementNebulaApplication()
 
-using namespace Tests;
+using namespace Tools;
 using namespace Util;
 
 //------------------------------------------------------------------------------
@@ -16,9 +16,9 @@ using namespace Util;
 void
 NebulaMain(const CommandLineArgs& args)
 {
-    TextureStreamingApplication app;
+    TestNetworkGameApplication app;
     app.SetCompanyName("Radon Labs GmbH");
-    app.SetAppTitle("Test Viewer");
+    app.SetAppTitle("Test Network Game");
     app.SetCmdLineArgs(args);
     if (app.Open())
     {

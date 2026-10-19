@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-TEST(NebulaDevice, TestInfrastructureIsAvailable)
+TEST(Nebuladevice, TestInfrastructureIsAvailable)
 {
     EXPECT_TRUE(true);
 }

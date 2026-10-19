@@ -4,7 +4,7 @@
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/texturestreamingtest_win32/texturestreamingapplication.h"
+#include "NebuladeviceTests/texturestreamingtest_win32/texturestreamingapplication.h"
 #include "debugrender/debugrender.h"
 #include "debugrender/debugshaperenderer.h"
 #include "math/quaternion.h"

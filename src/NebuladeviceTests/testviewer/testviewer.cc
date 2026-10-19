@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/testgame/testgameapplication.h"
+#include "NebuladeviceTests/testviewer/testviewerapplication.h"
 
 ImplementNebulaApplication()
 
@@ -16,9 +16,9 @@ using namespace Util;
 void
 NebulaMain(const CommandLineArgs& args)
 {
-    TestGameApplication app;
+    TestViewerApplication app;
     app.SetCompanyName("Radon Labs GmbH");
-    app.SetAppTitle("Test Game");
+    app.SetAppTitle("Test Viewer");
     app.SetCmdLineArgs(args);
     if (app.Open())
     {

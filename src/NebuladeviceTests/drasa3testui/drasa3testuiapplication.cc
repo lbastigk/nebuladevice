@@ -1,40 +1,35 @@
 //------------------------------------------------------------------------------
-//  testviewerapplication.cc
-//  (C) 2006 Radon Labs GmbH
+//  drasa3testuiapplication.cc
+//  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "tests/testviewer/testviewerapplication.h"
+#include "NebuladeviceTests/drasa3testui/drasa3testuiapplication.h"
 #include "debugrender/debugrender.h"
 #include "debugrender/debugshaperenderer.h"
 #include "math/quaternion.h"
 #include "input/keyboard.h"
 #include "input/gamepad.h"
-#include "framecapture/framecapturerendermodule.h"
-#include "framecapture/framecaptureprotocol.h"
 
-namespace Tools
+namespace Test
 {
 using namespace CoreGraphics;
 using namespace Graphics;
-using namespace Math;
-using namespace Util;
 using namespace Resources;
+using namespace Util;
 using namespace Timing;
 using namespace Debug;
 using namespace Input;
-using namespace FrameCapture;
 
 //------------------------------------------------------------------------------
 /**
 */
-TestViewerApplication::TestViewerApplication() : 
-    shadowConstants(100.0f, 20.0f, 0.003f, 512.0f),
-    direction(1.0),
+Drasa3TestUiApplication::Drasa3TestUiApplication() : 
     avgFPS(0.0f),
     benchmarkmode(false),
     renderDebug(false),
     rotX(-225),
-    capturing(false)
+    direction(1.0),
+    shadowConstants(100.0f, 20.0f, 0.003f, 512.0f)
 {
     // empty
 }
@@ -42,7 +37,7 @@ TestViewerApplication::TestViewerApplication() :
 //------------------------------------------------------------------------------
 /**
 */
-TestViewerApplication::~TestViewerApplication()
+Drasa3TestUiApplication::~Drasa3TestUiApplication()
 {
     if (this->IsOpen())
     {
@@ -54,92 +49,96 @@ TestViewerApplication::~TestViewerApplication()
 /**
 */
 bool
-TestViewerApplication::Open()
+Drasa3TestUiApplication::Open()
 {
     n_assert(!this->IsOpen());
     if (ViewerApplication::Open())
     {
         // setup lights
-        matrix44 lightTransform = matrix44::rotationx(n_deg2rad(-45.0f));
+        Math::matrix44 lightTransform = Math::matrix44::rotationx(Math::n_deg2rad(-45.0f));
         this->globalLight = GlobalLightEntity::Create();
         this->globalLight->SetTransform(lightTransform);
-        this->globalLight->SetColor(float4(0.02, 0.02, 0.02f, 1.0f));
-        this->globalLight->SetBackLightColor(float4(0.0f, 0.0f, 0.15f, 1.0f));
-        this->globalLight->SetAmbientLightColor(float4(0.02f, 0.02f, 0.02f, 1.0f));
+        this->globalLight->SetColor(Math::float4(0.02, 0.02, 0.02f, 1.0f));
+        this->globalLight->SetBackLightColor(Math::float4(0.0f, 0.0f, 0.15f, 1.0f));
+        this->globalLight->SetAmbientLightColor(Math::float4(0.02f, 0.02f, 0.02f, 1.0f));
         this->globalLight->SetCastShadows(false);
         this->stage->AttachEntity(this->globalLight.cast<GraphicsEntity>());
 
         // create a few point lights
         IndexT lightIndex;
         const SizeT numLights = 1;
-        const float lightRange = 20;
+        const float scaling = 20;
         for (lightIndex = 0; lightIndex < numLights; lightIndex++)
         {   
             float x = 0;//n_rand() * 60.0f - 20.0f;
             float y = 5;
             float z = 0;//n_rand() * 60.0f - 20.0f;
-            float r = n_rand() + 1.8f;
-            float g = n_rand() + 1.8f;
-            float b = n_rand() + 1.8f;
-                
+            float r = Math::n_rand() + 0.8f;
+            float g = Math::n_rand() + 0.8f;
+            float b = Math::n_rand() + 0.8f;
+            Math::matrix44 pointLightTransform = Math::matrix44::rotationx(Math::n_deg2rad(-90.0f));
+            pointLightTransform =  Math::matrix44::multiply(pointLightTransform , 
+                            Math::matrix44::multiply(
+                            Math::matrix44::scaling(scaling, scaling, scaling), 
+                            Math::matrix44::translation(x, y, z)));
+
             Ptr<PointLightEntity> pointLight = PointLightEntity::Create();            
-            pointLight->SetTransformFromPosDirAndRange(point(x, y, z), -vector::upvec(), lightRange);
-            pointLight->SetColor(float4(r, g, b, 1.0f));
-            pointLight->SetCastShadows(false);
+            pointLight->SetTransform(pointLightTransform);
+            pointLight->SetColor(Math::float4(r, g, b, 1.0f));
+            pointLight->SetCastShadows(true);
             this->pointLights.Append(pointLight);
-            this->lightTransforms.Append(pointLight->GetTransform());
+            this->lightTransforms.Append(pointLightTransform);
             this->stage->AttachEntity(pointLight.cast<GraphicsEntity>());
         }
 
         const SizeT numSpotLights = 0;
         for (lightIndex = 0; lightIndex < numSpotLights; lightIndex++)
         {
-            float x = n_rand() * 50.0f - 50.0f;
+            float x = Math::n_rand() * 50.0f - 50.0f;
             float y = 10;
-            float z = n_rand() * 50.0f - 50.0f;
-            float r = n_rand() + 0.1f;
-            float g = n_rand() + 0.1f;
-            float b = n_rand() + 0.1f;
-            matrix44 spotLightTransform = matrix44::rotationx(n_deg2rad(-45.0f));
-            spotLightTransform.scale(point(7,7,7));
-            spotLightTransform.set_position(point(x,y,z));
+            float z = Math::n_rand() * 50.0f - 50.0f;
+            float r = Math::n_rand() + 0.1f;
+            float g = Math::n_rand() + 0.1f;
+            float b = Math::n_rand() + 0.1f;
+            Math::matrix44 spotLightTransform = Math::matrix44::rotationx(Math::n_deg2rad(-45.0f));
+            spotLightTransform.scale(Math::point(7,7,7));
+            spotLightTransform.set_position(Math::point(x,y,z));
             Ptr<SpotLightEntity> spotLight = SpotLightEntity::Create();
             spotLight->SetTransform(spotLightTransform);
-            spotLight->SetColor(float4(r, g, b, 1.0f));
-            spotLight->SetCastShadows(false);
+            spotLight->SetColor(Math::float4(r, g, b, 1.0f));
+            spotLight->SetCastShadows(true);
             this->spotLights.Append(spotLight);
             this->stage->AttachEntity(spotLight.cast<GraphicsEntity>());
         } 
 
         // create one shadow casting light 
-        matrix44 transform = matrix44::scaling(point(30,30,60));
-        transform = matrix44::multiply(transform, matrix44::rotationx(n_deg2rad(this->rotX)));        
-        transform.set_position(point(0,7,10));
+        Math::matrix44 transform = Math::matrix44::scaling(Math::point(30,30,60));
+        transform = Math::matrix44::multiply(transform, Math::matrix44::rotationx(Math::n_deg2rad(this->rotX)));        
+        transform.set_position(Math::point(0,7,10));
         this->testSpotLight = SpotLightEntity::Create();
         this->testSpotLight->SetTransform(transform);
-        this->testSpotLight->SetCastShadows(false);
-        this->testSpotLight->SetColor(float4(2,2,1,1));
+        this->testSpotLight->SetCastShadows(true);
+        this->testSpotLight->SetColor(Math::float4(2,2,1,1));
         this->stage->AttachEntity(this->testSpotLight.cast<GraphicsEntity>());
 
         // setup models        
         this->ground = ModelEntity::Create();
         this->ground->SetResourceId(ResourceId("mdl:examples/dummyground.n3"));
-        this->ground->SetTransform(matrix44::translation(0.0f, 0.0f, 0.0f));
+        this->ground->SetTransform(Math::matrix44::translation(0.0f, 0.0f, 0.0f));
         this->stage->AttachEntity(ground.cast<GraphicsEntity>());
-         
                        
         IndexT j;
         IndexT i;
         bool createStatic = false;
-        float spacing = 1.5f;
-        for (j = 0; j < 3; ++j)
+        float spacing = 2.0f;
+        for (j = 0; j < 4; ++j)
         {
-            for (i = 0; i < 3; ++i)
+            for (i = 0; i < 4; ++i)
             {
                 Ptr<ModelEntity> model = ModelEntity::Create();
                 float dir = (i % 2 ? -1.0f : 1.0f);
                 float x = (i+1) * spacing * dir - dir * 0.5f * spacing;
-                model->SetTransform(matrix44::translation(x, 0.0, 2.0f * spacing * j));
+                model->SetTransform(Math::matrix44::translation(x, 0.0, 2.0f * spacing * j));
                 if (createStatic)
                 {                                                                   
                     model->SetResourceId(ResourceId("mdl:examples/tiger.n3"));  
@@ -156,27 +155,32 @@ TestViewerApplication::Open()
                     model->SendMsg(skinList.cast<GraphicsEntityMessage>());
       
                     // play animation
-                    Ptr<Graphics::AnimPlayClip> playClip = Graphics::AnimPlayClip::Create();
-                    playClip->SetClipName("gehen_01");
-                    playClip->SetTrackIndex(0);
-                    playClip->SetLoopCount(1.0f);
-                    model->SendMsg(playClip.cast<GraphicsEntityMessage>());
+                    Ptr<Graphics::AnimPlayLoop> playLoop = Graphics::AnimPlayLoop::Create();
+                    playLoop->SetBlendPriority(0);
+                    playLoop->SetBlendWeight(1.0f);
+                    playLoop->SetTimeFactor(1.0f);
+                    playLoop->SetStartTime(0);
+                    playLoop->SetTimeOffset(0);
+                    playLoop->SetFadeInTime(200);
+                    playLoop->SetFadeOutTime(200);
+                    playLoop->SetClipName(StringAtom("gehen_01"));
+                    model->SendMsg(playLoop.cast<GraphicsEntityMessage>());
                 } 
                 // createStatic  = !createStatic;
                 this->models.Append(model);  
             } 
-        }   
-                                
-        // add shader test scene
-        //Ptr<ModelEntity> model = ModelEntity::Create();
-        //model->SetTransform(matrix44::translation(2.0f * i, 0.0, 2.0f * j));                                                              
-        //model->SetResourceId(ResourceId("mdl:examples/psys2_testarea.n3"));  
-        //this->stage->AttachEntity(model.cast<GraphicsEntity>());   
-        //this->models.Append(model);  
-        
-        // setup frame capture render module
-        Ptr<FrameCaptureRenderModule> module = FrameCaptureRenderModule::Create();
-        module->Setup();
+        }                                           
+
+	    this->uiManager = UI::UIManager::Create();
+	    this->uiRenderer = UI::UIRenderer::Create();
+
+	    this->uiRenderModule = UI::UIRenderModule::Create();
+	    this->uiRenderModule->Setup();
+        this->uiManager->Open();	
+
+        this->mainWindow = UI::MainScreen::Create();
+        this->mainWindow->SetResource("mainscreen.xml");
+        this->mainWindow->Open();
 
         // wait for resources to be loaded
         GraphicsInterface::Instance()->WaitForPendingResources();
@@ -190,7 +194,7 @@ TestViewerApplication::Open()
 /**
 */
 void
-TestViewerApplication::Close()
+Drasa3TestUiApplication::Close()
 {
     this->stage->RemoveEntity(this->globalLight.cast<GraphicsEntity>());
     this->stage->RemoveEntity(this->ground.cast<GraphicsEntity>());          
@@ -218,7 +222,11 @@ TestViewerApplication::Close()
     }
     this->models.Clear();
 
-    FrameCaptureRenderModule::Instance()->Discard();
+    this->uiManager->Close();
+    this->uiManager = 0;
+    this->uiRenderModule->Discard();
+    this->uiRenderModule = 0;
+
     ViewerApplication::Close();
 }
 
@@ -226,17 +234,17 @@ TestViewerApplication::Close()
 /**
 */
 void
-TestViewerApplication::OnConfigureDisplay()
+Drasa3TestUiApplication::OnConfigureDisplay()
 {
     ViewerApplication::OnConfigureDisplay();
-    this->display->Settings().SetVerticalSyncEnabled(true);
+    this->display->SetVerticalSyncEnabled(true);
 }
 
 //------------------------------------------------------------------------------
 /**
 */
 void
-TestViewerApplication::OnProcessInput()
+Drasa3TestUiApplication::OnProcessInput()
 {
     const Ptr<Keyboard>& kbd = InputServer::Instance()->GetDefaultKeyboard();
     const Ptr<GamePad>& gamePad = InputServer::Instance()->GetDefaultGamePad(0);
@@ -256,28 +264,6 @@ TestViewerApplication::OnProcessInput()
         this->benchmarkmode = !this->benchmarkmode;
         // reset to start pos
         this->mayaCameraUtil.Reset();
-    }
-    else if (kbd->KeyDown(Key::F11))
-    {
-        Ptr<Messaging::Message> msg;
-        if (this->capturing)
-        {
-            Ptr<StopFrameCapture> stopMsg = StopFrameCapture::Create();
-            msg = stopMsg.cast<Messaging::Message>();
-            this->capturing = false;
-        }
-        else
-        {
-            Ptr<StartFrameCapture> startMsg = StartFrameCapture::Create();
-            msg = startMsg.cast<Messaging::Message>();
-            this->capturing = true;
-        }
-        Graphics::GraphicsInterface::Instance()->SendBatched(msg);
-    }
-    else if (kbd->KeyDown(Key::F7))
-    {
-        Ptr<SaveScreenShot> msg = SaveScreenShot::Create();
-        Graphics::GraphicsInterface::Instance()->SendBatched(msg.cast<Messaging::Message>());
     }
     else if (kbd->KeyDown(Key::F6) || gamePad->ButtonDown(GamePad::LeftThumbButton))
     {
@@ -309,7 +295,7 @@ TestViewerApplication::OnProcessInput()
                 this->shadowConstants.x() += 0.1f;    
             }
         }           
-        this->shadowConstants.x() = n_clamp(this->shadowConstants.x(), 0.1f, 100.0f);
+        this->shadowConstants.x() = Math::n_clamp(this->shadowConstants.x(), 0.1f, 100.0f);
         updateSharedVar = true;
     }
     else if (kbd->KeyDown(Key::W) || gamePad->ButtonDown(GamePad::YButton))
@@ -322,7 +308,7 @@ TestViewerApplication::OnProcessInput()
         {
             this->shadowConstants.y() += 1.0f;    
         }   
-        this->shadowConstants.y() = n_clamp(this->shadowConstants.y(), 1.0f, 100.0f);
+        this->shadowConstants.y() = Math::n_clamp(this->shadowConstants.y(), 1.0f, 100.0f);
         updateSharedVar = true;
     } 
     else if (kbd->KeyDown(Key::E) || gamePad->ButtonDown(GamePad::BButton))
@@ -336,10 +322,6 @@ TestViewerApplication::OnProcessInput()
             this->shadowConstants.z() += 0.0001f;    
         }           
         updateSharedVar = true;
-    }
-    else if (kbd->KeyDown(Key::N))
-    {
-        this->AppendTestModel();
     }
 
     Util::String shadowConstantStr(Util::String::FromFloat4(this->shadowConstants));
@@ -359,7 +341,8 @@ TestViewerApplication::OnProcessInput()
         this->mayaCameraUtil.SetOrbiting(Math::float2(0.02,0));
         this->mayaCameraUtil.SetOrbitButton(true);
         this->mayaCameraUtil.Update();
-        this->camera->SetTransform(this->mayaCameraUtil.GetCameraTransform());
+        const Math::matrix44 &m = this->mayaCameraUtil.GetCameraTransform();
+        this->camera->SetTransform(m);
     }
     else
     {                                        
@@ -370,9 +353,33 @@ TestViewerApplication::OnProcessInput()
 //------------------------------------------------------------------------------
 /**
 */
-void
-TestViewerApplication::OnUpdateFrame()
+void 
+Drasa3TestUiApplication::UpdateGUI()
 {
+    // update time in ui system
+    Timing::Time time = FrameSync::FrameSyncTimer::Instance()->GetTime();
+	this->uiManager->SetTime(time);
+
+    // trigger ui
+    this->uiManager->Trigger();
+	this->uiManager->Render();
+    if (this->renderDebug)
+    {
+        this->uiManager->RenderDebug();
+    }       
+
+	// now render the stuff	
+	this->uiRenderer->OnFrame();
+}
+
+//------------------------------------------------------------------------------
+/**
+*/
+void
+Drasa3TestUiApplication::OnUpdateFrame()
+{
+    this->UpdateGUI();
+
     //DebugShapeRenderer::Instance()->DrawBox(matrix44::identity(), float4(1.0f, 0.0f, 0.0f, 1.0f));
     //DebugShapeRenderer:://Instance()->DrawSphere(matrix44::identity(), float4(1.0f, 0.5f, 0.0f, 0.5f));
 
@@ -420,45 +427,39 @@ TestViewerApplication::OnUpdateFrame()
     IndexT i;
     for (i = 0; i < this->pointLights.Size(); i++)
     {
-        matrix44 m = this->lightTransforms[i];
-        float4 t(5 * n_sin(0.1f * i * time), 0.0f, 5 * n_sin(0.05f * i * time), 0.0f);
+        Math::matrix44 m = this->lightTransforms[i];
+        Math::float4 t(5 * Math::n_sin(0.1f * i * time), 0.0f, 5 * Math::n_sin(0.05f * i * time), 0.0f);
         m.translate(t);
         this->pointLights[i]->SetTransform(m);        
     }
-
-    if (this->models.Size() > 0)
+    const Math::matrix44& firstOne = this->models[0]->GetTransform();
+    if (firstOne.get_position().z() > 30.0f
+        || firstOne.get_position().z() < -30.0f)
     {
-        const matrix44& firstOne = this->models[0]->GetTransform();
-        if (firstOne.get_position().z() > 30.0f
-            || firstOne.get_position().z() < -30.0f)
-        {
-            direction *= -1;
-        }
-        const matrix44& lastOne = this->models.Back()->GetTransform();
-        // update shadow point of interest
-        Ptr<Graphics::SetShadowPointOfInterest> poiMsg = Graphics::SetShadowPointOfInterest::Create();
-        poiMsg->SetPoi((firstOne.get_position() + lastOne.get_position()) * 0.5f);
-        GraphicsInterface::Instance()->SendBatched(poiMsg.cast<Messaging::Message>());
+        direction *= -1;
     }
+    const Math::matrix44& lastOne = this->models.Back()->GetTransform();
+    // update shadow point of interest
+    Ptr<Graphics::SetShadowPointOfInterest> poiMsg = Graphics::SetShadowPointOfInterest::Create();
+    poiMsg->SetPoi((firstOne.get_position() + lastOne.get_position()) * 0.5f);
+    GraphicsInterface::Instance()->SendBatched(poiMsg.cast<Messaging::Message>());
 
-/*
     for (i = 0; i < this->models.Size(); i++)
     {
-        const matrix44& m = this->models[i]->GetTransform();           
-        float4 t(0.0f, 0.0f, 1.2f * (float)frameTime * direction, 0.0f);
-        float4 newPos = m.get_position() + t;
+        const Math::matrix44& m = this->models[i]->GetTransform();           
+        Math::float4 t(0.0f, 0.0f, 1.2f * (float)frameTime * direction, 0.0f);
+        Math::float4 newPos = m.get_position() + t;
                    
         // rotate always in move direction
-        matrix44 newTrans = matrix44::lookatrh(newPos, newPos + t, vector::upvec());        
+        Math::matrix44 newTrans = Math::matrix44::lookatrh(newPos, newPos + t, Math::vector::upvec());        
         this->models[i]->SetTransform(newTrans);        
     }
-*/
 
     // rotate spotlights
     for (i = 0; i < this->spotLights.Size(); i++)
     {
-        matrix44 spotLightTransform = matrix44::rotationyawpitchroll(time * 2 * i / this->spotLights.Size(), n_deg2rad(-55), 0);        
-        spotLightTransform.scale(point(i * 0.2f + 15, 30, i * 0.2f + 15));
+        Math::matrix44 spotLightTransform = Math::matrix44::rotationyawpitchroll(time * 2 * i / this->spotLights.Size(), Math::n_deg2rad(-55), 0);        
+        spotLightTransform.scale(Math::point(i * 0.2f + 15, 30, i * 0.2f + 15));
         spotLightTransform.set_position(this->spotLights[i]->GetTransform().get_position());
         this->spotLights[i]->SetTransform(spotLightTransform);
     }
@@ -478,36 +479,36 @@ TestViewerApplication::OnUpdateFrame()
     // move light
     Ptr<Input::GamePad> pad = Input::InputServer::Instance()->GetDefaultGamePad(0);
     n_assert(pad.isvalid());
-    matrix44 tr = this->testSpotLight->GetTransform();
+    Math::matrix44 tr = this->testSpotLight->GetTransform();
     if (pad->ButtonPressed(Input::GamePad::DPadLeftButton))
     {
-        tr.translate(vector(0, 0, -0.1f));
+        tr.translate(Math::vector(0, 0, -0.1f));
     }
     if (pad->ButtonPressed(Input::GamePad::DPadRightButton))
     {
-        tr.translate(vector(0, 0, 0.1f));
+        tr.translate(Math::vector(0, 0, 0.1f));
     }
     if (pad->ButtonPressed(Input::GamePad::DPadUpButton))
     {
-        tr.translate(vector(0, 0.1f, 0));
+        tr.translate(Math::vector(0, 0.1f, 0));
     }
     if (pad->ButtonPressed(Input::GamePad::DPadDownButton))
     {
-        tr.translate(vector(0, -0.1f, 0));
+        tr.translate(Math::vector(0, -0.1f, 0));
     }
     if (pad->ButtonPressed(Input::GamePad::L1Button))
     {
         this->rotX += 0.5f;
-        matrix44 rot = matrix44::rotationx(n_deg2rad(this->rotX));
-        rot.scale(point(10,10,10));
+        Math::matrix44 rot = Math::matrix44::rotationx(Math::n_deg2rad(this->rotX));
+        rot.scale(Math::point(10,10,10));
         rot.set_position(tr.get_position());
         tr = rot;
     }
     if (pad->ButtonPressed(Input::GamePad::R1Button))
     {
         this->rotX -= 0.5f;
-        matrix44 rot = matrix44::rotationx(n_deg2rad(this->rotX));
-        rot.scale(point(10,10,10));
+        Math::matrix44 rot = Math::matrix44::rotationx(Math::n_deg2rad(this->rotX));
+        rot.scale(Math::point(10,10,10));
         rot.set_position(tr.get_position());
         tr = rot;
     }
@@ -515,50 +516,4 @@ TestViewerApplication::OnUpdateFrame()
 
     ViewerApplication::OnUpdateFrame();
 }
-
-//------------------------------------------------------------------------------
-/**
-*/
-void
-TestViewerApplication::AppendTestModel()
-{              
-    IndexT j;
-    IndexT i;
-    bool createStatic = true;
-    float spacing = 5.0f;
-    for (j = 0; j < 4; ++j)
-    {
-        for (i = 0; i < 4; ++i)
-        {
-            Ptr<ModelEntity> model = ModelEntity::Create();
-            float dir = (i % 2 ? -1.0f : 1.0f);
-            float x = (i+1) * spacing * dir - dir * 0.5f * spacing;
-            model->SetTransform(matrix44::translation(x, 0.0, 2.0f * spacing * j));
-            if (createStatic)
-            {                                                                   
-                model->SetResourceId(ResourceId("mdl:examples/tiger_lod.n3"));  
-                this->stage->AttachEntity(model.cast<GraphicsEntity>());
-            }
-            else
-            {                                                             
-                model->SetResourceId(ResourceId("mdl:characters/mensch_m.n3"));
-                this->stage->AttachEntity(model.cast<GraphicsEntity>());
-
-                // apply skin
-                Ptr<Graphics::ApplySkinList> skinList = Graphics::ApplySkinList::Create();
-                skinList->SetSkinList(StringAtom("mann_nackt"));
-                model->SendMsg(skinList.cast<GraphicsEntityMessage>());
-
-                // play animation
-                Ptr<Graphics::AnimPlayClip> playClip = Graphics::AnimPlayClip::Create();
-                playClip->SetClipName("gehen_01");
-                playClip->SetTrackIndex(0);
-                playClip->SetLoopCount(1.0f);
-                model->SendMsg(playClip.cast<GraphicsEntityMessage>());
-            } 
-            // createStatic  = !createStatic;
-            this->models.Append(model);  
-        } 
-    }   
-}
-} // namespace Tools
+} // namespace Test
