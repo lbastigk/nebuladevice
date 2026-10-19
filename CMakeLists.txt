@@ -50,6 +50,11 @@ if(NEBULA_BUILD_MINGW64 OR NEBULA_BUILD_MINGW32)
         WIN32
         _HAS_EXCEPTIONS=0
     )
+    if(NEBULA_BUILD_LEGACY_TESTS)
+        target_compile_definitions(nebuladevice_foundation PRIVATE
+            NEBULA_NO_ERROR_DIALOGS
+        )
+    endif()
     target_compile_options(nebuladevice_foundation PRIVATE
         -fno-exceptions
         -fno-rtti

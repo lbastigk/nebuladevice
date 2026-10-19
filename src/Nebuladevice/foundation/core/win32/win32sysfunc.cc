@@ -137,7 +137,9 @@ SysFunc::Error(const char* error)
         ShowWindow(hwnd, SW_MINIMIZE);
     }
     */
+    #if !defined(NEBULA_NO_ERROR_DIALOGS)
     ::MessageBox(NULL, error, "NEBULA3 SYSTEM ERROR", MB_OK|MB_APPLMODAL|MB_SETFOREGROUND|MB_TOPMOST|MB_ICONERROR);
+    #endif
     #if !__MAYA__
     Debug::MiniDump::WriteMiniDump();
     #endif
@@ -159,7 +161,9 @@ SysFunc::MessageBox(const char* msg)
     {
         ShowWindow(hwnd, SW_MINIMIZE);
     }
+    #if !defined(NEBULA_NO_ERROR_DIALOGS)
     ::MessageBox(NULL, msg, "NEBULA3 MESSAGE", MB_OK|MB_APPLMODAL|MB_SETFOREGROUND|MB_TOPMOST|MB_ICONERROR);
+    #endif
 }
 
 //------------------------------------------------------------------------------
