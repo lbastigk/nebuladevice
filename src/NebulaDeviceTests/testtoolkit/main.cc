@@ -14,7 +14,7 @@ using namespace Core;
 //------------------------------------------------------------------------------
 /**
 */
-void __cdecl
+int __cdecl
 main()
 {
     // create Nebula3 runtime
@@ -36,4 +36,5 @@ main()
     coreServer = 0;
     
     Core::SysFunc::Exit(0);
+    return 0;
 }

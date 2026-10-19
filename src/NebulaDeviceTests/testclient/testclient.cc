@@ -11,7 +11,7 @@ using namespace Util;
 //------------------------------------------------------------------------------
 /**
 */
-void __cdecl
+int __cdecl
 main(int argc, const char** argv)
 {
     CommandLineArgs args(argc, argv);
@@ -25,4 +25,5 @@ main(int argc, const char** argv)
         app.Close();
     }
     app.Exit();
+    return 0;
 }

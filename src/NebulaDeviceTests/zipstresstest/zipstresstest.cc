@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 /**
 */
-void
+int
 __cdecl main()
 {
     App::ZipStressTestApplication app;
@@ -20,4 +20,5 @@ __cdecl main()
         app.Close();
     }
     app.Exit();
+    return 0;
 }
