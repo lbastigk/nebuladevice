@@ -2,13 +2,13 @@
 //  charevalskeletonjob.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "jobs/stdjob.h"
-#include "math/float4.h"
-#include "math/matrix44.h"
-#include "math/bbox.h"
-#include "math/frustum.h"
-#include "visibility/observercontext.h"
-#include "visibility/visibilitysystems/visibilityboxsystem.h"
+#include "Nebuladevice/foundation/jobs/stdjob.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/math/frustum.h"
+#include "Nebuladevice/render/visibility/observercontext.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityboxsystem.h"
 
 namespace Visibility
 {

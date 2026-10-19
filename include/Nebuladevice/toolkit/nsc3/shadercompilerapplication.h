@@ -10,7 +10,7 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "app/consoleapplication.h"
+#include "Nebuladevice/foundation/app/consoleapplication.h"
 #include "shadercompiler.h"
 
 //------------------------------------------------------------------------------

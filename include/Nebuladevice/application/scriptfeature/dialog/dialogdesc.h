@@ -9,9 +9,9 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "util/guid.h"
-#include "util/string.h"
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 //------------------------------------------------------------------------------
 namespace Script

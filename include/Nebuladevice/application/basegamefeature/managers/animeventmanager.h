@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */    
-#include "game/manager.h"
-#include "core/singleton.h"
-#include "graphics/graphicsprotocol.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
 
 // forward decls
 namespace Game

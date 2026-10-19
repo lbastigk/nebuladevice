@@ -2,8 +2,8 @@
 //  vertexlayout.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/vertexlayout.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/vertexlayout.h"
 #if (__WIN32__ || __XBOX360__)
 namespace CoreGraphics
 {

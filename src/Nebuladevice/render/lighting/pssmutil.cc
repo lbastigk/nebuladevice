@@ -2,8 +2,8 @@
 //  pssmutil.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/pssmutil.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/pssmutil.h"
 
 namespace Lighting
 {

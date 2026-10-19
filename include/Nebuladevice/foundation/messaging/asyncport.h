@@ -9,9 +9,9 @@
       
     (C) 2006 Radon Labs GmbH
 */    
-#include "messaging/message.h"
-#include "messaging/handler.h"
-#include "messaging/handlerthreadbase.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/messaging/handler.h"
+#include "Nebuladevice/foundation/messaging/handlerthreadbase.h"
 
 //------------------------------------------------------------------------------
 namespace Messaging

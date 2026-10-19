@@ -14,15 +14,15 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "attr/attributedefinition.h"
-#include "util/dictionary.h"
-#include "stateobjectfeature/stateobjectprotocol.h"
-#include "basegametiming/gametimesource.h"
-#include "io/xmlreader.h"
-#include "io/filestream.h"
-#include "application/stateobjectfeature/properties/stateinfo.h"
-#include "game/entity.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/addons/attr/attributedefinition.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/application/stateobjectfeature/stateobjectprotocol.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/application/stateobjectfeature/properties/stateinfo.h"
+#include "Nebuladevice/application/game/entity.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

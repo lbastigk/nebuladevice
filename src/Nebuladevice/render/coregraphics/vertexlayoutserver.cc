@@ -2,8 +2,8 @@
 //  vertexlayoutserver.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/vertexlayoutserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/vertexlayoutserver.h"
 #if (__WIN32__ || __XBOX360__ || __PS3__)
 namespace CoreGraphics
 {

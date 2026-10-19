@@ -2,9 +2,9 @@
 //  resourceallocator.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/resourceallocator.h"
-#include "resources/resource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/resourceallocator.h"
+#include "Nebuladevice/render/resources/resource.h"
 
 namespace Resources
 {

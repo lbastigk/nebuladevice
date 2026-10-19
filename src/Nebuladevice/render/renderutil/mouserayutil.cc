@@ -2,8 +2,8 @@
 //  mouserayutil.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "renderutil/mouserayutil.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/renderutil/mouserayutil.h"
 
 namespace RenderUtil
 {

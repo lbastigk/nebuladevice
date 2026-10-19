@@ -2,12 +2,12 @@
 //  view.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/view.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/cameraentity.h"
-#include "internalgraphics/internalview.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/view.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
 
 namespace Graphics
 {

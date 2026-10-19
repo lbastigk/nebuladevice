@@ -2,8 +2,8 @@
 //  uirenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/rt/coreuirenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/rt/coreuirenderer.h"
 
 namespace CoreUI
 {

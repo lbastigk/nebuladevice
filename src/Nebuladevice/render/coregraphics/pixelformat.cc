@@ -2,8 +2,8 @@
 //  pixelformat.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/pixelformat.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
 
 namespace CoreGraphics
 {

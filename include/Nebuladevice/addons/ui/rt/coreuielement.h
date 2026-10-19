@@ -8,8 +8,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "math/rectangle.h"
-#include "resources/resourceid.h"
+#include "Nebuladevice/foundation/math/rectangle.h"
+#include "Nebuladevice/render/resources/resourceid.h"
 
 //------------------------------------------------------------------------------
 namespace CoreUI

@@ -7,10 +7,10 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "coreanimation/curvetype.h"
-#include "util/fixedarray.h"
-#include "math/float4.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/coreanimation/curvetype.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/foundation/math/float4.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

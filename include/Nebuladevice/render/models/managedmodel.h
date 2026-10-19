@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/managedresource.h"
-#include "models/model.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/render/models/model.h"
 
 //------------------------------------------------------------------------------
 namespace Models

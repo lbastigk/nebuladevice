@@ -2,13 +2,13 @@
 //  animeventvibrationhandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/fxanimeventhandler/animeventvibrationhandler.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "fx/rt/effects/vibrationfx.h"
-#include "fx/rt/fxserver.h"
-#include "fx/animeventregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventvibrationhandler.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/addons/fx/rt/effects/vibrationfx.h"
+#include "Nebuladevice/addons/fx/rt/fxserver.h"
+#include "Nebuladevice/addons/fx/animeventregistry.h"
 
 namespace FX
 {

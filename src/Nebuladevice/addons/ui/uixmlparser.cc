@@ -2,14 +2,14 @@
 //  uixmlparser.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/uixmlparser.h"
-#include "ui/uifactory.h"
-#include "ui/elements/canvas.h"
-#include "io/xmlreader.h"
-#include "io/filestream.h"
-#include "io/ioserver.h"
-#include "ui/uimanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/uixmlparser.h"
+#include "Nebuladevice/addons/ui/uifactory.h"
+#include "Nebuladevice/addons/ui/elements/canvas.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/addons/ui/uimanager.h"
 
 namespace UI
 {

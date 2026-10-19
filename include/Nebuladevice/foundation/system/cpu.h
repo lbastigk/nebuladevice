@@ -8,7 +8,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if __WIN32__
-#include "system/win32/win32cpu.h"
+#include "Nebuladevice/foundation/system/win32/win32cpu.h"
 namespace System
 {
 typedef Win32::Win32Cpu Cpu;
@@ -32,7 +32,7 @@ namespace System
 typedef PS3::PS3Cpu Cpu;
 }
 #elif __OSX__
-#include "system/osx/osxcpu.h"
+#include "Nebuladevice/foundation/system/osx/osxcpu.h"
 namespace System
 {
 typedef OSX::OSXCpu Cpu;

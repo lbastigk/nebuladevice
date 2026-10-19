@@ -7,11 +7,11 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "coregraphics/mousepointer.h"
-#include "resources/resourceid.h"
-#include "util/array.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/coregraphics/mousepointer.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/util/array.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

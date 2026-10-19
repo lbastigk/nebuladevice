@@ -2,9 +2,9 @@
 //  framepass.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "frame/framepass.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/frame/framepass.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 namespace Frame
 {

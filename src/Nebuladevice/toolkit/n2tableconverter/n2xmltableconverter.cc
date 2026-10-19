@@ -2,11 +2,11 @@
 //  n2xmltableconverter.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n2xmltableconverter.h"
-#include "io/excelxmlreader.h"
-#include "io/ioserver.h"
-#include "util/round.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/n2tableconverter/n2xmltableconverter.h"
+#include "Nebuladevice/foundation/io/excelxmlreader.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/util/round.h"
 
 namespace Toolkit
 {

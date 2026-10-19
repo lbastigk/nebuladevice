@@ -2,8 +2,8 @@
 //  win32environment.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "system/win32/win32environment.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/system/win32/win32environment.h"
 
 namespace System
 {

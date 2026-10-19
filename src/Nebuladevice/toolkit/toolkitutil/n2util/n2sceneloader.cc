@@ -2,10 +2,10 @@
 //  n2sceneloader.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n2sceneloader.h"
-#include "io/ioserver.h"
-#include "io/stream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/n2util/n2sceneloader.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/stream.h"
 
 namespace ToolkitUtil
 {

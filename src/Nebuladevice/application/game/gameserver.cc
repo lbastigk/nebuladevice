@@ -2,15 +2,15 @@
 //  game/server.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "game/gameserver.h"
-#include "core/factory.h"
-#include "appgame/appconfig.h"
-#include "input/inputserver.h"
-#include "input/keyboard.h"
-#include "input/gamepad.h"
-#include "debugrender/debugrender.h"
-#include "basegamefeature/basegamefeatureunit.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/gamepad.h"
+#include "Nebuladevice/render/debugrender/debugrender.h"
+#include "Nebuladevice/application/basegamefeature/basegamefeatureunit.h"
 
 namespace Game
 {

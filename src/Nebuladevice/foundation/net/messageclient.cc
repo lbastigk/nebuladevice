@@ -2,9 +2,9 @@
 // messageclient.cc
 // (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #if !__WII__
-#include "net/messageclient.h"
+#include "Nebuladevice/foundation/net/messageclient.h"
 
 namespace Net
 {

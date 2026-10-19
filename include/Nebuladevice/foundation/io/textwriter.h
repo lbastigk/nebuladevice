@@ -9,7 +9,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "io/streamwriter.h"
+#include "Nebuladevice/foundation/io/streamwriter.h"
 
 //------------------------------------------------------------------------------
 namespace IO

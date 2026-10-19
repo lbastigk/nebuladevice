@@ -8,8 +8,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "frame/framepassbase.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/render/frame/framepassbase.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 //------------------------------------------------------------------------------
 namespace Frame

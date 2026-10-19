@@ -2,11 +2,11 @@
 //  entityvisibility.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "visibility/observercontext.h"
-#include "lighting/internalspotlightentity.h"
-#include "lighting/internalgloballightentity.h"
-#include "internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/visibility/observercontext.h"
+#include "Nebuladevice/render/lighting/internalspotlightentity.h"
+#include "Nebuladevice/render/lighting/internalgloballightentity.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
 
 namespace Visibility
 {

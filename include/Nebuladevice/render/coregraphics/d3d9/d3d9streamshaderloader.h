@@ -7,7 +7,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/streamresourceloader.h"
+#include "Nebuladevice/render/resources/streamresourceloader.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

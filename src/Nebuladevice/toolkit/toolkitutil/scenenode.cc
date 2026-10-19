@@ -2,8 +2,8 @@
 //  scenenode.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scenenode.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/scenenode.h"
 
 namespace ToolkitUtil
 {

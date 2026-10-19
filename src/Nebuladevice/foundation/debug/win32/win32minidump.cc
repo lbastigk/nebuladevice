@@ -2,8 +2,8 @@
 //  win32minidump.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debug/win32/win32minidump.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/debug/win32/win32minidump.h"
 
 namespace Win32
 {

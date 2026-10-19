@@ -10,11 +10,11 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "messaging/message.h"
-#include "io/console.h"
-#include "http/httpserver.h"
-#include "http/httpprotocol.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/http/httpserver.h"
+#include "Nebuladevice/foundation/http/httpprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace Http

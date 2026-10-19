@@ -2,8 +2,8 @@
 //  colorparams.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "colorparams.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/params/colorparams.h"
 
 namespace PostEffect
 {

@@ -7,7 +7,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "animation/animjob.h"
+#include "Nebuladevice/render/animation/animjob.h"
 
 //------------------------------------------------------------------------------
 namespace Animation

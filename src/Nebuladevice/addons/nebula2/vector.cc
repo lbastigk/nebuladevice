@@ -2,10 +2,10 @@
 //  vector.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "mathlib/vector.h"
-#include "math/float4.h"
-#include "math/float2.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/float2.h"
 
 //------------------------------------------------------------------------------
 /**

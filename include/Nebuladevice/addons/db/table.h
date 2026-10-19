@@ -14,13 +14,13 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "addons/db/column.h"
-#include "util/array.h"
-#include "util/string.h"
-#include "util/dictionary.h"
-#include "util/hashtable.h"
-#include "addons/db/valuetable.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/db/column.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/hashtable.h"
+#include "Nebuladevice/addons/db/valuetable.h"
 
 //------------------------------------------------------------------------------
 namespace Db

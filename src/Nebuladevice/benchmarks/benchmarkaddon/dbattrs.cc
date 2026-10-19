@@ -2,8 +2,8 @@
 //  dbattrs.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "benchmarkaddon/dbattrs.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkaddon/dbattrs.h"
 
 namespace Attr
 {

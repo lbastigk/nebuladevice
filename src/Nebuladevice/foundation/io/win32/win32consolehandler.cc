@@ -2,11 +2,11 @@
 //  win32consolehandler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "win32consolehandler.h"
-#include "core/coreserver.h"
-#include "core/sysfunc.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/win32/win32consolehandler.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Win32
 {

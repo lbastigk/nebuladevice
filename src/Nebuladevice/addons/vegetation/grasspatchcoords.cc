@@ -2,8 +2,8 @@
 //  grasspatchcoords.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grasspatchcoords.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grasspatchcoords.h"
 
 namespace Vegetation
 {

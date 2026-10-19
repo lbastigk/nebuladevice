@@ -10,11 +10,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "io/xmlreader.h"
-#include "shaderbinding.h"
-#include "shaderslot.h"
-#include "shaderfragment.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/toolkit/nsc3/shaderbinding.h"
+#include "Nebuladevice/toolkit/nsc3/shaderslot.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragment.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

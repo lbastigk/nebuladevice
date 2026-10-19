@@ -2,12 +2,12 @@
 //  internalabstractlightentity.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/internalabstractlightentity.h" 
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
-#include "lighting/lightserver.h"
-#include "lighting/shadowserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/internalabstractlightentity.h" 
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/lighting/lightserver.h"
+#include "Nebuladevice/render/lighting/shadowserver.h"
 
 namespace Lighting
 {

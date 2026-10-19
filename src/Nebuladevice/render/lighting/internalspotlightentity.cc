@@ -2,10 +2,10 @@
 //  internalspotlightentity.h
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/internalspotlightentity.h"
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/internalspotlightentity.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Lighting
 {

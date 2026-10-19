@@ -1,8 +1,8 @@
 //------------------------------------------------------------------------------
 //  MACHINE GENERATED, DON'T EDIT!
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/scriptprotocol.h"
 
 namespace ScriptFeature
 {

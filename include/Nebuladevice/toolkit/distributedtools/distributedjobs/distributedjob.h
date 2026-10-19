@@ -8,13 +8,13 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "core/refcounted.h"
-#include "io/uri.h"
-#include "io/memorystream.h"
-#include "io/xmlwriter.h"
-#include "io/xmlreader.h"
-#include "toolkitutil/applauncher.h"
-#include "util/guid.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/util/guid.h"
 
 //------------------------------------------------------------------------------
 namespace DistributedTools

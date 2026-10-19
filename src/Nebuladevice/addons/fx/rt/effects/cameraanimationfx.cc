@@ -2,16 +2,16 @@
 //  fx/rt/effects/cameraanimation.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/effects/cameraanimationfx.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/streamanimationloader.h"
-#include "coreanimation/animutil.h"
-#include "math/vector.h"
-#include "math/quaternion.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalview.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/effects/cameraanimationfx.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/streamanimationloader.h"
+#include "Nebuladevice/render/coreanimation/animutil.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 
 namespace FX
 {

@@ -2,8 +2,8 @@
 //  osxmemorypool.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "memory/osx/osxmemorypool.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/memory/osx/osxmemorypool.h"
 
 namespace OSX
 {

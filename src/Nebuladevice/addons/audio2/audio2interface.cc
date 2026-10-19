@@ -2,10 +2,10 @@
 //  audio2interface.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audio2/audio2interface.h"
-#include "audio2/fmodcoreaudio/fmodaudiohandler.h"
-#include "messaging/blockinghandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/audio2interface.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodaudiohandler.h"
+#include "Nebuladevice/foundation/messaging/blockinghandlerthread.h"
 
 __ImplementClass(Audio2::Audio2Interface, 'AUDI', Interface::InterfaceBase);
 __ImplementInterfaceSingleton(Audio2::Audio2Interface);

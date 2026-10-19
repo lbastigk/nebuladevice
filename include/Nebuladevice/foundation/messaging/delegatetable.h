@@ -10,9 +10,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "util/delegate.h"
-#include "messaging/id.h"
-#include "messaging/message.h"
+#include "Nebuladevice/foundation/util/delegate.h"
+#include "Nebuladevice/foundation/messaging/id.h"
+#include "Nebuladevice/foundation/messaging/message.h"
 
 //------------------------------------------------------------------------------
 namespace Messaging

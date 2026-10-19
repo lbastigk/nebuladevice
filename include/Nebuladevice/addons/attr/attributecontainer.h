@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "util/dictionary.h"
-#include "attr/attribute.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/addons/attr/attribute.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

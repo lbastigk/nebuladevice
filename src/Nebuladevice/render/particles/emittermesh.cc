@@ -2,10 +2,10 @@
 //  emittermesh.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/emittermesh.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/emittermesh.h"
 
-#include "debug/debugfloat.h"
+#include "Nebuladevice/foundation/debug/debugfloat.h"
 
 namespace Particles
 {

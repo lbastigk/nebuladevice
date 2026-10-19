@@ -1,8 +1,8 @@
 //------------------------------------------------------------------------------
 //  MACHINE GENERATED, DON'T EDIT!
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debugrenderprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/debugrender/debugrenderprotocol.h"
 
 namespace Debug
 {

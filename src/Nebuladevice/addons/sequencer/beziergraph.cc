@@ -2,9 +2,9 @@
 //  sequencer/beziergraph.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
-#include "sequencer/beziergraph.h"
+#include "Nebuladevice/addons/sequencer/beziergraph.h"
 
 namespace Sequencer
 {

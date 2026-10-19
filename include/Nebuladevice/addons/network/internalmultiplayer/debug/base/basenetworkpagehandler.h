@@ -8,7 +8,7 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "debug/debugpagehandler.h"
+#include "Nebuladevice/foundation/debug/debugpagehandler.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

@@ -7,9 +7,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if __WIN32__
-#include "util/win32/win32guid.h"
+#include "Nebuladevice/foundation/util/win32/win32guid.h"
 namespace Util
 {
 typedef Win32::Win32Guid Guid;
@@ -33,7 +33,7 @@ namespace Util
 typedef PS3::PS3Guid Guid;
 }
 #elif __OSX__
-#include "util/osx/osxguid.h"
+#include "Nebuladevice/foundation/util/osx/osxguid.h"
 namespace Util
 {
 typedef OSX::OSXGuid Guid;

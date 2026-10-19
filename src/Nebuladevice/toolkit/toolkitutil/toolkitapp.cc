@@ -2,8 +2,8 @@
 //  toolkitapp.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/toolkitapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
 
 namespace ToolkitUtil
 {

@@ -6,10 +6,10 @@
     
     A 2dim Bezier curve of degree 3 that is used for key animation.
 */
-#include "foundation/core/refcounted.h"
-#include "util/fixedarray.h"
-#include "math/float2.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 using namespace Math;
 using namespace Util;

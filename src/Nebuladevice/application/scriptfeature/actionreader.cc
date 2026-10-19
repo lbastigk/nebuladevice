@@ -2,10 +2,10 @@
 //  actionreader.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/actionreader.h"
-#include "managers/entitymanager.h"
-#include "basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/actionreader.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
 
 namespace Script
 {

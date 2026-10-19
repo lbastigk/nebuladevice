@@ -2,16 +2,16 @@
 //  factory.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/dbfactory.h"
-#include "addons/db/database.h"
-#include "addons/db/command.h"
-#include "addons/db/table.h"
-#include "addons/db/dataset.h"
-#include "addons/db/reader.h"
-#include "addons/db/writer.h"
-#include "addons/db/relation.h"
-#include "addons/db/valuetable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/dbfactory.h"
+#include "Nebuladevice/addons/db/database.h"
+#include "Nebuladevice/addons/db/command.h"
+#include "Nebuladevice/addons/db/table.h"
+#include "Nebuladevice/addons/db/dataset.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/writer.h"
+#include "Nebuladevice/addons/db/relation.h"
+#include "Nebuladevice/addons/db/valuetable.h"
 
 namespace Db
 {

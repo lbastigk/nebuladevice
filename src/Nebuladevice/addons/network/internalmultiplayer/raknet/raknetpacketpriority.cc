@@ -2,8 +2,8 @@
 //  internalplayerbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/raknet/raknetpacketpriority.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetpacketpriority.h"
 
 namespace RakNet
 {

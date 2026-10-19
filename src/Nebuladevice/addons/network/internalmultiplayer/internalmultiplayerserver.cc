@@ -2,8 +2,8 @@
 //  internalmultiplayerserver.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/internalmultiplayerserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerserver.h"
 
 namespace InternalMultiplayer
 {

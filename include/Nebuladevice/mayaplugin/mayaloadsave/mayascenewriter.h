@@ -8,9 +8,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "io/streamwriter.h"
-#include "mayacore/mayascene.h"
-#include "io/xmlwriter.h"
+#include "Nebuladevice/foundation/io/streamwriter.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayascene.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
 
 //------------------------------------------------------------------------------
 namespace Maya

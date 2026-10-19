@@ -2,12 +2,12 @@
 //  debugshaperenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debugrender/debugshaperenderer.h"
-#include "io/memorystream.h"
-#include "debugrender/debugrenderprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/render/debugrender/debugrenderprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Debug
 {

@@ -2,10 +2,10 @@
 //  remoterequestreader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remote/remoterequestreader.h"
-//#include "io/textreader.h"
-#include "io/xmlreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/remote/remoterequestreader.h"
+//#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
 
 namespace Remote
 {

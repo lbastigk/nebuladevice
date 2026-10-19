@@ -2,8 +2,8 @@
 //  rendershape.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/rendershape.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/rendershape.h"
 
 namespace CoreGraphics
 {

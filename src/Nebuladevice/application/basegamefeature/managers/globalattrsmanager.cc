@@ -2,11 +2,11 @@
 //  globalattrsmanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "managers/globalattrsmanager.h"
-#include "addons/db/dbserver.h"
-#include "addons/db/reader.h"
-#include "addons/db/writer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/managers/globalattrsmanager.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/writer.h"
 
 namespace BaseGameFeature
 {

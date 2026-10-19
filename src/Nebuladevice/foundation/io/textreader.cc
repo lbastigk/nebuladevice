@@ -2,8 +2,8 @@
 //  textreader.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/textreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/textreader.h"
 #include <string.h>
 
 namespace IO

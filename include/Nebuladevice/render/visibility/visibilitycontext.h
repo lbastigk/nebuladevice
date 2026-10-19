@@ -5,9 +5,9 @@
        
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "math/bbox.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/foundation/math/bbox.h"
               
 //------------------------------------------------------------------------------
 namespace Visibility

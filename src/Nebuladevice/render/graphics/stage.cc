@@ -2,12 +2,12 @@
 //  stage.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/stage.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicsentitytype.h"
-#include "graphics/modelentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicsentitytype.h"
+#include "Nebuladevice/render/graphics/modelentity.h"
 
 namespace Graphics
 {

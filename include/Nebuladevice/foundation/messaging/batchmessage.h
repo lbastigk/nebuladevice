@@ -16,8 +16,8 @@
     
     (C) 2009 Radon Labs GmbH
 */    
-#include "messaging/message.h"
-#include "util/array.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/util/array.h"
 
 //------------------------------------------------------------------------------
 namespace Messaging

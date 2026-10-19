@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "coregraphics/base/vertexbufferbase.h"
-#include "coregraphics/d3d9/d3d9resource.h"
+#include "Nebuladevice/render/coregraphics/base/vertexbufferbase.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9resource.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

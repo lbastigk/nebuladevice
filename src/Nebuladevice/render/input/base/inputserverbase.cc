@@ -2,12 +2,12 @@
 //  inputserverbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/base/inputserverbase.h"
-#include "input/inputhandler.h"
-#include "input/keyboard.h"
-#include "input/mouse.h"
-#include "input/gamepad.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/base/inputserverbase.h"
+#include "Nebuladevice/render/input/inputhandler.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/mouse.h"
+#include "Nebuladevice/render/input/gamepad.h"
 
 namespace Base
 {

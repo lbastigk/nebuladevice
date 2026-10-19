@@ -2,10 +2,10 @@
 //  animjobsample.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "jobs/stdjob.h"
-#include "animjobutil.h"
-#include "coreanimation/animsamplemixinfo.h"
-#include "coreanimation/sampletype.h"
+#include "Nebuladevice/foundation/jobs/stdjob.h"
+#include "Nebuladevice/render/coreanimation/jobs/animjobutil.h"
+#include "Nebuladevice/render/coreanimation/animsamplemixinfo.h"
+#include "Nebuladevice/render/coreanimation/sampletype.h"
 
 namespace CoreAnimation
 {

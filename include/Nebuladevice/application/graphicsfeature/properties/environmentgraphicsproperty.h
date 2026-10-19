@@ -14,9 +14,9 @@
         
     (C) 2005 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "graphics/modelentity.h"
-#include "util/dictionary.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/render/graphics/modelentity.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
 
 //------------------------------------------------------------------------------
 namespace GraphicsFeature

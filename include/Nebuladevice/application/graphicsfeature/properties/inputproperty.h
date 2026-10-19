@@ -15,8 +15,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

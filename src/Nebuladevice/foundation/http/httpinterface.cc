@@ -2,10 +2,10 @@
 //  httpinterface.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httpinterface.h"
-#include "http/httpmessagehandler.h"
-#include "messaging/runthroughhandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httpinterface.h"
+#include "Nebuladevice/foundation/http/httpmessagehandler.h"
+#include "Nebuladevice/foundation/messaging/runthroughhandlerthread.h"
 
 namespace Http
 {

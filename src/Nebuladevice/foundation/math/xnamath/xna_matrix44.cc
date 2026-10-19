@@ -2,10 +2,10 @@
 //  matrix44.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "math/matrix44.h"
-#include "math/plane.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/plane.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 
 namespace Math
 {

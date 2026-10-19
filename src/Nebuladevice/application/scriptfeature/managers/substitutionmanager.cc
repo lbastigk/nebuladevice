@@ -2,9 +2,9 @@
 //  managers/story/substitutionmanager.cc
 //  (C) 2006 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/managers/substitutionmanager.h"
-#include "game/entity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/managers/substitutionmanager.h"
+#include "Nebuladevice/application/game/entity.h"
 
 namespace Script
 {

@@ -2,10 +2,10 @@
 //  spotlightentity.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/spotlightentity.h"
-#include "graphics/stage.h"
-#include "math/polar.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/spotlightentity.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/foundation/math/polar.h"
 
 namespace Graphics
 {

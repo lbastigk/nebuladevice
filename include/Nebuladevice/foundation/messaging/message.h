@@ -12,11 +12,11 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "io/binaryreader.h"
-#include "io/binarywriter.h"
-#include "messaging/id.h"
-#include "threading/interlocked.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
+#include "Nebuladevice/foundation/messaging/id.h"
+#include "Nebuladevice/foundation/threading/interlocked.h"
 
 //------------------------------------------------------------------------------
 /**

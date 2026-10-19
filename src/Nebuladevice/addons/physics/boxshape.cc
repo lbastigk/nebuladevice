@@ -2,10 +2,10 @@
 //  physics/boxshape.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/boxshape.h"
-#include "debugrender/debugshaperenderer.h"
-#include "physics/rigidbody.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/boxshape.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
 
 namespace Physics
 {

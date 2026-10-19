@@ -9,8 +9,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/toolkitapp.h"
-#include "toolkitutil/n2batchconverter.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/n2batchconverter.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

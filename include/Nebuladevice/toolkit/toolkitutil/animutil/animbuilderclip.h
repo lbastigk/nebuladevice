@@ -7,12 +7,12 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/stringatom.h"
-#include "coreanimation/infinitytype.h"
-#include "coreanimation/animevent.h"
-#include "timing/time.h"
-#include "toolkitutil/animutil/animbuildercurve.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/coreanimation/infinitytype.h"
+#include "Nebuladevice/render/coreanimation/animevent.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuildercurve.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

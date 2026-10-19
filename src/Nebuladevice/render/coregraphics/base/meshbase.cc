@@ -2,9 +2,9 @@
 //  meshbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/meshbase.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/meshbase.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 namespace Base
 {

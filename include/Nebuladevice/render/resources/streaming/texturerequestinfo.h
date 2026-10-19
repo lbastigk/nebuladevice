@@ -7,7 +7,7 @@
 
     (C) 2010 Radon Labs GmbH   
 */
-#include "resourcerequestinfo.h"
+#include "Nebuladevice/render/resources/streaming/resourcerequestinfo.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

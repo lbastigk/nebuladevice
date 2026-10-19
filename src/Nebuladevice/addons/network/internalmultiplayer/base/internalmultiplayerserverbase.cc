@@ -2,11 +2,11 @@
 //  internalmultiplayerserverbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/base/internalmultiplayerserverbase.h"
-#include "multiplayer/base/multiplayernotificationhandlerbase.h"
-#include "internalmultiplayer/playerinfo.h"
-#include "notificationprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/internalmultiplayerserverbase.h"
+#include "Nebuladevice/addons/network/multiplayer/base/multiplayernotificationhandlerbase.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/playerinfo.h"
+#include "Nebuladevice/addons/network/notificationprotocol.h"
 
 namespace Base
 {

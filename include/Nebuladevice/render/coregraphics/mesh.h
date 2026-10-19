@@ -10,7 +10,7 @@
     (C) 2007 Radon Labs GmbH
 */    
 #if (__WIN32__ || __XBOX360__)
-#include "coregraphics/base/meshbase.h"
+#include "Nebuladevice/render/coregraphics/base/meshbase.h"
 namespace CoreGraphics
 {
 class Mesh : public Base::MeshBase
@@ -28,7 +28,7 @@ class Mesh : public Wii::WiiMesh
 };
 }
 #elif __PS3__
-#include "coregraphics/base/meshbase.h"
+#include "Nebuladevice/render/coregraphics/base/meshbase.h"
 namespace CoreGraphics
 {
 class Mesh : public Base::MeshBase

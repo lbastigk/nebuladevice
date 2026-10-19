@@ -2,11 +2,11 @@
 //  InternalMultiplayerhandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/internalmultiplayerhandler.h"
-#include "internalmultiplayer/internalmultiplayerinterface.h"
-#include "internalmultiplayer/debug/networkpagehandler.h"
-#include "multiplayerprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerhandler.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerinterface.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/debug/networkpagehandler.h"
+#include "Nebuladevice/addons/network/multiplayerprotocol.h"
 
 namespace InternalMultiplayer
 {

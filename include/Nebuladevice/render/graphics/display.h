@@ -9,12 +9,12 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "coregraphics/threadsafedisplayeventhandler.h"
-#include "coregraphics/threadsaferendereventhandler.h"
-#include "resources/resourcemapper.h"
-#include "graphics/displaysettings.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/coregraphics/threadsafedisplayeventhandler.h"
+#include "Nebuladevice/render/coregraphics/threadsaferendereventhandler.h"
+#include "Nebuladevice/render/resources/resourcemapper.h"
+#include "Nebuladevice/render/graphics/displaysettings.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

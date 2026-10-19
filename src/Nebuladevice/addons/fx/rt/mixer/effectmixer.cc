@@ -2,8 +2,8 @@
 //  fx/rt/mixer/effectmixer.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/mixer/effectmixer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/mixer/effectmixer.h"
 
 namespace FX
 {

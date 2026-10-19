@@ -2,11 +2,11 @@
 //  debug.cc
 //  (C) 2002 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/types.h"
-#include "core/sysfunc.h"
-#include "io/console.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 //------------------------------------------------------------------------------
 /**

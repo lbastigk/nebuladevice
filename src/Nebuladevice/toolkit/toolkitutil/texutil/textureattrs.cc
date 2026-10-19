@@ -2,8 +2,8 @@
 //  textureattrs.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "textureattrs.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureattrs.h"
 
 namespace ToolkitUtil
 {

@@ -2,13 +2,13 @@
 //  transition.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/fsm/transition.h"
-#include "messaging/message.h"
-#include "scriptfeature/conditions/behaviour/fsmcondition.h"
-#include "scriptfeature/actions/actionlist.h"
-#include "scriptfeature/conditions/condition.h"
-#include "scriptfeature/actions/sequenceaction.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/fsm/transition.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/application/scriptfeature/conditions/behaviour/fsmcondition.h"
+#include "Nebuladevice/application/scriptfeature/actions/actionlist.h"
+#include "Nebuladevice/application/scriptfeature/conditions/condition.h"
+#include "Nebuladevice/application/scriptfeature/actions/sequenceaction.h"
 
 namespace FSM
 {

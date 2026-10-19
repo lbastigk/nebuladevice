@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */   
-#include "coregraphics/base/resourcebase.h"
-#include "coregraphics/pixelformat.h"
+#include "Nebuladevice/render/coregraphics/base/resourcebase.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
 
 //------------------------------------------------------------------------------
 namespace Base

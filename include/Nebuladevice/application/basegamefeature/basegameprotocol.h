@@ -4,11 +4,11 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "game/entity.h"
-#include "math/vector.h"
-#include "basegameattr/basegameattributes.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

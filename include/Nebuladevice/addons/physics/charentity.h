@@ -11,12 +11,12 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "core/ptr.h"
-#include "physics/physicsentity.h"
-#include "physics/materialtable.h"
-#include "physics/filterset.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/addons/physics/filterset.h"
 //#include "character/ncharacter2.h"
-#include "physics/areaimpulse.h"
+#include "Nebuladevice/addons/physics/areaimpulse.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

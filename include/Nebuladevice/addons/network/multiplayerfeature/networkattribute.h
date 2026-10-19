@@ -9,10 +9,10 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "attr/attrid.h"
-#include "util/queue.h"
-#include "game/entity.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/attr/attrid.h"
+#include "Nebuladevice/foundation/util/queue.h"
+#include "Nebuladevice/application/game/entity.h"
 
 //------------------------------------------------------------------------------
 namespace MultiplayerFeature

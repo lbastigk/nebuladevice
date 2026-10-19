@@ -2,15 +2,15 @@
 //  physics/level.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/level.h"
-#include "physics/physicsentity.h"
-#include "physics/composite.h"
-#include "physics/shape.h"
-#include "physics/physicsserver.h"
-#include "physics/rigidbody.h"
-#include "input/inputserver.h"
-#include "core/factory.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/composite.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/foundation/core/factory.h"
 
 namespace Physics
 {

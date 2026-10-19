@@ -2,10 +2,10 @@
 //  interfacebase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "interface/interfacebase.h"
-#include "interface/interfacehandlerbase.h"
-#include "core/coreserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/interface/interfacebase.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
 
 namespace Interface
 {

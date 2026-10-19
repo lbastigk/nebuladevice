@@ -2,9 +2,9 @@
 //  shadernode.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shadernode.h"
-#include "shaderfragmentmanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shadernode.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragmentmanager.h"
 
 namespace Tools
 {

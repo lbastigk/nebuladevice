@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/streamwriter.h" 
-#include "toolkitutil/platform.h"
+#include "Nebuladevice/foundation/io/streamwriter.h" 
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

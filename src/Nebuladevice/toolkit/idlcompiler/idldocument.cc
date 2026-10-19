@@ -2,8 +2,8 @@
 //  idldocument.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkit/idlcompiler/idldocument.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/idlcompiler/idldocument.h"
 
 namespace Tools
 {

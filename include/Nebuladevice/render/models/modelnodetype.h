@@ -11,10 +11,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/stringatom.h"
-#include "util/array.h"
-#include "util/dictionary.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
 
 //------------------------------------------------------------------------------
 namespace Models

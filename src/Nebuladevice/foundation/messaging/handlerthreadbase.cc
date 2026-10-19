@@ -2,9 +2,9 @@
 //  handlerthreadbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/handlerthreadbase.h"
-#include "messaging/batchmessage.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/handlerthreadbase.h"
+#include "Nebuladevice/foundation/messaging/batchmessage.h"
 
 namespace Messaging
 {

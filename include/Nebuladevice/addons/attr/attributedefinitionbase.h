@@ -8,14 +8,14 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/fourcc.h"
-#include "util/string.h"
-#include "util/hashtable.h"
-#include "util/dictionary.h"
-#include "attr/valuetype.h"
-#include "attr/accessmode.h"
-#include "attr/attrexithandler.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/fourcc.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/hashtable.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/addons/attr/valuetype.h"
+#include "Nebuladevice/addons/attr/accessmode.h"
+#include "Nebuladevice/addons/attr/attrexithandler.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

@@ -10,7 +10,7 @@
 */
 
 #if __WIN32__
-#include "resources/d3d9streaming/d3d9texturestreamer.h"
+#include "Nebuladevice/render/resources/d3d9streaming/d3d9texturestreamer.h"
 namespace Resources
 {
 class TextureStreamer : public Resources::D3D9TextureStreamer

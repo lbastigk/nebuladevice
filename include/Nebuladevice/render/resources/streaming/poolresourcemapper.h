@@ -7,10 +7,10 @@
 
     (C) 2010 Radon Labs GmbH
 */
-#include "streamingresourcemapper.h"
-#include "resourcecreator.h"
-#include "poolscheduler.h"
-#include "util/array.h"
+#include "Nebuladevice/render/resources/streaming/streamingresourcemapper.h"
+#include "Nebuladevice/render/resources/streaming/resourcecreator.h"
+#include "Nebuladevice/render/resources/streaming/poolscheduler.h"
+#include "Nebuladevice/foundation/util/array.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

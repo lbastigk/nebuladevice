@@ -2,11 +2,11 @@
 //  physics/materialtable.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/materialtable.h"
-#include "io/excelxmlreader.h"
-#include "io/filestream.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/foundation/io/excelxmlreader.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Physics
 {

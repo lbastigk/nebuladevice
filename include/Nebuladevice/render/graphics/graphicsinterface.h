@@ -10,11 +10,11 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "interface/interfacebase.h"
-#include "core/singleton.h"
-#include "messaging/batchmessage.h"
-#include "graphics/graphicshandler.h"
-#include "framesync/framesynchandlerthread.h"
+#include "Nebuladevice/foundation/interface/interfacebase.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/messaging/batchmessage.h"
+#include "Nebuladevice/render/graphics/graphicshandler.h"
+#include "Nebuladevice/foundation/framesync/framesynchandlerthread.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

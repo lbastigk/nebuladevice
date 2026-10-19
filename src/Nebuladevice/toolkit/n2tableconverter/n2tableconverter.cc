@@ -2,8 +2,8 @@
 //  n2tableconverter.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n2tableconverterapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/n2tableconverter/n2tableconverterapp.h"
 
 //------------------------------------------------------------------------------
 /**

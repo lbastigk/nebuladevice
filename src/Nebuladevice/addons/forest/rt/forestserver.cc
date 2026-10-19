@@ -2,9 +2,9 @@
 //  forestserver.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/rt/forestserver.h"
-#include "forest/tree.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/rt/forestserver.h"
+#include "Nebuladevice/addons/forest/tree.h"
 
 namespace Forest
 {

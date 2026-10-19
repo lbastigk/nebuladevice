@@ -33,12 +33,12 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/stringatom.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "internalgraphics/internalgraphicsentitytype.h"
-#include "timing/time.h"                   
-#include "visibility/visibilitychecker.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentitytype.h"
+#include "Nebuladevice/foundation/timing/time.h"                   
+#include "Nebuladevice/render/visibility/visibilitychecker.h"
 
 //------------------------------------------------------------------------------
 namespace InternalGraphics

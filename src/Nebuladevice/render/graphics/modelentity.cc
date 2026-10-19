@@ -2,9 +2,9 @@
 //  modelentity.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/modelentity.h"
-#include "graphics/stage.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/modelentity.h"
+#include "Nebuladevice/render/graphics/stage.h"
 
 namespace Graphics
 {

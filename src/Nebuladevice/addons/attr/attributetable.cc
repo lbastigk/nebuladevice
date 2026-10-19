@@ -2,8 +2,8 @@
 //  attributetable.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "attr/attributetable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/attr/attributetable.h"
 
 namespace Attr
 {

@@ -2,8 +2,8 @@
 //  FxFeature/FxFeatureUnit.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/fxfeature/fxfeatureunit.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/fxfeature/fxfeatureunit.h"
 
 namespace FxFeature
 {

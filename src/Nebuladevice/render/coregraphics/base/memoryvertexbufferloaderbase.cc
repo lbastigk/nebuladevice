@@ -2,8 +2,8 @@
 //  memoryvertexbufferloaderbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/memoryvertexbufferloaderbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/memoryvertexbufferloaderbase.h"
 
 namespace Base
 {

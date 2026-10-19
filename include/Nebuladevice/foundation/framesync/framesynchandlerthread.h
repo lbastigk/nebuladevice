@@ -20,12 +20,12 @@
         
     (C) 2009 Radon Labs GmbH
 */
-#include "core/singleton.h"
-#include "messaging/handlerthreadbase.h"
-#include "timing/timer.h"
-#include "threading/threadbarrier.h"
-#include "threading/safequeue.h"
-#include "threading/criticalsection.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/messaging/handlerthreadbase.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/foundation/threading/threadbarrier.h"
+#include "Nebuladevice/foundation/threading/safequeue.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
 
 //------------------------------------------------------------------------------
 namespace FrameSync

@@ -9,11 +9,11 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/string.h"
-#include "io/xmlreader.h"
-#include "toolkit/idlcompiler/idldependency.h"
-#include "toolkit/idlcompiler/idlcommand.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/toolkit/idlcompiler/idldependency.h"
+#include "Nebuladevice/toolkit/idlcompiler/idlcommand.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

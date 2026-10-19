@@ -2,13 +2,13 @@
 //  sqlite3table.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/sqlite3/sqlite3table.h"
-#include "addons/db/sqlite3/sqlite3database.h"
-#include "addons/db/command.h"
-#include "addons/db/sqlite3/sqlite3factory.h"
-#include "attr/valuetype.h"
-#include "attr/attrid.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3table.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3database.h"
+#include "Nebuladevice/addons/db/command.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3factory.h"
+#include "Nebuladevice/addons/attr/valuetype.h"
+#include "Nebuladevice/addons/attr/attrid.h"
 
 namespace Db
 {

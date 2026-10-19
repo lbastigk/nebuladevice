@@ -10,7 +10,7 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/debug.h"
+#include "Nebuladevice/foundation/core/debug.h"
 
 #define FMOD_CHECK_ERROR(result)                FmodCoreAudio::fmodCheckError((result), __FILE__, __LINE__)
 #define FMOD_CHECK_ERROR_EXT(result, msg, ...)  FmodCoreAudio::fmodCheckErrorExt((result), __FILE__, __LINE__, msg, __VA_ARGS__)

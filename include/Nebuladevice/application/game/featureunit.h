@@ -15,10 +15,10 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "game/manager.h"
-#include "core/singleton.h"
-#include "util/commandlineargs.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/commandlineargs.h"
 
 //------------------------------------------------------------------------------
 namespace Game

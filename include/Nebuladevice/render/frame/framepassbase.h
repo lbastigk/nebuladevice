@@ -8,14 +8,14 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "resources/resourceid.h"
-#include "coregraphics/shaderinstance.h"
-#include "coregraphics/rendertarget.h"
-#include "coregraphics/multiplerendertarget.h"
-#include "coregraphics/shadervariableinstance.h"
-#include "frame/framebatch.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/coregraphics/multiplerendertarget.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/render/frame/framebatch.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 //------------------------------------------------------------------------------
 namespace Frame

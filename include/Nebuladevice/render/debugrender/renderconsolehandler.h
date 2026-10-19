@@ -9,8 +9,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/historyconsolehandler.h"
-#include "util/list.h"
+#include "Nebuladevice/foundation/io/historyconsolehandler.h"
+#include "Nebuladevice/foundation/util/list.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

@@ -9,7 +9,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if (__XBOX360__)
-#include "lighting/lightprepass/lightprepassserver.h"
+#include "Nebuladevice/render/lighting/lightprepass/lightprepassserver.h"
 namespace Lighting
 {
     class LightServer : public Lighting::LightPrePassServer
@@ -39,7 +39,7 @@ public:
 };
 } // namespace Lighting
 #elif (__WIN32__ || __PS3__)
-#include "lighting/lightprepass/lightprepassserver.h"
+#include "Nebuladevice/render/lighting/lightprepass/lightprepassserver.h"
 namespace Lighting
 {
 class LightServer : public Lighting::LightPrePassServer

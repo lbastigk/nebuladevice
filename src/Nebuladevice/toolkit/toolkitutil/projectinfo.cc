@@ -2,13 +2,13 @@
 //  projectinfo.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "projectinfo.h"
-#include "io/ioserver.h"
-#include "io/stream.h"
-#include "io/xmlreader.h"
-#include "system/win32/win32registry.h"
-#include "system/win32/win32environment.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/projectinfo.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
+#include "Nebuladevice/foundation/system/win32/win32environment.h"
 
 namespace ToolkitUtil
 {

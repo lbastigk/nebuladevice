@@ -2,8 +2,8 @@
 //  coreanimation/sampletype.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/sampletype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/sampletype.h"
 
 namespace CoreAnimation
 {

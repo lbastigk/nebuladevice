@@ -2,11 +2,11 @@
 //  messageclientconnection.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #if !__WII__
-#include "net/messageclientconnection.h"
-#include "io/textwriter.h"
-#include "io/memorystream.h"
+#include "Nebuladevice/foundation/net/messageclientconnection.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
 //------------------------------------------------------------------------------
 
 using namespace IO;

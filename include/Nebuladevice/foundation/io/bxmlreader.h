@@ -10,8 +10,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "io/streamreader.h"
-#include "io/util/bxmlloaderutil.h"
+#include "Nebuladevice/foundation/io/streamreader.h"
+#include "Nebuladevice/foundation/io/util/bxmlloaderutil.h"
 
 //------------------------------------------------------------------------------
 namespace IO

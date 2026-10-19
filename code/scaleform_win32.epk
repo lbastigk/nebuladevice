@@ -25,7 +25,7 @@ begintarget scaleform_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;../application;../extlibs/scaleform;"
+    setincpath_win32 "../foundation;../render;../external;../addons;../application;../external/scaleform;"
     setdepends {
         scaleform_nidls_win32
     }

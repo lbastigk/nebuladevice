@@ -2,13 +2,13 @@
 //  assetregistry.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "assetregistry.h"
-#include "io/ioserver.h"
-#include "io/uri.h"
-#include "io/stream.h"
-#include "io/binarywriter.h"
-#include "io/binaryreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/assetregistry.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
 
 namespace ToolkitUtil
 {

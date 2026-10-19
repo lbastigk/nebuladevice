@@ -8,9 +8,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "properties/cameraproperty.h"
-#include "renderutil/mayacamerautil.h"
-#include "graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/application/graphicsfeature/properties/cameraproperty.h"
+#include "Nebuladevice/render/renderutil/mayacamerautil.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

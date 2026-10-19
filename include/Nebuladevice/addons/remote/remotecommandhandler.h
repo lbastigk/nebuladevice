@@ -10,11 +10,11 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/commandlineargs.h"
-#include "util/string.h"
-#include "util/stringatom.h"
-#include "threading/safequeue.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/commandlineargs.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/threading/safequeue.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

@@ -8,13 +8,13 @@
     
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "util/stringatom.h"
-#include "util/fourcc.h"
-#include "util/dictionary.h"
-#include "util/variant.h"
-#include "toolkitutil/logger.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/fourcc.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/variant.h"
+#include "Nebuladevice/toolkit/toolkitutil/logger.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

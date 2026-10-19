@@ -2,9 +2,9 @@
 //  tpjobslice.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "jobs/tp/tpjobslice.h"
-#include "jobs/tp/tpjob.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobslice.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjob.h"
 
 namespace Jobs
 {

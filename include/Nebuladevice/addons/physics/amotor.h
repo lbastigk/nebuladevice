@@ -10,9 +10,9 @@
 
     (C) 2005 Radon Labs GmbH
 */
-#include "physics/joint.h"
-#include "physics/jointaxis.h"
-#include "util/fixedarray.h"
+#include "Nebuladevice/addons/physics/joint.h"
+#include "Nebuladevice/addons/physics/jointaxis.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

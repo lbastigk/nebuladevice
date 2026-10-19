@@ -2,17 +2,17 @@
 //  frameshaderloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "frame/frameshaderloader.h"
-#include "frame/framepass.h"
-#include "frame/frameposteffect.h"
-#include "io/ioserver.h"
-#include "coregraphics/rendertarget.h"
-#include "coregraphics/displaydevice.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/renderdevice.h"
-#include "models/modelnodetype.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/frame/frameshaderloader.h"
+#include "Nebuladevice/render/frame/framepass.h"
+#include "Nebuladevice/render/frame/frameposteffect.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/models/modelnodetype.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 #if __PS3__
 #include "coregraphics/ps3/ps3rendertarget.h"
 #endif

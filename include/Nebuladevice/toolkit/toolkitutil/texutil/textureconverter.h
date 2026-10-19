@@ -7,12 +7,12 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "toolkitutil/platform.h"
-#include "io/uri.h"
-#include "util/string.h"
-#include "toolkitutil/texutil/textureattrtable.h"
-#include "toolkitutil/applauncher.h"
-#include "toolkitutil/logger.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureattrtable.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
+#include "Nebuladevice/toolkit/toolkitutil/logger.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

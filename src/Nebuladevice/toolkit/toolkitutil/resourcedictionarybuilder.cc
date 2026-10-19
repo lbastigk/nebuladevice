@@ -2,21 +2,21 @@
 //  resourcedictionarybuilder.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
-#include "core/refcounted.h"
-#include "render/resources/streaming/resourceinfo.h"
-#include "coregraphics/pixelformat.h"
-#include "resourcedictionarybuilder.h"
-#include "io/ioserver.h"
-#include "io/stream.h"
-#include "io/binarywriter.h"
-#include "io/uri.h"
-#include "util/stringatom.h"
-#include "system/byteorder.h"
-#include "render/resources/streaming/textureinfo.h"
-#include "render/resources/streaming/poolresourcemapper.h"
-#include "io/xmlwriter.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/resources/streaming/resourceinfo.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
+#include "Nebuladevice/toolkit/toolkitutil/resourcedictionarybuilder.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
+#include "Nebuladevice/render/resources/streaming/textureinfo.h"
+#include "Nebuladevice/render/resources/streaming/poolresourcemapper.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
 
 namespace ToolkitUtil
 {

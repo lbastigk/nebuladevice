@@ -12,11 +12,11 @@
     
     (C) 2009 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "core/singleton.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 #include <maya/MObjectArray.h>
 #include <maya/MIntArray.h>
-#include "mayashaders/mayashaderfilter.h"
+#include "Nebuladevice/mayaplugin/mayashaders/mayashaderfilter.h"
 
 //------------------------------------------------------------------------------
 namespace Maya

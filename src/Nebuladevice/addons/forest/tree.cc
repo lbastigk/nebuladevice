@@ -2,11 +2,11 @@
 //  treeinstance.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/tree.h"
-#include "models/modelserver.h"
-#include "resources/resource.h"
-#include "models/nodes/transformnode.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/tree.h"
+#include "Nebuladevice/render/models/modelserver.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
 
 namespace Forest
 {

@@ -2,10 +2,10 @@
 //  threadpagehandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "threading/debug/threadpagehandler.h"
-#include "threading/thread.h"
-#include "http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/threading/debug/threadpagehandler.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
 
 namespace Debug
 {

@@ -2,8 +2,8 @@
 //  animclip.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/animclip.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/animclip.h"
 
 namespace CoreAnimation
 {

@@ -10,8 +10,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "addons/db/table.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/db/table.h"
 
 //------------------------------------------------------------------------------
 namespace Db

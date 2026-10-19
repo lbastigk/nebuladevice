@@ -9,7 +9,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__)
-#include "lighting/sm30/sm30shadowserver.h"
+#include "Nebuladevice/render/lighting/sm30/sm30shadowserver.h"
 namespace Lighting
 {
 class ShadowServer : public SM30ShadowServer

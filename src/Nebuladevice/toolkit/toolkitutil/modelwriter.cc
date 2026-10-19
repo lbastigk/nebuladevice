@@ -2,8 +2,8 @@
 //  modelwriter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "modelwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/modelwriter.h"
 
 namespace ToolkitUtil
 {

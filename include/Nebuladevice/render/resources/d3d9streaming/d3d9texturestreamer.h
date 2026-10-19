@@ -8,9 +8,9 @@
     
     (C) 2010 Radon Labs GmbH
 */    
-#include "resources/streamresourceloader.h"
-#include "debug/debugtimer.h"
-#include "coregraphics/texture.h"
+#include "Nebuladevice/render/resources/streamresourceloader.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
 
 namespace Resources
 {

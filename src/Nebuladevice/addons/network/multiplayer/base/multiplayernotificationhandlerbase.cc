@@ -2,8 +2,8 @@
 //  network/multiplayer/base/multiplayernotificationhandlerbase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayer/base/multiplayernotificationhandlerbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayer/base/multiplayernotificationhandlerbase.h"
 
 namespace Base
 {

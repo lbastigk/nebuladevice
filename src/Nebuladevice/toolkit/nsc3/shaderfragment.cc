@@ -2,8 +2,8 @@
 //  shaderfragment.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shaderfragment.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragment.h"
 
 namespace Tools
 {

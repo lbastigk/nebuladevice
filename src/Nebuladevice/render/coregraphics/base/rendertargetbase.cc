@@ -2,10 +2,10 @@
 //  rendertargetbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/rendertarget.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/displaydevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
 
 namespace Base
 {

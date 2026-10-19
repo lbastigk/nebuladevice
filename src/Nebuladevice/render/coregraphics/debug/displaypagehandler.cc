@@ -2,11 +2,11 @@
 //  displaypagehandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/debug/displaypagehandler.h"
-#include "coregraphics/displaydevice.h"
-#include "http/html/htmlpagewriter.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/debug/displaypagehandler.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 namespace Debug
 {

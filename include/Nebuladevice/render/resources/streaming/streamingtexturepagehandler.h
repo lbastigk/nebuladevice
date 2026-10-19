@@ -7,9 +7,9 @@
 
     (C) 2010 Radon Labs GmbH
 */
-#include "http/httprequesthandler.h"
-#include "util/stringatom.h"
-#include "resources/streaming/poolresourcemapper.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/resources/streaming/poolresourcemapper.h"
 //------------------------------------------------------------------------------
 namespace Resources
 {

@@ -8,8 +8,8 @@
     
     (C) 2008 Radon Labs GmbH
 */    
-#include "models/nodes/transformnodeinstance.h"
-#include "characters/characterinstance.h"
+#include "Nebuladevice/render/models/nodes/transformnodeinstance.h"
+#include "Nebuladevice/render/characters/characterinstance.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

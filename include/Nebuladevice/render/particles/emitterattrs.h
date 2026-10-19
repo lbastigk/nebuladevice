@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "particles/envelopecurve.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/particles/envelopecurve.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

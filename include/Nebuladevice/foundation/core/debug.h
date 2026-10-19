@@ -9,7 +9,7 @@
     n_verify()  - like assert() except that the statement in parens is simply evaluated, unchecked, if __NEBULA_NO_ASSERT is set
     n_assert2() - an assert() plus a message from the programmer
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 
 void n_printf(const char *, ...) __attribute__((format(printf,1,2)));
 void n_error(const char*, ...) __attribute__((format(printf,1,2)));

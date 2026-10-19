@@ -2,10 +2,10 @@
 //  debuginterface.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debug/debuginterface.h"
-#include "debug/debughandler.h"
-#include "messaging/runthroughhandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/debug/debuginterface.h"
+#include "Nebuladevice/foundation/debug/debughandler.h"
+#include "Nebuladevice/foundation/messaging/runthroughhandlerthread.h"
 
 namespace Debug
 {

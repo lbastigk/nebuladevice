@@ -15,8 +15,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "math/vector.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------
 namespace Vegetation

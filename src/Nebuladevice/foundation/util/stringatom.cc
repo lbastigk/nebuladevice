@@ -2,10 +2,10 @@
 //  stringatom.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/stringatom.h"
-#include "util/localstringatomtable.h"
-#include "util/globalstringatomtable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/localstringatomtable.h"
+#include "Nebuladevice/foundation/util/globalstringatomtable.h"
 
 #include <string.h>
 

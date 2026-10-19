@@ -9,8 +9,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "attr/attrid.h"
-#include "physicsattr/physicsattributes.h"
+#include "Nebuladevice/addons/attr/attrid.h"
+#include "Nebuladevice/application/physicsfeature/physicsattr/physicsattributes.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

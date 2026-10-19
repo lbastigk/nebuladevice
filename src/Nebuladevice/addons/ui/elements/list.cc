@@ -2,7 +2,7 @@
 //  ui/list.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "list.h"
 
 namespace UI

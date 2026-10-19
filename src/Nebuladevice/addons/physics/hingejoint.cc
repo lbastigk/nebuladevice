@@ -2,9 +2,9 @@
 //  physics/hingejoint.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/hingejoint.h"
-#include "debugrender/debugshaperenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/hingejoint.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
 
 namespace Physics
 {

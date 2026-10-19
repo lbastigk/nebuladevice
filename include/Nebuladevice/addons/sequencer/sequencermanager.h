@@ -6,8 +6,8 @@
     (C) 2008 Radon Labs GmbH
 */
 
-#include "application/game/manager.h"
-#include "core/singleton.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 namespace Sequencer
 {

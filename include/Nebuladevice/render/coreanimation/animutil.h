@@ -7,12 +7,12 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "coreanimation/animclip.h"
-#include "coreanimation/sampletype.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/animsamplebuffer.h"
-#include "jobs/job.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/coreanimation/animclip.h"
+#include "Nebuladevice/render/coreanimation/sampletype.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/animsamplebuffer.h"
+#include "Nebuladevice/foundation/jobs/job.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

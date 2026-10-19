@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/streamwriter.h"
-#include "http/httpmethod.h"
+#include "Nebuladevice/foundation/io/streamwriter.h"
+#include "Nebuladevice/foundation/http/httpmethod.h"
 
 //------------------------------------------------------------------------------
 namespace Http

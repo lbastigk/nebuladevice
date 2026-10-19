@@ -5,7 +5,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "application/game/featureunit.h"
+#include "Nebuladevice/application/game/featureunit.h"
 
 namespace Sequencer
 {

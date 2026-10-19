@@ -2,8 +2,8 @@
 //  matrix44multiply.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "matrix44multiply.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/matrix44multiply.h"
 
 namespace Benchmarking
 {

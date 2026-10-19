@@ -7,11 +7,11 @@
     
     (C) 2006 Radon Labs
 */
-#include "core/refcounted.h"
-#include "io/uri.h"
-#include "util/dictionary.h"
-#include "addons/db/table.h"
-#include "addons/db/command.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/addons/db/table.h"
+#include "Nebuladevice/addons/db/command.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

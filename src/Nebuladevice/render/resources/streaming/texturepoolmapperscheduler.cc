@@ -2,20 +2,20 @@
 //  texturepoolmapperscheduler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "texturepoolmapperscheduler.h"
-#include "texturerequestinfo.h"
-#include "resources/managedtexture.h"
-#include "poolresourcemapper.h"
-#include "texturestreamer.h"
-#include "resourcepool.h"
-#include "textureinfo.h"
-#include "coregraphics/texture.h"
-#include "loadingresource.h"
-#include "math/scalar.h"
-#include "textureinfo.h"
-#include "coregraphics/texture.h"
-#include "poolloadingresource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/texturepoolmapperscheduler.h"
+#include "Nebuladevice/render/resources/streaming/texturerequestinfo.h"
+#include "Nebuladevice/render/resources/managedtexture.h"
+#include "Nebuladevice/render/resources/streaming/poolresourcemapper.h"
+#include "Nebuladevice/render/resources/streaming/texturestreamer.h"
+#include "Nebuladevice/render/resources/streaming/resourcepool.h"
+#include "Nebuladevice/render/resources/streaming/textureinfo.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/resources/streaming/loadingresource.h"
+#include "Nebuladevice/foundation/math/scalar.h"
+#include "Nebuladevice/render/resources/streaming/textureinfo.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/resources/streaming/poolloadingresource.h"
 
 using namespace CoreGraphics;
 

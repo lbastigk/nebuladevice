@@ -2,10 +2,10 @@
 //  lightparams.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lightparams.h"
-#include "math/point.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/params/lightparams.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 
 namespace PostEffect
 {

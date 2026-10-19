@@ -10,12 +10,12 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "toolkitutil/assetfile.h"
-#include "toolkitutil/logger.h"
-#include "util/dictionary.h"
-#include "timing/timer.h"
-#include "io/uri.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/toolkit/toolkitutil/assetfile.h"
+#include "Nebuladevice/toolkit/toolkitutil/logger.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

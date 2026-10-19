@@ -7,8 +7,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "timing/time.h"
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 //------------------------------------------------------------------------------
 namespace PostEffect

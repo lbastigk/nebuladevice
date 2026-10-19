@@ -9,7 +9,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "scripting/scriptserver.h"
+#include "Nebuladevice/addons/scripting/scriptserver.h"
 #include "lua/lua.h"
 
 //------------------------------------------------------------------------------

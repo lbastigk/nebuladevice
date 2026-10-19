@@ -7,9 +7,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "messaging/message.h"
-#include "posteffect/posteffectprotocol.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/posteffect/posteffectprotocol.h"
 
 
 //------------------------------------------------------------------------------

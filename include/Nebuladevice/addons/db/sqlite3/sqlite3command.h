@@ -9,8 +9,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "addons/db/command.h"
-#include "extlibs/sqlite/sqlite3.h"
+#include "Nebuladevice/addons/db/command.h"
+#include "sqlite/sqlite3.h"
 
 //------------------------------------------------------------------------------
 namespace Db

@@ -7,12 +7,12 @@
         
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "characters/characterskeletoninstance.h"
-#include "characters/characterskinset.h"
-#include "characters/charactervariationset.h"
-#include "characters/characteranimationcontroller.h"
-#include "jobs/jobport.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/characters/characterskeletoninstance.h"
+#include "Nebuladevice/render/characters/characterskinset.h"
+#include "Nebuladevice/render/characters/charactervariationset.h"
+#include "Nebuladevice/render/characters/characteranimationcontroller.h"
+#include "Nebuladevice/foundation/jobs/jobport.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

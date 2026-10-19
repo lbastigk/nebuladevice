@@ -2,13 +2,13 @@
 //  mayaqueryshadercmd.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaqueryshadercmd.h"
-#include "util/string.h"
-#include "util/stringatom.h"
-#include "mayashaders/mayashaderregistry.h"
-#include "mayamain/mayalogger.h"
-#include "mayautil/mayatype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayalegacy/mayaqueryshadercmd.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/mayaplugin/mayashaders/mayashaderregistry.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayalogger.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
 #include <maya/MSyntax.h>
 #include <maya/MArgDatabase.h>
 

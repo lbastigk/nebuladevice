@@ -2,8 +2,8 @@
 //  n2batchconverterapp.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n2batchconverterapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/n2batchconverter3/n2batchconverterapp.h"
 
 namespace Toolkit
 {

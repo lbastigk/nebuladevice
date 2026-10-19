@@ -2,11 +2,11 @@
 //  physics/collideshapeloader.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/collideshapeloader.h"
-#include "physics/physicsserver.h"
-#include "io/xmlreader.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/collideshapeloader.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Physics
 {

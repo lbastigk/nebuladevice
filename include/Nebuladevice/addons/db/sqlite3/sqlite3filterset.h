@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "db/filterset.h"
+#include "Nebuladevice/addons/db/filterset.h"
 
 //------------------------------------------------------------------------------
 namespace Db

@@ -2,8 +2,8 @@
 //  animeventemitter.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/animeventemitter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/animeventemitter.h"
 
 namespace CoreAnimation
 {

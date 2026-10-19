@@ -8,9 +8,9 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "core/types.h"
-#include "util/string.h"
-#include "util/fixedarray.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

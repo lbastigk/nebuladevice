@@ -2,8 +2,8 @@
 //  network/multiplayerfeature/base/playeractoin.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/base/playeraction.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/base/playeraction.h"
 
 namespace Base
 {

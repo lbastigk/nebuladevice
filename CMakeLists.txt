@@ -32,6 +32,8 @@ if(NEBULA_BUILD_MINGW64)
     file(GLOB_RECURSE nebula_foundation_sources CONFIGURE_DEPENDS
         "${CMAKE_CURRENT_SOURCE_DIR}/src/Nebuladevice/foundation/*.cc"
     )
+    list(FILTER nebula_foundation_sources EXCLUDE REGEX
+        "/jobs/serial/")
 
     add_library(nebuladevice_foundation STATIC
         ${nebula_foundation_sources}
@@ -44,12 +46,11 @@ if(NEBULA_BUILD_MINGW64)
     target_compile_options(nebuladevice_foundation PRIVATE
         -fno-exceptions
         -fno-rtti
+        -fpermissive
     )
     target_include_directories(nebuladevice_foundation PUBLIC
-        "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice"
-        "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice/foundation"
-        "${CMAKE_CURRENT_SOURCE_DIR}/include/NebuladeviceTests"
-        "${CMAKE_CURRENT_SOURCE_DIR}/code/extlibs"
+        "${CMAKE_CURRENT_SOURCE_DIR}/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/external"
     )
     target_link_libraries(nebuladevice_foundation PUBLIC
         nebuladevice_dependencies
@@ -68,7 +69,7 @@ if(NEBULA_BUILD_LEGACY_TESTS)
     endif()
 
     file(GLOB legacy_test_directories LIST_DIRECTORIES true
-        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebuladeviceTests/*"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/*"
     )
     foreach(legacy_test_directory IN LISTS legacy_test_directories)
         if(NOT IS_DIRECTORY "${legacy_test_directory}")
@@ -96,14 +97,11 @@ if(NEBULA_BUILD_LEGACY_TESTS)
         target_compile_options("${legacy_target}" PRIVATE
             -fno-exceptions
             -fno-rtti
+            -fpermissive
         )
         target_include_directories("${legacy_target}" PRIVATE
             "${CMAKE_CURRENT_SOURCE_DIR}/include"
-            "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice"
-            "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice/foundation"
-            "${CMAKE_CURRENT_SOURCE_DIR}/include/NebuladeviceTests"
-            "${CMAKE_CURRENT_SOURCE_DIR}/include/NebuladeviceTests/${legacy_test_name}"
-            "${CMAKE_CURRENT_SOURCE_DIR}/code/extlibs"
+            "${CMAKE_CURRENT_SOURCE_DIR}/external"
         )
         target_link_libraries("${legacy_target}" PRIVATE
             nebuladevice_foundation

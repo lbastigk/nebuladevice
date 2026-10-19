@@ -7,11 +7,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "ui/base/coreuirendererbase.h"
-#include "coregraphics/vertexbuffer.h"
-#include "coregraphics/primitivegroup.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/shadervariable.h"
+#include "Nebuladevice/addons/ui/base/coreuirendererbase.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
 
 namespace Win32
 {

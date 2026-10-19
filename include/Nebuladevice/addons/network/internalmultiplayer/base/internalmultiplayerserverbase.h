@@ -8,12 +8,12 @@
         
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "internalmultiplayer/multiplayertype.h"
-#include "multiplayerprotocol.h"
-#include "internalmultiplayer/internalsession.h"
-#include "http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/multiplayertype.h"
+#include "Nebuladevice/addons/network/multiplayerprotocol.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalsession.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
 
 //------------------------------------------------------------------------------
 namespace Base

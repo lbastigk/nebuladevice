@@ -7,9 +7,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/singleton.h"
-#include "input/base/inputserverbase.h"
-#include "input/win32/win32inputdisplayeventhandler.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/input/base/inputserverbase.h"
+#include "Nebuladevice/render/input/win32/win32inputdisplayeventhandler.h"
 
 //------------------------------------------------------------------------------
 namespace Win32

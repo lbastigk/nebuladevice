@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "http/httprequesthandler.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

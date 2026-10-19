@@ -2,13 +2,13 @@
 //  internalspotlightentityhandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/internalspotlightentity.h"
-#include "graphics/graphicsprotocol.h"
-#include "messaging/staticmessagehandler.h"
-#include "lighting/internalgloballightentity.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalstage.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/internalspotlightentity.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
+#include "Nebuladevice/render/lighting/internalgloballightentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
 
 using namespace Util;
 using namespace Graphics;

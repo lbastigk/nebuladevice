@@ -2,20 +2,20 @@
 //  timing/timemanager.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "basegametiming/timemanager.h"
-#include "addons/db/dbserver.h"
-#include "addons/db/reader.h"
-#include "addons/db/writer.h"
-#include "math/scalar.h"
-#include "timing/time.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "render/debugrender/debugrender.h" 
-#include "basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/timemanager.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/writer.h"
+#include "Nebuladevice/foundation/math/scalar.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/debugrender/debugrender.h" 
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
 
 #ifdef _DEBUG
-#include "io/console.h"
+#include "Nebuladevice/foundation/io/console.h"
 #endif
 
 namespace BaseGameFeature

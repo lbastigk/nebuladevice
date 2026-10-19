@@ -5,9 +5,9 @@
         
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/stringatom.h"
-#include "internalmultiplayer/uniqueplayerid.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/uniqueplayerid.h"
 
 namespace InternalMultiplayer
 {

@@ -7,13 +7,13 @@
     
     (C) 2005 Radon Labs GmbH
 */
-#include "properties/cameraproperty.h"
-#include "math/polar.h"
-#include "math/pfeedbackloop.h"
-#include "math/point.h"
-#include "appgame/appconfig.h"
+#include "Nebuladevice/application/graphicsfeature/properties/cameraproperty.h"
+#include "Nebuladevice/foundation/math/polar.h"
+#include "Nebuladevice/foundation/math/pfeedbackloop.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
 #if __USE_PHYSICS__
-#include "physics/filterset.h"
+#include "Nebuladevice/addons/physics/filterset.h"
 #endif
 //------------------------------------------------------------------------------
 namespace Attr

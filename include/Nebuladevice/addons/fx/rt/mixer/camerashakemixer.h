@@ -8,11 +8,11 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "fx/rt/mixer/effectmixer.h"
-#include "timing/time.h"
-#include "math/vector.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalview.h"
+#include "Nebuladevice/addons/fx/rt/mixer/effectmixer.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
 
 //------------------------------------------------------------------------------
 namespace FX

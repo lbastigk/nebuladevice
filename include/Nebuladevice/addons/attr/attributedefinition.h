@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "attr/attributedefinitionbase.h"
+#include "Nebuladevice/addons/attr/attributedefinitionbase.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

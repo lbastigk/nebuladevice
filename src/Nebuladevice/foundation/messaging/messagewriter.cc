@@ -2,9 +2,9 @@
 //  messagewriter.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/messagewriter.h"
-#include "messaging/message.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/messagewriter.h"
+#include "Nebuladevice/foundation/messaging/message.h"
 
 namespace Messaging
 {

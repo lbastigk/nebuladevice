@@ -13,16 +13,16 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "util/array.h"
-#include "physics/joint.h"
-#include "physics/materialtable.h"
-#include "util/hashtable.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/addons/physics/joint.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/foundation/util/hashtable.h"
+#include "Nebuladevice/foundation/timing/time.h"
 //#include "kernel/nprofiler.h"
-#include "util/blob.h"
-#include "math/vector.h"
+#include "Nebuladevice/foundation/util/blob.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

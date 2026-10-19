@@ -2,8 +2,8 @@
 //  util/commandlineargs.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/commandlineargs.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/commandlineargs.h"
 
 namespace Util
 {

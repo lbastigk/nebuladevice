@@ -2,8 +2,8 @@
 //  runlengthcodec.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/runlengthcodec.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/runlengthcodec.h"
 
 namespace Util
 {

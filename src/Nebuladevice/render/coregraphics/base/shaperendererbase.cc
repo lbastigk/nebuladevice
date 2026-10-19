@@ -2,9 +2,9 @@
 //  shaperendererbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/shaperendererbase.h"
-#include "threading/threadid.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/shaperendererbase.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
 
 namespace Base
 {

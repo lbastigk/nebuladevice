@@ -2,8 +2,8 @@
 //  float4math.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "float4math.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/float4math.h"
 
 namespace Benchmarking
 {

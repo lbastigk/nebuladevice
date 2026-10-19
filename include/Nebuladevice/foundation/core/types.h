@@ -9,7 +9,7 @@
 */
 
 #if !SPU
-#include "memory/memory.h"
+#include "Nebuladevice/foundation/memory/memory.h"
 #endif
 
 // fixing Windows defines...

@@ -2,8 +2,8 @@
 //  animbuildercurve.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/animutil/animbuildercurve.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuildercurve.h"
 
 namespace ToolkitUtil
 {

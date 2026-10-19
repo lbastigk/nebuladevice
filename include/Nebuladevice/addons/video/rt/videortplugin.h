@@ -8,9 +8,9 @@
     (C) 2009 Radon Labs GmbH
 */
 
-#include "rendermodules/rt/rtplugin.h"
-#include "video/rt/videoserver.h"
-#include "video/rt/videohandler.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/addons/video/rt/videoserver.h"
+#include "Nebuladevice/addons/video/rt/videohandler.h"
 
 namespace Video
 {

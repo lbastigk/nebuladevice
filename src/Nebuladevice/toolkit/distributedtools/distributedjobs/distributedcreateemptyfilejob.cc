@@ -2,11 +2,11 @@
 //  distributedcreateemptyfilejob.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "distributedtools/distributedjobs/distributedcreateemptyfilejob.h"
-#include "io/ioserver.h"
-#include "io/textreader.h"
-#include "io/textwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributedcreateemptyfilejob.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
 
 using namespace Util;
 using namespace IO;

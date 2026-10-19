@@ -2,8 +2,8 @@
 //  keyboard.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/keyboard.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/keyboard.h"
 #if __WIN32__
 namespace Input
 {

@@ -2,11 +2,11 @@
 //  animconverter.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/animutil/animconverter.h"
-#include "toolkitutil/animutil/animbuilderloader.h"
-#include "toolkitutil/animutil/animbuildersaver.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animconverter.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuilderloader.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuildersaver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace ToolkitUtil
 {

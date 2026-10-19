@@ -2,11 +2,11 @@
 //  properties/environmentcollideproperty.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/environmentcollideproperty.h"
-#include "physics/physicsserver.h"
-#include "physics/level.h"
-#include "game/entity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/physicsfeature/properties/environmentcollideproperty.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/application/game/entity.h"
 
 namespace PhysicsFeature
 {

@@ -13,15 +13,15 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/ptr.h"
-#include "core/singleton.h"
-#include "game/manager.h"
-#include "util/array.h"
-#include "util/dictionary.h"
-#include "game/entity.h"
-#include "math/point.h"
-#include "debug/debugtimer.h"
-#include "appgame/appconfig.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

@@ -9,12 +9,12 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 
 // HttpStream not implemented on Wii
 #if __NEBULA3_HTTP_FILESYSTEM__
-#include "io/memorystream.h"
-#include "http/httpclient.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/http/httpclient.h"
 
 //------------------------------------------------------------------------------
 namespace Http

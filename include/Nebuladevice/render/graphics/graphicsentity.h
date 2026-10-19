@@ -7,11 +7,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "messaging/message.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsentitytype.h"
-#include "shared/graphics/graphicsentityshared.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsentitytype.h"
+#include "Nebuladevice/render/shared/graphics/graphicsentityshared.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

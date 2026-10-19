@@ -2,12 +2,12 @@
 //  distributedappjob.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "distributedtools/distributedjobs/distributedappjob.h"
-#include "io/ioserver.h"
-#include "io/textreader.h"
-#include "io/textwriter.h"
-#include "system/win32/win32registry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributedappjob.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
 
 using namespace Util;
 using namespace IO;

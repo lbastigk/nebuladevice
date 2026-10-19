@@ -2,12 +2,12 @@
 //  win360memoryconfig.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "memory/win360/win360memoryconfig.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/memory/win360/win360memoryconfig.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 #if NEBULA3_OBJECTS_USE_MEMORYPOOL
-#include "memory/poolarrayallocator.h"
+#include "Nebuladevice/foundation/memory/poolarrayallocator.h"
 #endif
 
 namespace Memory

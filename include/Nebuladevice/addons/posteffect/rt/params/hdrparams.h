@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "math/float4.h"
-#include "parambase.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/addons/posteffect/rt/params/parambase.h"
 
 //------------------------------------------------------------------------------
 namespace PostEffect

@@ -7,9 +7,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "coreanimation/animresource.h"
-#include "characters/charjointcomponents.h"
-#include "characters/characterskeleton.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/characters/charjointcomponents.h"
+#include "Nebuladevice/render/characters/characterskeleton.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

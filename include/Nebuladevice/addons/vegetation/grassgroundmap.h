@@ -12,9 +12,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "internalgraphics/internalview.h"
-#include "coregraphics/texture.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
 
 namespace InternalGraphics
 {

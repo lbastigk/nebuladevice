@@ -2,8 +2,8 @@
 //  idlarg.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkit/idlcompiler/idlarg.h"  
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/idlcompiler/idlarg.h"  
 
 namespace Tools
 {

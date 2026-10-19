@@ -8,7 +8,7 @@
     (C) 2010 Radon Labs GmbH
 */    
 
-#include "ui/uievent.h"
+#include "Nebuladevice/addons/ui/uievent.h"
 
 //------------------------------------------------------------------------------
 namespace UI

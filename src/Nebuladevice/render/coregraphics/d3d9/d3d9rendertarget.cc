@@ -2,15 +2,15 @@
 //  d3d9rendertarget.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/config.h"
-#include "coregraphics/rendertarget.h"
-#include "coregraphics/d3d9/d3d9renderdevice.h"
-#include "coregraphics/win360/d3d9types.h"
-#include "coregraphics/displaydevice.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/shadersemantics.h"
-#include "coregraphics/shaderserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/config.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9renderdevice.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
 
 namespace Direct3D9
 {

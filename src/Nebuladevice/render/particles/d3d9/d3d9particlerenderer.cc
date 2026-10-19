@@ -2,13 +2,13 @@
 //  d3d9particlerenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/d3d9/d3d9particlerenderer.h"
-#include "coregraphics/vertexcomponent.h"
-#include "coregraphics/memoryvertexbufferloader.h"
-#include "coregraphics/memoryindexbufferloader.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/vertexlayoutserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/d3d9/d3d9particlerenderer.h"
+#include "Nebuladevice/render/coregraphics/vertexcomponent.h"
+#include "Nebuladevice/render/coregraphics/memoryvertexbufferloader.h"
+#include "Nebuladevice/render/coregraphics/memoryindexbufferloader.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/vertexlayoutserver.h"
 
 namespace Direct3D9
 {

@@ -2,9 +2,9 @@
 //  loadingresource.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "loadingresource.h"
-#include "resources/resourceloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/loadingresource.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
 
 namespace Resources
 {

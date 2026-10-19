@@ -2,8 +2,8 @@
 //  shaderinstance.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/shaderinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
 
 #if __WIN32__
 namespace CoreGraphics

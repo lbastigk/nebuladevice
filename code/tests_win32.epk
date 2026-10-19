@@ -9,7 +9,7 @@ begintarget testbase_win32
     settype lib
     setbasedir tests
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;"    
+    setincpath_win32 "../foundation;../render;../external;../tests;../addons;"    
     setclusters { testbase }
     setdepends {
         foundation_win32
@@ -22,7 +22,7 @@ begintarget testfoundation_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;"    
+    setincpath_win32 "../foundation;../render;../external;../tests;../addons;"    
     setdepends testbase_win32
     setclusters { testfoundation }
     setdepends {
@@ -38,7 +38,7 @@ begintarget inputtest_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs"    
+    setincpath_win32 "../foundation;../render;../external"    
     setclusters { inputtest }
     setdepends {
         foundation_win32
@@ -66,7 +66,7 @@ endtarget
 #    settype exe
 #    setbasedir tests
 #    setprecompiledheader stdneb    
-#    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;"    
+#    setincpath_win32 "../foundation;../render;../external;../tests;../addons;"    
 #    setdepends testbase_win32
 #    setclusters { testrender }
 #    setdepends {
@@ -84,7 +84,7 @@ begintarget testtoolkit_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;../toolkit"    
+    setincpath_win32 "../foundation;../render;../external;../tests;../addons;../toolkit"    
     setdepends testbase_win32
     setclusters { testtoolkit }
     setdepends {
@@ -101,7 +101,7 @@ begintarget stresstestvieweropenclose_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;"    
+    setincpath_win32 "../foundation;../render;../external;../tests;../addons;"    
     setclusters { stresstestvieweropenclose }
     setdepends {
         foundation_win32
@@ -118,7 +118,7 @@ begintarget viewerstresstest_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;"    
+    setincpath_win32 "../foundation;../render;../external;../tests;../addons;"    
     setclusters { viewerstresstest }
     setdepends {
         foundation_win32
@@ -149,7 +149,7 @@ begintarget multiplayerconnectiontest_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb
-    setincpath_win32 "../tests;../foundation;../addons;../addons/network;../extlibs/raknet;../extlibs;"
+    setincpath_win32 "../tests;../foundation;../addons;../addons/network;../external/raknet;../external;"
     setclusters { multiplayerconnectiontest }
     setdepends {
         foundation_win32
@@ -167,7 +167,7 @@ begintarget fmodcoretest_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;../extlibs/fmod/win32;../extlibs/fmoddesignerapi/win32"    
+    setincpath_win32 "../foundation;../render;../external;../addons;../external/fmod/win32;../external/fmoddesignerapi/win32"    
     setclusters { fmodcoretest }
     setdepends {
         foundation_win32
@@ -183,7 +183,7 @@ begintarget fmodtestsimple_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../addons"    
+    setincpath_win32 "../foundation;../render;../external;../addons"    
     setclusters { fmodtestsimple }
     setdepends {
         foundation_win32
@@ -200,7 +200,7 @@ begintarget fmodtest_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;"    
+    setincpath_win32 "../foundation;../render;../external;../tests;../addons;"    
     setclusters { fmodtest }
     setdepends {
         foundation_win32
@@ -249,7 +249,7 @@ begintarget texturestreamingtest_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tools;../addons;../toolkit"    
+    setincpath_win32 "../foundation;../render;../external;../tools;../addons;../toolkit"    
     setclusters { texturestreamingtest_win32 }
     setdepends {
         foundation_win32
@@ -271,7 +271,7 @@ begintarget ziptest_win32
     settype exe
     setbasedir tests
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs"
+    setincpath_win32 "../foundation;../external"
     setclusters { ziptest }
     setdepends {
         foundation_win32
@@ -286,7 +286,7 @@ begintarget forestviewer
     settype exe
     setbasedir tests
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tools;../addons"    
+    setincpath_win32 "../foundation;../render;../external;../tools;../addons"    
     setclusters { forestviewer }
     setdepends {
         foundation_win32

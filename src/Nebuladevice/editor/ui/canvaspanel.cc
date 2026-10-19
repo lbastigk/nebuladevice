@@ -2,12 +2,12 @@
 //  canvaspanel.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "wx/wx.h"
-#include "editorapp.h"
+#include "Nebuladevice/editor/ui/editorapp.h"
 #include "CanvasPanel.h"
 #include "../app/editorapplication.h"
-#include "basegamefeature/managers/envquerymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/envquerymanager.h"
 
 namespace Editor
 {

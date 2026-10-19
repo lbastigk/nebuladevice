@@ -2,8 +2,8 @@
 //  physics/amotor.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/amotor.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/amotor.h"
 
 namespace Physics
 {

@@ -12,13 +12,13 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/stringatom.h"
-#include "resources/resource.h"
-#include "models/modelnodetype.h"
-#include "models/visresolvecontainer.h"
-#include "math/bbox.h"
-#include "io/binaryreader.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/models/modelnodetype.h"
+#include "Nebuladevice/render/models/visresolvecontainer.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
 
 //------------------------------------------------------------------------------
 namespace Models

@@ -20,10 +20,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "toolkitutil/toolkitapp.h"
-#include "toolkitutil/rcswrapper.h"
-#include "toolkitutil/assetregistry.h"
-#include "toolkitutil/assetupdater.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/rcswrapper.h"
+#include "Nebuladevice/toolkit/toolkitutil/assetregistry.h"
+#include "Nebuladevice/toolkit/toolkitutil/assetupdater.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

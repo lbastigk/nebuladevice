@@ -9,12 +9,12 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "coregraphics/shader.h"
-#include "coregraphics/shaderfeature.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/shaderinstance.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/coregraphics/shader.h"
+#include "Nebuladevice/render/coregraphics/shaderfeature.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
 
 namespace CoreGraphics
 {

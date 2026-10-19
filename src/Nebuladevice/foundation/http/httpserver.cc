@@ -2,10 +2,10 @@
 //  httpserver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httpserver.h"
-#include "http/httprequestreader.h"
-#include "io/memorystream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httpserver.h"
+#include "Nebuladevice/foundation/http/httprequestreader.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
 
 namespace Http
 {

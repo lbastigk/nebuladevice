@@ -2,8 +2,8 @@
 //  gamecontentserverbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/base/gamecontentserverbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/base/gamecontentserverbase.h"
 
 namespace Base
 {

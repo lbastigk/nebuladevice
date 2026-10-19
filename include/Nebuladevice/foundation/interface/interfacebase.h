@@ -10,8 +10,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "messaging/asyncport.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/messaging/asyncport.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Interface

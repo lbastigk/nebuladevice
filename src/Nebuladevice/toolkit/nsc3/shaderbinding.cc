@@ -2,8 +2,8 @@
 //  shaderbinding.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shaderbinding.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shaderbinding.h"
 
 namespace Tools
 {

@@ -10,9 +10,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "resources/resourceloader.h"
-#include "io/stream.h"
-#include "io/iointerfaceprotocol.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/iointerfaceprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

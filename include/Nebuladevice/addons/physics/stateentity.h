@@ -9,8 +9,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "physics/physicsentity.h"
-#include "physics/composite.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/composite.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

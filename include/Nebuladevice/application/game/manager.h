@@ -19,7 +19,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "messaging/dispatcher.h"
+#include "Nebuladevice/foundation/messaging/dispatcher.h"
 
 //------------------------------------------------------------------------------
 namespace Game

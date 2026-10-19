@@ -9,8 +9,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/list.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/list.h"
 
 //------------------------------------------------------------------------------
 namespace Core

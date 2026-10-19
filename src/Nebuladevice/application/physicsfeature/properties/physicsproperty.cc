@@ -2,15 +2,15 @@
 //  physicsfeature/properties/physicsproperty.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/physicsproperty.h"
-#include "game/entity.h"
-#include "physics/physicsserver.h"
-#include "physics/level.h"
-#include "physicsattr/physicsattributes.h"
-#include "core/factory.h"
-#include "basegameprotocol.h"
-#include "physicsprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/physicsfeature/properties/physicsproperty.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/application/physicsfeature/physicsattr/physicsattributes.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/application/physicsfeature/physicsprotocol.h"
 
 namespace PhysicsFeature
 {

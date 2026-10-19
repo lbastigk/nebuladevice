@@ -2,14 +2,14 @@
 //  cutscenecameraproperty.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/cutscenecameraproperty.h"
-#include "game/entity.h"
-#include "basegamefeature/basegameprotocol.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "graphics/cameraentity.h"
-#include "graphics/graphicsserver.h"
-#include "managers/focusmanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/cutscenecameraproperty.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
 
 namespace GraphicsFeature
 {

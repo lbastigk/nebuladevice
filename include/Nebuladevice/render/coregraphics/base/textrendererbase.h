@@ -8,13 +8,13 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "util/string.h"
-#include "math/float4.h"
-#include "math/float2.h"
-#include "threading/threadid.h"
-#include "coregraphics/textelement.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/render/coregraphics/textelement.h"
 
 //------------------------------------------------------------------------------
 namespace Base

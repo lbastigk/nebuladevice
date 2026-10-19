@@ -8,11 +8,11 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "game/manager.h"
-#include "core/singleton.h"
-#include "db/dataset.h"
-#include "db/valuetable.h"
-#include "game/entity.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/db/dataset.h"
+#include "Nebuladevice/addons/db/valuetable.h"
+#include "Nebuladevice/application/game/entity.h"
 
 #define SetupAttr(ATTRID) BaseGameFeature::CategoryManager::Instance()->AddCategoryAttr(ATTRID)
 

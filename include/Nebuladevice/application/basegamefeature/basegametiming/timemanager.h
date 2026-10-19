@@ -16,11 +16,11 @@
 
     (C) 2009 Radon Labs GmbH 
 */
-#include "game/manager.h"
-#include "basegametiming/timesource.h"
-#include "core/singleton.h"
-#include "fx/rt/fxanimeventhandler/animeventtiminghandler.h"
-#include "audio2/audio2server.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/timesource.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventtiminghandler.h"
+#include "Nebuladevice/addons/audio2/audio2server.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

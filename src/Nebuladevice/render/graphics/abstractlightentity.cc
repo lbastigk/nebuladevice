@@ -2,8 +2,8 @@
 //  abstractlightentity.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/abstractlightentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/abstractlightentity.h"
 
 namespace Graphics
 {

@@ -17,10 +17,10 @@
 
     (C) 2007 Radon Labs GmbH  
 */
-#include "game/manager.h"
-#include "game/property.h"
-#include "game/entity.h"
-#include "addons/db/valuetable.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/addons/db/valuetable.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

@@ -14,9 +14,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "toolkitutil/platform.h"
-#include "util/dictionary.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

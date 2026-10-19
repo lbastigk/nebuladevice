@@ -2,10 +2,10 @@
 //  VisibilityClusterSystem.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "visibility/visibilitysystems/visibilityclustersystem.h"
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityclustersystem.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Visibility
 {

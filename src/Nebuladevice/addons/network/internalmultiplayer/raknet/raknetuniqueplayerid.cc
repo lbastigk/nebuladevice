@@ -2,8 +2,8 @@
 //  RakNetuniqueplayerid.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/raknet/raknetuniqueplayerid.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetuniqueplayerid.h"
 
 namespace RakNet
 {

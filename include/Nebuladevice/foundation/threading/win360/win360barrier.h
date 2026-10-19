@@ -14,7 +14,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
+#include "Nebuladevice/foundation/core/types.h"
 
 //------------------------------------------------------------------------------
 #define ReadWriteBarrier _ReadWriterBarrier

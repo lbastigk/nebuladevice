@@ -7,8 +7,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "jobs/base/jobfuncdescbase.h"
-#include "jobs/jobfunccontext.h"
+#include "Nebuladevice/foundation/jobs/base/jobfuncdescbase.h"
+#include "Nebuladevice/foundation/jobs/jobfunccontext.h"
 
 //------------------------------------------------------------------------------
 namespace Jobs

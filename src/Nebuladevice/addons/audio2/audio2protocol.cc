@@ -1,8 +1,8 @@
 //------------------------------------------------------------------------------
 //  MACHINE GENERATED, DON'T EDIT!
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audio2protocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/audio2protocol.h"
 
 namespace Audio2
 {

@@ -2,8 +2,8 @@
 //  win360heap.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "memory/win360/win360heap.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/memory/win360/win360heap.h"
 
 namespace Win360
 {

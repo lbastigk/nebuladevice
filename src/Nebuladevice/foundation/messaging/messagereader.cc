@@ -2,10 +2,10 @@
 //  messagereader.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/messagereader.h"
-#include "core/factory.h"
-#include "messaging/message.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/messagereader.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/foundation/messaging/message.h"
 
 namespace Messaging
 {

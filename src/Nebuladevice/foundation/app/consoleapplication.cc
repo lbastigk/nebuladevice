@@ -2,9 +2,9 @@
 //  consoleapplication.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "app/consoleapplication.h"
-#include "io/logfileconsolehandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/app/consoleapplication.h"
+#include "Nebuladevice/foundation/io/logfileconsolehandler.h"
 
 namespace App
 {

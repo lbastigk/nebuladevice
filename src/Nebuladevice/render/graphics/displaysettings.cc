@@ -2,8 +2,8 @@
 //  displaysettings.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/displaysettings.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/displaysettings.h"
 
 namespace Graphics
 {

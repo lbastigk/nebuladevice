@@ -1,8 +1,8 @@
 //------------------------------------------------------------------------------
 //  MACHINE GENERATED, DON'T EDIT!
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "suiactions.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sui/suiactions.h"
 
 namespace SUI
 {

@@ -2,12 +2,12 @@
 //  d3d9streamshaderloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9streamshaderloader.h"
-#include "coregraphics/d3d9/d3d9shader.h"
-#include "coregraphics/d3d9/d3d9renderdevice.h"
-#include "coregraphics/d3d9/d3d9shaderserver.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9streamshaderloader.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9shader.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9renderdevice.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9shaderserver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Direct3D9
 {

@@ -2,22 +2,22 @@
 //  properties/chasecameraproperty.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/chasecameraproperty.h"
-#include "basegametiming/inputtimesource.h"
-#include "managers/focusmanager.h"
-#include "game/entity.h"
-#include "graphics/stage.h"
-#include "graphics/cameraentity.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "math/quaternion.h"
-#include "io/console.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/chasecameraproperty.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/inputtimesource.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/foundation/io/console.h"
 
 #if __USE_PHYSICS__
-#include "properties/physicsproperty.h"
-#include "physics/physicsserver.h"
-#include "physics/filterset.h"
-#include "physics/physicsutil.h"
+#include "Nebuladevice/application/physicsfeature/properties/physicsproperty.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/filterset.h"
+#include "Nebuladevice/addons/physics/physicsutil.h"
 #endif
 
 using namespace Math;

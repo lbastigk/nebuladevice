@@ -2,9 +2,9 @@
 //  mayavariableregistry.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayavariableregistry.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayavariableregistry.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 namespace Maya
 {

@@ -8,12 +8,12 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "physics/materialtable.h"
-#include "physics/collidecategory.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/addons/physics/collidecategory.h"
 #include "ode/ode.h"
-#include "physics/contactpoint.h"
+#include "Nebuladevice/addons/physics/contactpoint.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

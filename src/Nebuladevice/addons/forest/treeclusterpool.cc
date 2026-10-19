@@ -2,11 +2,11 @@
 //  treeclusterpool.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/treeclusterpool.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalview.h"
-#include "internalgraphics/internalstage.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/treeclusterpool.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
 
 namespace Forest
 {

@@ -2,9 +2,9 @@
 //  osxmemoryconfig.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "memory/osx/osxmemoryconfig.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/memory/osx/osxmemoryconfig.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 namespace Memory
 {

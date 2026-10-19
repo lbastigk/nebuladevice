@@ -8,10 +8,10 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "coregraphics/shaderinstance.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/vertexbuffer.h"
-#include "coregraphics/primitivegroup.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
 
 //------------------------------------------------------------------------------
 namespace RenderUtil

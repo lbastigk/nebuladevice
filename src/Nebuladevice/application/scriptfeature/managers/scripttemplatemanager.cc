@@ -2,12 +2,12 @@
 //  scripttemplatemanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/managers/scripttemplatemanager.h"
-#include "db/reader.h"
-#include "db/dbserver.h"
-#include "scriptfeature/scriptattr/scriptattributes.h"
-#include "scriptfeature/scripttable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/managers/scripttemplatemanager.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/application/scriptfeature/scriptattr/scriptattributes.h"
+#include "Nebuladevice/application/scriptfeature/scripttable.h"
 
 namespace Script
 {

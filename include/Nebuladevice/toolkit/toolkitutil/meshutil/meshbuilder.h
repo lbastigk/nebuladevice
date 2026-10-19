@@ -7,12 +7,12 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/meshutil/meshbuildervertex.h"
-#include "toolkitutil/meshutil/meshbuildertriangle.h"
-#include "toolkitutil/meshutil/meshbuildergroup.h"
-#include "util/fixedarray.h"
-#include "util/array.h"
-#include "math/bbox.h"
+#include "Nebuladevice/toolkit/toolkitutil/meshutil/meshbuildervertex.h"
+#include "Nebuladevice/toolkit/toolkitutil/meshutil/meshbuildertriangle.h"
+#include "Nebuladevice/toolkit/toolkitutil/meshutil/meshbuildergroup.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/math/bbox.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

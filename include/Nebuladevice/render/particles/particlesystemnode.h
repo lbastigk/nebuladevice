@@ -8,10 +8,10 @@
     
     (C) 2008 Radon Labs GmbH
 */    
-#include "models/nodes/statenode.h"
-#include "resources/managedmesh.h"
-#include "particles/particlesystem.h"
-#include "particles/emitterattrs.h"
+#include "Nebuladevice/render/models/nodes/statenode.h"
+#include "Nebuladevice/render/resources/managedmesh.h"
+#include "Nebuladevice/render/particles/particlesystem.h"
+#include "Nebuladevice/render/particles/emitterattrs.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

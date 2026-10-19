@@ -2,8 +2,8 @@
 //  shaderfeature.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/shaderfeature.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/shaderfeature.h"
 
 namespace CoreGraphics
 {

@@ -2,14 +2,14 @@
 //  modelserver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/modelserver.h"
-#include "io/ioserver.h"
-#include "io/stream.h"
-#include "resources/resourcemanager.h"
-#include "resources/simpleresourcemapper.h"
-#include "models/streammodelloader.h"
-#include "models/visresolver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/modelserver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/resources/simpleresourcemapper.h"
+#include "Nebuladevice/render/models/streammodelloader.h"
+#include "Nebuladevice/render/models/visresolver.h"
 
 namespace Models
 {

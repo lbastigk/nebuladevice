@@ -12,8 +12,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "messaging/port.h"
-#include "messaging/message.h"
+#include "Nebuladevice/foundation/messaging/port.h"
+#include "Nebuladevice/foundation/messaging/message.h"
 
 //------------------------------------------------------------------------------
 namespace Game

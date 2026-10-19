@@ -2,8 +2,8 @@
 //  displaydevice.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/displaydevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
 
 namespace CoreGraphics
 {

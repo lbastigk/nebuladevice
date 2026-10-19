@@ -2,8 +2,8 @@
 //  win32systeminfo.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "system/win32/win32systeminfo.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/system/win32/win32systeminfo.h"
 
 namespace Win32
 {

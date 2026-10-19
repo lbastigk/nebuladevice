@@ -2,12 +2,12 @@
 //  script/dialog/dialogtake.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/dialog/dialogtake.h"
-#include "scriptfeature/scriptattr/scriptattributes.h"
-#include "scriptfeature/log/infolog.h"
-#include "scriptfeature/actions/action.h"
-#include "scriptfeature/conditions/condition.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/dialog/dialogtake.h"
+#include "Nebuladevice/application/scriptfeature/scriptattr/scriptattributes.h"
+#include "Nebuladevice/application/scriptfeature/log/infolog.h"
+#include "Nebuladevice/application/scriptfeature/actions/action.h"
+#include "Nebuladevice/application/scriptfeature/conditions/condition.h"
 
 namespace Script
 {

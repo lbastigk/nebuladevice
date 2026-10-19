@@ -7,10 +7,10 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "fx/rt/effects/effect.h"
-#include "timing/timer.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/animsamplebuffer.h"
+#include "Nebuladevice/addons/fx/rt/effects/effect.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/animsamplebuffer.h"
 
 //------------------------------------------------------------------------------
 namespace FX

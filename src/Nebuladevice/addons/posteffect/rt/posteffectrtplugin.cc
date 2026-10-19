@@ -3,9 +3,9 @@
 // (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
 
-#include "stdneb.h"
-#include "posteffect/rt/posteffectrtplugin.h"
-#include "graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/posteffectrtplugin.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
 
 namespace PostEffect
 {

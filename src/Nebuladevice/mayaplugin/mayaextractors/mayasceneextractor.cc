@@ -2,8 +2,8 @@
 //  mayascenextractor.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaextractors/mayasceneextractor.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayasceneextractor.h"
 
 namespace Maya
 {

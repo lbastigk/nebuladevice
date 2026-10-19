@@ -11,7 +11,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "io/consolehandler.h"
+#include "Nebuladevice/foundation/io/consolehandler.h"
 
 //------------------------------------------------------------------------------
 namespace Win32

@@ -2,11 +2,11 @@
 //  shadercompiler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "shadercompiler.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 #include "shader.h"
-#include "shadercodegenerator.h"
+#include "Nebuladevice/toolkit/nsc3/shadercodegenerator.h"
 
 namespace Tools
 {

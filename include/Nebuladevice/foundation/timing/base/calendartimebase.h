@@ -9,9 +9,9 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "io/filetime.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/io/filetime.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 namespace Timing
 {

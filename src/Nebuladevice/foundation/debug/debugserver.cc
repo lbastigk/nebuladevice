@@ -2,10 +2,10 @@
 //  debugserver.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debug/debugserver.h"
-#include "debug/debugtimer.h"
-#include "debug/debugcounter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
+#include "Nebuladevice/foundation/debug/debugcounter.h"
 
 namespace Debug
 {

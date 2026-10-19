@@ -2,9 +2,9 @@
 //  command.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/command.h"
-#include "addons/db/database.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/command.h"
+#include "Nebuladevice/addons/db/database.h"
 
 namespace Db
 {

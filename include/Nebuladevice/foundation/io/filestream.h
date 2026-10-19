@@ -7,10 +7,10 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "io/stream.h"
-#include "util/string.h"
-#include "io/filetime.h"
-#include "io/fswrapper.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/io/filetime.h"
+#include "Nebuladevice/foundation/io/fswrapper.h"
 
 //------------------------------------------------------------------------------
 namespace IO

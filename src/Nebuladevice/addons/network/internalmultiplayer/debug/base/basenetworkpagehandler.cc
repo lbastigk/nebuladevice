@@ -2,14 +2,14 @@
 //  NetworkPageHandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/debug/networkpagehandler.h"
-#include "http/html/htmlpagewriter.h"
-#include "internalmultiplayer/internalmultiplayerserver.h"  
-#include "http/svg/svglinechartwriter.h"
-#include "debug/debugserver.h"
-#include "internalmultiplayer/internalsession.h"
-#include "internalmultiplayer/internalplayer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/debug/networkpagehandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerserver.h"  
+#include "Nebuladevice/foundation/http/svg/svglinechartwriter.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalsession.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalplayer.h"
 
 namespace Debug
 {

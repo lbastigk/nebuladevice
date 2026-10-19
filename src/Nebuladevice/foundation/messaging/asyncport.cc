@@ -2,8 +2,8 @@
 //  asyncport.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/asyncport.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/asyncport.h"
 
 namespace Messaging
 {

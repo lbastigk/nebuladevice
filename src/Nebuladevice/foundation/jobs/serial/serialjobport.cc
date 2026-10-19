@@ -2,9 +2,10 @@
 //  serialjobport.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "jobs/serial/serialjobport.h"
-#include "jobs/jobsystem.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/jobs/serial/serialjobport.h"
+#include "Nebuladevice/foundation/jobs/serial/serialjobsystem.h"
+#include "Nebuladevice/foundation/jobs/jobsystem.h"
 
 namespace Jobs
 {
@@ -46,7 +47,8 @@ SerialJobPort::PushJob(const Ptr<Job>& job)
     if (uniformDesc.GetScratchSize() > 0)
     {
         n_assert(uniformDesc.GetScratchSize() < SerialJobSystem::MaxScratchSize);
-        ctx.scratch = (ubyte*) JobSystem::Instance()->GetScratchBuffer();
+        ctx.scratch = (ubyte*) static_cast<SerialJobSystem*>(
+            JobSystem::Instance())->GetScratchBuffer();
     }
     else
     {

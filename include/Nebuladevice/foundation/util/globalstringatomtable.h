@@ -11,10 +11,10 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "util/stringatomtablebase.h"
-#include "core/singleton.h"
-#include "threading/criticalsection.h"
-#include "util/stringbuffer.h"
+#include "Nebuladevice/foundation/util/stringatomtablebase.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/util/stringbuffer.h"
 
 //------------------------------------------------------------------------------
 namespace Util

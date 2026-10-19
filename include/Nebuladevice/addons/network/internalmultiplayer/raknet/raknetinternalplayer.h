@@ -5,10 +5,10 @@
         
     (C) 2009 Radon Labs GmbH
 */
-#include "internalmultiplayer/base/internalplayerbase.h"          
-#include "internalmultiplayer/packetpriority.h"
-#include "util/ringbuffer.h"
-#include "framesync/framesynctimer.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/internalplayerbase.h"          
+#include "Nebuladevice/addons/network/internalmultiplayer/packetpriority.h"
+#include "Nebuladevice/foundation/util/ringbuffer.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
 
 //------------------------------------------------------------------------------
 namespace RakNet

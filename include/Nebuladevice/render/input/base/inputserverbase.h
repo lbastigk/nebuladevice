@@ -9,11 +9,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "input/inputpriority.h"
-#include "input/inputevent.h"
-#include "threading/criticalsection.h"   
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/input/inputpriority.h"
+#include "Nebuladevice/render/input/inputevent.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"   
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Input
 {

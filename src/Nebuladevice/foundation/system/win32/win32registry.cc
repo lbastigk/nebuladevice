@@ -2,9 +2,9 @@
 //  win32registry.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "system/win32/win32registry.h"
-#include "util/win32/win32stringconverter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
+#include "Nebuladevice/foundation/util/win32/win32stringconverter.h"
 
 namespace System
 {

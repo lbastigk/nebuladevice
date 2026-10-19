@@ -11,10 +11,10 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "math/float4.h"
-#include "math/vector.h"
-#include "math/matrix44.h"
-#include "particles/emitterattrs.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/render/particles/emitterattrs.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

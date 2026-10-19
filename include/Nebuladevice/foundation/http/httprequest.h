@@ -9,10 +9,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "messaging/message.h"
-#include "http/httpmethod.h"
-#include "http/httpstatus.h"
-#include "io/uri.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/http/httpmethod.h"
+#include "Nebuladevice/foundation/http/httpstatus.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace Http

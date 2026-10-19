@@ -2,8 +2,8 @@
 //  locale/localeattributes.cc
 //  (C) 2009 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "locale/localeattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/locale/localeattributes.h"
 
 namespace Attr
 {

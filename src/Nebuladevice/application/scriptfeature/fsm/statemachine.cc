@@ -2,15 +2,15 @@
 //  statemachine.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/fsm/statemachine.h"
-#include "scriptfeature/fsm/state.h"
-#include "scriptfeature/fsm/transition.h"
-#include "scriptfeature/actions/action.h"
-#include "scriptfeature/actions/actionlist.h"
-#include "scriptfeature/actions/sequenceaction.h"
-#include "messaging/message.h"
-#include "game/entity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/fsm/statemachine.h"
+#include "Nebuladevice/application/scriptfeature/fsm/state.h"
+#include "Nebuladevice/application/scriptfeature/fsm/transition.h"
+#include "Nebuladevice/application/scriptfeature/actions/action.h"
+#include "Nebuladevice/application/scriptfeature/actions/actionlist.h"
+#include "Nebuladevice/application/scriptfeature/actions/sequenceaction.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/application/game/entity.h"
 
 namespace FSM
 {

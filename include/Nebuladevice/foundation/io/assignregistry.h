@@ -8,12 +8,12 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "io/assign.h"
-#include "io/uri.h"
-#include "util/hashtable.h"
-#include "threading/criticalsection.h"
-#include "core/singleton.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/assign.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/util/hashtable.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 //------------------------------------------------------------------------------
 namespace IO

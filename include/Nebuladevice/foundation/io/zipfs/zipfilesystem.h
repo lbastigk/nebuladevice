@@ -28,7 +28,7 @@
       
     (C) 2006 Radon Labs GmbH
 */
-#include "io/archfs/archivefilesystembase.h"
+#include "Nebuladevice/foundation/io/archfs/archivefilesystembase.h"
 
 //------------------------------------------------------------------------------
 namespace IO

@@ -2,10 +2,10 @@
 //  osxconsolehandler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "osxconsolehandler.h"
-#include "core/coreserver.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/osx/osxconsolehandler.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 namespace OSX
 {

@@ -2,9 +2,9 @@
 //  grassheightmap.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grassentityeventhandler.h"
-#include "vegetation/grassrenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grassentityeventhandler.h"
+#include "Nebuladevice/addons/vegetation/grassrenderer.h"
 #include "internalgraphics/internalgraphicsprotocol.h"
 
 namespace Vegetation

@@ -15,13 +15,13 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "coregraphics/mesh.h"
-#include "models/nodes/shapenode.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "vegetation/grasspatchcoords.h"
-#include "coregraphics/shadervariableinstance.h"
-#include "resources/resource.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/coregraphics/mesh.h"
+#include "Nebuladevice/render/models/nodes/shapenode.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/addons/vegetation/grasspatchcoords.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/render/resources/resource.h"
 
 //------------------------------------------------------------------------------
 namespace Vegetation

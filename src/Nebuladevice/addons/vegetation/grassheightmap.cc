@@ -2,16 +2,16 @@
 //  grassheightmap.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grassheightmap.h"
-#include "vegetation/grassrenderer.h"
-#include "frame/frameserver.h"
-#include "frame/frameshader.h"
-#include "frame/framepass.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grassheightmap.h"
+#include "Nebuladevice/addons/vegetation/grassrenderer.h"
+#include "Nebuladevice/render/frame/frameserver.h"
+#include "Nebuladevice/render/frame/frameshader.h"
+#include "Nebuladevice/render/frame/framepass.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
 #include "internalgraphics/simplestagebuilder.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 namespace Vegetation
 {

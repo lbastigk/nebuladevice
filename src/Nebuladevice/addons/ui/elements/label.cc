@@ -2,8 +2,8 @@
 //  label.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "label.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/elements/label.h"
 
 namespace UI
 {

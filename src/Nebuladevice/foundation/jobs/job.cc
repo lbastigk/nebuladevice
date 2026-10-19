@@ -2,8 +2,8 @@
 //  job.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "jobs/job.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/jobs/job.h"
 
 namespace Jobs
 {

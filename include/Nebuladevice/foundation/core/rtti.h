@@ -11,11 +11,11 @@
 
     (C) 2006 RadonLabs GmbH
 */
-#include "core/types.h"
-#include "core/factory.h"
-#include "core/sysfunc.h"
-#include "util/string.h"
-#include "util/fourcc.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/fourcc.h"
 
 //------------------------------------------------------------------------------
 namespace Core
@@ -121,7 +121,7 @@ Rtti::GetInstanceSize() const
     return this->instanceSize;
 }
 
-#include "core/rttimacros.h"
+#include "Nebuladevice/foundation/core/rttimacros.h"
 
 }  // namespace Core
 //------------------------------------------------------------------------------

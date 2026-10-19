@@ -8,11 +8,11 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "characters/characterskeleton.h"
-#include "characters/characterskinlibrary.h"
-#include "characters/characteranimationlibrary.h"
-#include "characters/charactervariationlibrary.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/characters/characterskeleton.h"
+#include "Nebuladevice/render/characters/characterskinlibrary.h"
+#include "Nebuladevice/render/characters/characteranimationlibrary.h"
+#include "Nebuladevice/render/characters/charactervariationlibrary.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

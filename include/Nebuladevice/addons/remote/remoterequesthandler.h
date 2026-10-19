@@ -15,13 +15,13 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "remote/remoterequest.h"
-#include "io/uri.h"
-#include "io/stream.h"
-#include "util/string.h"
-#include "util/stringatom.h"
-#include "threading/safequeue.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/remote/remoterequest.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/threading/safequeue.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

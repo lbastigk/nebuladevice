@@ -2,9 +2,9 @@
 //  shadersamplermanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shadersamplermanager.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shadersamplermanager.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Tools
 {

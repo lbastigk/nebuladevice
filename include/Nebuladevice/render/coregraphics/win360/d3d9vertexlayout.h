@@ -7,7 +7,7 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "coregraphics/base/vertexlayoutbase.h"
+#include "Nebuladevice/render/coregraphics/base/vertexlayoutbase.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

@@ -2,11 +2,11 @@
 //  distributedtesttoolapp.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "distributedtesttoolapp.h"
-#include "io/ioserver.h"
-#include "io/uri.h"
-#include "io/assignregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtesttool/distributedtesttoolapp.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
 
 using namespace IO;
 //------------------------------------------------------------------------------

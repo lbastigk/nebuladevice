@@ -9,10 +9,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "app/consoleapplication.h"
-#include "toolkitutil/projectinfo.h"
-#include "toolkitutil/platform.h"
-#include "toolkitutil/logger.h"
+#include "Nebuladevice/foundation/app/consoleapplication.h"
+#include "Nebuladevice/toolkit/toolkitutil/projectinfo.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/toolkit/toolkitutil/logger.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

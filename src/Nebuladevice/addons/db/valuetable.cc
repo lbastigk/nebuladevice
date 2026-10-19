@@ -2,8 +2,8 @@
 //  valuetable.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/valuetable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/valuetable.h"
 
 namespace Db
 {

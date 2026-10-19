@@ -2,13 +2,13 @@
 //  uirendermodule.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/uirendermodule.h"
-#include "ui/rt/coreuirtplugin.h"
-#include "ui/uimanager.h"
-#include "ui/uirenderer.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicsprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/uirendermodule.h"
+#include "Nebuladevice/addons/ui/rt/coreuirtplugin.h"
+#include "Nebuladevice/addons/ui/uimanager.h"
+#include "Nebuladevice/addons/ui/uirenderer.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
 
 namespace UI
 {

@@ -2,10 +2,10 @@
 //  ui/elements/canvas.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/elements/canvas.h"
-#include "ui/elements/window.h"
-#include "ui/uimanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/elements/canvas.h"
+#include "Nebuladevice/addons/ui/elements/window.h"
+#include "Nebuladevice/addons/ui/uimanager.h"
 
 namespace UI
 {

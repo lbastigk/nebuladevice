@@ -2,14 +2,14 @@
 //  texturepagehandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/debug/texturepagehandler.h"
-#include "coregraphics/texture.h"
-#include "http/html/htmlpagewriter.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/streamtexturesaver.h"
-#include "io/ioserver.h"
-#include "coregraphics/imagefileformat.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/debug/texturepagehandler.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/streamtexturesaver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/render/coregraphics/imagefileformat.h"
 
 namespace Debug
 {

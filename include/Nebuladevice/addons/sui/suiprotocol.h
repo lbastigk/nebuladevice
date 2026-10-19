@@ -4,13 +4,13 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "util/array.h"
-#include "util/stringatom.h"
-#include "resources/resourceid.h"
-#include "input/inputevent.h"
-#include "sui/suievent.h"
-#include "sui/suiactions.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/input/inputevent.h"
+#include "Nebuladevice/addons/sui/suievent.h"
+#include "Nebuladevice/addons/sui/suiactions.h"
 
 //------------------------------------------------------------------------------
 namespace SUI

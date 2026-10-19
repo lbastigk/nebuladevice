@@ -2,8 +2,8 @@
 //  win360calendartime.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "timing/calendartime.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/timing/calendartime.h"
 
 namespace Win360
 {

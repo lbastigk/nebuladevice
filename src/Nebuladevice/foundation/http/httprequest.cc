@@ -2,8 +2,8 @@
 //  httprequest.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httprequest.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httprequest.h"
 
 namespace Http
 {

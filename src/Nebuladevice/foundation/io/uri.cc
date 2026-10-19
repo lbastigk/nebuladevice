@@ -2,11 +2,11 @@
 //  uri.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/uri.h"
-#include "io/ioserver.h"
-#include "io/fswrapper.h"
-#include "core/config.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/fswrapper.h"
+#include "Nebuladevice/foundation/core/config.h"
 
 namespace IO
 {

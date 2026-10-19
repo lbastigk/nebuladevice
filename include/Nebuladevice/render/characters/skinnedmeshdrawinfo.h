@@ -22,7 +22,7 @@ struct SkinnedMeshDrawInfo : public PS3::PS3SkinnedMeshDrawInfo
 { };
 }
 #elif (__WIN32__ || __XBOX360__)
-#include "characters/base/skinnedmeshdrawinfobase.h"
+#include "Nebuladevice/render/characters/base/skinnedmeshdrawinfobase.h"
 namespace Characters
 {
 struct SkinnedMeshDrawInfo : public Base::SkinnedMeshDrawInfoBase

@@ -22,7 +22,7 @@ begintarget audio2_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;../extlibs/fmod/win32;../extlibs/fmoddesignerapi/win32"
+    setincpath_win32 "../foundation;../render;../external;../addons;../external/fmod/win32;../external/fmoddesignerapi/win32"
     setdepends {
         audio2_nidls_win32
     }
@@ -35,7 +35,7 @@ begintarget db_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;"    
+    setincpath_win32 "../foundation;../render;../external;../addons;"    
     setclusters { db db/sqlite3 }
 endtarget
 
@@ -43,7 +43,7 @@ begintarget physics_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs;../extlibs/ode;../addons;../render;../extlibs/opcode;../extlibs/ode/ode"    
+    setincpath_win32 "../foundation;../external;../external/ode;../addons;../render;../external/opcode;../external/ode/ode"    
     setclusters { physics }
 endtarget
 
@@ -59,7 +59,7 @@ begintarget scripting_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs;../addons;"
+    setincpath_win32 "../foundation;../external;../addons;"
     setdepends {
         scripting_nidls_win32
     }
@@ -80,7 +80,7 @@ begintarget remote_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs;../addons;"
+    setincpath_win32 "../foundation;../external;../addons;"
     setdepends {
         remote_nidls_win32
     }    
@@ -101,7 +101,7 @@ begintarget sui_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;"
+    setincpath_win32 "../foundation;../render;../external;../addons;"
     setdepends {
         sui_nidls_win32
     }
@@ -122,7 +122,7 @@ begintarget ui_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;../application;"
+    setincpath_win32 "../foundation;../render;../external;../addons;../application;"
     setdepends {
         ui_nidls_win32
     }
@@ -143,7 +143,7 @@ begintarget vibration_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs;../render;../addons;"
+    setincpath_win32 "../foundation;../external;../render;../addons;"
     setdepends {
         vibration_nidls_win32
     }
@@ -164,7 +164,7 @@ begintarget network_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../network;../addons;../addons/network;../application;../render;../application/basegamefeature;../extlibs;"
+    setincpath_win32 "../foundation;../network;../addons;../addons/network;../application;../render;../application/basegamefeature;../external;"
     setdepends {
         network_nidls_win32
         tinyxml_win32
@@ -195,7 +195,7 @@ begintarget video_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;"
+    setincpath_win32 "../foundation;../render;../external;../addons;"
     setdepends {
         video_nidls_win32
     }
@@ -216,7 +216,7 @@ begintarget fx_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;../application;../application/basegamefeature;"
+    setincpath_win32 "../foundation;../render;../external;../addons;../application;../application/basegamefeature;"
     setdepends {
         fx_nidls_win32
     }
@@ -237,7 +237,7 @@ begintarget posteffect_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../render;../extlibs;../addons;../application;../application/basegamefeature;../application/graphicsfeature;"
+    setincpath_win32 "../foundation;../render;../external;../addons;../application;../application/basegamefeature;../application/graphicsfeature;"
     setdepends {
         posteffect_nidls_win32
     }
@@ -258,7 +258,7 @@ begintarget framecapture_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs;../render;../addons;"
+    setincpath_win32 "../foundation;../external;../render;../addons;"
     setdepends {
         framecapture_nidls_win32
     }
@@ -271,7 +271,7 @@ begintarget nebula2_addons_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../../../radonlabs/code/nebula2/src;../addons;../extlibs"    
+    setincpath_win32 "../foundation;../../../radonlabs/code/nebula2/src;../addons;../external"    
     setclusters { nebula2 }
 endtarget
 
@@ -287,7 +287,7 @@ begintarget forest_win32
     settype lib
     setbasedir addons
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs;../render;../addons;"
+    setincpath_win32 "../foundation;../external;../render;../addons;"
     setdepends {
         forest_nidls_win32
     }

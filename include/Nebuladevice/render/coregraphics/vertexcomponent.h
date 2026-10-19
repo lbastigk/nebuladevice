@@ -8,7 +8,7 @@
     (C) 2006 Radon Labs GmbH
 */    
 #if (__WIN32__ || __XBOX360__ || __WII__)
-#include "coregraphics/base/vertexcomponentbase.h"
+#include "Nebuladevice/render/coregraphics/base/vertexcomponentbase.h"
 namespace CoreGraphics
 {
 class VertexComponent : public Base::VertexComponentBase

@@ -2,8 +2,8 @@
 //  managedanimresource.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/managedanimresource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/managedanimresource.h"
 
 namespace CoreAnimation
 {

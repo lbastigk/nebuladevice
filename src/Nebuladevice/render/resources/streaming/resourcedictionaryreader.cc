@@ -2,13 +2,13 @@
 //  resourcedictionaryreader.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resourcedictionaryreader.h"
-#include "util/string.h"
-#include "io/ioserver.h"
-#include "io/stream.h"
-#include "io/binaryreader.h"
-#include "toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/resourcedictionaryreader.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
 
 namespace Resources
 {

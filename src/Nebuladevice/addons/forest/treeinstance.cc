@@ -2,10 +2,10 @@
 //  treeinstance.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/treeinstance.h"
-#include "forest/tree.h"
-#include "forest/rt/forestserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/treeinstance.h"
+#include "Nebuladevice/addons/forest/tree.h"
+#include "Nebuladevice/addons/forest/rt/forestserver.h"
 
 namespace Forest
 {

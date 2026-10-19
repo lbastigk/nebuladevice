@@ -2,21 +2,21 @@
 //  internalgraphicsserver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalview.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/displaydevice.h"
-#include "coregraphics/shaperenderer.h"
-#include "lighting/internalgloballightentity.h"
-#include "internalgraphics/attachmentserver.h"
-#include "coregraphics/shadersemantics.h"
-#include "lighting/lightserver.h"
-#include "characters/characterserver.h"
-#include "framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/render/lighting/internalgloballightentity.h"
+#include "Nebuladevice/render/internalgraphics/attachmentserver.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
+#include "Nebuladevice/render/lighting/lightserver.h"
+#include "Nebuladevice/render/characters/characterserver.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
 
 namespace InternalGraphics
 {

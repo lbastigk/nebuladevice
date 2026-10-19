@@ -11,7 +11,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "attr/attributetable.h"
+#include "Nebuladevice/addons/attr/attributetable.h"
 
 //------------------------------------------------------------------------------
 namespace Db

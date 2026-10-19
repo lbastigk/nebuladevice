@@ -8,7 +8,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if __WIN32__
-#include "input/win32/win32mouse.h"
+#include "Nebuladevice/render/input/win32/win32mouse.h"
 namespace Input
 {
 class Mouse : public Win32::Win32Mouse
@@ -35,7 +35,7 @@ class Mouse : public Wii::WiiMouse
 };
 }
 #elif __PS3__
-#include "input/base/mousebase.h"
+#include "Nebuladevice/render/input/base/mousebase.h"
 namespace Input
 {
 class Mouse : public Base::MouseBase

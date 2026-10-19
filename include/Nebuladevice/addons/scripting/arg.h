@@ -9,7 +9,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "util/variant.h"
+#include "Nebuladevice/foundation/util/variant.h"
 
 //------------------------------------------------------------------------------
 namespace Scripting

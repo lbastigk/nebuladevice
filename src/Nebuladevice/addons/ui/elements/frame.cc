@@ -2,8 +2,8 @@
 //  frame.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/elements/frame.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/elements/frame.h"
 
 namespace UI
 {

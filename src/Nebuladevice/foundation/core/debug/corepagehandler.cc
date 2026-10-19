@@ -2,11 +2,11 @@
 //  corepagehandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/debug/corepagehandler.h"
-#include "http/html/htmlpagewriter.h"
-#include "system/systeminfo.h"
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/debug/corepagehandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/system/systeminfo.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 namespace Debug
 {

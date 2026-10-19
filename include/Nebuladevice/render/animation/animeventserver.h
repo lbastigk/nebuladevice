@@ -13,9 +13,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "messaging/handler.h"
-#include "core/singleton.h"
-#include "animation/animeventhandlerbase.h"
+#include "Nebuladevice/foundation/messaging/handler.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/animation/animeventhandlerbase.h"
 
 //------------------------------------------------------------------------------
 namespace Animation

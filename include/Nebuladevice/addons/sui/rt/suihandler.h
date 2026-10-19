@@ -7,8 +7,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "sui/suiprotocol.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/addons/sui/suiprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace SUI

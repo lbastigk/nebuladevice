@@ -2,8 +2,8 @@
 //  idldependency.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkit/idlcompiler/idldependency.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/idlcompiler/idldependency.h"
 
 namespace Tools
 {

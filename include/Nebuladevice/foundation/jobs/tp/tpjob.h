@@ -7,10 +7,10 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "jobs/base/jobbase.h"
-#include "jobs/tp/tpjobslice.h"
-#include "util/fixedarray.h"
-#include "threading/event.h"
+#include "Nebuladevice/foundation/jobs/base/jobbase.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobslice.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/foundation/threading/event.h"
 
 //------------------------------------------------------------------------------
 namespace Jobs

@@ -3,9 +3,9 @@
 /**
     A NetStream is a bitstream with a associated MessageId.
 */
-#include "foundation/io/stream.h"
-#include "messaging/message.h"
-#include "internalmultiplayer/packetid.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/packetid.h"
 
 namespace Base
 {

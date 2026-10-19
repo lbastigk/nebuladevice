@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/managedresource.h"
-#include "coregraphics/mesh.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/render/coregraphics/mesh.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

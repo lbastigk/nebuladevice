@@ -2,11 +2,11 @@
 //  graphicsentity.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsentity.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/stage.h"
-#include "shared/graphics/graphicsentityshared.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsentity.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/render/shared/graphics/graphicsentityshared.h"
 
 namespace Graphics
 {

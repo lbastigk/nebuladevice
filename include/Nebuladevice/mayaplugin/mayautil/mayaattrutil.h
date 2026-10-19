@@ -7,8 +7,8 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "mayautil/mayaattrtype.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayaattrtype.h"
 #include <maya/MObject.h>
 #include <maya/MString.h>
 #include <maya/MPlug.h>

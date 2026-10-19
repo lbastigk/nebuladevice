@@ -7,8 +7,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "io/uri.h"
-#include "toolkitutil/animutil/animbuilder.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuilder.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

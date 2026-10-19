@@ -5,10 +5,10 @@
 
 #define __CELL_ASSERT__  (1)
 
-#include "jobs/stdjob.h"
-#include "math/float4.h"
-#include "math/matrix44.h"
-#include "particles/particle.h"
+#include "Nebuladevice/foundation/jobs/stdjob.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/render/particles/particle.h"
 
 #if __NEBULA_NO_ASSERT__
 #define ASSERT_POINT(p)

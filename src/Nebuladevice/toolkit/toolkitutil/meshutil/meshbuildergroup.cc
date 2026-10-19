@@ -2,8 +2,8 @@
 //  meshbuildergroup.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/meshutil/meshbuildergroup.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/meshutil/meshbuildergroup.h"
 
 namespace ToolkitUtil
 {

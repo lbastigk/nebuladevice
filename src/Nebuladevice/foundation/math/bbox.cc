@@ -2,8 +2,8 @@
 //  bbox.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "math/bbox.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/math/bbox.h"
 
 namespace Math
 {

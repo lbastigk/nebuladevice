@@ -7,9 +7,9 @@
  
     (C) 2010 Radon Labs GmbH
  */
-#include "core/config.h"
-#include "core/debug.h"
-#include "memory/osx/osxmemoryconfig.h"
+#include "Nebuladevice/foundation/core/config.h"
+#include "Nebuladevice/foundation/core/debug.h"
+#include "Nebuladevice/foundation/memory/osx/osxmemoryconfig.h"
 
 namespace Memory
 {

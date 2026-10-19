@@ -2,11 +2,11 @@
 //  luaserver.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scripting/lua/luaserver.h"
-#include "scripting/command.h"
-#include "scripting/argsblock.h"
-#include "io/console.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/scripting/lua/luaserver.h"
+#include "Nebuladevice/addons/scripting/command.h"
+#include "Nebuladevice/addons/scripting/argsblock.h"
+#include "Nebuladevice/foundation/io/console.h"
 #include "lua/lualib.h"
 
 namespace Scripting

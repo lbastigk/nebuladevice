@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "util/string.h"
-#include "parambase.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/addons/posteffect/rt/params/parambase.h"
 
 //------------------------------------------------------------------------------
 namespace PostEffect

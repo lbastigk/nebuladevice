@@ -8,8 +8,8 @@
 
     (C) 2003 RadonLabs GmbH
 */
-#include "physics/joint.h"
-#include "math/vector.h"
+#include "Nebuladevice/addons/physics/joint.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

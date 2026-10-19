@@ -2,13 +2,13 @@
 //  iopagehandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/debug/iopagehandler.h"
-#include "http/html/htmlpagewriter.h"
-#include "io/ioserver.h"
-#include "io/archfs/archivefilesystem.h"
-#include "io/archfs/archive.h"
-#include "io/console.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/debug/iopagehandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/archfs/archivefilesystem.h"
+#include "Nebuladevice/foundation/io/archfs/archive.h"
+#include "Nebuladevice/foundation/io/console.h"
 
 namespace Debug
 {

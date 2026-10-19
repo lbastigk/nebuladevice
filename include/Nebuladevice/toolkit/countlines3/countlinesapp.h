@@ -7,7 +7,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "app/consoleapplication.h"
+#include "Nebuladevice/foundation/app/consoleapplication.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

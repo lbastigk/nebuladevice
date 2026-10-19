@@ -2,15 +2,15 @@
 //  transformnodeinstance.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/modelinstance.h"
-#include "models/nodes/transformnodeinstance.h"
-#include "models/nodes/transformnode.h"
-#include "coregraphics/transformdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/models/nodes/transformnodeinstance.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
+#include "Nebuladevice/render/coregraphics/transformdevice.h"
 
 // debug rendering
-#include "threading/thread.h"
-#include "coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
 
 namespace Models
 {

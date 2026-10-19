@@ -8,10 +8,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "io/console.h"
-#include "debug/debugserver.h"
-#include "http/httpserverproxy.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
+#include "Nebuladevice/foundation/http/httpserverproxy.h"
 
 //---------
 namespace Debug

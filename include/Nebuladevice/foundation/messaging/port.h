@@ -18,10 +18,10 @@
 
     (C) 2006 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "messaging/message.h"
-#include "messaging/handler.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/messaging/handler.h"
 
 //------------------------------------------------------------------------------
 namespace Messaging

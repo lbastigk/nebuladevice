@@ -2,8 +2,8 @@
 //  animeventhandlerbase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "animation/animeventhandlerbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/animation/animeventhandlerbase.h"
 
 namespace Animation
 {

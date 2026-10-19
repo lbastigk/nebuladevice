@@ -2,11 +2,11 @@
 //  stringatompagehandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/debug/stringatompagehandler.h"
-#include "http/html/htmlpagewriter.h"
-#include "util/globalstringatomtable.h"
-#include "math/scalar.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/debug/stringatompagehandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/util/globalstringatomtable.h"
+#include "Nebuladevice/foundation/math/scalar.h"
 
 namespace Debug
 {

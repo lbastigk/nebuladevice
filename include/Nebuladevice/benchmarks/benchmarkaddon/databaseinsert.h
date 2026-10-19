@@ -8,9 +8,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "benchmarkbase/benchmark.h"
-#include "addons/db/database.h"
-#include "util/fixedarray.h"
+#include "Nebuladevice/benchmarks/benchmarkbase/benchmark.h"
+#include "Nebuladevice/addons/db/database.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
 
 //------------------------------------------------------------------------------
 namespace Benchmarking

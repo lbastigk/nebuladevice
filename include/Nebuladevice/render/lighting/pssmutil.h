@@ -8,11 +8,11 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "math/matrix44.h"
-#include "math/vector.h"
-#include "math/bbox.h"
-#include "util/fixedarray.h"
-#include "internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
 
 // fixme: maybe put it in a more central file
 #ifndef FLT_MAX

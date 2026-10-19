@@ -2,9 +2,9 @@
 //  physics/universaljoint.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/universaljoint.h"
-#include "debugrender/debugshaperenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/universaljoint.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
 
 namespace Physics
 {

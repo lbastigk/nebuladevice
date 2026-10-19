@@ -2,10 +2,10 @@
 //  cameraentity.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/cameraentity.h"
-#include "graphics/display.h"
-#include "graphics/stage.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
+#include "Nebuladevice/render/graphics/display.h"
+#include "Nebuladevice/render/graphics/stage.h"
 
 namespace Graphics
 {

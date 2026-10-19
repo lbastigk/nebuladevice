@@ -9,9 +9,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "threading/safequeue.h"
-#include "messaging/message.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/threading/safequeue.h"
+#include "Nebuladevice/foundation/messaging/message.h"
 
 //------------------------------------------------------------------------------
 namespace Base

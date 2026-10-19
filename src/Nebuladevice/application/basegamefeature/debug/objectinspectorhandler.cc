@@ -2,13 +2,13 @@
 //  objectinspectorhandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "basegamefeature/debug/objectinspectorhandler.h"
-#include "http/html/htmlpagewriter.h"
-#include "basegamefeature/basegamefeatureunit.h"
-#include "managers/entitymanager.h"
-#include "http/html/htmlpagewriter.h"
-#include "basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/debug/objectinspectorhandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/application/basegamefeature/basegamefeatureunit.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
 
 namespace Debug
 {

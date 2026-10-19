@@ -2,9 +2,9 @@
 //  resourcelump.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/resourcelump.h"
-#include "resources/resource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/resourcelump.h"
+#include "Nebuladevice/render/resources/resource.h"
 
 namespace Resources
 {

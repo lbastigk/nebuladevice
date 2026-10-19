@@ -2,13 +2,13 @@
 //  mainframe.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mainframe.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/editor/ui/mainframe.h"
 #include "wx/wx.h"
 #include "wx/aui/aui.h"
-#include "createpanel.h"
-#include "terrainpanel.h"
-#include "displaypanel.h"
+#include "Nebuladevice/editor/ui/createpanel.h"
+#include "Nebuladevice/editor/ui/terrainpanel.h"
+#include "Nebuladevice/editor/ui/displaypanel.h"
 #include "CanvasPanel.h"
 #include "../app/editorapplication.h"
 

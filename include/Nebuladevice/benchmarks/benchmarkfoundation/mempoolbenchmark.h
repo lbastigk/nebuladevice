@@ -7,7 +7,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "benchmarkbase/benchmark.h"
+#include "Nebuladevice/benchmarks/benchmarkbase/benchmark.h"
 
 //------------------------------------------------------------------------------
 namespace Benchmarking

@@ -2,14 +2,14 @@
 //  charxmltodbapplication.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "charxmltodbapplication.h"
-#include "system/win32/win32registry.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/charxmltodb3/charxmltodbapplication.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
+#include "Nebuladevice/foundation/timing/time.h"
 #include "tinyxml/tinyxml.h"
-#include "io/ioserver.h"
-#include "io/filestream.h"
-#include "attributes.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/toolkit/charxmltodb3/attributes.h"
 
 using namespace System;
 using namespace Util;

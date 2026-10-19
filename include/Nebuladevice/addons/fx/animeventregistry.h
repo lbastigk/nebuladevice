@@ -11,15 +11,15 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "threading/criticalsection.h"
-#include "core/singleton.h"
-#include "util/stringatom.h"
-#include "util/dictionary.h"
-#include "timing/time.h"
-#include "internalgraphics/attachmentserver.h"
-#include "attr/attribute.h"
-#include "audio2/fmodeventid.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/internalgraphics/attachmentserver.h"
+#include "Nebuladevice/addons/attr/attribute.h"
+#include "Nebuladevice/addons/audio2/fmodeventid.h"
 
 namespace Attr
 {

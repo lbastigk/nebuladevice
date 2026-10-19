@@ -2,11 +2,11 @@
 //  PostEffecthandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "posteffect/rt/posteffecthandler.h"
-#include "io/memorystream.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "posteffect/rt/posteffectserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/posteffecthandler.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/addons/posteffect/rt/posteffectserver.h"
 
 namespace PostEffect
 {

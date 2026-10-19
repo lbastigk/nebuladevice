@@ -2,14 +2,14 @@
 // distributedjobserviceapp.cc
 // (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "distributedjobserviceapp.h"
-#include "timing/timer.h"
-#include "io/xmlwriter.h"
-#include "io/xmlreader.h"
-#include "io/memorystream.h"
-#include "distributedtools/distributedjobs/distributeddeletedirectorycontentjob.h"
-#include "net/messageclientconnection.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedjobservice/distributedjobserviceapp.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributeddeletedirectorycontentjob.h"
+#include "Nebuladevice/foundation/net/messageclientconnection.h"
 
 using namespace ToolkitUtil;
 using namespace Net;

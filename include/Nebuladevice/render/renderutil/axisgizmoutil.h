@@ -7,8 +7,8 @@
 
 	(C) 2011 xiongyouyi
 */
-#include "core/ptr.h"
-#include "io/memorystream.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
 
 
 //------------------------------------------------------------------------------

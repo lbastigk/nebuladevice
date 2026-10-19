@@ -8,11 +8,11 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/platform.h"
-#include "toolkitutil/n2converter.h"
-#include "toolkitutil/texutil/textureconverter.h"
-#include "toolkitutil/animutil/animconverter.h"
-#include "toolkitutil/projectinfo.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/toolkit/toolkitutil/n2converter.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureconverter.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animconverter.h"
+#include "Nebuladevice/toolkit/toolkitutil/projectinfo.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

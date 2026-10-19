@@ -2,24 +2,24 @@
 // streamingtexturepagehandler.cc
 // (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "streamingtexturepagehandler.h"
-#include "http/html/htmlpagewriter.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/pixelformat.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/streamingtexturepagehandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
 #if __WIN32__
-#include "resources/streaming/poolresourcemapper.h"
-#include "resources/streaming/resourcepool.h"
-#include "resources/streaming/textureinfo.h"
-#include "io/stream.h"
-#include "coregraphics/streamtexturesaver.h"
-#include "http/svg/svgpagewriter.h"
-#include "http/svg/svglinechartwriter.h"
-#include "io/ioserver.h"
-#include "io/xmlreader.h"
-#include "io/xmlwriter.h"
-#include "resources/resourceid.h"
+#include "Nebuladevice/render/resources/streaming/poolresourcemapper.h"
+#include "Nebuladevice/render/resources/streaming/resourcepool.h"
+#include "Nebuladevice/render/resources/streaming/textureinfo.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/render/coregraphics/streamtexturesaver.h"
+#include "Nebuladevice/foundation/http/svg/svgpagewriter.h"
+#include "Nebuladevice/foundation/http/svg/svglinechartwriter.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/render/resources/resourceid.h"
 #endif
 
 namespace Debug

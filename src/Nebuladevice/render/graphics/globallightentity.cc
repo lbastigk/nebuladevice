@@ -2,9 +2,9 @@
 //  globallightentity.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/globallightentity.h"
-#include "graphics/stage.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/globallightentity.h"
+#include "Nebuladevice/render/graphics/stage.h"
 
 namespace Graphics
 {

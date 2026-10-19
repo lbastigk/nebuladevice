@@ -2,9 +2,9 @@
 //  debugtimer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debug/debugtimer.h"
-#include "debug/debugserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
 
 namespace Debug
 {

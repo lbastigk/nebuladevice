@@ -8,9 +8,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "audio2/fmodpitchunit.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/audio2/fmodpitchunit.h"
 
 namespace Audio2 { class Audio2Emitter; 
                    class Audio2Listener; 

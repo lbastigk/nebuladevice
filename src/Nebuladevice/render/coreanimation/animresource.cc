@@ -2,8 +2,8 @@
 //  animresource.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/animresource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
 
 namespace CoreAnimation
 {

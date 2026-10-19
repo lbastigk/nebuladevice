@@ -2,9 +2,9 @@
 //  synctool3.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "synctoolapp.h"
-#include "util/globalstringatomtable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/synctool3/synctoolapp.h"
+#include "Nebuladevice/foundation/util/globalstringatomtable.h"
 
 //------------------------------------------------------------------------------
 /**

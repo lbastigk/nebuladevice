@@ -7,9 +7,9 @@
     (C) 2009 Radon Labs GmbH
 */
 
-#include "forest/rt/foresthandler.h"
-#include "forest/rt/forestserver.h"
-#include "rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/addons/forest/rt/foresthandler.h"
+#include "Nebuladevice/addons/forest/rt/forestserver.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
 
 namespace Forest
 {

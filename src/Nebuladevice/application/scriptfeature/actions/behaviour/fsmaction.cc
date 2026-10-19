@@ -2,8 +2,8 @@
 //  fsmaction.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/actions/behaviour/fsmaction.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/actions/behaviour/fsmaction.h"
 
 namespace Actions
 {

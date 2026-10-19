@@ -2,8 +2,8 @@
 //  osxthread.cc
 //  (C) 2010 Radon Labs GmbH
 //-------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "osxthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/threading/osx/osxthread.h"
 
 namespace OSX
 {

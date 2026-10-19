@@ -2,13 +2,13 @@
 // framecapturertplugin.cc
 // (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "framecapturertplugin.h"
-#include "framecaptureserver.h"
-#include "framecapturehandler.h"
-#include "framecapturepagehandler.h"
-#include "graphics/graphicsinterface.h"
-#include "http/httpserverproxy.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/framecapture/rt/framecapturertplugin.h"
+#include "Nebuladevice/addons/framecapture/rt/framecaptureserver.h"
+#include "Nebuladevice/addons/framecapture/rt/framecapturehandler.h"
+#include "Nebuladevice/addons/framecapture/rt/framecapturepagehandler.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/http/httpserverproxy.h"
 
 using namespace Graphics;
 using namespace Http;

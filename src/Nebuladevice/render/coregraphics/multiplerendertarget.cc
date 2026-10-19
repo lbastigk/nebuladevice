@@ -2,8 +2,8 @@
 //  multiplerendertarget.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/multiplerendertarget.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/multiplerendertarget.h"
 #if (__WIN32__ || __XBOX360__)
 namespace CoreGraphics
 {

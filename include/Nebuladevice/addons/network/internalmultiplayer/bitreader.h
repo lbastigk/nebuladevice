@@ -14,13 +14,13 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "io/binaryreader.h"
-#include "system/byteorder.h"
-#include "util/blob.h"
-#include "util/guid.h"
-#include "internalmultiplayer/packetid.h"
-#include "timing/time.h"
-#include "internalmultiplayer/netstream.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
+#include "Nebuladevice/foundation/util/blob.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/packetid.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/netstream.h"
 
 //------------------------------------------------------------------------------
 namespace InternalMultiplayer

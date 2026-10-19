@@ -8,11 +8,11 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "attr/attrid.h"
-#include "addons/db/column.h"
-#include "addons/db/valuetable.h"
-#include "addons/db/database.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/attr/attrid.h"
+#include "Nebuladevice/addons/db/column.h"
+#include "Nebuladevice/addons/db/valuetable.h"
+#include "Nebuladevice/addons/db/database.h"
 
 //------------------------------------------------------------------------------
 namespace Db

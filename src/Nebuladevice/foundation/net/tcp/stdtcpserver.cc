@@ -2,9 +2,9 @@
 //  stdtcperver.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/tcp/stdtcpserver.h"
-#include "io/console.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/tcp/stdtcpserver.h"
+#include "Nebuladevice/foundation/io/console.h"
 
 namespace Net
 {

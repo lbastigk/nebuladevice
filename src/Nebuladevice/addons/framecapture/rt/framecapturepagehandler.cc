@@ -2,13 +2,13 @@
 // framecapturepagehandler.cc
 // (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "framecapture/rt/framecapturepagehandler.h"
-#include "framecapture/rt/framecaptureserver.h"
-#include "framecapture/framecaptureprotocol.h"
-#include "http/html/htmlpagewriter.h"
-#include "graphics/graphicsinterface.h"
-#include "io//assignregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/framecapture/rt/framecapturepagehandler.h"
+#include "Nebuladevice/addons/framecapture/rt/framecaptureserver.h"
+#include "Nebuladevice/addons/framecapture/framecaptureprotocol.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/io//assignregistry.h"
 
 namespace FrameCapture
 {

@@ -2,9 +2,9 @@
 //  physics/joint.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/joint.h"
-#include "physics/rigidbody.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/joint.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
 
 namespace Physics
 {

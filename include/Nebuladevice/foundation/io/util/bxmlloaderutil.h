@@ -13,9 +13,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "io/util/bxmlfilestructs.h"
-#include "util/array.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/io/util/bxmlfilestructs.h"
+#include "Nebuladevice/foundation/util/array.h"
 
 //------------------------------------------------------------------------------
 namespace IO

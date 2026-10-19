@@ -2,10 +2,10 @@
 //  bxmlreader.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
 // N3 includes
-#include "io/bxmlreader.h"
+#include "Nebuladevice/foundation/io/bxmlreader.h"
 
 // N2 includes
 #include "mathlib/vector.h"

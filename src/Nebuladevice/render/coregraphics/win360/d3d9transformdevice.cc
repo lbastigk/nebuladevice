@@ -2,11 +2,11 @@
 //  d3d9transformdevice.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/win360/d3d9transformdevice.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/displaydevice.h"
-#include "coregraphics/shadersemantics.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9transformdevice.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
 
 namespace Win360
 {

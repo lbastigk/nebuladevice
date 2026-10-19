@@ -8,7 +8,7 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "audio2/fmodeventprojectid.h"
+#include "Nebuladevice/addons/audio2/fmodeventprojectid.h"
 
 //------------------------------------------------------------------------------
 namespace Audio2

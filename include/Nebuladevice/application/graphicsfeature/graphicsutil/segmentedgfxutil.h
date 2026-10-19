@@ -10,7 +10,7 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "graphics/modelentity.h"
+#include "Nebuladevice/render/graphics/modelentity.h"
 
 //------------------------------------------------------------------------------
 namespace GraphicsFeature

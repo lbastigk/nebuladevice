@@ -2,9 +2,9 @@
 //  httpnzstream.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httpnzstream.h"
-#include "http/httpclientregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httpnzstream.h"
+#include "Nebuladevice/foundation/http/httpclientregistry.h"
 #include "zlib/zlib.h"
 
 // HttpStream not implemented on Wii

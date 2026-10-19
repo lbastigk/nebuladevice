@@ -11,11 +11,11 @@
         
     (C) 2007 Radon Labs GmbH
 */
-#include "lighting/base/shadowserverbase.h"
-#include "frame/frameshader.h"
-#include "frame/frameposteffect.h"
-#include "coregraphics/rendertarget.h"
-#include "lighting/pssmutil.h"
+#include "Nebuladevice/render/lighting/base/shadowserverbase.h"
+#include "Nebuladevice/render/frame/frameshader.h"
+#include "Nebuladevice/render/frame/frameposteffect.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/lighting/pssmutil.h"
 
 //------------------------------------------------------------------------------
 namespace Lighting

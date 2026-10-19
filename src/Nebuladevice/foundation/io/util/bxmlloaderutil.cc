@@ -2,9 +2,9 @@
 //  bxmlloaderutil.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/util/bxmlloaderutil.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/util/bxmlloaderutil.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 namespace IO
 {

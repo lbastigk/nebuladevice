@@ -9,13 +9,13 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/string.h"
-#include "util/array.h"
-#include "util/stringatom.h"
-#include "math/vector.h"
-#include "math/point.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 #include <maya/MString.h>
 #include <maya/MStringArray.h>
 #include <maya/MIntArray.h>

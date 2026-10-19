@@ -2,9 +2,9 @@
 //  stdtcpclient.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/tcp/stdtcpclient.h"
-#include "io/memorystream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/tcp/stdtcpclient.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
 
 namespace Net
 {

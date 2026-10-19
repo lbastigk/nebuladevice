@@ -10,7 +10,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "toolkitutil/assetregistry.h"
+#include "Nebuladevice/toolkit/toolkitutil/assetregistry.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

@@ -9,8 +9,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "jobs/job.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/jobs/job.h"
 
 //------------------------------------------------------------------------------
 namespace Base

@@ -3,8 +3,8 @@
 /**
     A NetStream is a bitstream with a associated MessageId.
 */
-#include "internalmultiplayer/base/netstreambase.h"
-#include "extlibs/raknet/bitstream.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/netstreambase.h"
+#include "raknet/bitstream.h"
 
 namespace RakNet
 {

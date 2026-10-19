@@ -2,22 +2,22 @@
 //  properties/lightproperty.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/lightproperty.h"
-#include "core/factory.h"
-#include "game/entity.h"
-#include "basegameattr/basegameattributes.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/stage.h"
-#include "basegameprotocol.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "graphics/spotlightentity.h"
-#include "graphics/globallightentity.h"
-#include "graphics/pointlightentity.h"
-#include "math/polar.h"
-#include "graphicsattr/graphicsattributes.h"
-#include "physicsattr/physicsattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/lightproperty.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/render/graphics/spotlightentity.h"
+#include "Nebuladevice/render/graphics/globallightentity.h"
+#include "Nebuladevice/render/graphics/pointlightentity.h"
+#include "Nebuladevice/foundation/math/polar.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/application/physicsfeature/physicsattr/physicsattributes.h"
 
 
 namespace Attr

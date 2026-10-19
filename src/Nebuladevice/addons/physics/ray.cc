@@ -2,14 +2,14 @@
 //  physics/ray.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/ray.h"
-#include "physics/shape.h"
-#include "physics/rigidbody.h"
-#include "physics/physicsserver.h"
-#include "physics/level.h"
-#include "physics/meshshape.h"
-#include "physics/composite.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/ray.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/addons/physics/meshshape.h"
+#include "Nebuladevice/addons/physics/composite.h"
 
 namespace Physics
 {

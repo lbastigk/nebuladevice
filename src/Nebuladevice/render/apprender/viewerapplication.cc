@@ -2,16 +2,16 @@
 //  viewerapplication.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "apprender/viewerapplication.h"
-#include "visibility/visibilitysystems/visibilityquadtree.h"
-#include "visibility/visibilitysystems/visibilityclustersystem.h"
-#include "visibility/visibilitysystems/visibilityboxsystem.h"
-#include "graphics/view.h"
-#include "input/keyboard.h"
-#include "input/mouse.h"
-#include "input/gamepad.h"
-#include "internalgraphics/internalview.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/apprender/viewerapplication.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityquadtree.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityclustersystem.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityboxsystem.h"
+#include "Nebuladevice/render/graphics/view.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/mouse.h"
+#include "Nebuladevice/render/input/gamepad.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
 
 namespace App
 {

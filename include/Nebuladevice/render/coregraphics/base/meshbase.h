@@ -9,10 +9,10 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "resources/resource.h"
-#include "coregraphics/vertexbuffer.h"
-#include "coregraphics/indexbuffer.h"
-#include "coregraphics/primitivegroup.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/indexbuffer.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
 
 //------------------------------------------------------------------------------
 namespace Base

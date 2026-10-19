@@ -10,9 +10,9 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "models/nodes/statenode.h"
-#include "resources/managedmesh.h"
-#include "resources/resourceloader.h"
+#include "Nebuladevice/render/models/nodes/statenode.h"
+#include "Nebuladevice/render/resources/managedmesh.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
 
 //------------------------------------------------------------------------------
 namespace Models

@@ -2,18 +2,18 @@
 //  sysfunc.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/win32/win32sysfunc.h"
-#include "core/refcounted.h"
-#include "debug/minidump.h"
-#include "util/blob.h"
-#include "util/guid.h"
-#include "net/socket/socket.h"
-#include "debug/minidump.h"
-#include "threading/thread.h"
-#include "util/globalstringatomtable.h"
-#include "util/localstringatomtable.h"  
-#include "system/systeminfo.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/win32/win32sysfunc.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/debug/minidump.h"
+#include "Nebuladevice/foundation/util/blob.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/net/socket/socket.h"
+#include "Nebuladevice/foundation/debug/minidump.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/foundation/util/globalstringatomtable.h"
+#include "Nebuladevice/foundation/util/localstringatomtable.h"  
+#include "Nebuladevice/foundation/system/systeminfo.h"
 
 namespace Win32
 {

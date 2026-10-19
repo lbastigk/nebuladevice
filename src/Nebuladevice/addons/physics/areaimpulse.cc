@@ -2,8 +2,8 @@
 //  physics/areaimpulse.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/areaimpulse.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/areaimpulse.h"
 
 namespace Physics
 {

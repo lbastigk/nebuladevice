@@ -7,9 +7,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__WIN32__ || __XBOX360__ || __PS3__)
-#include "net/tcp/stdtcpclient.h"
+#include "Nebuladevice/foundation/net/tcp/stdtcpclient.h"
 namespace Net
 {
 class TcpClient : public StdTcpClient
@@ -19,7 +19,7 @@ class TcpClient : public StdTcpClient
 }
 #elif __WII__
 // only an empty stub on the Wii
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 namespace Net
 {
 class TcpClient : public Core::RefCounted

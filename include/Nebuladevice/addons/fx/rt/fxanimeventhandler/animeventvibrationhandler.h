@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "animation/animeventhandlerbase.h"
-#include "io/uri.h"
-#include "timing/timer.h"
+#include "Nebuladevice/render/animation/animeventhandlerbase.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/timing/timer.h"
 
 //------------------------------------------------------------------------------
 namespace FX

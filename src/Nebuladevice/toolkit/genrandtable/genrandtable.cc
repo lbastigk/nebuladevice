@@ -3,8 +3,8 @@
 //  A little command line tool to generate a random number table.
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "genrandtableapplication.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/genrandtable/genrandtableapplication.h"
 
 ImplementNebulaApplication();
 

@@ -7,7 +7,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/shaderserverbase.h"
+#include "Nebuladevice/render/coregraphics/base/shaderserverbase.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

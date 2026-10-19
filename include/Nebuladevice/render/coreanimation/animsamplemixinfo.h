@@ -8,9 +8,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "math/float4.h"
-#include "coreanimation/sampletype.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/render/coreanimation/sampletype.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

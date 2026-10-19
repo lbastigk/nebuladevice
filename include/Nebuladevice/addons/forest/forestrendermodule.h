@@ -7,11 +7,11 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/singleton.h"
-#include "rendermodules/rendermodule.h"
-#include "util/stringatom.h"
-#include "math/matrix44.h"
-#include "math/bbox.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/rendermodules/rendermodule.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/bbox.h"
 
 namespace Forest
 {

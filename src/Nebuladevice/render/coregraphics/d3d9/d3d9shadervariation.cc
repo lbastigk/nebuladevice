@@ -2,9 +2,9 @@
 //  d3d9shadervariation.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9shadervariation.h"
-#include "coregraphics/shaderserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9shadervariation.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
 
 namespace Direct3D9
 {

@@ -2,19 +2,19 @@
 //  posteffect/posteffectmanager.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "posteffect/posteffectmanager.h"
-#include "basegametiming/gametimesource.h"
-#include "basegamefeature/managers/enventitymanager.h"
-#include "basegametiming/systemtimesource.h"
-#include "posteffect/posteffectprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "posteffect/rt/posteffectserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/posteffectmanager.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/application/basegamefeature/managers/enventitymanager.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/systemtimesource.h"
+#include "Nebuladevice/addons/posteffect/posteffectprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/addons/posteffect/rt/posteffectserver.h"
 
-#include "input/key.h"
-#include "input/keyboard.h"
-#include "input/gamepad.h"
-#include "input/inputserver.h"
+#include "Nebuladevice/render/input/key.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/gamepad.h"
+#include "Nebuladevice/render/input/inputserver.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

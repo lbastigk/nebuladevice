@@ -2,14 +2,14 @@
 //  managers/entitymanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "game/entity.h"
-#include "game/gameserver.h"
-#include "basegameattr/basegameattributes.h"
-#include "managers/factorymanager.h"
-#include "managers/focusmanager.h"
-#include "managers/categorymanager.h"
-#include "managers/entitymanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/categorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
 
 namespace BaseGameFeature
 {

@@ -15,12 +15,12 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "math/matrix44.h"
-#include "math/float4.h"
-#include "coregraphics/primitivetopology.h"
-#include "coregraphics/indextype.h"
-#include "io/memorystream.h"
-#include "threading/threadid.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/render/coregraphics/primitivetopology.h"
+#include "Nebuladevice/render/coregraphics/indextype.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
 
 //------------------------------------------------------------------------------
 namespace CoreGraphics

@@ -8,7 +8,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "internalgraphics/internalgraphicsentitytype.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentitytype.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

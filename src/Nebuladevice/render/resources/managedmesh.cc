@@ -2,8 +2,8 @@
 //  managedmesh.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/managedmesh.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/managedmesh.h"
 
 namespace Resources
 {

@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "math/float4.h"
-#include "math/matrix44.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

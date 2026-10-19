@@ -8,8 +8,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "messaging/handlerthreadbase.h"
-#include "threading/safequeue.h"
+#include "Nebuladevice/foundation/messaging/handlerthreadbase.h"
+#include "Nebuladevice/foundation/threading/safequeue.h"
 
 //------------------------------------------------------------------------------
 namespace Messaging

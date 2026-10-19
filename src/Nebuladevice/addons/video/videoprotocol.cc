@@ -1,8 +1,8 @@
 //------------------------------------------------------------------------------
 //  MACHINE GENERATED, DON'T EDIT!
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "videoprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/video/videoprotocol.h"
 
 namespace Video
 {

@@ -20,13 +20,13 @@
     
     (C) 2007 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "math/bbox.h"
-#include "appgame/appconfig.h"
-#include "core/singleton.h"
-#include "game/featureunit.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 //------------------------------------------------------------------------------
 namespace Game

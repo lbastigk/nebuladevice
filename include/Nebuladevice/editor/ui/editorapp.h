@@ -8,7 +8,7 @@
 	(C) 2011 xiongyouyi
 */
 #include "wx/wx.h"
-#include "mainframe.h"
+#include "Nebuladevice/editor/ui/mainframe.h"
 
 
 

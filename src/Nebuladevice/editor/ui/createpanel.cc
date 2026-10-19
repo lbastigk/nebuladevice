@@ -2,15 +2,15 @@
 //  createpanel.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "createpanel.h"
-#include "editorapp.h"
-#include "canvaspanel.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/editor/ui/createpanel.h"
+#include "Nebuladevice/editor/ui/editorapp.h"
+#include "Nebuladevice/editor/ui/canvaspanel.h"
 #include "wx/wx.h"
 #include "wx/tglbtn.h"
-#include "util/string.h"
-#include "util/array.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 #include "../edittool/entitycreatetool.h"
 #include "../app/editorapplication.h"
 

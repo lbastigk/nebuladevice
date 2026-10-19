@@ -8,9 +8,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/resourceloader.h"
-#include "coregraphics/vertexcomponent.h"
-#include "coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/render/coregraphics/vertexcomponent.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
 
 //------------------------------------------------------------------------------
 namespace Base

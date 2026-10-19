@@ -7,9 +7,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "particles/particlerenderer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/particles/particlerenderer.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

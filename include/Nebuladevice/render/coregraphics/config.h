@@ -7,7 +7,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
+#include "Nebuladevice/foundation/core/types.h"
 
 //------------------------------------------------------------------------------
 #define NEBULA3_USEDIRECT3D9 (1)

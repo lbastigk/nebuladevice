@@ -2,9 +2,9 @@
 //  mempoolbenchmark.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mempoolbenchmark.h"
-#include "memory/memorypool.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/mempoolbenchmark.h"
+#include "Nebuladevice/foundation/memory/memorypool.h"
 
 namespace Benchmarking
 {

@@ -8,7 +8,7 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "distributedtools/distributedtoolkitapp.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedtoolkitapp.h"
 
 //------------------------------------------------------------------------------
 namespace DistributedTools

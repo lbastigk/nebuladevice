@@ -2,8 +2,8 @@
 //  managedresource.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/managedresource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/managedresource.h"
 
 namespace Resources
 {

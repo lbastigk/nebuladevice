@@ -7,7 +7,7 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/singleton.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 #if __WIN32__
 #include "video/bink/binkvideoserver.h"
 namespace Video
@@ -54,7 +54,7 @@ public:
 };
 } // namespace Video
 #elif __PS3__
-#include "video/base/videoserverbase.h"
+#include "Nebuladevice/addons/video/base/videoserverbase.h"
 namespace Video
 {
 class VideoServer : public Base::VideoServerBase

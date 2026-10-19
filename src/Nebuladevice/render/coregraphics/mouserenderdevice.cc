@@ -2,8 +2,8 @@
 //  mouserenderdevice.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/mouserenderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/mouserenderdevice.h"
 
 namespace CoreGraphics
 {

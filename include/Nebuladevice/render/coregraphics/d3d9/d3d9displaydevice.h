@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "coregraphics/win32/win32displaydevice.h"
+#include "Nebuladevice/render/coregraphics/win32/win32displaydevice.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

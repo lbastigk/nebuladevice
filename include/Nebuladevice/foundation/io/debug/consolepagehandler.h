@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "http/httprequesthandler.h"    
-#include "io/historyconsolehandler.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"    
+#include "Nebuladevice/foundation/io/historyconsolehandler.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

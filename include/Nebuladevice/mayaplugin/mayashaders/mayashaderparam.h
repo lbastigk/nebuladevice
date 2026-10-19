@@ -10,9 +10,9 @@
 
     (C) 2009 Radon Labs GmbH
 */    
-#include "core/types.h"
-#include "io/xmlreader.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Maya

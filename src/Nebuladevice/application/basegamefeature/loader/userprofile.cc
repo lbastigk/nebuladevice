@@ -2,13 +2,13 @@
 //  loader/userprofile.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "loader/userprofile.h"
-#include "loader/loaderserver.h"
-#include "io/ioserver.h"
-#include "io/xmlreader.h"
-#include "io/xmlwriter.h"
-#include "app/application.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/loader/userprofile.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/foundation/app/application.h"
 
 using namespace Util;
 

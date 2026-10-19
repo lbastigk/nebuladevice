@@ -2,10 +2,10 @@
 //  d3d9shader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9shader.h"
-#include "coregraphics/shaderinstance.h"
-#include "coregraphics/shader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9shader.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/coregraphics/shader.h"
 
 namespace Direct3D9
 {

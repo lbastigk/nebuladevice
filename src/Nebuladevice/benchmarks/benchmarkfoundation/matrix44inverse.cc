@@ -2,8 +2,8 @@
 //  matrix44inverse.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "matrix44inverse.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/matrix44inverse.h"
 
 namespace Benchmarking
 {

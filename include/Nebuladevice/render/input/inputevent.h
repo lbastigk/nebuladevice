@@ -9,11 +9,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "input/key.h"
-#include "input/char.h"
-#include "input/mousebutton.h"
-#include "math/float2.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/input/key.h"
+#include "Nebuladevice/render/input/char.h"
+#include "Nebuladevice/render/input/mousebutton.h"
+#include "Nebuladevice/foundation/math/float2.h"
 
 //------------------------------------------------------------------------------
 namespace Input

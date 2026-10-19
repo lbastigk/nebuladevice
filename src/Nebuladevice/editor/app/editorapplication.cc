@@ -2,16 +2,16 @@
 //  editorapplication.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "editorapplication.h"
-#include "basegamefeature/statehandlers/gamestatehandler.h"
-#include "basegamefeature/basegamefeatureunit.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "appgame/statehandler.h"
-#include "game/entity.h"
-#include "attr/attribute.h"
-#include "properties/mayacameraproperty.h"
-#include "debugrender/debugrender.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/editor/app/editorapplication.h"
+#include "Nebuladevice/application/basegamefeature/statehandlers/gamestatehandler.h"
+#include "Nebuladevice/application/basegamefeature/basegamefeatureunit.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/appgame/statehandler.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/addons/attr/attribute.h"
+#include "Nebuladevice/application/graphicsfeature/properties/mayacameraproperty.h"
+#include "Nebuladevice/render/debugrender/debugrender.h"
 
 
 

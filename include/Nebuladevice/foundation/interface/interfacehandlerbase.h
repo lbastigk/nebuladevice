@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "messaging/handler.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/messaging/handler.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Interface

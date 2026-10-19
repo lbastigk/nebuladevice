@@ -2,8 +2,8 @@
 //  network/multiplayer/session.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayer/session.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayer/session.h"
 
 namespace Multiplayer
 {

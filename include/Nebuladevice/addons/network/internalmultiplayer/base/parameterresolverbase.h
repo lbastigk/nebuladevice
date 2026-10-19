@@ -11,9 +11,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "internalmultiplayer/base/parametersetbase.h"
-#include "util/dictionary.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/parametersetbase.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Base

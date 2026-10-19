@@ -12,15 +12,15 @@
     (C) 2009 Radon Labs GmbH
 */
 
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "core/debug.h"
-#include "resources/resourceid.h"
-#include "threading/threadid.h"
-#include "audio2/fmodcoreaudio/fmodlistener.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/core/debug.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodlistener.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 #include <fmod_event.hpp>
-#include "audio2/fmodcoreaudio/fmodmusicpromptwrapper.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodmusicpromptwrapper.h"
 
 #define ASSERT_COREAUDIO_THREAD n_assert(FmodAudioDevice::GetCoreAudioThreadId() == Threading::Thread::GetMyThreadId())
 

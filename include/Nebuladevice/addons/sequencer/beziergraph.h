@@ -6,10 +6,10 @@
     
     The BezierGraph is a piecewhise spline of bezier curves.
 */
-#include "foundation/core/refcounted.h"
-#include "sequencer/beziercurve.h"
-#include "util/array.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/sequencer/beziercurve.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 namespace Sequencer
 {

@@ -12,8 +12,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "basegametiming/timesource.h"
-#include "core/singleton.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/timesource.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

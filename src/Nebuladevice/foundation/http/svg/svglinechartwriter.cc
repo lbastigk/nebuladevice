@@ -2,8 +2,8 @@
 //  svglinechartwriter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/svg/svglinechartwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/svg/svglinechartwriter.h"
 
 namespace Http
 {

@@ -2,16 +2,16 @@
 //  stategraphicsproperty.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/stategraphicsproperty.h"
-#include "game/entity.h"
-#include "graphicsutil/segmentedgfxutil.h"
-#include "graphics/stage.h"
-#include "graphicsfeatureunit.h"
-#include "graphics/graphicsserver.h"
-#include "basegamefeature/basegameprotocol.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "stateobjectfeature/stateobjectprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/stateobjectfeature/properties/stategraphicsproperty.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsutil/segmentedgfxutil.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/application/stateobjectfeature/stateobjectprotocol.h"
 
 namespace StateObjectFeature
 {

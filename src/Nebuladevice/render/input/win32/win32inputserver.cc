@@ -2,13 +2,13 @@
 //  win32inputserver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/win32/win32inputserver.h"
-#include "coregraphics/displaydevice.h"
-#include "input/keyboard.h"
-#include "input/mouse.h"
-#include "input/gamepad.h"
-#include "graphics/display.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/win32/win32inputserver.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/mouse.h"
+#include "Nebuladevice/render/input/gamepad.h"
+#include "Nebuladevice/render/graphics/display.h"
 
 namespace Win32
 {

@@ -2,10 +2,10 @@
 //  n2converterapp.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n2converterapp.h"
-#include "io/textwriter.h"
-#include "toolkitutil/binarymodelwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/n2converter3/n2converterapp.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
+#include "Nebuladevice/toolkit/toolkitutil/binarymodelwriter.h"
 
 namespace Toolkit
 {

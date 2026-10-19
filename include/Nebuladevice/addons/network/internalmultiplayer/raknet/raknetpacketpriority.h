@@ -9,8 +9,8 @@
 
 (C) 2009 Radon Labs GmbH
 */    
-#include "internalmultiplayer/base/packetprioritybase.h"
-#include "extlibs/raknet/packetpriority.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/packetprioritybase.h"
+#include "raknet/packetpriority.h"
 
 //------------------------------------------------------------------------------
 namespace RakNet

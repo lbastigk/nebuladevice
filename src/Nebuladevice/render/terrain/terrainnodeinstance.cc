@@ -2,11 +2,11 @@
 //  TerrainNodeinstance.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "terrainnodeInstance.h"
-#include "terrain/terrainrenderer.h"
-#include "coregraphics/renderdevice.h"
-#include "models/nodes/transformnode.h"
+#include "Nebuladevice/render/terrain/terrainrenderer.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
 
 
 namespace Terrain

@@ -2,10 +2,10 @@
 //  sequenzerfeatureunit.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "sequencerfeatureunit.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sequencer/sequencerfeatureunit.h"
 
-#include "sequencermanager.h"
+#include "Nebuladevice/addons/sequencer/sequencermanager.h"
 
 namespace Sequencer
 {

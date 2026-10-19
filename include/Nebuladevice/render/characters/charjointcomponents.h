@@ -9,8 +9,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "math/float4.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

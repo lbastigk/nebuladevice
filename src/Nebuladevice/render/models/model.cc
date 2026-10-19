@@ -2,12 +2,12 @@
 //  model.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/model.h"
-#include "models/modelinstance.h"
-#include "models/modelserver.h"
-#include "models/visresolver.h"
-#include "models/nodes/transformnodeinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/models/modelserver.h"
+#include "Nebuladevice/render/models/visresolver.h"
+#include "Nebuladevice/render/models/nodes/transformnodeinstance.h"
 
 namespace Models
 {

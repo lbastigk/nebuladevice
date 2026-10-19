@@ -8,9 +8,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__WIN32__ || __XBOX360__)
-#include "timing/win360/win360timer.h"
+#include "Nebuladevice/foundation/timing/win360/win360timer.h"
 namespace Timing
 {
 class Timer : public Win360::Win360Timer

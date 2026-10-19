@@ -2,9 +2,9 @@
 //  animjob.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "animation/animjob.h"
-#include "animation/animsequencer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/animation/animjob.h"
+#include "Nebuladevice/render/animation/animsequencer.h"
 
 namespace Animation
 {

@@ -2,8 +2,8 @@
 //  win32displaydevice.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/win32/win32displaydevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/win32/win32displaydevice.h"
 
 namespace Win32
 {

@@ -7,8 +7,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "jobs/tp/tpjobslice.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobslice.h"
 
 //------------------------------------------------------------------------------
 namespace Jobs

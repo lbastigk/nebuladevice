@@ -12,9 +12,9 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "distributedtools/shareddircontrol.h"
-#include "util/guid.h"
-#include "io/uri.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddircontrol.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace DistributedTools

@@ -2,8 +2,8 @@
 //  game/manager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "game/manager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/game/manager.h"
 
 namespace Game
 {

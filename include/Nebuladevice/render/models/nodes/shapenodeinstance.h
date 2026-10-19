@@ -8,7 +8,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
 
 //------------------------------------------------------------------------------
 namespace Models

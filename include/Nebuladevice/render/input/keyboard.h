@@ -8,7 +8,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if __WIN32__
-#include "input/base/keyboardbase.h"
+#include "Nebuladevice/render/input/base/keyboardbase.h"
 namespace Input
 {
 class Keyboard : public Base::KeyboardBase
@@ -35,7 +35,7 @@ class Keyboard : public Wii::WiiKeyboard
 };
 }
 #elif __PS3__
-#include "input/base/keyboardbase.h"
+#include "Nebuladevice/render/input/base/keyboardbase.h"
 namespace Input
 {
 class Keyboard : public Base::KeyboardBase

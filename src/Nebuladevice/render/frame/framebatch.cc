@@ -2,22 +2,22 @@
 //  framebatch.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "frame/framebatch.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/shaperenderer.h"
-#include "coregraphics/textrenderer.h"
-#include "coregraphics/rendertarget.h"
-#include "coregraphics/mouserenderdevice.h"
-#include "models/visresolver.h"
-#include "models/model.h"
-#include "models/modelnodeinstance.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "framesync/framesynctimer.h"
-#include "lighting/lightserver.h"
-#include "rendermodules/rt/rtpluginregistry.h"
-#include "coregraphics/shadersemantics.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/frame/framebatch.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/render/coregraphics/textrenderer.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/coregraphics/mouserenderdevice.h"
+#include "Nebuladevice/render/models/visresolver.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/render/lighting/lightserver.h"
+#include "Nebuladevice/render/rendermodules/rt/rtpluginregistry.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
 
 namespace Frame
 {

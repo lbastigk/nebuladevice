@@ -8,7 +8,7 @@
 
 (C) 2009 Radon Labs GmbH
 */    
-#include "internalmultiplayer/base/packetchannelbase.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/packetchannelbase.h"
 
 //------------------------------------------------------------------------------
 namespace RakNet

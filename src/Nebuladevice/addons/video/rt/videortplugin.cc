@@ -3,9 +3,9 @@
 // (C) Radon Labs GmbH
 //------------------------------------------------------------------------------
 
-#include "stdneb.h"
-#include "graphics/graphicsinterface.h"
-#include "videortplugin.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/addons/video/rt/videortplugin.h"
 
 namespace Video
 {

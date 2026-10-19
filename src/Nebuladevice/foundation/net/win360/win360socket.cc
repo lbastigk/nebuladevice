@@ -2,8 +2,8 @@
 //  win360socket.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/socket/socket.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/socket/socket.h"
 
 #if __XBOX360__
 #include "net/xbox360/xbox360network.h"

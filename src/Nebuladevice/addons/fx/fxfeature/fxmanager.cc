@@ -2,13 +2,13 @@
 //  fxfeature/fxmanager.cc
 //  (C) 2009 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/fxfeature/fxmanager.h"
-#include "fx/rt/mixer/camerashakemixer.h"
-#include "fx/rt/effects/camerashakefx.h"
-#include "fx/rt/effects/vibrationfx.h"
-#include "fx/fxprotocol.h"
-#include "graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/fxfeature/fxmanager.h"
+#include "Nebuladevice/addons/fx/rt/mixer/camerashakemixer.h"
+#include "Nebuladevice/addons/fx/rt/effects/camerashakefx.h"
+#include "Nebuladevice/addons/fx/rt/effects/vibrationfx.h"
+#include "Nebuladevice/addons/fx/fxprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
 
 namespace FxFeature
 {

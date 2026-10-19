@@ -2,10 +2,10 @@
 //  sequencer/beziercurve.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
-#include "sequencer/beziercurve.h"
-#include "sequencer/cubicequationsolver.h"
+#include "Nebuladevice/addons/sequencer/beziercurve.h"
+#include "Nebuladevice/addons/sequencer/cubicequationsolver.h"
 
 namespace Sequencer
 {

@@ -2,10 +2,10 @@
 //  shareddircreator.cc
 // (C) 2009 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "distributedtools/shareddircreator.h"
-#include "distributedtools/shareddirfilesystem.h"
-#include "distributedtools/shareddirftp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddircreator.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddirfilesystem.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddirftp.h"
 
 using namespace Util;
 using namespace IO;

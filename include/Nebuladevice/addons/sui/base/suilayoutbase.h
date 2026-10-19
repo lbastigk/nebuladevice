@@ -7,14 +7,14 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "sui/suievent.h"
-#include "resources/resourceid.h"
-#include "resources/resource.h"
-#include "input/inputevent.h"
-#include "timing/time.h"
-#include "sui/suiactions.h"
-#include "frame/framebatch.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/sui/suievent.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/input/inputevent.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/addons/sui/suiactions.h"
+#include "Nebuladevice/render/frame/framebatch.h"
 
 //------------------------------------------------------------------------------
 namespace Base

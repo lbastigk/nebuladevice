@@ -8,9 +8,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "io/streamreader.h"
-#include "http/httpstatus.h"
-#include "io/mediatype.h"
+#include "Nebuladevice/foundation/io/streamreader.h"
+#include "Nebuladevice/foundation/http/httpstatus.h"
+#include "Nebuladevice/foundation/io/mediatype.h"
 
 //------------------------------------------------------------------------------
 namespace Http

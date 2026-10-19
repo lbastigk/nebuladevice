@@ -5,9 +5,9 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "game/featureunit.h"
-#include "fx/fxfeature/fxmanager.h"
-#include "fx/animeventregistry.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/addons/fx/fxfeature/fxmanager.h"
+#include "Nebuladevice/addons/fx/animeventregistry.h"
 
 namespace FxFeature
 {

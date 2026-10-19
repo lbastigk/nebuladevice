@@ -8,7 +8,7 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

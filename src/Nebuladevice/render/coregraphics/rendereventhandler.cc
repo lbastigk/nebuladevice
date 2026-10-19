@@ -2,8 +2,8 @@
 //  rendereventhandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/rendereventhandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/rendereventhandler.h"
 
 namespace CoreGraphics
 {

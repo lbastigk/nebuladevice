@@ -5,7 +5,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
+#include "Nebuladevice/foundation/core/types.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

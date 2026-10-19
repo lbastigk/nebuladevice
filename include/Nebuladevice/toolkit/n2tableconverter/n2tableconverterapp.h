@@ -7,7 +7,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/toolkitapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

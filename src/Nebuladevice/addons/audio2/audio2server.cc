@@ -2,13 +2,13 @@
 //  audio2server.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audio2/audio2server.h"
-#include "audio2/audio2protocol.h"
-#include "audio2/audio2interface.h"
-#include "audio2/audio2listener.h"
-#include "audio2/audio2emitter.h"
-#include "audio2/fmodeventcategoryid.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/audio2server.h"
+#include "Nebuladevice/addons/audio2/audio2protocol.h"
+#include "Nebuladevice/addons/audio2/audio2interface.h"
+#include "Nebuladevice/addons/audio2/audio2listener.h"
+#include "Nebuladevice/addons/audio2/audio2emitter.h"
+#include "Nebuladevice/addons/audio2/fmodeventcategoryid.h"
 
 using namespace Audio2;
 

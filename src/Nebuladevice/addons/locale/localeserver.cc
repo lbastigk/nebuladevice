@@ -2,16 +2,16 @@
 //  locale/localeserver_main.cc
 //  (C) 2004 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "locale/localeserver.h"
-#include "locale/localeattributes.h"
-#include "db/reader.h"
-#include "db/sqlite3/sqlite3database.h"
-#include "db/sqlite3/sqlite3factory.h"
-#include "io/filestream.h"
-#include "io/ioserver.h"
-#include "io/textreader.h"
-#include "io/textwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/locale/localeserver.h"
+#include "Nebuladevice/addons/locale/localeattributes.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3database.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3factory.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
 
 namespace Locale
 {

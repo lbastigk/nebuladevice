@@ -2,11 +2,11 @@
 //  ziparchive.cc
 //  (C) Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/zipfs/ziparchive.h"
-#include "io/zipfs/zipfileentry.h"
-#include "io/zipfs/zipdirentry.h"
-#include "io/assignregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/zipfs/ziparchive.h"
+#include "Nebuladevice/foundation/io/zipfs/zipfileentry.h"
+#include "Nebuladevice/foundation/io/zipfs/zipdirentry.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
 
 namespace IO
 {

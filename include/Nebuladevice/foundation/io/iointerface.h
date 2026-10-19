@@ -12,10 +12,10 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "interface/interfacebase.h"
-#include "io/console.h"
-#include "io/ioserver.h"
-#include "io/iointerfaceprotocol.h"
+#include "Nebuladevice/foundation/interface/interfacebase.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/iointerfaceprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace IO

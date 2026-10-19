@@ -8,17 +8,17 @@
 
     (C) 2003 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "core/singleton.h"
-#include "physics/materialtable.h"
-#include "physics/contactpoint.h"
-#include "physics/physicsentity.h"
-#include "physics/ray.h"
-#include "util/dictionary.h"
-#include "timing/time.h"
-#include "math/float2.h"
-#include "math/line.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/addons/physics/contactpoint.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/ray.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/math/line.h"
 #define BAN_OPCODE_AUTOLINK
 #include "opcode/opcode.h"
 

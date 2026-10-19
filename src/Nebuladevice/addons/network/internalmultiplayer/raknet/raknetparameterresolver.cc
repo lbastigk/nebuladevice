@@ -2,8 +2,8 @@
 //  internalmultiplayer/raknet/raknetparameterresolver.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/raknet/raknetparameterresolver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetparameterresolver.h"
 
 namespace RakNet
 {

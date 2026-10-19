@@ -7,9 +7,9 @@
  
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "threading/threadid.h"
-#include "system/cpu.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/foundation/system/cpu.h"
 
 //------------------------------------------------------------------------------
 namespace OSX

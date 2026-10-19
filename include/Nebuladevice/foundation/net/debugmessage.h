@@ -10,8 +10,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "io/stream.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/io/stream.h"
 
 //------------------------------------------------------------------------------
 namespace Net

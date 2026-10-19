@@ -8,14 +8,14 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "coregraphics/pixelformat.h"
-#include "coregraphics/vertexcomponent.h"
-#include "coregraphics/primitivetopology.h"
-#include "coregraphics/antialiasquality.h"
-#include "coregraphics/imagefileformat.h"
-#include "coregraphics/indextype.h"
-#include "coregraphics/base/resourcebase.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
+#include "Nebuladevice/render/coregraphics/vertexcomponent.h"
+#include "Nebuladevice/render/coregraphics/primitivetopology.h"
+#include "Nebuladevice/render/coregraphics/antialiasquality.h"
+#include "Nebuladevice/render/coregraphics/imagefileformat.h"
+#include "Nebuladevice/render/coregraphics/indextype.h"
+#include "Nebuladevice/render/coregraphics/base/resourcebase.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

@@ -2,10 +2,10 @@
 //  sqlite3command.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/sqlite3/sqlite3command.h"
-#include "addons/db/sqlite3/sqlite3database.h"
-#include "system/byteorder.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3command.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3database.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
 
 namespace Db
 {

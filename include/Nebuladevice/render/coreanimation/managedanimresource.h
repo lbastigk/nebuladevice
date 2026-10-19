@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "resources/managedresource.h"
-#include "coreanimation/animresource.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

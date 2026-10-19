@@ -2,12 +2,12 @@
 //  playclipjob.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "animation/playclipjob.h"
-#include "animation/animsequencer.h"
-#include "coreanimation/animeventemitter.h"
-#include "coreanimation/animutil.h"
-#include "jobs/job.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/animation/playclipjob.h"
+#include "Nebuladevice/render/animation/animsequencer.h"
+#include "Nebuladevice/render/coreanimation/animeventemitter.h"
+#include "Nebuladevice/render/coreanimation/animutil.h"
+#include "Nebuladevice/foundation/jobs/job.h"
 
 namespace Animation
 {

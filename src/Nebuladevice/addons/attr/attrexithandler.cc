@@ -2,9 +2,9 @@
 //  attrexithandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "attr/attrexithandler.h"
-#include "attr/attributedefinitionbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/attr/attrexithandler.h"
+#include "Nebuladevice/addons/attr/attributedefinitionbase.h"
 
 namespace Attr
 {

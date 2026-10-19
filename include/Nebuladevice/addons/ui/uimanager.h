@@ -7,14 +7,14 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "util/array.h"
-#include "util/stack.h"
-#include "timing/time.h"
-#include "math/float2.h"
-#include "ui/uieventhandler.h"
-#include "ui/elements/window.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/stack.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/addons/ui/uieventhandler.h"
+#include "Nebuladevice/addons/ui/elements/window.h"
 
 //------------------------------------------------------------------------------
 namespace UI

@@ -7,8 +7,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/toolkitapp.h"
-#include "toolkitutil/binaryxmlconverter.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/binaryxmlconverter.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

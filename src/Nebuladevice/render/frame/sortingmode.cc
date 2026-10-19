@@ -2,8 +2,8 @@
 //  sortingmode.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "frame/sortingmode.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/frame/sortingmode.h"
 
 namespace Frame
 {

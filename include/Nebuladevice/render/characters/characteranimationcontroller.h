@@ -8,9 +8,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "animation/animsequencer.h"
-#include "characters/characteranimationlibrary.h"
-#include "jobs/jobport.h"
+#include "Nebuladevice/render/animation/animsequencer.h"
+#include "Nebuladevice/render/characters/characteranimationlibrary.h"
+#include "Nebuladevice/foundation/jobs/jobport.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

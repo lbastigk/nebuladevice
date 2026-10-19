@@ -9,7 +9,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__)
-#include "coregraphics/base/multiplerendertargetbase.h"
+#include "Nebuladevice/render/coregraphics/base/multiplerendertargetbase.h"
 namespace CoreGraphics
 {
 class MultipleRenderTarget : public Base::MultipleRenderTargetBase
@@ -18,7 +18,7 @@ class MultipleRenderTarget : public Base::MultipleRenderTargetBase
 };
 }
 #elif __WII__
-#include "coregraphics/base/multiplerendertargetbase.h"
+#include "Nebuladevice/render/coregraphics/base/multiplerendertargetbase.h"
 namespace CoreGraphics
 {
 class MultipleRenderTarget : public Base::MultipleRenderTargetBase
@@ -27,7 +27,7 @@ class MultipleRenderTarget : public Base::MultipleRenderTargetBase
 };
 }
 #elif __PS3__
-#include "coregraphics/base/multiplerendertargetbase.h"
+#include "Nebuladevice/render/coregraphics/base/multiplerendertargetbase.h"
 namespace CoreGraphics
 {
 class MultipleRenderTarget : public Base::MultipleRenderTargetBase

@@ -2,16 +2,16 @@
 //  characterskinnodeinstance.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characterskinnodeinstance.h"
-#include "characters/characterskinnode.h"
-#include "resources/managedmesh.h"
-#include "models/modelinstance.h"
-#include "characters/characternodeinstance.h"
-#include "coregraphics/shader.h"
-#include "coregraphics/renderdevice.h"
-#include "characters/characterserver.h"
-#include "coregraphics/shadersemantics.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characterskinnodeinstance.h"
+#include "Nebuladevice/render/characters/characterskinnode.h"
+#include "Nebuladevice/render/resources/managedmesh.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/characters/characternodeinstance.h"
+#include "Nebuladevice/render/coregraphics/shader.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/characters/characterserver.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
 
 namespace Characters
 {

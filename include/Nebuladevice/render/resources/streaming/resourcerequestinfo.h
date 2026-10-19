@@ -10,8 +10,8 @@
 
     (C) 2010 Radon Labs GmbH   
 */
-#include "resources/resourceid.h"
-#include "core/rtti.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/core/rtti.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

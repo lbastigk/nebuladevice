@@ -8,11 +8,11 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "physics/shape.h"
-#include "util/string.h"
-#include "math/sphere_.h"
-#include "math/line.h"
-#include "physics/physicsmesh.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/math/sphere_.h"
+#include "Nebuladevice/foundation/math/line.h"
+#include "Nebuladevice/addons/physics/physicsmesh.h"
 #define BAN_OPCODE_AUTOLINK
 #include "opcode/opcode.h"
 

@@ -2,13 +2,13 @@
 //  rcswrapper.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/rcswrapper.h"
-#include "toolkitutil/applauncher.h"
-#include "io/ioserver.h"
-#include "io/memorystream.h"
-#include "io/xmlreader.h"
-#include "io/textreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/rcswrapper.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/textreader.h"
 
 namespace ToolkitUtil
 {

@@ -10,10 +10,10 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "attr/attrid.h"
-#include "util/string.h"
-#include "addons/db/valuetable.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/attr/attrid.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/addons/db/valuetable.h"
 
 //------------------------------------------------------------------------------
 namespace Db

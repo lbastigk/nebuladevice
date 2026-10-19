@@ -2,11 +2,11 @@
 //  defaultremoterequesthandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/coreserver.h"
-#include "remote/defaultremoterequesthandler.h"
-#include "timing/calendartime.h"
-#include "remote/remotecontrol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/addons/remote/defaultremoterequesthandler.h"
+#include "Nebuladevice/foundation/timing/calendartime.h"
+#include "Nebuladevice/addons/remote/remotecontrol.h"
 
 namespace Remote
 {

@@ -2,10 +2,10 @@
 //  archivefilesystembase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/archfs/archivefilesystembase.h"
-#include "io/archfs/archive.h"
-#include "io/assignregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/archfs/archivefilesystembase.h"
+#include "Nebuladevice/foundation/io/archfs/archive.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
 
 namespace IO
 {

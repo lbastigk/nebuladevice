@@ -2,8 +2,8 @@
 //  terrainserver.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "terrainserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/terrain/terrainserver.h"
 
 
 namespace Terrain

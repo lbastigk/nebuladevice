@@ -8,13 +8,13 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "coreanimation/infinitytype.h"
-#include "coreanimation/animcurve.h"
-#include "coreanimation/animevent.h"
-#include "util/stringatom.h"
-#include "timing/time.h"
-#include "util/dictionary.h"
-#include "util/fixedarray.h"
+#include "Nebuladevice/render/coreanimation/infinitytype.h"
+#include "Nebuladevice/render/coreanimation/animcurve.h"
+#include "Nebuladevice/render/coreanimation/animevent.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

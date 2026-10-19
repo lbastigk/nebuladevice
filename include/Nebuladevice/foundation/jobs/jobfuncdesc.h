@@ -7,7 +7,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if __PS3__
 #include "jobs/ps3/ps3jobfuncdesc.h"
 namespace Jobs
@@ -15,13 +15,13 @@ namespace Jobs
 typedef PS3::PS3JobFuncDesc JobFuncDesc;
 }
 #elif (NEBULA3_USE_SERIAL_JOBSYSTEM || __WII__)
-#include "jobs/serial/serialjobfuncdesc.h"
+#include "Nebuladevice/foundation/jobs/serial/serialjobfuncdesc.h"
 namespace Jobs
 {
 typedef SerialJobFuncDesc JobFuncDesc;
 }
 #elif (__WIN32__ || __XBOX360__)
-#include "jobs/tp/tpjobfuncdesc.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobfuncdesc.h"
 namespace Jobs
 {
 typedef TPJobFuncDesc JobFuncDesc;

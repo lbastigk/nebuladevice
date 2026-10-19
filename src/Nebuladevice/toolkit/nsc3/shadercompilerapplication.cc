@@ -2,9 +2,9 @@
 //  shadercompilerapplication.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shadercompilerapplication.h"
-#include "system/win32/win32registry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shadercompilerapplication.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
 
 namespace Tools
 {

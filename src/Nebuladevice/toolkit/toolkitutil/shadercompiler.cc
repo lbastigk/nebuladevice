@@ -2,11 +2,11 @@
 //  shadercompiler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/shadercompiler.h"
-#include "toolkitutil/applauncher.h"
-#include "io/ioserver.h"
-#include "io/xmlreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/shadercompiler.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
 
 namespace ToolkitUtil
 {

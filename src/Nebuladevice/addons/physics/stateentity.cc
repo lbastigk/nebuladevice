@@ -2,9 +2,9 @@
 //  physics/stateentity.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/stateentity.h"
-#include "physics/compositeloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/stateentity.h"
+#include "Nebuladevice/addons/physics/compositeloader.h"
 
 namespace Physics
 {

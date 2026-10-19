@@ -9,9 +9,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/consolehandler.h"
-#include "io/stream.h"
-#include "io/textwriter.h"
+#include "Nebuladevice/foundation/io/consolehandler.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
 
 //------------------------------------------------------------------------------
 namespace IO

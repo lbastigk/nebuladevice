@@ -2,8 +2,8 @@
 //  memoryindexbufferloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/memoryindexbufferloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/memoryindexbufferloader.h"
 
 #if (__WIN32__ || __XBOX360__)
 namespace CoreGraphics

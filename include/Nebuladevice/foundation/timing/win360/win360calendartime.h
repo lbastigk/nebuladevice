@@ -9,7 +9,7 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "timing/base/calendartimebase.h"
+#include "Nebuladevice/foundation/timing/base/calendartimebase.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

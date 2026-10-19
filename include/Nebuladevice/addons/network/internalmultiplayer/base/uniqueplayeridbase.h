@@ -8,9 +8,9 @@
 (C) 2009 Radon Labs GmbH
 */    
 //------------------------------------------------------------------------------
-#include "core/types.h"
-#include "internalmultiplayer/bitreader.h"
-#include "internalmultiplayer/bitwriter.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitreader.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitwriter.h"
 
 namespace Base
 {

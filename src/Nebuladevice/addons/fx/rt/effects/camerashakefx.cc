@@ -2,9 +2,9 @@
 //  fx/effects/camerashakefx.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/effects/camerashakefx.h"
-#include "math/vector.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/effects/camerashakefx.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 namespace FX
 {

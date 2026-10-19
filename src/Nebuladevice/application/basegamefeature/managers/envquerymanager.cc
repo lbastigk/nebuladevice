@@ -2,17 +2,17 @@
 //  managers/envquerymanager.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "managers/envquerymanager.h"
-#include "managers/entitymanager.h"
-#include "input/inputserver.h"
-#include "input/mouse.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "renderutil/mouserayutil.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/managers/envquerymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/input/mouse.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/render/renderutil/mouserayutil.h"
 
 
 #if __USE_PHYSICS__
-#include "physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
 #endif
 
 namespace BaseGameFeature

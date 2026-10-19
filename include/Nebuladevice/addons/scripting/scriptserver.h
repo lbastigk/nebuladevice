@@ -12,9 +12,9 @@
     
     (C) 2006 Radon Labs
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "io/uri.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace Scripting

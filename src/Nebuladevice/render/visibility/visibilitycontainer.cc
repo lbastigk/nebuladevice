@@ -2,8 +2,8 @@
 //  entityvisibility.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "visibility/visibilitycontainer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/visibility/visibilitycontainer.h"
 
 namespace Visibility
 {

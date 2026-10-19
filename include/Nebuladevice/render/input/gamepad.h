@@ -8,7 +8,7 @@
     (C) 2007 Radon Labs GmbH
 */    
 #if (__WIN32__ || __XBOX360__)
-#include "input/xinput/xinputgamepad.h"
+#include "Nebuladevice/render/input/xinput/xinputgamepad.h"
 namespace Input
 {
 class GamePad : public XInput::XInputGamePad

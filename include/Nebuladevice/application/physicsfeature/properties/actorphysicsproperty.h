@@ -19,14 +19,14 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "properties/physicsproperty.h"
-#include "basegameprotocol.h"
-#include "game/entity.h"
-#include "physics/charentity.h"
-#include "math/pfeedbackloop.h"
-#include "math/angularpfeedbackloop.h"
+#include "Nebuladevice/application/physicsfeature/properties/physicsproperty.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/addons/physics/charentity.h"
+#include "Nebuladevice/foundation/math/pfeedbackloop.h"
+#include "Nebuladevice/foundation/math/angularpfeedbackloop.h"
 //#include "navigation/path3d.h"
-#include "physics/probesphere.h"
+#include "Nebuladevice/addons/physics/probesphere.h"
 
 namespace Attr
 {

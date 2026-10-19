@@ -11,11 +11,11 @@
 
 	(C) 2009 Radon Labs GmbH
 */
-#include "game/featureunit.h"
-#include "multiplayer/multiplayermanager.h"
-#include "internalmultiplayer/internalmultiplayerinterface.h"
-#include "multiplayerfeature/distributionmanager.h"
-#include "multiplayer/base/multiplayernotificationhandlerbase.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/addons/network/multiplayer/multiplayermanager.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerinterface.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionmanager.h"
+#include "Nebuladevice/addons/network/multiplayer/base/multiplayernotificationhandlerbase.h"
 
 //------------------------------------------------------------------------------
 namespace MultiplayerFeature

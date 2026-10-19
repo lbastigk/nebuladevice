@@ -2,19 +2,19 @@
 //  fmodaudiohandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audio2/fmodcoreaudio/fmodaudiohandler.h"
-#include "audio2/fmodcoreaudio/fmodcoreaudiopagehandler.h"
-#include "audio2/fmodcoreaudio/fmodaudiodevice.h"
-#include "audio2/fmodcoreaudio/fmoderror.h"
-#include "audio2/fmodcoreaudio/fmodeventwrapper.h"
-#include "audio2/fmodeventstate.h"
-#include "audio2/fmodpitchunit.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodaudiohandler.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodcoreaudiopagehandler.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodaudiodevice.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmoderror.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodeventwrapper.h"
+#include "Nebuladevice/addons/audio2/fmodeventstate.h"
+#include "Nebuladevice/addons/audio2/fmodpitchunit.h"
 #if !__NEBULA_NO_ASSERT__
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 #endif
 #if __NEBULA3_HTTP__
-#include "http/httpinterface.h"
+#include "Nebuladevice/foundation/http/httpinterface.h"
 #endif
 
 #include <fmod_event.hpp>

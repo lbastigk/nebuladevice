@@ -2,10 +2,10 @@
 //  drawfullscreenquad.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "renderutil/drawfullscreenquad.h"
-#include "coregraphics/memoryvertexbufferloader.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/renderutil/drawfullscreenquad.h"
+#include "Nebuladevice/render/coregraphics/memoryvertexbufferloader.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 namespace RenderUtil
 {

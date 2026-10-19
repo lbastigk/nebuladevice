@@ -2,15 +2,15 @@
 //  particlesystemnodeinstance.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/particlesystemnodeinstance.h"
-#include "particles/particlesystemnode.h"
-#include "coregraphics/transformdevice.h"
-#include "particles/particlerenderer.h"
-#include "coregraphics/shadersemantics.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/particlesystemnodeinstance.h"
+#include "Nebuladevice/render/particles/particlesystemnode.h"
+#include "Nebuladevice/render/coregraphics/transformdevice.h"
+#include "Nebuladevice/render/particles/particlerenderer.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
 
 // DEBUG
-#include "models/model.h"
+#include "Nebuladevice/render/models/model.h"
 
 namespace Particles
 {

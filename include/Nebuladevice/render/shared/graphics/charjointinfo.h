@@ -7,8 +7,8 @@
     
     (C) 2010 Radon Labs GmbH
 */    
-#include "util/stringatom.h"
-#include "math/matrix44.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
 
 //------------------------------------------------------------------------------
 namespace Shared

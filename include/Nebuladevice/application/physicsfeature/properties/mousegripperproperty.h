@@ -9,8 +9,8 @@
   
     (C) 2008 Radon Labs GmbH
 */
-#include "properties/inputproperty.h"
-//#include "physics/mousegripper.h"
+#include "Nebuladevice/application/graphicsfeature/properties/inputproperty.h"
+//#include "Nebuladevice/addons/physics/mousegripper.h"
 
 //------------------------------------------------------------------------------
 namespace PhysicsFeature

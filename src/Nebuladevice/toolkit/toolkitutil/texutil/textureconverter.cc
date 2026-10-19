@@ -2,18 +2,18 @@
 //  textureconverter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "textureconverter.h"
-#include "io/ioserver.h"
-#include "io/textwriter.h"
-#include "io/xmlwriter.h"
-#include "toolkitutil/texutil/imageconverter.h"
-#include "util/guid.h"
-#include "toolkitutil/texutil/win32textureconversionjob.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureconverter.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/imageconverter.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/win32textureconversionjob.h"
 //#include "toolkitutil/texutil/xbox360textureconversionjob.h"
 //#include "toolkitutil/texutil/ps3textureconversionjob.h"
 //#include "toolkitutil/texutil/wiitextureconversionjob.h"
-#include "timing/timer.h"
+#include "Nebuladevice/foundation/timing/timer.h"
 
 
 namespace ToolkitUtil

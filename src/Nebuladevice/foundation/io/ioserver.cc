@@ -2,16 +2,16 @@
 //  io/ioserver.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/ioserver.h"
-#include "core/ptr.h"
-#include "io/fswrapper.h"
-#include "util/stack.h"
-#include "util/crc.h"
-#include "system/systeminfo.h"
-#include "io/filestream.h"
-#include "io/archfs/archive.h"
-#include "io/archfs/archivefilesystem.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/io/fswrapper.h"
+#include "Nebuladevice/foundation/util/stack.h"
+#include "Nebuladevice/foundation/util/crc.h"
+#include "Nebuladevice/foundation/system/systeminfo.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/foundation/io/archfs/archive.h"
+#include "Nebuladevice/foundation/io/archfs/archivefilesystem.h"
 
 namespace IO
 {

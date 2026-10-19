@@ -31,8 +31,8 @@
         
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "io/stream.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/stream.h"
 
 //------------------------------------------------------------------------------
 namespace Net

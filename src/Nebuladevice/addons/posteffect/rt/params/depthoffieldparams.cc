@@ -2,9 +2,9 @@
 //  depthoffieldparams.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "depthoffieldparams.h"
-#include "math/scalar.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/params/depthoffieldparams.h"
+#include "Nebuladevice/foundation/math/scalar.h"
 
 namespace PostEffect
 {

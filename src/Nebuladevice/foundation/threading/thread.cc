@@ -2,8 +2,8 @@
 //  thread.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Threading
 {

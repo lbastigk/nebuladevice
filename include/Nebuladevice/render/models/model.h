@@ -14,10 +14,10 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/resource.h"
-#include "math/bbox.h"
-#include "models/modelnode.h"
-#include "models/visresolvecontainer.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/render/models/modelnode.h"
+#include "Nebuladevice/render/models/visresolvecontainer.h"
 
 //------------------------------------------------------------------------------
 namespace Models

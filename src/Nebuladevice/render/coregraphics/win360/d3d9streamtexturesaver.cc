@@ -2,10 +2,10 @@
 //  d3d9streamtexturesaver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/win360/d3d9streamtexturesaver.h"
-#include "coregraphics/win360/d3d9types.h"
-#include "coregraphics/texture.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9streamtexturesaver.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
 
 namespace Win360
 {

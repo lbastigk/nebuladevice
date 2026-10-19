@@ -10,8 +10,8 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "coregraphics/base/textrendererbase.h"
-#include "coregraphics/d3d9/d3d9resource.h"
+#include "Nebuladevice/render/coregraphics/base/textrendererbase.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9resource.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

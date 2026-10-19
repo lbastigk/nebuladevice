@@ -2,9 +2,9 @@
 //  benchmarkrunner.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "benchmarkrunner.h"
-#include "timing/timer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkbase/benchmarkrunner.h"
+#include "Nebuladevice/foundation/timing/timer.h"
 
 namespace Benchmarking
 {

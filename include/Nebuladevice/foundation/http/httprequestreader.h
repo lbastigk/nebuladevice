@@ -9,9 +9,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "io/streamreader.h"
-#include "http/httpmethod.h"
-#include "io/uri.h"
+#include "Nebuladevice/foundation/io/streamreader.h"
+#include "Nebuladevice/foundation/http/httpmethod.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace Http

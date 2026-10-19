@@ -2,11 +2,11 @@
 //  win360memory.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/types.h"
-#include "core/sysfunc.h"
-#include "memory/heap.h"
-#include "memory/poolarrayallocator.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/foundation/memory/heap.h"
+#include "Nebuladevice/foundation/memory/poolarrayallocator.h"
 
 namespace Memory
 {

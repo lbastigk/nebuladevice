@@ -7,12 +7,12 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/stringatom.h"
-#include "math/point.h"
-#include "math/vector.h"
-#include "math/quaternion.h"
-#include "math/matrix44.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

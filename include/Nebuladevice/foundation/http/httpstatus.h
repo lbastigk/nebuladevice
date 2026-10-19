@@ -9,7 +9,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "util/string.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 //------------------------------------------------------------------------------
 namespace Http

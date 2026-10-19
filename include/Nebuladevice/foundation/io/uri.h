@@ -54,9 +54,9 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/string.h"
-#include "util/dictionary.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
 
 //------------------------------------------------------------------------------
 namespace IO

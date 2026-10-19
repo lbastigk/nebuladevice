@@ -7,12 +7,12 @@
     
     (C) 2009 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "characters/characterinstance.h"
-#include "characters/skinningtechnique.h"
-#include "characters/skinnedmeshrenderer.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/characters/characterinstance.h"
+#include "Nebuladevice/render/characters/skinningtechnique.h"
+#include "Nebuladevice/render/characters/skinnedmeshrenderer.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

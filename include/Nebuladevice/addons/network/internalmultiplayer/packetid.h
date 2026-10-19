@@ -3,14 +3,14 @@
 /**
 */
 #if __WIN32__ || __PS3__
-#include "internalmultiplayer/raknet/raknetpacketid.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetpacketid.h"
 namespace InternalMultiplayer
 {
     typedef RakNet::RakNetPackedId PacketId;
 }
 #elif __XBOX360__
 #if XBOX360_USE_RAKNET
-#include "internalmultiplayer/raknet/raknetpacketid.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetpacketid.h"
 namespace InternalMultiplayer
 {
     typedef RakNet::RakNetPackedId PacketId;

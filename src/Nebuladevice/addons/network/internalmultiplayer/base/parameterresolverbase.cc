@@ -2,8 +2,8 @@
 //  network/multiplayer/base/parameterresolverbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/base/parameterresolverbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/parameterresolverbase.h"
 
 namespace Base
 {

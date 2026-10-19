@@ -2,10 +2,10 @@
 //  internalabstractlightentityhandler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsprotocol.h"
-#include "messaging/staticmessagehandler.h"
-#include "lighting/internalabstractlightentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
+#include "Nebuladevice/render/lighting/internalabstractlightentity.h"
 
 using namespace Graphics;
 using namespace Lighting;

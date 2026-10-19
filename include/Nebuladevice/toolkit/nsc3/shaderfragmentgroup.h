@@ -12,8 +12,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "shaderfragment.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragment.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

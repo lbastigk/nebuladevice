@@ -7,11 +7,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "frame/frameshader.h"
-#include "io/uri.h"
-#include "io/xmlreader.h"
-#include "coregraphics/shadervariableinstance.h"
-#include "coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/frame/frameshader.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
 
 //------------------------------------------------------------------------------
 namespace Frame

@@ -7,12 +7,12 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/config.h"
-#include "core/debug.h"
-#include "threading/interlocked.h"
-#include "memory/win360/win360memoryconfig.h"
+#include "Nebuladevice/foundation/core/config.h"
+#include "Nebuladevice/foundation/core/debug.h"
+#include "Nebuladevice/foundation/threading/interlocked.h"
+#include "Nebuladevice/foundation/memory/win360/win360memoryconfig.h"
 #if __WIN32__
-#include "memory/win32/win32memory.h"
+#include "Nebuladevice/foundation/memory/win32/win32memory.h"
 #elif __XBOX360__
 #include "memory/xbox360/xbox360memory.h"
 #endif

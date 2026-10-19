@@ -2,16 +2,16 @@
 //  internalmodelentity.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "models/modelserver.h"
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "characters/characternode.h"
-#include "characters/characternodeinstance.h"
-#include "characters/characterserver.h"
-#include "animation/animeventserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/models/modelserver.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/characters/characternode.h"
+#include "Nebuladevice/render/characters/characternodeinstance.h"
+#include "Nebuladevice/render/characters/characterserver.h"
+#include "Nebuladevice/render/animation/animeventserver.h"
 
 namespace InternalGraphics
 {

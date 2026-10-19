@@ -10,12 +10,12 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "multiplayerfeature/objectview.h"
-#include "multiplayerfeature/distributionclient.h"
-#include "multiplayerfeature/distributionhost.h"
-#include "framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/objectview.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionclient.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionhost.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
 
 #if !PUBLIC_BUILD
 #define NEBULA3_DISTRIBUTION_PRINT_DEBUG_OUT (0)

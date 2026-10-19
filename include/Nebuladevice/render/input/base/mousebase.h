@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "input/inputhandler.h"
-#include "input/mousebutton.h"
+#include "Nebuladevice/render/input/inputhandler.h"
+#include "Nebuladevice/render/input/mousebutton.h"
 
 //------------------------------------------------------------------------------
 namespace Base

@@ -12,9 +12,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "mayacore/mayascene.h"
-#include "mayacore/mayastatus.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayascene.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayastatus.h"
 
 //------------------------------------------------------------------------------
 namespace Maya

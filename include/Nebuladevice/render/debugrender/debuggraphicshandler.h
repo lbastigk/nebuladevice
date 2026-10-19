@@ -7,11 +7,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "messaging/message.h"
-#include "debugrender/debugrenderprotocol.h"
-#include "debug/debugcounter.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/render/debugrender/debugrenderprotocol.h"
+#include "Nebuladevice/foundation/debug/debugcounter.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

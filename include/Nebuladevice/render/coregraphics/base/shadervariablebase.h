@@ -10,8 +10,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 namespace CoreGraphics
 {

@@ -8,8 +8,8 @@
 
     (C) 2003 RadonLabs GmbH
 */
-#include "physics/sphereshape.h"
-#include "math/vector.h"
+#include "Nebuladevice/addons/physics/sphereshape.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

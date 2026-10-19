@@ -8,10 +8,10 @@
        
     (C) 2010 Radon Labs GmbH
 */
-#include "visibility/visibilitysystems/visibilitysystembase.h"
-#include "visibility/visibilitysystems/visibilitycell.h"
-#include "util/quadtree.h"
-#include "jobs/job.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitysystembase.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitycell.h"
+#include "Nebuladevice/foundation/util/quadtree.h"
+#include "Nebuladevice/foundation/jobs/job.h"
               
 //------------------------------------------------------------------------------
 namespace Visibility

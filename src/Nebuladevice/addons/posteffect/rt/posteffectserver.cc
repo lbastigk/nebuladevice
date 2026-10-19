@@ -2,17 +2,17 @@
 //  posteffectserver.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "posteffect/rt/posteffectserver.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalview.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "coregraphics/shaderserver.h"
-#include "lighting/internalgloballightentity.h"
-#include "models/nodes/statenodeinstance.h"
-#include "resources/managedtexture.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/shadersemantics.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/posteffectserver.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/lighting/internalgloballightentity.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/resources/managedtexture.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
 
 namespace PostEffect
 {

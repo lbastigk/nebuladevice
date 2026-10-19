@@ -2,10 +2,10 @@
 //  matrix44.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "mathlib/matrix.h"
 #include "mathlib/matrixdefs.h"
-#include "math/matrix44.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
 
 //------------------------------------------------------------------------------
 /**

@@ -2,8 +2,8 @@
 //  posteffects/posteffectsentity.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "posteffectentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/posteffectentity.h"
 
 namespace PostEffect
 {

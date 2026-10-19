@@ -8,7 +8,7 @@
     (C) 2010 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "distributedtools/distributedjobs/distributedjob.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributedjob.h"
 
 //------------------------------------------------------------------------------
 namespace DistributedTools

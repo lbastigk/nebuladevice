@@ -2,9 +2,9 @@
 //  line.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "math/line.h"
-#include "math/scalar.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/math/line.h"
+#include "Nebuladevice/foundation/math/scalar.h"
 
 namespace Math
 {

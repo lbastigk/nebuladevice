@@ -8,9 +8,9 @@
     (C) 2009 Radon Labs GmbH
 */
 
-#include "rendermodules/rt/rtplugin.h"
-#include "fx/rt/fxhandler.h"
-#include "fx/rt/fxserver.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/addons/fx/rt/fxhandler.h"
+#include "Nebuladevice/addons/fx/rt/fxserver.h"
 
 namespace FX
 {

@@ -2,8 +2,8 @@
 //  remoterequest.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remote/remoterequest.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/remote/remoterequest.h"
 
 namespace Remote
 {

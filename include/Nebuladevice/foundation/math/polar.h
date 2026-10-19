@@ -14,9 +14,9 @@
 
     (C) 2004 RadonLabs GmbH
 */
-#include "math/scalar.h"
-#include "math/vector.h"
-#include "math/float2.h"
+#include "Nebuladevice/foundation/math/scalar.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/float2.h"
 
 //------------------------------------------------------------------------------
 namespace Math

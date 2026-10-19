@@ -2,8 +2,8 @@
 //  vertexbufferbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/vertexbufferbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/vertexbufferbase.h"
 
 namespace Base
 {

@@ -14,10 +14,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "coreanimation/curvetype.h"
-#include "coreanimation/infinitytype.h"
-#include "math/float4.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/coreanimation/curvetype.h"
+#include "Nebuladevice/render/coreanimation/infinitytype.h"
+#include "Nebuladevice/foundation/math/float4.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

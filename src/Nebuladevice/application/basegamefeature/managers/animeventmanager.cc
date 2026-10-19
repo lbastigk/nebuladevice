@@ -2,11 +2,11 @@
 //  animeventmanager.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "managers/animeventmanager.h"
-#include "basegametiming/gametimesource.h"
-#include "game/entity.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/managers/animeventmanager.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
 
 namespace BaseGameFeature
 {

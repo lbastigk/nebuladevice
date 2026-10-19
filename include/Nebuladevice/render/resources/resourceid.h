@@ -8,7 +8,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

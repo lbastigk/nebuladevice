@@ -2,11 +2,11 @@
 //  textureattrtable.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "textureattrtable.h"
-#include "io/ioserver.h"
-#include "io/stream.h"
-#include "io/xmlreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureattrtable.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
 
 namespace ToolkitUtil
 {

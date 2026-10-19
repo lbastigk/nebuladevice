@@ -8,14 +8,14 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "apprender/renderapplication.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/stage.h"
-#include "graphics/view.h"
-#include "graphics/cameraentity.h"
-#include "renderutil/mayacamerautil.h"
-#include "debugrender/debugshaperenderer.h"
-#include "debugrender/debugtextrenderer.h"
+#include "Nebuladevice/render/apprender/renderapplication.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/render/graphics/view.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
+#include "Nebuladevice/render/renderutil/mayacamerautil.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
+#include "Nebuladevice/render/debugrender/debugtextrenderer.h"
 
 //------------------------------------------------------------------------------
 namespace App

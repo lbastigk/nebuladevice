@@ -2,19 +2,19 @@
 //  internalmodelentityhandler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsprotocol.h"
-#include "messaging/staticmessagehandler.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalstage.h"
-#include "framesync/framesynctimer.h"
-#include "characters/character.h"
-#include "characters/characterinstance.h"
-#include "models/nodes/statenodeinstance.h"
-#include "renderutil/nodelookuputil.h"
-#include "animation/animeventserver.h"
-#include "animation/playclipjob.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/render/characters/character.h"
+#include "Nebuladevice/render/characters/characterinstance.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/renderutil/nodelookuputil.h"
+#include "Nebuladevice/render/animation/animeventserver.h"
+#include "Nebuladevice/render/animation/playclipjob.h"
 
 using namespace CoreGraphics;
 using namespace Graphics;

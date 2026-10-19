@@ -8,11 +8,11 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "core/singleton.h"
-#include "core/refcounted.h"
-#include "distributedtools/shareddircontrol.h"
-#include "toolkitutil/projectinfo.h"
-#include "util/guid.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddircontrol.h"
+#include "Nebuladevice/toolkit/toolkitutil/projectinfo.h"
+#include "Nebuladevice/foundation/util/guid.h"
 
 //------------------------------------------------------------------------------
 namespace DistributedTools

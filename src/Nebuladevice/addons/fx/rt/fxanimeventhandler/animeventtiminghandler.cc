@@ -2,12 +2,12 @@
 //  animeventsoundhandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/fxanimeventhandler/animeventtiminghandler.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "debugrender/debugtextrenderer.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventtiminghandler.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/debugrender/debugtextrenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace FX
 {

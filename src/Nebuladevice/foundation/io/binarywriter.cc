@@ -2,8 +2,8 @@
 //  binarywriter.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/binarywriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
 
 namespace IO
 {

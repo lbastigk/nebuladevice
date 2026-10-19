@@ -2,8 +2,8 @@
 //  renderthreadpluginregistry.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "rendermodules/rt/rtpluginregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/rendermodules/rt/rtpluginregistry.h"
 
 namespace RenderModules
 {

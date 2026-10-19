@@ -2,8 +2,8 @@
 //  refcounted.cc
 //  (C) 2006 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 namespace Core
 {

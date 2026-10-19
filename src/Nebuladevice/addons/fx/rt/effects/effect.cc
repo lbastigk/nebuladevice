@@ -2,8 +2,8 @@
 //  VfxFeature/effect.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/effects/effect.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/effects/effect.h"
 
 namespace FX
 {

@@ -7,9 +7,9 @@
     (C) 2009 Radon Labs GmbH
 */
 
-#include "posteffect/rt/posteffecthandler.h"
-#include "posteffect/rt/posteffectserver.h"
-#include "rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/addons/posteffect/rt/posteffecthandler.h"
+#include "Nebuladevice/addons/posteffect/rt/posteffectserver.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
 
 namespace PostEffect
 {

@@ -2,12 +2,12 @@
 //  mayahierarchyextractor.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaextractors/mayahierarchyextractor.h"
-#include "mayautil/mayanodeutil.h"
-#include "mayautil/mayatransformutil.h"
-#include "mayautil/mayatype.h"
-#include "mayacore/mayascene.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayahierarchyextractor.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayanodeutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatransformutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayascene.h"
 #include <maya/MDagPathArray.h>
 #include <maya/MFnDagNode.h>
 

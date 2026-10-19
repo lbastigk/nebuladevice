@@ -2,8 +2,8 @@
 //  timesource.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "basegametiming/timesource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/timesource.h"
 
 namespace Attr
 {

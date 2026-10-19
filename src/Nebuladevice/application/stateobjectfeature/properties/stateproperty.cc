@@ -2,12 +2,12 @@
 //  stateproperty.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/stateproperty.h"
-#include "basegamefeature/basegameprotocol.h"
-#include "io/ioserver.h"
-#include "input/keyboard.h"
-#include "input/inputserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/stateobjectfeature/properties/stateproperty.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/inputserver.h"
 
 namespace Attr
 {

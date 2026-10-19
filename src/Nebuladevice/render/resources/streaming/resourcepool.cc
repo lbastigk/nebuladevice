@@ -2,13 +2,13 @@
 //  resourcepool.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/managedresource.h"
-#include "resourcepool.h"
-#include "resourceslot.h"
-#include "resources/resource.h"
-#include "resourcecreator.h"
-#include "poolscheduler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/render/resources/streaming/resourcepool.h"
+#include "Nebuladevice/render/resources/streaming/resourceslot.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/resources/streaming/resourcecreator.h"
+#include "Nebuladevice/render/resources/streaming/poolscheduler.h"
 
 namespace Resources {
 __ImplementClass(Resources::ResourcePool, 'RESP', Core::RefCounted);

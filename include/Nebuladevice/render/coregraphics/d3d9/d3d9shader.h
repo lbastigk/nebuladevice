@@ -9,9 +9,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/shaderbase.h"
-#include "coregraphics/shaderinstance.h"
-#include "coregraphics/d3d9/d3d9resource.h"
+#include "Nebuladevice/render/coregraphics/base/shaderbase.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9resource.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

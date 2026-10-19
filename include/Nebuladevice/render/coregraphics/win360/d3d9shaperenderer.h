@@ -7,7 +7,7 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "coregraphics/base/shaperendererbase.h"
+#include "Nebuladevice/render/coregraphics/base/shaperendererbase.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

@@ -2,8 +2,8 @@
 //  attr/attributes.h
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physicsattr/physicsattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/physicsfeature/physicsattr/physicsattributes.h"
 
 namespace Attr
 {

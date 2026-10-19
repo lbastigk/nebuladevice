@@ -2,9 +2,9 @@
 //  network/multiplayer/defaultmultiplayerNotificationhandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayer/defaultmultiplayernotificationhandler.h"
-#include "multiplayer/multiplayermanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayer/defaultmultiplayernotificationhandler.h"
+#include "Nebuladevice/addons/network/multiplayer/multiplayermanager.h"
 
 namespace Multiplayer
 {

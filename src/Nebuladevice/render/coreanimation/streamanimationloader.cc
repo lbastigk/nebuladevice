@@ -2,11 +2,11 @@
 //  streamanimationloader.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/streamanimationloader.h"
-#include "coreanimation/animresource.h"
-#include "system/byteorder.h"
-#include "coreanimation/naxfileformatstructs.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/streamanimationloader.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
+#include "Nebuladevice/render/coreanimation/naxfileformatstructs.h"
 
 namespace CoreAnimation
 {

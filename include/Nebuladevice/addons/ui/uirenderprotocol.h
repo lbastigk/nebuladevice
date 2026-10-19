@@ -4,11 +4,11 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "util/string.h"
-#include "util/array.h"
-#include "threading/threadid.h"
-#include "ui/rt/coreuielement.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/addons/ui/rt/coreuielement.h"
 
 //------------------------------------------------------------------------------
 namespace CoreUI

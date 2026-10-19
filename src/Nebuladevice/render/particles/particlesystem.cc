@@ -2,9 +2,9 @@
 //  particlesystem.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/particlesystem.h"
-#include "particles/particle.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/particlesystem.h"
+#include "Nebuladevice/render/particles/particle.h"
 
 namespace Particles
 {

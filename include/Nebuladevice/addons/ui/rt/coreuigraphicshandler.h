@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "ui/uirenderprotocol.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/addons/ui/uirenderprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace CoreUI

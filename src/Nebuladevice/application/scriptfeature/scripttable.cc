@@ -2,10 +2,10 @@
 //  scriptfeature/scripttable.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/scripttable.h"
-#include "db/reader.h"
-#include "db/dbserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/scripttable.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/dbserver.h"
 
 //#include "kernel/nprofiler.h"
 

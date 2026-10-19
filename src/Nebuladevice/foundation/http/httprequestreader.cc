@@ -2,9 +2,9 @@
 //  httprequestreader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httprequestreader.h"
-#include "io/textreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httprequestreader.h"
+#include "Nebuladevice/foundation/io/textreader.h"
 
 namespace Http
 {

@@ -8,12 +8,12 @@
     parameters inside the sequencer. The parameter either returns a fixed
     value or evaluates an animation graph depending on its state.
 */
-#include "foundation/core/refcounted.h"
-#include "util/string.h"
-#include "util/array.h"
-#include "util/fixedarray.h"
-#include "sequencer/beziergraph.h"
-#include "math/point.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/addons/sequencer/beziergraph.h"
+#include "Nebuladevice/foundation/math/point.h"
 
 using namespace Math;
 

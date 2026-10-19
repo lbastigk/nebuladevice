@@ -2,16 +2,16 @@
 //  fmodaudiodevice.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audio2/fmodcoreaudio/fmodaudiodevice.h"
-#include "audio2/fmodcoreaudio/fmoderror.h"
-#include "audio2/fmodcoreaudio/fmodeventwrapper.h"
-#include "audio2/fmodeventprojectid.h"
-#include "audio2/fmodeventid.h"
-#include "audio2/fmodeventcategoryid.h"
-#include "io/assignregistry.h"
-#include "threading/thread.h"
-#include "jobs/jobsystem.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodaudiodevice.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmoderror.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodeventwrapper.h"
+#include "Nebuladevice/addons/audio2/fmodeventprojectid.h"
+#include "Nebuladevice/addons/audio2/fmodeventid.h"
+#include "Nebuladevice/addons/audio2/fmodeventcategoryid.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/foundation/jobs/jobsystem.h"
 #include <fmod_event_net.hpp>
 
 #if __PS3__

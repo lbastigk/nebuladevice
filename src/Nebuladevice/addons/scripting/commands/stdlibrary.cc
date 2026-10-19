@@ -1,10 +1,10 @@
 //------------------------------------------------------------------------------
 //  MACHINE GENERATED, DON'T EDIT!
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scripting/scriptserver.h"
-#include "scripting/arg.h"
-#include "stdlibrary.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/scripting/scriptserver.h"
+#include "Nebuladevice/addons/scripting/arg.h"
+#include "Nebuladevice/addons/scripting/commands/stdlibrary.h"
 
 __ImplementClass(Commands::ListCmds, 'LSCD', Scripting::Command);
 __ImplementClass(Commands::Help, 'HELP', Scripting::Command);

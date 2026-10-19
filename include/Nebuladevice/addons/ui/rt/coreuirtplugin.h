@@ -7,9 +7,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "rendermodules/rt/rtplugin.h"
-#include "ui/rt/coreuirenderer.h"
-#include "ui/rt/coreuigraphicshandler.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/addons/ui/rt/coreuirenderer.h"
+#include "Nebuladevice/addons/ui/rt/coreuigraphicshandler.h"
 
 //------------------------------------------------------------------------------
 namespace CoreUI

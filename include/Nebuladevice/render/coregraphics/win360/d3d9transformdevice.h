@@ -7,9 +7,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/transformdevicebase.h"
-#include "coregraphics/shadervariable.h"
-#include "core/singleton.h"
+#include "Nebuladevice/render/coregraphics/base/transformdevicebase.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

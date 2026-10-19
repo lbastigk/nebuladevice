@@ -2,10 +2,10 @@
 //  resourceslot.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resourceslot.h"
-#include "resources/managedresource.h"
-#include "resources/resourceloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/resourceslot.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
 
 namespace Resources
 {

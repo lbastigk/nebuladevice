@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "models/nodes/statenodeinstance.h"
-#include "particles/particlesysteminstance.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/particles/particlesysteminstance.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

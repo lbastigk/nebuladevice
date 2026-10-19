@@ -9,7 +9,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if __WIN32__
-#include "coregraphics/d3d9/d3d9shader.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9shader.h"
 namespace CoreGraphics
 {
 class Shader : public Direct3D9::D3D9Shader

@@ -2,11 +2,11 @@
 //  d3d9streamtextureloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9streamtextureloader.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/renderdevice.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9streamtextureloader.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Direct3D9
 {

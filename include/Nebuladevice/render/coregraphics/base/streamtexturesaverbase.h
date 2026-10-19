@@ -7,9 +7,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/resourcesaver.h"
-#include "io/stream.h"
-#include "coregraphics/imagefileformat.h"
+#include "Nebuladevice/render/resources/resourcesaver.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/render/coregraphics/imagefileformat.h"
 
 //------------------------------------------------------------------------------
 namespace Base

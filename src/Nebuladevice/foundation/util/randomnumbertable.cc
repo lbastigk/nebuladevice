@@ -2,8 +2,8 @@
 //  randomnumbertable.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/randomnumbertable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/randomnumbertable.h"
 
 namespace Util
 {

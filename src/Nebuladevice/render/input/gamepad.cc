@@ -2,8 +2,8 @@
 //  gamepad.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/gamepad.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/gamepad.h"
 #if (__WIN32__ || __XBOX360__)
 namespace Input
 {

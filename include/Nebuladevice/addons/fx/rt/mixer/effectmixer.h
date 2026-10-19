@@ -8,10 +8,10 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "fx/rt/effects/effect.h"
-#include "util/array.h"
-#include "core/refcounted.h"
-#include "timing/time.h"
+#include "Nebuladevice/addons/fx/rt/effects/effect.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace FX

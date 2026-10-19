@@ -8,16 +8,16 @@
             
     (C) 2009 Radon Labs GmbH
 */
-#include "internalmultiplayer/base/internalmultiplayerserverbase.h"
-#include "internalmultiplayer/multiplayertype.h"
-#include "extlibs/raknet/rakpeer.h"
-#include "util/dictionary.h"
-#include "internalmultiplayer/internalplayer.h"
-#include "extlibs/raknet/rakpeer.h"
-#include "internalmultiplayer/packetid.h"
-#include "timing/time.h"
-#include "internalmultiplayer/playerinfo.h"
-#include "internalmultiplayer/raknet/raknetparameterresolver.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/internalmultiplayerserverbase.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/multiplayertype.h"
+#include "raknet/rakpeer.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalplayer.h"
+#include "raknet/rakpeer.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/packetid.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/playerinfo.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetparameterresolver.h"
 
 #define SEARCH_INFO_ADDITONAL_DATA_SIZE 64
 

@@ -7,9 +7,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "coregraphics/indextype.h"
-#include "coregraphics/base/resourcebase.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/coregraphics/indextype.h"
+#include "Nebuladevice/render/coregraphics/base/resourcebase.h"
 
 //------------------------------------------------------------------------------
 namespace Base

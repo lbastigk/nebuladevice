@@ -2,11 +2,11 @@
 //  mayadirectoryregistry.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayadirectoryregistry.h"
-#include "mayamain/mayalogger.h"
-#include "system/win32/win32registry.h"
-#include "io/assignregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayadirectoryregistry.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayalogger.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
 
 namespace Maya
 {

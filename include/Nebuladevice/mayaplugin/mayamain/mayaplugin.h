@@ -7,15 +7,15 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "mayamain/mayanebula3runtime.h"
-#include "mayamain/mayalogger.h"
-#include "mayamain/mayadirectoryregistry.h"
-#include "mayamain/mayacommandregistry.h"
-#include "mayashaders/mayashaderregistry.h"
-#include "mayacore/mayavariableregistry.h"
-#include "mayacore/mayamaterialgroupregistry.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayanebula3runtime.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayalogger.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayadirectoryregistry.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayacommandregistry.h"
+#include "Nebuladevice/mayaplugin/mayashaders/mayashaderregistry.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayavariableregistry.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayamaterialgroupregistry.h"
 #include <maya/MObject.h>
 
 //------------------------------------------------------------------------------

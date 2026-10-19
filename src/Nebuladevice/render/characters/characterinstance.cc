@@ -2,21 +2,21 @@
 //  characterinstance.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characterinstance.h"
-#include "characters/character.h"
-#include "coreanimation/animsamplebuffer.h"
-#include "math/point.h"
-#include "math/vector.h"
-#include "math/quaternion.h"
-#include "models/modelinstance.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "characters/skinnedmeshrenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characterinstance.h"
+#include "Nebuladevice/render/characters/character.h"
+#include "Nebuladevice/render/coreanimation/animsamplebuffer.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/characters/skinnedmeshrenderer.h"
 
 // for debug visualization
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Characters
 {

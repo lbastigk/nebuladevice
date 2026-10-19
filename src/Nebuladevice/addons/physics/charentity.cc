@@ -2,18 +2,18 @@
 //  physics/charentity.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/charentity.h"
-#include "physics/physicsserver.h"
-#include "physics/rigidbody.h"
-#include "physics/shape.h"
-#include "physics/boxshape.h"
-#include "physics/composite.h"
-#include "physics/level.h"
-#include "physics/physicsutil.h"
-#include "physics/amotor.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/charentity.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/addons/physics/boxshape.h"
+#include "Nebuladevice/addons/physics/composite.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/addons/physics/physicsutil.h"
+#include "Nebuladevice/addons/physics/amotor.h"
 //#include "physics/ragdoll.h"
-#include "physics/compositeloader.h"
+#include "Nebuladevice/addons/physics/compositeloader.h"
 
 using namespace Math;
 using namespace Util;

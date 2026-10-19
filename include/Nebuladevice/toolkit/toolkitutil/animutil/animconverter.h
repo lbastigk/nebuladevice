@@ -7,10 +7,10 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/platform.h"
-#include "toolkitutil/logger.h"
-#include "toolkitutil/animutil/animbuilder.h"
-#include "io/uri.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/toolkit/toolkitutil/logger.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuilder.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

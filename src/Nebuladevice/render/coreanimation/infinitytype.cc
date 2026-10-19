@@ -2,8 +2,8 @@
 //  coreanimation/infinitytype.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/infinitytype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/infinitytype.h"
 
 namespace CoreAnimation
 {

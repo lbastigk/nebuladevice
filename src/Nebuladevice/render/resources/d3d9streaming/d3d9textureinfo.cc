@@ -2,13 +2,13 @@
 //  d3d9textureinfo.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "d3d9textureinfo.h"
-#include "coregraphics/pixelformat.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/d3d9streaming/d3d9textureinfo.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
 #include "d3dx9tex.h"
-#include "render/coregraphics/win360/d3d9types.h"
-#include "coregraphics/texture.h"
-#include "util/string.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 using namespace Util;
 using namespace CoreGraphics;

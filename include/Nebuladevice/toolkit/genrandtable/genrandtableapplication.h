@@ -12,7 +12,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "app/consoleapplication.h"
+#include "Nebuladevice/foundation/app/consoleapplication.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

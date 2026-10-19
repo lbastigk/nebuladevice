@@ -8,7 +8,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "math/float4.h"
+#include "Nebuladevice/foundation/math/float4.h"
 
 //------------------------------------------------------------------------------
 namespace Math

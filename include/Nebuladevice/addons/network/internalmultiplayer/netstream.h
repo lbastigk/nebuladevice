@@ -3,7 +3,7 @@
 /**
 */
 #if __WIN32__ || __PS3__
-#include "internalmultiplayer/raknet/raknetstream.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetstream.h"
 namespace InternalMultiplayer
 {
     class NetStream : public RakNet::RakNetStream
@@ -13,7 +13,7 @@ namespace InternalMultiplayer
 }
 #elif __XBOX360__
 #if XBOX360_USE_RAKNET
-#include "internalmultiplayer/raknet/raknetstream.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetstream.h"
 namespace InternalMultiplayer
 {
     class NetStream : public RakNet::RakNetStream

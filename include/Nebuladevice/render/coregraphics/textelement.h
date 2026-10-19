@@ -7,10 +7,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "util/string.h"
-#include "math/float4.h"
-#include "math/float2.h"
-#include "threading/threadid.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
 
 //------------------------------------------------------------------------------
 namespace CoreGraphics

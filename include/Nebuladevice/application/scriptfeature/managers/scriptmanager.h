@@ -6,11 +6,11 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "game/manager.h"
-#include "core/singleton.h"
-#include "db/reader.h"
-#include "util/stringatom.h"
-#include "scriptfeature/log/infolog.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/application/scriptfeature/log/infolog.h"
 
 namespace Actions
 {

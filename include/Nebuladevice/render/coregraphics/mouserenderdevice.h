@@ -8,7 +8,7 @@
     (C) 2009 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__ || __PS3__)
-#include "coregraphics/base/mouserenderdevicebase.h"
+#include "Nebuladevice/render/coregraphics/base/mouserenderdevicebase.h"
 namespace CoreGraphics
 {
 class MouseRenderDevice : public Base::MouseRenderDeviceBase

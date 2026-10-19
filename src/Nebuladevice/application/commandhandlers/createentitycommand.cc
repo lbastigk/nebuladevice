@@ -2,11 +2,11 @@
 //  createentitycommand.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "commandhandlers/createentitycommand.h"
-#include "basegamefeature/managers/entitymanager.h"
-#include "basegamefeature/managers/factorymanager.h"
-#include "basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/commandhandlers/createentitycommand.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
 
 namespace Commands
 {

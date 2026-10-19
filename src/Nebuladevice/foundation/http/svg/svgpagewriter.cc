@@ -2,8 +2,8 @@
 //  svgpagewriter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/svg/svgpagewriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/svg/svgpagewriter.h"
 
 namespace Http
 {

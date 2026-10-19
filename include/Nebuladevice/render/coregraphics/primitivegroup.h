@@ -8,8 +8,8 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "coregraphics/primitivetopology.h"
-#include "math/bbox.h"
+#include "Nebuladevice/render/coregraphics/primitivetopology.h"
+#include "Nebuladevice/foundation/math/bbox.h"
 
 //------------------------------------------------------------------------------
 namespace CoreGraphics

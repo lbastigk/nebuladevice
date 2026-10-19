@@ -2,11 +2,11 @@
 //  tpworkerthread.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "jobs/tp/tpworkerthread.h"
-#include "jobs/job.h"
-#include "jobs/jobfuncdesc.h"
-#include "debug/debugserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/jobs/tp/tpworkerthread.h"
+#include "Nebuladevice/foundation/jobs/job.h"
+#include "Nebuladevice/foundation/jobs/jobfuncdesc.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
 
 namespace Jobs
 {

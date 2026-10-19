@@ -2,16 +2,16 @@
 //  attachmentmanager.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphicsfeature/managers/attachmentmanager.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "game/entity.h"
-#include "basegamefeature/managers/entitymanager.h"
-#include "basegamefeature/basegameattr/basegameattributes.h"
-#include "basegamefeature/basegametiming/gametimesource.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/managers/attachmentmanager.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
 
 namespace GraphicsFeature
 {

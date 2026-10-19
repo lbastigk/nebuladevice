@@ -2,12 +2,12 @@
 //  meshpagehandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/debug/meshpagehandler.h"
-#include "coregraphics/mesh.h"
-#include "http/html/htmlpagewriter.h"
-#include "resources/resourcemanager.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/debug/meshpagehandler.h"
+#include "Nebuladevice/render/coregraphics/mesh.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Debug
 {

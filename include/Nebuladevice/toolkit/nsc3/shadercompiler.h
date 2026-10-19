@@ -9,10 +9,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "io/uri.h"
-#include "shaderfragmentmanager.h"
-#include "shadersamplermanager.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragmentmanager.h"
+#include "Nebuladevice/toolkit/nsc3/shadersamplermanager.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

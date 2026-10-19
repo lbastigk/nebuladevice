@@ -2,22 +2,22 @@
 //  physics/compositeloader.cc
 //  (C) 2005 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/compositeloader.h"
-#include "physics/rigidbody.h"
-#include "physics/physicsserver.h"
-#include "physics/boxshape.h"
-#include "physics/sphereshape.h"
-#include "physics/capsuleshape.h"
-#include "physics/hingejoint.h"
-#include "physics/meshshape.h"
-#include "physics/universaljoint.h"
-#include "physics/sliderjoint.h"
-#include "physics/balljoint.h"
-#include "physics/hinge2joint.h"
-#include "io/xmlreader.h"
-#include "io/ioserver.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/compositeloader.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/boxshape.h"
+#include "Nebuladevice/addons/physics/sphereshape.h"
+#include "Nebuladevice/addons/physics/capsuleshape.h"
+#include "Nebuladevice/addons/physics/hingejoint.h"
+#include "Nebuladevice/addons/physics/meshshape.h"
+#include "Nebuladevice/addons/physics/universaljoint.h"
+#include "Nebuladevice/addons/physics/sliderjoint.h"
+#include "Nebuladevice/addons/physics/balljoint.h"
+#include "Nebuladevice/addons/physics/hinge2joint.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 
 namespace Physics
 {

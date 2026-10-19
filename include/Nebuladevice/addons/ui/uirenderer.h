@@ -8,10 +8,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "math/rectangle.h"
-#include "ui/rt/coreuielement.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/math/rectangle.h"
+#include "Nebuladevice/addons/ui/rt/coreuielement.h"
 
 //------------------------------------------------------------------------------
 namespace UI

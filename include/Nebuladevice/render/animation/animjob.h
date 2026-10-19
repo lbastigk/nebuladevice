@@ -16,13 +16,13 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/animsamplebuffer.h"
-#include "jobs/jobport.h"
-#include "math/vector.h"
-#include "math/point.h"
-#include "animation/animjobenqueuemode.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/animsamplebuffer.h"
+#include "Nebuladevice/foundation/jobs/jobport.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/render/animation/animjobenqueuemode.h"
 
 //------------------------------------------------------------------------------
 namespace Animation

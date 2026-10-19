@@ -8,7 +8,7 @@
     (C) 2006 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "util/string.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 namespace Conditions
 {

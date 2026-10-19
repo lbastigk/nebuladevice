@@ -22,19 +22,19 @@
 
     (C) 2006 RadonLabs GmbH
 */
-#include "core/types.h"
-#include "core/sysfunc.h"
-#include "util/array.h"
-#include "util/dictionary.h"
-#include "memory/heap.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/memory/heap.h"
 
 #if !__OSX__
-#include "math/float4.h"
-#include "math/float2.h"
-#include "math/matrix44.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
 #endif
 
-#include "memory/poolarrayallocator.h"
+#include "Nebuladevice/foundation/memory/poolarrayallocator.h"
 
 //------------------------------------------------------------------------------
 namespace Util

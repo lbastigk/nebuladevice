@@ -2,8 +2,8 @@
 //  handler.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/handler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/handler.h"
 
 namespace Messaging
 {

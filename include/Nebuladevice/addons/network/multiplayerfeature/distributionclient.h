@@ -13,7 +13,7 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "network/multiplayerfeature/base/distributionsystem.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/base/distributionsystem.h"
 
 //------------------------------------------------------------------------------
 namespace MultiplayerFeature

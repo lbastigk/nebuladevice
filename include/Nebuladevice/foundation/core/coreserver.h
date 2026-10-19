@@ -10,11 +10,11 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "core/ptr.h"
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "io/console.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Core

@@ -8,13 +8,13 @@
     (C) 2010 Radon Labs GmbH   
 */
 
-#include "resources/resourcemapper.h"
-#include "core/refcounted.h"
-#include "resources/resourceid.h"
-#include "resourceinfo.h"
-#include "resources/managedresource.h"
-#include "io/uri.h"
-#include "timing/time.h"
+#include "Nebuladevice/render/resources/resourcemapper.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/resources/streaming/resourceinfo.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

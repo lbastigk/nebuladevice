@@ -2,12 +2,12 @@
 //  ui/uifactory.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/uifactory.h"
-#include "ui/elements/canvas.h"
-#include "ui/elements/button.h"
-#include "ui/elements/frame.h"
-#include "ui/elements/label.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/uifactory.h"
+#include "Nebuladevice/addons/ui/elements/canvas.h"
+#include "Nebuladevice/addons/ui/elements/button.h"
+#include "Nebuladevice/addons/ui/elements/frame.h"
+#include "Nebuladevice/addons/ui/elements/label.h"
 
 namespace UI
 {

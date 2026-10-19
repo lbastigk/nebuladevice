@@ -2,11 +2,11 @@
 //  console.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/console.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 #if __WIN32__
-#include "io/win32/win32consolehandler.h"
+#include "Nebuladevice/foundation/io/win32/win32consolehandler.h"
 #elif __XBOX360__
 #include "io/xbox360/xbox360consolehandler.h"
 #elif __WII__
@@ -14,7 +14,7 @@
 #elif __PS3__
 #include "io/ps3/ps3consolehandler.h"
 #elif __OSX__
-#include "io/osx/osxconsolehandler.h"
+#include "Nebuladevice/foundation/io/osx/osxconsolehandler.h"
 #endif
 
 namespace IO

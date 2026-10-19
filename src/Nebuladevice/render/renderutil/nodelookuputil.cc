@@ -2,9 +2,9 @@
 //  nodelookuputil.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "renderutil/nodelookuputil.h"
-#include "internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/renderutil/nodelookuputil.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
 
 namespace RenderUtil
 {

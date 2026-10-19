@@ -2,14 +2,14 @@
 //  ui/elements/element.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/elements/element.h"
-#include "ui/elements/window.h"
-#include "ui/uifactory.h"
-#include "ui/uimanager.h"
-#include "ui/uievent.h"
-#include "ui/uirenderer.h"
-#include "debugrender/debugrender.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/elements/element.h"
+#include "Nebuladevice/addons/ui/elements/window.h"
+#include "Nebuladevice/addons/ui/uifactory.h"
+#include "Nebuladevice/addons/ui/uimanager.h"
+#include "Nebuladevice/addons/ui/uievent.h"
+#include "Nebuladevice/addons/ui/uirenderer.h"
+#include "Nebuladevice/render/debugrender/debugrender.h"
 
 namespace UI
 {

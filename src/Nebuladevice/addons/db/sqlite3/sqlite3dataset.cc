@@ -2,12 +2,12 @@
 //  sqlite3dataset.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/sqlite3/sqlite3dataset.h"
-#include "addons/db/command.h"
-#include "addons/db/dbfactory.h"
-#include "addons/db/database.h"
-#include "addons/db/table.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3dataset.h"
+#include "Nebuladevice/addons/db/command.h"
+#include "Nebuladevice/addons/db/dbfactory.h"
+#include "Nebuladevice/addons/db/database.h"
+#include "Nebuladevice/addons/db/table.h"
 
 namespace Db
 {

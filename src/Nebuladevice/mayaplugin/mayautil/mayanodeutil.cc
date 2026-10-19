@@ -2,9 +2,9 @@
 //  mayanodeinspector.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayanodeutil.h"
-#include "mayautil/mayaattrutil.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayanodeutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayaattrutil.h"
 #include <maya/MFnDagNode.h>
 #include <maya/MFnDependencyNode.h>
 #include <maya/MPlugArray.h>

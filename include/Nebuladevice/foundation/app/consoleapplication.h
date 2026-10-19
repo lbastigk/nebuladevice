@@ -8,9 +8,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "app/application.h"
-#include "core/coreserver.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/app/application.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 //------------------------------------------------------------------------------
 namespace App

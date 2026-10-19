@@ -9,9 +9,9 @@
 
     (C) 2007 RadonLabs GmbH
 */
-#include "util/fixedarray.h"
-#include "math/bbox.h"
-#include "math/float4.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/math/float4.h"
 
 namespace Util
 {

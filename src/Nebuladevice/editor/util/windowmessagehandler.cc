@@ -2,14 +2,14 @@
 //  windowmessagehandler.cc
 //  (C) 2010 xoyojank
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #pragma unmanaged
-#include "windowmessagehandler.h"
-#include "coregraphics/displaydevice.h"
-#include "input/inputserver.h"
-#include "graphics/display.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/cameraentity.h"
+#include "Nebuladevice/editor/util/windowmessagehandler.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/graphics/display.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
 
 //------------------------------------------------------------------------------
 namespace Editor

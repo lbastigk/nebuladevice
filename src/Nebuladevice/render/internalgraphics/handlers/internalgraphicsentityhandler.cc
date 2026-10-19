@@ -2,14 +2,14 @@
 //  internalgraphicsentityhandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsprotocol.h"
-#include "messaging/staticmessagehandler.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "internalgraphics/internalstage.h"
-#include "models/nodes/statenodeinstance.h"
-#include "models/nodes/animatornodeinstance.h"
-#include "renderutil/nodelookuputil.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/models/nodes/animatornodeinstance.h"
+#include "Nebuladevice/render/renderutil/nodelookuputil.h"
 
 using namespace CoreGraphics;
 using namespace Models;

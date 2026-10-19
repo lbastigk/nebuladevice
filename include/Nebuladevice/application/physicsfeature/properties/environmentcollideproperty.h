@@ -20,9 +20,9 @@
 
     (C) 2008 Radon Labs GmbH
 */    
-#include "game/property.h"
-#include "physics/shape.h"
-#include "util/dictionary.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
 
 //------------------------------------------------------------------------------
 namespace PhysicsFeature

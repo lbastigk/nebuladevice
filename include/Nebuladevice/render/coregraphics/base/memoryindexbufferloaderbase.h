@@ -8,9 +8,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/resourceloader.h"
-#include "coregraphics/indexbuffer.h"
-#include "coregraphics/indextype.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/render/coregraphics/indexbuffer.h"
+#include "Nebuladevice/render/coregraphics/indextype.h"
 
 //------------------------------------------------------------------------------
 namespace Base

@@ -8,10 +8,10 @@
     
     (C) 2005 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "graphics/abstractlightentity.h"
-#include "basegameattr/basegameattributes.h"
-#include "graphicsutil/lightflickerutil.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/render/graphics/abstractlightentity.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsutil/lightflickerutil.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

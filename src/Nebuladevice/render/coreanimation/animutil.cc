@@ -2,11 +2,11 @@
 //  animutil.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/animutil.h"
-#include "coreanimation/animsamplemixinfo.h"
-#include "math/quaternion.h"
-#include "util/round.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/animutil.h"
+#include "Nebuladevice/render/coreanimation/animsamplemixinfo.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/foundation/util/round.h"
 
 namespace CoreAnimation
 {

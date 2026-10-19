@@ -2,8 +2,8 @@
 //  benchmark.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "benchmark.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkbase/benchmark.h"
 
 namespace Benchmarking
 {

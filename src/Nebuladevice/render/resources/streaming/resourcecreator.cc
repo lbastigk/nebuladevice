@@ -2,9 +2,9 @@
 //  resourcecreator.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resourcecreator.h"
-#include "resources/resource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/resourcecreator.h"
+#include "Nebuladevice/render/resources/resource.h"
 
 namespace Resources
 {

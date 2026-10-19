@@ -2,11 +2,11 @@
 //  physics/filterset.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/filterset.h"
-#include "physics/shape.h"
-#include "physics/physicsentity.h"
-#include "physics/rigidbody.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/filterset.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
 
 namespace Physics
 {

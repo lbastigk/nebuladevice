@@ -2,11 +2,11 @@
 //  particlesystemnode.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/particlesystemnode.h"
-#include "particles/particlesystemnodeinstance.h"
-#include "coregraphics/streammeshloader.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/particlesystemnode.h"
+#include "Nebuladevice/render/particles/particlesystemnodeinstance.h"
+#include "Nebuladevice/render/coregraphics/streammeshloader.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 
 namespace Particles
 {

@@ -11,8 +11,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"     
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/core/types.h"     
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/foundation/core/compilerbarrier.h"
 
 #if __XBOX360__
 // on xbox360 the critical section implementation seems to do the same as the windows user implementation
@@ -22,7 +23,7 @@
 #define NEBULA3_USER_CRITICAL_SECTION 1
 #endif
 
-#if NEBULA3_USER_CRITICAL_SECTION
+#if NEBULA3_USER_CRITICAL_SECTION && (defined(_MSC_VER) || defined(__XBOX360__))
 extern "C" void _WriteBarrier();
 extern "C" void _ReadWriteBarrier();
 #pragma intrinsic(_WriteBarrier)
@@ -248,11 +249,11 @@ Win360CriticalSection::Leave() const
 inline void
 Win360CriticalSection::PerfUnlock() const
 {
-    _WriteBarrier(); // changes done to the shared resource are committed.
+    NEBULA_WRITE_BARRIER(); // changes done to the shared resource are committed.
 
     this->lockerThread = 0;
 
-    _ReadWriteBarrier(); // The CS is released.
+    NEBULA_READ_WRITE_BARRIER(); // The CS is released.
 
     if (this->waiterCount > 0) // AFTER it is released we check if there're waiters.
     {

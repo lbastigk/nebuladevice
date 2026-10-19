@@ -11,11 +11,11 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "math/matrix44.h"
-#include "math/float2.h"
-#include "math/point.h"
-#include "math/polar.h"
-#include "math/scalar.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/polar.h"
+#include "Nebuladevice/foundation/math/scalar.h"
 
 //------------------------------------------------------------------------------
 namespace RenderUtil

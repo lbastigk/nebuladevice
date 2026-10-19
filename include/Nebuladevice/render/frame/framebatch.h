@@ -7,15 +7,15 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "coregraphics/shaderinstance.h"
-#include "coregraphics/shadervariableinstance.h"
-#include "coregraphics/batchtype.h"
-#include "coregraphics/shaderfeature.h"
-#include "models/modelnodetype.h"
-#include "frame/lightingmode.h"
-#include "frame/sortingmode.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/render/coregraphics/batchtype.h"
+#include "Nebuladevice/render/coregraphics/shaderfeature.h"
+#include "Nebuladevice/render/models/modelnodetype.h"
+#include "Nebuladevice/render/frame/lightingmode.h"
+#include "Nebuladevice/render/frame/sortingmode.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 #define NEBULA3_FRAME_LOG_ENABLED   (0)
 #if NEBULA3_FRAME_LOG_ENABLED

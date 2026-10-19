@@ -2,15 +2,15 @@
 //  sequenzermanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "tracksequencer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sequencer/tracksequencer.h"
 
-#include "track.h"
-#include "trackbar.h"
-#include "sequencermanager.h"
-#include "framesync/framesynctimer.h"
-#include "io/ioserver.h"
-#include "math/transform44.h"
+#include "Nebuladevice/addons/sequencer/track.h"
+#include "Nebuladevice/addons/sequencer/trackbar.h"
+#include "Nebuladevice/addons/sequencer/sequencermanager.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/math/transform44.h"
 
 using namespace IO;
 

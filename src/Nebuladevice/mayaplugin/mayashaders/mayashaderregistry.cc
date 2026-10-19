@@ -2,9 +2,9 @@
 //  mayashaderregistry.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayashaderregistry.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayashaders/mayashaderregistry.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Maya
 {

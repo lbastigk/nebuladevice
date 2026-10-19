@@ -2,16 +2,17 @@
 //  charevalskeletonjob.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "jobs/stdjob.h"
-#include "math/float4.h"
-#include "math/matrix44.h"
-#include "characters/charjointcomponents.h"
+#include "Nebuladevice/foundation/jobs/stdjob.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/render/characters/charjointcomponents.h"
+#include "Nebuladevice/foundation/core/compilerbarrier.h"
 
 namespace Characters
 {
 using namespace Math;
 
-#if __XBOX360__
+#if __XBOX360__ && (defined(_MSC_VER) || defined(__XBOX360__))
 extern "C" void _WriteBarrier();
 #pragma intrinsic(_WriteBarrier)
 #endif
@@ -127,9 +128,9 @@ CharEvalSkeletonJobFunc(const JobFuncContext& ctx)
         // entire write operation will be much slower.
         // cause we use a texture with 16-bit per component, we store a half vector
         XMStoreHalf4(texRowPtr++, transSkinMatrix.getrow0().vec);
-        _WriteBarrier();
+        NEBULA_WRITE_BARRIER();
         XMStoreHalf4(texRowPtr++, transSkinMatrix.getrow1().vec);
-        _WriteBarrier();
+        NEBULA_WRITE_BARRIER();
         XMStoreHalf4(texRowPtr++, transSkinMatrix.getrow2().vec);
     }
     #endif
@@ -137,4 +138,3 @@ CharEvalSkeletonJobFunc(const JobFuncContext& ctx)
 
 } // namespace Characters
 __ImplementSpursJob(Characters::CharEvalSkeletonJobFunc);
-

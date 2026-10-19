@@ -2,10 +2,10 @@
 //  properties/environmentgraphicsproperty.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/environmentgraphicsproperty.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "game/entity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/environmentgraphicsproperty.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/game/entity.h"
 
 using namespace Util;
 using namespace Math;

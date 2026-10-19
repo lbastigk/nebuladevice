@@ -23,11 +23,11 @@
 
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "math/bbox.h"
-#include "visibility/visibilitycontext.h"
-#include "visibility/observercontext.h"
-#include "internalgraphics/internalgraphicsentitytype.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/render/visibility/visibilitycontext.h"
+#include "Nebuladevice/render/visibility/observercontext.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentitytype.h"
 
 //------------------------------------------------------------------------------
 namespace Visibility

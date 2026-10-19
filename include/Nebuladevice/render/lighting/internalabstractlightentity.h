@@ -10,8 +10,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "internalgraphics/internalgraphicsentity.h"
-#include "lighting/lighttype.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/lighting/lighttype.h"
 
 //------------------------------------------------------------------------------
 namespace Lighting

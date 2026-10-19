@@ -2,16 +2,16 @@
 //  d3d9shaprenderer.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/win360/d3d9shaperenderer.h"
-#include "coregraphics/win360/d3d9types.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/transformdevice.h"
-#include "coregraphics/renderdevice.h"
-#include "threading/thread.h"
-#include "coregraphics/shaderserver.h"
-#include "resources/resourceid.h"
-#include "renderutil/axisgizmoutil.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9shaperenderer.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/transformdevice.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/renderutil/axisgizmoutil.h"
 
 namespace Win360
 {

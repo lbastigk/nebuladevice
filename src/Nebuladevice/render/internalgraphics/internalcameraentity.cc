@@ -2,10 +2,10 @@
 //  internalcameraentity.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalgraphics/internalcameraentity.h"
-#include "coregraphics/displaydevice.h"
-#include "internalgraphics/internalview.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
 
 namespace InternalGraphics
 {

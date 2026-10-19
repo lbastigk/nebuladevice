@@ -20,9 +20,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "game/manager.h"
-#include "game/entity.h"
-#include "core/ptr.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/foundation/core/ptr.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

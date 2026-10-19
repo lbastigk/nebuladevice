@@ -2,13 +2,13 @@
 //  categorymanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "managers/categorymanager.h"
-#include "addons/db/dbserver.h"
-#include "addons/db/reader.h"
-#include "addons/db/dbfactory.h"
-#include "basegameattr/basegameattributes.h"
-#include "basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/managers/categorymanager.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/dbfactory.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
 
 namespace Attr
 {

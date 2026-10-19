@@ -2,11 +2,11 @@
 //  application/statehandler.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "appgame/gameapplication.h"
-#include "game/gameserver.h"
-#include "basegamefeature/basegamefeatureunit.h"
-#include "basegamefeature/statehandlers/gamestatehandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/appgame/gameapplication.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/application/basegamefeature/basegamefeatureunit.h"
+#include "Nebuladevice/application/basegamefeature/statehandlers/gamestatehandler.h"
 
 namespace BaseGameFeature
 {

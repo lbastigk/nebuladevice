@@ -2,9 +2,9 @@
 //  suilayoutbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "sui/base/suilayoutbase.h"
-#include "sui/rt/suiserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sui/base/suilayoutbase.h"
+#include "Nebuladevice/addons/sui/rt/suiserver.h"
 
 namespace Base
 {

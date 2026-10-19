@@ -2,10 +2,10 @@
 //  d3d9displaydevice.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9displaydevice.h"
-#include "coregraphics/d3d9/d3d9renderdevice.h"
-#include "coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9displaydevice.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9renderdevice.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
 
 namespace Direct3D9
 {

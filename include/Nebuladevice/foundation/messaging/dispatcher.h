@@ -24,8 +24,8 @@
 
     (C) 2007 RadonLabs GmbH
 */
-#include "core/ptr.h"
-#include "messaging/port.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/messaging/port.h"
 
 //------------------------------------------------------------------------------
 namespace Messaging

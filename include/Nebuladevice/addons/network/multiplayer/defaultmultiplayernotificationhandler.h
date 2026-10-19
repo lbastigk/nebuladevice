@@ -8,8 +8,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "multiplayer/base/multiplayernotificationhandlerbase.h"
-#include "notificationprotocol.h"
+#include "Nebuladevice/addons/network/multiplayer/base/multiplayernotificationhandlerbase.h"
+#include "Nebuladevice/addons/network/notificationprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace Multiplayer

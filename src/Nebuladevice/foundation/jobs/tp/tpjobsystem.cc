@@ -2,8 +2,8 @@
 //  tpjobsystem.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "jobs/tp/tpjobsystem.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobsystem.h"
 
 namespace Jobs
 {

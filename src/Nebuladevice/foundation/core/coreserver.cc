@@ -2,8 +2,8 @@
 //  core/coreserver.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/coreserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
 
 namespace Core
 {

@@ -9,9 +9,9 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/singleton.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 #if __WIN32__
-#include "input/win32/win32inputserver.h"
+#include "Nebuladevice/render/input/win32/win32inputserver.h"
 namespace Input
 {
 class InputServer : public Win32::Win32InputServer

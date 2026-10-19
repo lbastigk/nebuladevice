@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "input/base/gamepadbase.h"
-#include "timing/time.h"
+#include "Nebuladevice/render/input/base/gamepadbase.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace XInput

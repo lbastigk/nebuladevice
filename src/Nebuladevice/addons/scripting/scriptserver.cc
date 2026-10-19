@@ -2,10 +2,10 @@
 //  scriptserver.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scripting/scriptserver.h"
-#include "scripting/command.h"
-#include "io/console.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/scripting/scriptserver.h"
+#include "Nebuladevice/addons/scripting/command.h"
+#include "Nebuladevice/foundation/io/console.h"
 
 namespace Scripting
 {

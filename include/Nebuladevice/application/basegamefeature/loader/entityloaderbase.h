@@ -7,9 +7,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "util/string.h"
-#include "core/refcounted.h"
-#include "addons/db/valuetable.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/db/valuetable.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

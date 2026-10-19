@@ -8,12 +8,12 @@
     
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "toolkitutil/n2util/n2reflectioninfo.h"
-#include "toolkitutil/scenenodetree.h"
-#include "io/uri.h"
-#include "io/binaryreader.h"
-#include "util/stack.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/toolkit/toolkitutil/n2util/n2reflectioninfo.h"
+#include "Nebuladevice/toolkit/toolkitutil/scenenodetree.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
+#include "Nebuladevice/foundation/util/stack.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

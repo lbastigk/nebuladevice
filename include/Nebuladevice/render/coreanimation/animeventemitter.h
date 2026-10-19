@@ -12,9 +12,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "util/array.h"
-#include "coreanimation/animclip.h"
-#include "coreanimation/animevent.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/render/coreanimation/animclip.h"
+#include "Nebuladevice/render/coreanimation/animevent.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

@@ -7,7 +7,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if __PS3__
 #include "jobs/ps3/ps3jobport.h"
 namespace Jobs
@@ -18,7 +18,7 @@ class JobPort : public PS3::PS3JobPort
 };
 } // namespace Jobs
 #elif (NEBULA3_USE_SERIAL_JOBSYSTEM || __WII__)
-#include "jobs/serial/serialjobport.h"
+#include "Nebuladevice/foundation/jobs/serial/serialjobport.h"
 namespace Jobs
 {
 class JobPort : public SerialJobPort
@@ -27,7 +27,7 @@ class JobPort : public SerialJobPort
 };
 } // namespace Jobs
 #elif (__WIN32__ || __XBOX360__)
-#include "jobs/tp/tpjobport.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobport.h"
 namespace Jobs
 {
 class JobPort : public TPJobPort

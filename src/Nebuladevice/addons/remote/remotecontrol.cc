@@ -2,13 +2,13 @@
 //  remotecontrol.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remote/remotecontrol.h"
-#include "remote/remoterequestreader.h"
-#include "io/memorystream.h"
-#include "io/xmlreader.h"
-#include "net/messageclientconnection.h"
-#include "util/commandlineargs.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/remote/remotecontrol.h"
+#include "Nebuladevice/addons/remote/remoterequestreader.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/net/messageclientconnection.h"
+#include "Nebuladevice/foundation/util/commandlineargs.h"
 
 namespace Remote
 {

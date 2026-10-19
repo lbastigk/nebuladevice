@@ -2,11 +2,11 @@
 //  httpclientregistry.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
 // HttpClientRegistry not implemented on the Wii
 #if __NEBULA3_HTTP_FILESYSTEM__
-#include "http/httpclientregistry.h"
+#include "Nebuladevice/foundation/http/httpclientregistry.h"
 
 namespace Http
 {

@@ -11,15 +11,15 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "net/tcpserver.h"
-#include "net/socket/ipaddress.h"
-#include "io/textreader.h"
-#include "io/textwriter.h"
-#include "http/httpresponsewriter.h"
-#include "http/httprequesthandler.h"
-#include "http/defaulthttprequesthandler.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/net/tcpserver.h"
+#include "Nebuladevice/foundation/net/socket/ipaddress.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
+#include "Nebuladevice/foundation/http/httpresponsewriter.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/foundation/http/defaulthttprequesthandler.h"
 
 //------------------------------------------------------------------------------
 namespace Http

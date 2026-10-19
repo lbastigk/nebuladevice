@@ -2,10 +2,10 @@
 //  lightflickerutil.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphicsutil/lightflickerutil.h"
-#include "math/noise.h"
-#include "basegametiming/gametimesource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsutil/lightflickerutil.h"
+#include "Nebuladevice/foundation/math/noise.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
 
 namespace GraphicsFeature
 {

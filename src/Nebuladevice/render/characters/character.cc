@@ -2,8 +2,8 @@
 //  character.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/character.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/character.h"
 
 namespace Characters
 {

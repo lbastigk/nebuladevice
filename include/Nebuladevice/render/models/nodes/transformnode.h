@@ -7,10 +7,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "models/modelnode.h"
-#include "math/point.h"
-#include "math/vector.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/render/models/modelnode.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 
 //------------------------------------------------------------------------------
 namespace Models

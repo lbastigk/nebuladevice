@@ -2,8 +2,8 @@
 //  consolehandler.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/consolehandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/consolehandler.h"
 
 namespace IO
 {

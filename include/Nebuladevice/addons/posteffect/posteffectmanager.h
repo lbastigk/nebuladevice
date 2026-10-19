@@ -7,15 +7,15 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "game/manager.h"
-#include "core/singleton.h"
-#include "posteffect/posteffectentity.h"
-#include "posteffect/rt/params/depthoffieldparams.h"
-#include "timing/time.h"
-#include "graphics/globallightentity.h"
-#include "graphics/modelentity.h"
-#include "posteffect/posteffectrendermodule.h"
-#include "attr/attrid.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/posteffect/posteffectentity.h"
+#include "Nebuladevice/addons/posteffect/rt/params/depthoffieldparams.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/graphics/globallightentity.h"
+#include "Nebuladevice/render/graphics/modelentity.h"
+#include "Nebuladevice/addons/posteffect/posteffectrendermodule.h"
+#include "Nebuladevice/addons/attr/attrid.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

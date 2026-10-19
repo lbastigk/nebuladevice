@@ -7,12 +7,12 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "toolkitutil/logger.h"
-#include "util/dictionary.h"
-#include "util/stringatom.h"
-#include "util/fixedtable.h"
-#include "io/binarywriter.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/toolkit/toolkitutil/logger.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/fixedtable.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

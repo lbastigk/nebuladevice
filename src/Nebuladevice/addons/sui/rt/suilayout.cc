@@ -2,8 +2,8 @@
 //  suilayout.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "sui/rt/suilayout.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sui/rt/suilayout.h"
 
 namespace SUI
 {

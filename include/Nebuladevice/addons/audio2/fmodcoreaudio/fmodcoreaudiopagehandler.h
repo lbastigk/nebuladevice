@@ -10,10 +10,10 @@
     
     (C) 2008 Radon Labs GmbH
 */    
-#include "http/httprequesthandler.h"
-#include "resources/resourceid.h"
-#include "http/html/htmlpagewriter.h"
-#include "http/httpstatus.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/http/httpstatus.h"
 
 namespace FMOD { class EventGroup; }
 namespace Http { class HtmlPageWriter; }

@@ -37,12 +37,12 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "resources/resourceid.h"
-#include "timing/time.h"
-#include "resources/resourceloader.h"
-#include "resources/resourcesaver.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/render/resources/resourcesaver.h"
 
 namespace Core
 {

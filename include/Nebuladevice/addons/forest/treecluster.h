@@ -10,11 +10,11 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "math/bbox.h"
-#include "forest/treeinstance.h"
-#include "forest/tree.h"
-#include "internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/addons/forest/treeinstance.h"
+#include "Nebuladevice/addons/forest/tree.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

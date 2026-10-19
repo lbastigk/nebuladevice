@@ -2,8 +2,8 @@
 //  skyparams.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "skyparams.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/params/skyparams.h"
 
 namespace PostEffect
 {

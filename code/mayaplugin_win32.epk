@@ -4,7 +4,7 @@
 #-------------------------------------------------------------------------------
 set Libs { dbghelp.lib wsock32.lib rpcrt4.lib }
 set MayaLibs { Foundation.lib OpenMaya.lib OpenMayaAnim.lib }
-set Include { c:/Program Files/Autodesk/Maya2009/include;../foundation;../render;../extlibs;..addons;../toolkit;../mayaplugin}
+set Include { c:/Program Files/Autodesk/Maya2009/include;../foundation;../render;../external;..addons;../toolkit;../mayaplugin}
 set MayaLibPath { c:/Program Files/Autodesk/Maya2009/lib }
 
 #-------------------------------------------------------------------------------

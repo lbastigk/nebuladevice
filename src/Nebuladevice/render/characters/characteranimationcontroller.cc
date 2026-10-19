@@ -2,9 +2,9 @@
 //  characteranimationcontroller.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characteranimationcontroller.h"
-#include "animation/playclipjob.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characteranimationcontroller.h"
+#include "Nebuladevice/render/animation/playclipjob.h"
 
 namespace Characters
 {

@@ -9,9 +9,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "util/string.h"
-#include "loader/entityloaderbase.h"
-#include "game/entity.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/application/basegamefeature/loader/entityloaderbase.h"
+#include "Nebuladevice/application/game/entity.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

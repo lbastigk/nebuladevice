@@ -7,16 +7,16 @@
     
     (C) 2008 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "math/rectangle.h"
-#include "ui/rt/coreuielement.h"
-#include "threading/threadid.h"
-#include "resources/managedtexture.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/shaderinstance.h"
-#include "util/stringatom.h"
-#include "timing/timer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/math/rectangle.h"
+#include "Nebuladevice/addons/ui/rt/coreuielement.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/render/resources/managedtexture.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/timing/timer.h"
 
 //------------------------------------------------------------------------------
 namespace Base

@@ -2,13 +2,13 @@
 //  defaulthttprequesthandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/coreserver.h"
-#include "http/defaulthttprequesthandler.h"
-#include "timing/calendartime.h"
-#include "http/html/htmlpagewriter.h"
-#include "http/httpserver.h"
-#include "http/httpinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/http/defaulthttprequesthandler.h"
+#include "Nebuladevice/foundation/timing/calendartime.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/http/httpserver.h"
+#include "Nebuladevice/foundation/http/httpinterface.h"
 
 namespace Http
 {

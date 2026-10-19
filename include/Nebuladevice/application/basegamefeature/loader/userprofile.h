@@ -13,9 +13,9 @@
         
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/dictionary.h"
-#include "util/variant.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/variant.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

@@ -7,17 +7,17 @@
 
     (C) 2011 xiongyouyi
 */
-#include "appgame/gameapplication.h"
-#include "basegamefeature/basegamefeatureunit.h"
-#include "foundation/framesync/framesynctimer.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/appgame/gameapplication.h"
+#include "Nebuladevice/application/basegamefeature/basegamefeatureunit.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
 #include "../util/windowmessagehandler.h"
 #include "../edittool/edittool.h"
 
 
 #if __USE_PHYSICS__
-#include "physicsfeature/physicsfeatureunit.h"
-#include "stateobjectfeature/stateobjectfeatureunit.h"
+#include "Nebuladevice/application/physicsfeature/physicsfeatureunit.h"
+#include "Nebuladevice/application/stateobjectfeature/stateobjectfeatureunit.h"
 #endif
 
 

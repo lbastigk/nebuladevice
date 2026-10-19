@@ -2,11 +2,11 @@
 //  visibilityBox.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "visibility/visibilitysystems/visibilitybox.h"
-#include "visibility/visibilitysystems/visibilityboxsystem.h"  
-#include "visibility/visibilitycontext.h"
-#include "coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitybox.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityboxsystem.h"  
+#include "Nebuladevice/render/visibility/visibilitycontext.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
 
 namespace Visibility
 {

@@ -2,10 +2,10 @@
 //  shapenodeinstance.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/nodes/shapenodeinstance.h"
-#include "coregraphics/renderdevice.h"
-#include "models/nodes/transformnode.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/nodes/shapenodeinstance.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
 
 namespace Models
 {

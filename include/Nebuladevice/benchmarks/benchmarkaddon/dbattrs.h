@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "attr/attribute.h"
+#include "Nebuladevice/addons/attr/attribute.h"
 
 #ifdef IN
 #undef IN

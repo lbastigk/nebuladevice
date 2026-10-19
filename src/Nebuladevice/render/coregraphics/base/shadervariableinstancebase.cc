@@ -2,9 +2,9 @@
 //  shadervariableinstancebase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/shadervariableinstancebase.h"
-#include "coregraphics/shadervariable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/shadervariableinstancebase.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
 
 namespace Base
 {

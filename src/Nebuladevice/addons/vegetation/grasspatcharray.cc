@@ -2,10 +2,10 @@
 //  grasspatcharray.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grasspatcharray.h"
-#include "vegetation/grassrenderer.h"
-#include "vegetation/grassgroundmap.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grasspatcharray.h"
+#include "Nebuladevice/addons/vegetation/grassrenderer.h"
+#include "Nebuladevice/addons/vegetation/grassgroundmap.h"
 
 namespace Vegetation
 {

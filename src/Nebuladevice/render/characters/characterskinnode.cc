@@ -2,10 +2,10 @@
 //  characterskinnode.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characterskinnode.h"
-#include "characters/characterskinnodeinstance.h"
-#include "coregraphics/shaderserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characterskinnode.h"
+#include "Nebuladevice/render/characters/characterskinnodeinstance.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
 
 namespace Characters
 {

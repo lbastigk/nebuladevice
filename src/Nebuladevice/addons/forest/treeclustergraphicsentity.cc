@@ -2,16 +2,16 @@
 //  treelustergraphicsentity.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/treeclustergraphicsentity.h"
-#include "forest/treeclustergraphicsentityshared.h"
-#include "models/visresolver.h"
-#include "math/float4.h"
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
-#include "internalgraphics/internalcameraentity.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalview.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/treeclustergraphicsentity.h"
+#include "Nebuladevice/addons/forest/treeclustergraphicsentityshared.h"
+#include "Nebuladevice/render/models/visresolver.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
 
 namespace Forest
 {

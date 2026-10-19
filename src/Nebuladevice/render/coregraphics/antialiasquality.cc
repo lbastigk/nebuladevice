@@ -2,8 +2,8 @@
 //  antialiasquality.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/antialiasquality.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/antialiasquality.h"
 
 namespace CoreGraphics
 {

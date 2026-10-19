@@ -2,8 +2,8 @@
 //  textrenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/textrenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/textrenderer.h"
 
 namespace CoreGraphics
 {

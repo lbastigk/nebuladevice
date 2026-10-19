@@ -7,11 +7,11 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "threading/win360/win360event.h"
-#include "threading/threadid.h"
-#include "system/cpu.h"
-#include "util/localstringatomtable.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/threading/win360/win360event.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/foundation/system/cpu.h"
+#include "Nebuladevice/foundation/util/localstringatomtable.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

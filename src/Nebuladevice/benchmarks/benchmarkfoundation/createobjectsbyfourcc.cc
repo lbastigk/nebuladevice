@@ -2,9 +2,9 @@
 //  createobjectsbyfourcc.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "createobjectsbyfourcc.h"
-#include "core/factory.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/createobjectsbyfourcc.h"
+#include "Nebuladevice/foundation/core/factory.h"
 
 namespace Benchmarking
 {

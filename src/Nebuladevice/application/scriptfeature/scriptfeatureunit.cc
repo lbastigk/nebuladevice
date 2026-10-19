@@ -2,9 +2,9 @@
 //  scriptfeature/scriptfeatureunit.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/scriptfeatureunit.h"
-#include "scriptfeature/fsm/behaviourproperty.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/scriptfeatureunit.h"
+#include "Nebuladevice/application/scriptfeature/fsm/behaviourproperty.h"
 
 namespace ScriptFeature
 {

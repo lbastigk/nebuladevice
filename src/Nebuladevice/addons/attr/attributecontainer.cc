@@ -2,8 +2,8 @@
 //  attr/attributecontainer.h
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "attr/attributecontainer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/attr/attributecontainer.h"
 
 namespace Attr
 {

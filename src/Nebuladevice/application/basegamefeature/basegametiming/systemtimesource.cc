@@ -2,8 +2,8 @@
 //  systemtimesource.cc
 //  (C) 2007 Radon Labs GmbH
 //--------------------------------------------------------------------
-#include "stdneb.h"
-#include "basegametiming/systemtimesource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/systemtimesource.h"
 
 namespace BaseGameFeature
 {

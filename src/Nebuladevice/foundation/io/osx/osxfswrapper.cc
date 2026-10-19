@@ -2,9 +2,9 @@
 //  osxfswrapper.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "osxfswrapper.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/osx/osxfswrapper.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 namespace OSX
 {

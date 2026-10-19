@@ -2,10 +2,10 @@
 //  treebillboardgraphicsentity.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/treebillboardgraphicsentity.h"
-#include "forest/treebillboardrenderer.h"
-#include "internalgraphics/internalgraphicsentitytype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/treebillboardgraphicsentity.h"
+#include "Nebuladevice/addons/forest/treebillboardrenderer.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentitytype.h"
 
 namespace Forest
 {

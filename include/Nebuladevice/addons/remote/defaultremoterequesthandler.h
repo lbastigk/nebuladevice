@@ -11,7 +11,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "remote/remoterequesthandler.h"
+#include "Nebuladevice/addons/remote/remoterequesthandler.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

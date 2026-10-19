@@ -25,11 +25,11 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "basegameattr/basegameattributes.h"
-#include "addons/db/reader.h"
-#include "addons/db/writer.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/writer.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

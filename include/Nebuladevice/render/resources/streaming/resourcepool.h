@@ -8,10 +8,10 @@
 
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "resourcerequestinfo.h"
-#include "resourceinfo.h"
-#include "resourceslot.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/resources/streaming/resourcerequestinfo.h"
+#include "Nebuladevice/render/resources/streaming/resourceinfo.h"
+#include "Nebuladevice/render/resources/streaming/resourceslot.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

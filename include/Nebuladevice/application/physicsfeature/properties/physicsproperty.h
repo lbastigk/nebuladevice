@@ -16,9 +16,9 @@
   
     (C) 2008 Radon Labs GmbH
 */
-#include "properties/transformableproperty.h"
-#include "physics/physicsentity.h"
-#include "physicsattr/physicsattributes.h"
+#include "Nebuladevice/application/basegamefeature/properties/transformableproperty.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/application/physicsfeature/physicsattr/physicsattributes.h"
 
 //------------------------------------------------------------------------------
 namespace PhysicsFeature

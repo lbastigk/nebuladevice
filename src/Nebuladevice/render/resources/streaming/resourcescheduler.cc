@@ -2,10 +2,10 @@
 //  resourcescheduler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resourcescheduler.h"
-#include "streamingresourcemapper.h"
-#include "loadingresource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/resourcescheduler.h"
+#include "Nebuladevice/render/resources/streaming/streamingresourcemapper.h"
+#include "Nebuladevice/render/resources/streaming/loadingresource.h"
 
 namespace Resources
 {

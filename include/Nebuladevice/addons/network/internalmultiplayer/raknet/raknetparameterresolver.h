@@ -11,8 +11,8 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "internalmultiplayer/base/parameterresolverbase.h"
-#include "extlibs/raknet/BitStream.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/parameterresolverbase.h"
+#include "raknet/BitStream.h"
 
 //------------------------------------------------------------------------------
 namespace RakNet

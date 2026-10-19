@@ -7,7 +7,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "resources/streamresourceloader.h"
+#include "Nebuladevice/render/resources/streamresourceloader.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

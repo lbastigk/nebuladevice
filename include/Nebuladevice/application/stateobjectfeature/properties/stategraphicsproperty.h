@@ -8,9 +8,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "properties/graphicsproperty.h"
-#include "util/dictionary.h"
-#include "application/stateobjectfeature/properties/stateinfo.h"
+#include "Nebuladevice/application/graphicsfeature/properties/graphicsproperty.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/application/stateobjectfeature/properties/stateinfo.h"
 
 //------------------------------------------------------------------------------
 namespace StateObjectFeature

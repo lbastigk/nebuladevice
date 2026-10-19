@@ -2,9 +2,9 @@
 //  n3viewerremotecommandhandler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n3viewerremotecommandhandler.h"
-#include "n3viewerapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/n3viewer/n3viewerremotecommandhandler.h"
+#include "Nebuladevice/toolkit/n3viewer/n3viewerapp.h"
 
 namespace Toolkit
 {

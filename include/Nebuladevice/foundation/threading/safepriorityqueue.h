@@ -9,9 +9,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "util/queue.h"
-#include "threading/criticalsection.h"
-#include "threading/event.h"
+#include "Nebuladevice/foundation/util/queue.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/threading/event.h"
     
 //------------------------------------------------------------------------------
 namespace Threading

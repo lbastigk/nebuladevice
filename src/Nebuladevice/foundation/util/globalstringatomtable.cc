@@ -2,8 +2,8 @@
 //  globalstringatomtable.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/globalstringatomtable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/globalstringatomtable.h"
 
 namespace Util
 {

@@ -2,8 +2,8 @@
 //  mayascene.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayacore/mayascene.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayascene.h"
 
 namespace Maya
 {

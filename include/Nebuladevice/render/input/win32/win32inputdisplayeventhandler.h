@@ -10,7 +10,7 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "coregraphics/threadsafedisplayeventhandler.h"
+#include "Nebuladevice/render/coregraphics/threadsafedisplayeventhandler.h"
 
 //------------------------------------------------------------------------------
 namespace Win32

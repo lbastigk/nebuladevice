@@ -11,12 +11,12 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "threading/thread.h"
-#include "util/array.h"
-#include "net/tcpclientconnection.h"
-#include "net/socket/socket.h"
-#include "threading/criticalsection.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/net/tcpclientconnection.h"
+#include "Nebuladevice/foundation/net/socket/socket.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
 
 //------------------------------------------------------------------------------
 namespace Net

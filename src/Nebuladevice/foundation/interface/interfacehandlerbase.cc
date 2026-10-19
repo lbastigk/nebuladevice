@@ -2,8 +2,8 @@
 //  interfacehandlerbase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
 
 namespace Interface
 {

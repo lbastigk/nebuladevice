@@ -2,8 +2,8 @@
 //  meshbuildervertex.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/meshutil/meshbuildervertex.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/meshutil/meshbuildervertex.h"
 
 namespace ToolkitUtil
 {

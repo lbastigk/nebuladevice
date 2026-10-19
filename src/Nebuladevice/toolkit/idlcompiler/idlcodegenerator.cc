@@ -2,9 +2,9 @@
 //  idlcodegenerator.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkit/idlcompiler/idlcodegenerator.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/idlcompiler/idlcodegenerator.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Tools
 {

@@ -2,10 +2,10 @@
 //  internalpointlightentity.h
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/internalpointlightentity.h"
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/internalpointlightentity.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Lighting
 {

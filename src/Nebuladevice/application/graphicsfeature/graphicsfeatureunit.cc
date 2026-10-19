@@ -2,23 +2,23 @@
 //  game/graphicsfeature.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "graphicsfeature/graphicsfeatureproperties.h"
-#include "basegamefeature/loader/loaderserver.h"
-#include "visibility/visibilitysystems/visibilityquadtree.h"
-#include "internalgraphics/internalview.h"  // FIXME! should have to use InternalGraphics!
-#include "game/gameserver.h"
-#include "debugrender/debugrenderprotocol.h"
-#include "threading/thread.h"
-#include "input/keyboard.h"
-#include "basegametiming/gametimesource.h"   
-#include "resources/simpleresourcemapper.h"
-#include "coregraphics/streamtextureloader.h"
-#include "coregraphics/streammeshloader.h"
-#include "coreanimation/streamanimationloader.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/managedanimresource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureproperties.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityquadtree.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"  // FIXME! should have to use InternalGraphics!
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/render/debugrender/debugrenderprotocol.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"   
+#include "Nebuladevice/render/resources/simpleresourcemapper.h"
+#include "Nebuladevice/render/coregraphics/streamtextureloader.h"
+#include "Nebuladevice/render/coregraphics/streammeshloader.h"
+#include "Nebuladevice/render/coreanimation/streamanimationloader.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/managedanimresource.h"
 
 namespace GraphicsFeature
 {

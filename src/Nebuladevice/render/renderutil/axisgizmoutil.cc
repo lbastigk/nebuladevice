@@ -2,9 +2,9 @@
 //  axisgizmoutil.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "renderutil/axisgizmoutil.h"
-#include "math/float4.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/renderutil/axisgizmoutil.h"
+#include "Nebuladevice/foundation/math/float4.h"
 
 
 namespace RenderUtil

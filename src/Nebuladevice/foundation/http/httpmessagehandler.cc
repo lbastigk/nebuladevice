@@ -2,9 +2,9 @@
 //  httpmessagehandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httpmessagehandler.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httpmessagehandler.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Http
 {

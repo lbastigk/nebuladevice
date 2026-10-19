@@ -2,17 +2,17 @@
 //  properties/inputproperty.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/inputproperty.h"
-#include "managers/focusmanager.h"
-#include "game/entity.h"
-#include "input/inputserver.h"
-#include "input/keyboard.h"
-#include "input/mouse.h"
-#include "input/gamepad.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "basegameprotocol.h"
-#include "io/console.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/inputproperty.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/mouse.h"
+#include "Nebuladevice/render/input/gamepad.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/foundation/io/console.h"
 
 namespace Attr
 {

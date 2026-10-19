@@ -2,8 +2,8 @@
 //  sessioninfo.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------   
-#include "stdneb.h"
-#include "internalmultiplayer/sessioninfo.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/sessioninfo.h"
 
 namespace InternalMultiplayer
 {

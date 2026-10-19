@@ -16,12 +16,12 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "http/httprequest.h"
-#include "io/uri.h"
-#include "io/stream.h"
-#include "util/string.h"
-#include "threading/safequeue.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/http/httprequest.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/threading/safequeue.h"
 
 //------------------------------------------------------------------------------
 namespace Http

@@ -9,10 +9,10 @@
       
     (C) 2009 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "internalmultiplayer/internalplayer.h"
-#include "internalmultiplayer/handle.h"
-#include "internalmultiplayer/sessioninfo.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalplayer.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/handle.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/sessioninfo.h"
 
 namespace Base
 {

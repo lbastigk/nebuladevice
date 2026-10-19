@@ -2,12 +2,12 @@
 //  win32coreuirenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/win360/win360coreuirenderer.h"
-#include "coregraphics/memoryvertexbufferloader.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/transformdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/win360/win360coreuirenderer.h"
+#include "Nebuladevice/render/coregraphics/memoryvertexbufferloader.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/transformdevice.h"
 
 namespace Win32
 {

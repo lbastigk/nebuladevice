@@ -2,8 +2,8 @@
 //  audiobatcher3.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audiobatcherapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/audiobatcher3/audiobatcherapp.h"
 
 //------------------------------------------------------------------------------
 /**

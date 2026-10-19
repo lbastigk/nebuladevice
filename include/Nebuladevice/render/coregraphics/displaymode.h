@@ -7,8 +7,8 @@
       
     (C) 2006 Radon Labs GmbH
 */    
-#include "core/types.h"
-#include "coregraphics/pixelformat.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
 
 //------------------------------------------------------------------------------
 namespace CoreGraphics

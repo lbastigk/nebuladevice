@@ -2,15 +2,15 @@
 //  loader/entityloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "loader/entityloader.h"
-#include "game/entity.h"
-#include "managers/factorymanager.h"
-#include "managers/entitymanager.h"
-#include "managers/categorymanager.h"
-#include "basegameattr/basegameattributes.h"
-#include "graphicsattr/graphicsattributes.h"
-#include "loader/loaderserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/loader/entityloader.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/categorymanager.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
 
 namespace BaseGameFeature
 {

@@ -2,12 +2,12 @@
 //  imageconverter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "imageconverter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/imageconverter.h"
 #include "IL/il.h"
 #include "IL/ilu.h"
-#include "io/ioserver.h"
-#include "io/uri.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 namespace ToolkitUtil
 {

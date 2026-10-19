@@ -2,8 +2,8 @@
 //  animbuilderclip.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/animutil/animbuilderclip.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuilderclip.h"
 
 namespace ToolkitUtil
 {

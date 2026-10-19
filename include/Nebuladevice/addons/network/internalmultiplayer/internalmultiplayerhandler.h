@@ -9,13 +9,13 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "messaging/message.h"
-#include "framesync/framesynctimer.h"
-#include "threading/safeflag.h"
-#include "threading/event.h"
-#include "internalmultiplayer/internalmultiplayerserver.h"         
-#include "http/httpserverproxy.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/threading/safeflag.h"
+#include "Nebuladevice/foundation/threading/event.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerserver.h"         
+#include "Nebuladevice/foundation/http/httpserverproxy.h"
 
 //------------------------------------------------------------------------------
 namespace InternalMultiplayer

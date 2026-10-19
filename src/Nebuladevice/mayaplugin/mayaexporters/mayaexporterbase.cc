@@ -2,10 +2,10 @@
 //  mayaexporterbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaexporterbase.h"
-#include "mayautil/mayanodeutil.h"
-#include "mayautil/mayatype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayaexporters/mayaexporterbase.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayanodeutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
 
 #include <maya/MDagPathArray.h>
 

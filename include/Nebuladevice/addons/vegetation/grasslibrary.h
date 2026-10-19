@@ -15,9 +15,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "vegetation/grasslayerinfo.h"
-#include "vegetation/grassplantmesh.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/vegetation/grasslayerinfo.h"
+#include "Nebuladevice/addons/vegetation/grassplantmesh.h"
 
 namespace Models
 {

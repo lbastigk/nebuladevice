@@ -7,11 +7,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "characters/characterskeleton.h"
-#include "characters/charjointcomponents.h"
-#include "jobs/job.h"
-#include "jobs/jobport.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/characters/characterskeleton.h"
+#include "Nebuladevice/render/characters/charjointcomponents.h"
+#include "Nebuladevice/foundation/jobs/job.h"
+#include "Nebuladevice/foundation/jobs/jobport.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

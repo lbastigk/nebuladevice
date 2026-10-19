@@ -9,13 +9,13 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "util/stringatom.h"
-#include "io/uri.h"
-#include "resources/resourceid.h"
-#include "timing/timer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/timing/timer.h"
 
 // forward declarations
 namespace Graphics

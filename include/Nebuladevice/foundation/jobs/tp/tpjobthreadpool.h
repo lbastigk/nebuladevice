@@ -10,8 +10,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "jobs/tp/tpworkerthread.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/jobs/tp/tpworkerthread.h"
 
 //------------------------------------------------------------------------------
 namespace Jobs

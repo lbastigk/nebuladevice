@@ -2,9 +2,9 @@
 //  uirendererbase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/base/coreuirendererbase.h"
-#include "ui/rt/coreuielement.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/base/coreuirendererbase.h"
+#include "Nebuladevice/addons/ui/rt/coreuielement.h"
 
 namespace Base
 {

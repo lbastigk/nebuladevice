@@ -2,8 +2,8 @@
 //  characteranimationlibrary.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characteranimationlibrary.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characteranimationlibrary.h"
 
 namespace Characters
 {

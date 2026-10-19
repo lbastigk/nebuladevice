@@ -2,9 +2,9 @@
 //  fmodcoreaudiopagehandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audio2/fmodcoreaudio/fmodcoreaudiopagehandler.h"
-#include "audio2/fmodcoreaudio/fmodaudiodevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodcoreaudiopagehandler.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodaudiodevice.h"
 
 #include <fmod_event.hpp>
 

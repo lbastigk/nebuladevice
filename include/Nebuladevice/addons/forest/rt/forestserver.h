@@ -5,13 +5,13 @@
         
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "timing/time.h"
-#include "forest/treeclusterpool.h"
-#include "forest/treeinstance.h"
-#include "forest/treebillboardrenderer.h"
-#include "math/bbox.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/addons/forest/treeclusterpool.h"
+#include "Nebuladevice/addons/forest/treeinstance.h"
+#include "Nebuladevice/addons/forest/treebillboardrenderer.h"
+#include "Nebuladevice/foundation/math/bbox.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

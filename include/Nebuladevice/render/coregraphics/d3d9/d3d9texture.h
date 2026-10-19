@@ -10,7 +10,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/texturebase.h"
+#include "Nebuladevice/render/coregraphics/base/texturebase.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

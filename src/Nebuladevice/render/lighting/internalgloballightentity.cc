@@ -2,8 +2,8 @@
 //  globallightentity.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/internalgloballightentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/internalgloballightentity.h"
 
 namespace Lighting
 {

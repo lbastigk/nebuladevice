@@ -2,8 +2,8 @@
 //  animconverter3.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "animconverterapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/animconverter3/animconverterapp.h"
 
 //------------------------------------------------------------------------------
 /**

@@ -8,7 +8,7 @@
     (C) 2006 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__)
-#include "net/win360/win360socket.h"
+#include "Nebuladevice/foundation/net/win360/win360socket.h"
 namespace Net
 {
 class Socket : public Win360::Win360Socket

@@ -2,8 +2,8 @@
 //  shader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/shader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/shader.h"
 
 #if __WIN32__
 namespace CoreGraphics

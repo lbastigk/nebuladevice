@@ -8,9 +8,9 @@
 
     (C) 2010 Radon Labs GmbH
 */    
-#include "visibility/visibilitycontainer.h"
-#include "math/bbox.h"
-#include "math/frustum.h"
+#include "Nebuladevice/render/visibility/visibilitycontainer.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/math/frustum.h"
 
 //------------------------------------------------------------------------------
 namespace Visibility

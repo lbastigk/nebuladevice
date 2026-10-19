@@ -2,9 +2,9 @@
 //  remoteresponsewriter.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remote/remoteresponsewriter.h"
-#include "io/textwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/remote/remoteresponsewriter.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
 
 namespace Remote
 {

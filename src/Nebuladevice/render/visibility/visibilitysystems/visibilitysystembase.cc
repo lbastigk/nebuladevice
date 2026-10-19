@@ -2,8 +2,8 @@
 //  visibilityserver.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "visibility/visibilitysystems/visibilitysystembase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitysystembase.h"
 
 namespace Visibility
 {

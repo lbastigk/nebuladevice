@@ -2,13 +2,13 @@
 //  mayaenvcmd.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaenvcmd.h"
-#include "mayamain/mayadirectoryregistry.h"
-#include "mayamain/mayalogger.h"
-#include "mayautil/mayatype.h"
-#include "util/string.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayalegacy/mayaenvcmd.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayadirectoryregistry.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayalogger.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 #include <maya/MSyntax.h>
 #include <maya/MArgDatabase.h>
 

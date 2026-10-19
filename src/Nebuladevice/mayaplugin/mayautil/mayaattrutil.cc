@@ -2,9 +2,9 @@
 //  mayaattrutil.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayautil/mayaattrutil.h"
-#include "mayautil/mayatype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayaattrutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
 #include <maya/MFnDependencyNode.h>
 #include <maya/MFnTypedAttribute.h>
 #include <maya/MFnNumericAttribute.h>

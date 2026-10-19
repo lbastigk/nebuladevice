@@ -4,14 +4,14 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "timing/time.h"
-#include "posteffect/rt/params/colorparams.h"
-#include "posteffect/rt/params/depthoffieldparams.h"
-#include "posteffect/rt/params/fogparams.h"
-#include "posteffect/rt/params/hdrparams.h"
-#include "posteffect/rt/params/lightparams.h"
-#include "posteffect/rt/params/skyparams.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/addons/posteffect/rt/params/colorparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/depthoffieldparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/fogparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/hdrparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/lightparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/skyparams.h"
 
 //------------------------------------------------------------------------------
 namespace PostEffect

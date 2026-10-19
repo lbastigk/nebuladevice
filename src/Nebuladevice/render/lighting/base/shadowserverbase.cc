@@ -2,9 +2,9 @@
 //  shadowserverbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/base/shadowserverbase.h"
-#include "lighting/lightserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/base/shadowserverbase.h"
+#include "Nebuladevice/render/lighting/lightserver.h"
 
 namespace Lighting
 {

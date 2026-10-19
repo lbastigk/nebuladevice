@@ -10,11 +10,11 @@
 
     (C) 2003 RadonLabs GmbH
 */
-#include "loader/userprofile.h"
-#include "core/ptr.h"
-#include "core/singleton.h"
-#include "loader/entityloaderbase.h"
-#include "io/uri.h"
+#include "Nebuladevice/application/basegamefeature/loader/userprofile.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/application/basegamefeature/loader/entityloaderbase.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

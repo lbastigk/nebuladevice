@@ -6,9 +6,9 @@
     (C) 2008 Radon Labs GmbH
 */
 
-#include "foundation/core/refcounted.h"
-#include "foundation/timing/time.h"
-#include "sequencer/tracksequencer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/addons/sequencer/tracksequencer.h"
 
 namespace Sequencer
 {

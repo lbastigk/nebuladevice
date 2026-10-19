@@ -2,15 +2,15 @@
 //  internalstage.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalcameraentity.h"
-#include "timing/timer.h"
-#include "rendermodules/rt/rtpluginregistry.h"
-#include "visibility/visibilitysystems/visibilityquadtree.h"
-#include "coregraphics/shaperenderer.h"
-#include "coregraphics/rendershape.h"
-#include "lighting/internalgloballightentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/render/rendermodules/rt/rtpluginregistry.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityquadtree.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/render/coregraphics/rendershape.h"
+#include "Nebuladevice/render/lighting/internalgloballightentity.h"
 
 namespace InternalGraphics
 {

@@ -2,8 +2,8 @@
 //  htmlpagewriter.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
 
 namespace Http
 {

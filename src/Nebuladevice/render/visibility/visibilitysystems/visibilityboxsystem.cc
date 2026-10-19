@@ -2,13 +2,13 @@
 //  VisibilityBoxSystem.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "visibility/visibilitysystems/visibilityboxsystem.h"
-#include "coregraphics/shaperenderer.h"   
-#include "threading/thread.h"      
-#include "jobs/job.h"
-#include "jobs/jobdatadesc.h"
-#include "jobs/jobuniformdesc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilityboxsystem.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"   
+#include "Nebuladevice/foundation/threading/thread.h"      
+#include "Nebuladevice/foundation/jobs/job.h"
+#include "Nebuladevice/foundation/jobs/jobdatadesc.h"
+#include "Nebuladevice/foundation/jobs/jobuniformdesc.h"
 
 namespace Visibility
 {

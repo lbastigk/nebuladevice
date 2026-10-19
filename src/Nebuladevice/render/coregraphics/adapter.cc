@@ -2,8 +2,8 @@
 //  adapter.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/adapter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/adapter.h"
 
 namespace CoreGraphics
 {

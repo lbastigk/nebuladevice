@@ -2,13 +2,13 @@
 //  shadercodegenerator.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shadercodegenerator.h"
-#include "io/ioserver.h"
-#include "shadernode.h"
-#include "shaderslot.h"
-#include "shadersamplermanager.h"
-#include "shaderfragmentmanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shadercodegenerator.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/toolkit/nsc3/shadernode.h"
+#include "Nebuladevice/toolkit/nsc3/shaderslot.h"
+#include "Nebuladevice/toolkit/nsc3/shadersamplermanager.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragmentmanager.h"
 
 namespace Tools
 {

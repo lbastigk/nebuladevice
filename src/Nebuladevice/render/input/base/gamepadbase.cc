@@ -2,8 +2,8 @@
 //  gamepadbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/base/gamepadbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/base/gamepadbase.h"
 
 namespace Base
 {

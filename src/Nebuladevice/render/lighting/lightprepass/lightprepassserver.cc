@@ -2,15 +2,15 @@
 //  lightprepassserver.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/lightprepass/lightprepassserver.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/shadersemantics.h"
-#include "coregraphics/transformdevice.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/texture.h"
-#include "lighting/shadowserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/lightprepass/lightprepassserver.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
+#include "Nebuladevice/render/coregraphics/transformdevice.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/lighting/shadowserver.h"
 
 namespace Lighting
 {

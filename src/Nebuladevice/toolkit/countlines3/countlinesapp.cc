@@ -2,10 +2,10 @@
 //  countlinesapp.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "countlinesapp.h"
-#include "io/textreader.h"
-#include "io/textwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/countlines3/countlinesapp.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
 
 namespace Toolkit
 {

@@ -6,11 +6,11 @@
     
     Helper class which offers static function to parse xml attributes
 */
-#include "math/vector.h"
-#include "util/string.h"
-#include "core/ptr.h"
-#include "sequencer/animatedparameter.h"
-#include "io/xmlreader.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/addons/sequencer/animatedparameter.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
 
 class nStream;
 

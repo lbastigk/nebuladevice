@@ -2,10 +2,10 @@
 //  binaryxmlconverter.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "binaryxmlconverter.h"
-#include "io/ioserver.h"
-#include "io/binarywriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/binaryxmlconverter.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
 
 namespace ToolkitUtil
 {

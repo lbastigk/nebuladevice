@@ -8,11 +8,11 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/stringatom.h"
-#include "internalmultiplayer/base/internalplayerbase.h"
-#include "internalmultiplayer/handle.h"
-#include "util/blob.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/internalplayerbase.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/handle.h"
+#include "Nebuladevice/foundation/util/blob.h"
 
 //------------------------------------------------------------------------------
 namespace Multiplayer

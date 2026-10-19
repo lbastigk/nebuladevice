@@ -8,11 +8,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/stringatom.h"
-#include "timing/time.h"
-#include "math/bbox.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 //------------------------------------------------------------------------------
 namespace Models

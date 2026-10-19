@@ -8,10 +8,10 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/singleton.h"
-#include "core/refcounted.h"
-#include "util/dictionary.h"
-#include "physics/physicsmesh.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/addons/physics/physicsmesh.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

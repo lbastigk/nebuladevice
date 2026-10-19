@@ -22,9 +22,9 @@
 
     (C) 2005 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/guid.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 namespace Conditions
 {

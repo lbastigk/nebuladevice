@@ -8,7 +8,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "particles/base/particlesysteminstancebase.h"
+#include "Nebuladevice/render/particles/base/particlesysteminstancebase.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

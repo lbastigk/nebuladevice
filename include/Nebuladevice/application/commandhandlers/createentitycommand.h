@@ -5,8 +5,8 @@
 
     (C) 2010 Radon Labs GmbH
 */
-#include "remote/remotecommandhandler.h"
-#include "attr/attributecontainer.h"
+#include "Nebuladevice/addons/remote/remotecommandhandler.h"
+#include "Nebuladevice/addons/attr/attributecontainer.h"
 
 //------------------------------------------------------------------------------
 namespace Commands

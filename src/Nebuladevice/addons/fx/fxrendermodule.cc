@@ -2,11 +2,11 @@
 // fxrendermodule.cc
 // (C) 2009 Radon Labs GmbH
 
-#include "stdneb.h"
-#include "fx/fxrendermodule.h"
-#include "fx/rt/fxrtplugin.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicsprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/fxrendermodule.h"
+#include "Nebuladevice/addons/fx/rt/fxrtplugin.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
 
 namespace FX
 {

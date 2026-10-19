@@ -11,12 +11,12 @@
     
     (C) 2008 Radon Labs GmbH
 */    
-#include "messaging/message.h"
-#include "ui/elements/element.h"
-#include "input/inputevent.h"
-#include "input/mousebutton.h"
-#include "input/key.h"
-#include "input/gamepad.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/ui/elements/element.h"
+#include "Nebuladevice/render/input/inputevent.h"
+#include "Nebuladevice/render/input/mousebutton.h"
+#include "Nebuladevice/render/input/key.h"
+#include "Nebuladevice/render/input/gamepad.h"
 
 //------------------------------------------------------------------------------
 namespace UI

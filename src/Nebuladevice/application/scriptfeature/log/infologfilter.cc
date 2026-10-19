@@ -2,8 +2,8 @@
 //  scriptfeature/log/infologfilter.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/log/infologfilter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/log/infologfilter.h"
 
 namespace Script
 {

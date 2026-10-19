@@ -2,14 +2,14 @@
 //  mayaexportscenecmd.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayacommands/mayaexportscenecmd.h"
-#include "mayaextractors/mayasceneextractor.h"
-#include "mayaloadsave/mayascenewriter.h"
-#include "mayamain/mayalogger.h"
-#include "mayautil/mayatype.h"
-#include "mayacore/mayavariableregistry.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayacommands/mayaexportscenecmd.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayasceneextractor.h"
+#include "Nebuladevice/mayaplugin/mayaloadsave/mayascenewriter.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayalogger.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayavariableregistry.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 #include <maya/MSyntax.h>
 #include <maya/MArgDatabase.h>
 

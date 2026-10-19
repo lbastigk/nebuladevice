@@ -2,8 +2,8 @@
 //  imagefileformat.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/imagefileformat.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/imagefileformat.h"
 
 namespace CoreGraphics
 {

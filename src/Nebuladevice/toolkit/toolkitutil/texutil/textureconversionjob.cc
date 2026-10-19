@@ -2,9 +2,9 @@
 // textureconversionjob.cc
 // (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "textureconversionjob.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureconversionjob.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace ToolkitUtil
 {

@@ -2,13 +2,13 @@
 //  physics/mousegripper.cc
 //  (C) 2004 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/mousegripper.h"
-#include "physics/physicsserver.h"
-#include "physics/rigidbody.h"
-#include "physics/composite.h"
-#include "math/line.h"
-#include "debugrender/debugshaperenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/mousegripper.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
+#include "Nebuladevice/addons/physics/composite.h"
+#include "Nebuladevice/foundation/math/line.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
 
 namespace Physics
 {

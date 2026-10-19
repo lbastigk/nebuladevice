@@ -7,11 +7,11 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "core/singleton.h"
-#include "util/string.h"
-#include "util/commandlineargs.h"
-#include "system/appentry.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/commandlineargs.h"
+#include "Nebuladevice/foundation/system/appentry.h"
 
 //------------------------------------------------------------------------------
 namespace App

@@ -12,15 +12,15 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "toolkitutil/toolkitapp.h"
-#include "net/socket/ipaddress.h"
-#include "distributedtools/distributedjobscheduler.h"
-#include "distributedtools/distributedjobs/distributedappjob.h"
-#include "distributedtools/shareddircreator.h"
-#include "util/guid.h"
-#include "net/tcpserver.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
+#include "Nebuladevice/foundation/net/socket/ipaddress.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobscheduler.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributedappjob.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddircreator.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/net/tcpserver.h"
 
 namespace Net
 {

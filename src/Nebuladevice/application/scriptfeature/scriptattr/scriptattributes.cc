@@ -2,8 +2,8 @@
 //  script/attributes.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/scriptattr/scriptattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/scriptattr/scriptattributes.h"
 
 namespace Attr
 {

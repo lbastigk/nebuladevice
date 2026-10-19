@@ -2,9 +2,9 @@
 //  treelod.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/treelod.h"
-#include "coregraphics/vertexbuffer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/treelod.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
 
 namespace Forest
 {

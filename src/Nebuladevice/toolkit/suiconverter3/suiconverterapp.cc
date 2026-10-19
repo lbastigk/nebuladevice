@@ -2,9 +2,9 @@
 //  suiconverterapp.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "suiconverterapp.h"
-#include "toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/suiconverter3/suiconverterapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
 
 namespace Toolkit
 {

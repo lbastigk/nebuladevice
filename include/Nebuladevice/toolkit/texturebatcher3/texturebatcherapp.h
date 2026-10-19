@@ -9,9 +9,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "toolkitutil/toolkitapp.h"
-#include "distributedtools/distributedtoolkitapp.h"
-#include "toolkitutil/texutil/textureconverter.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedtoolkitapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureconverter.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

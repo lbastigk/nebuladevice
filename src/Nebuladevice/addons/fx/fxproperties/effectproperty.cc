@@ -2,13 +2,13 @@
 //  fxfeature/properties/effectproperty.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/fxproperties/effectproperty.h"
-#include "fx/fxfeature/fxmanager.h"
-#include "game/entity.h"
-#include "basegamefeature/basegameattr/basegameattributes.h"
-#include "audio2/audio2player.h"
-#include "basegamefeature/basegametiming/timemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/fxproperties/effectproperty.h"
+#include "Nebuladevice/addons/fx/fxfeature/fxmanager.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/addons/audio2/audio2player.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/timemanager.h"
 
 namespace FxFeature
 {

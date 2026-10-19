@@ -2,9 +2,9 @@
 //  transformdevicebase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/transformdevicebase.h"
-#include "coregraphics/shaderinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/transformdevicebase.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
 
 namespace Base
 {

@@ -2,8 +2,8 @@
 //  characterserver.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characterserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characterserver.h"
 
 namespace Characters
 {

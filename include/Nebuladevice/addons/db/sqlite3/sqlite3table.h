@@ -7,7 +7,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "addons/db/table.h"
+#include "Nebuladevice/addons/db/table.h"
 
 //------------------------------------------------------------------------------
 namespace Db

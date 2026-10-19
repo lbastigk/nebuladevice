@@ -19,10 +19,10 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "toolkitutil/toolkitapp.h"
-#include "distributedtools/shareddircontrol.h"
-#include "distributedtools/shareddircreator.h"
-#include "distributedtools/distributedjobs/distributedjob.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddircontrol.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddircreator.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributedjob.h"
 
 //------------------------------------------------------------------------------
 namespace DistributedTools

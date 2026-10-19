@@ -2,9 +2,9 @@
 //  win360ipaddress.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/win360/win360ipaddress.h"
-#include "net/win360/win360socket.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/win360/win360ipaddress.h"
+#include "Nebuladevice/foundation/net/win360/win360socket.h"
 
 namespace Win360
 {

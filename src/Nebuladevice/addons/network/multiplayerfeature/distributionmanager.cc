@@ -2,9 +2,9 @@
 //  network/multiplayer/distributionmanager.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/distributionmanager.h"   
-#include "multiplayerfeature/distributionproperty.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionmanager.h"   
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionproperty.h"
 
 namespace MultiplayerFeature
 {

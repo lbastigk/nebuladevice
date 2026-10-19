@@ -2,21 +2,21 @@
 //  streamingresourcemapper.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/resource.h"
-#include "streamingresourcemapper.h"
-#include "resourceinfo.h"
-#include "loadingresource.h"
-#include "resources/managedresource.h"
-#include "io/uri.h"
-#include "resourcecreator.h"
-#include "resources/resourceloader.h"
-#include "resourcerequestinfo.h"
-#include "resourcedictionaryreader.h"
-#include "timing/time.h"
-#include "timing/timer.h"
-#include "resources/resourcemanager.h"
-#include "resourcescheduler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/resources/streaming/streamingresourcemapper.h"
+#include "Nebuladevice/render/resources/streaming/resourceinfo.h"
+#include "Nebuladevice/render/resources/streaming/loadingresource.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/render/resources/streaming/resourcecreator.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/render/resources/streaming/resourcerequestinfo.h"
+#include "Nebuladevice/render/resources/streaming/resourcedictionaryreader.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/resources/streaming/resourcescheduler.h"
 
 namespace Resources
 {

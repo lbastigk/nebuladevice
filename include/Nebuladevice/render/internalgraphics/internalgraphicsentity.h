@@ -20,15 +20,15 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "math/bbox.h"
-#include "math/clipstatus.h"
-#include "timing/time.h"
-#include "internalgraphics/internalgraphicsentitytype.h"
-#include "messaging/message.h"
-#include "messaging/staticmessagehandler.h"
-#include "framesync/framesyncshareddata.h"
-#include "shared/graphics/graphicsentityshared.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/math/clipstatus.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentitytype.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
+#include "Nebuladevice/foundation/framesync/framesyncshareddata.h"
+#include "Nebuladevice/render/shared/graphics/graphicsentityshared.h"
 
 namespace Visibility
 {

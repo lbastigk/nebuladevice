@@ -8,7 +8,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 //------------------------------------------------------------------------------
 namespace Base

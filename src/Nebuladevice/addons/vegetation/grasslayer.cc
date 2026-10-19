@@ -2,9 +2,9 @@
 //  grasslayer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grasslayer.h"
-#include "vegetation/grassrenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grasslayer.h"
+#include "Nebuladevice/addons/vegetation/grassrenderer.h"
 
 namespace Vegetation
 {

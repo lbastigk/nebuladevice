@@ -7,8 +7,8 @@
 
 (C) 2009 Radon Labs GmbH
 */    
-#include "internalmultiplayer/base/sessioninfobase.h"
-#include "extlibs/raknet/raknettypes.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/sessioninfobase.h"
+#include "raknet/raknettypes.h"
 
 //------------------------------------------------------------------------------
 namespace RakNet

@@ -9,9 +9,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__WIN32__ || __XBOX360__)
-#include "timing/win360/win360calendartime.h"
+#include "Nebuladevice/foundation/timing/win360/win360calendartime.h"
 namespace Timing
 {
 class CalendarTime : public Win360::Win360CalendarTime

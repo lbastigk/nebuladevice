@@ -17,10 +17,10 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/singleton.h"
-#include "game/manager.h"
-#include "scriptfeature/log/infolog.h"
-#include "util/ringbuffer.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/application/scriptfeature/log/infolog.h"
+#include "Nebuladevice/foundation/util/ringbuffer.h"
 
 //namespace UI
 //{

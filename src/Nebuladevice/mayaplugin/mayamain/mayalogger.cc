@@ -2,9 +2,9 @@
 //  mayalogger.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayalogger.h"
-#include "io/console.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayalogger.h"
+#include "Nebuladevice/foundation/io/console.h"
 #include <maya/MGlobal.h>
 
 namespace Maya

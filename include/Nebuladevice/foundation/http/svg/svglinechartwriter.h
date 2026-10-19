@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "http/svg/svgpagewriter.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/http/svg/svgpagewriter.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Http

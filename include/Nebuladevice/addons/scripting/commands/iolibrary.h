@@ -4,11 +4,11 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "scripting/command.h"
-#include "io/ioserver.h"
-#include "io/assign.h"
-#include "io/console.h"
-#include "io/assignregistry.h"
+#include "Nebuladevice/addons/scripting/command.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/assign.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
 
 //------------------------------------------------------------------------------
 namespace Commands

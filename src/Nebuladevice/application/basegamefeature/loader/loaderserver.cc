@@ -2,11 +2,11 @@
 //  loader/LoaderServer.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "loader/loaderserver.h"
-#include "core/factory.h"
-#include "loader/levelloader.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/application/basegamefeature/loader/levelloader.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace BaseGameFeature
 {

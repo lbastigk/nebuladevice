@@ -30,10 +30,10 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "messaging/port.h"
-#include "ui/elements/canvas.h"
-#include "ui/event.h"
-#include "input/inputevent.h"
+#include "Nebuladevice/foundation/messaging/port.h"
+#include "Nebuladevice/addons/ui/elements/canvas.h"
+#include "Nebuladevice/addons/ui/event.h"
+#include "Nebuladevice/render/input/inputevent.h"
 
 //------------------------------------------------------------------------------
 namespace UI

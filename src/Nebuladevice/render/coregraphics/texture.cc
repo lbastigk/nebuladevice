@@ -2,8 +2,8 @@
 //  texture.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/texture.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
 
 #if __WIN32__ 
 namespace CoreGraphics

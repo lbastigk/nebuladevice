@@ -2,8 +2,8 @@
 //  attr/attributes.h
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
 
 namespace Attr
 {

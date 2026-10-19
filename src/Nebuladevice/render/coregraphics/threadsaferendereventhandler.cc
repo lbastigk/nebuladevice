@@ -2,8 +2,8 @@
 //  threadsaferendereventhandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/threadsaferendereventhandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/threadsaferendereventhandler.h"
 
 namespace CoreGraphics
 {

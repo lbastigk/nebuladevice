@@ -2,8 +2,8 @@
 //  tcpclient.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/tcpclient.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/tcpclient.h"
 
 namespace Net
 {

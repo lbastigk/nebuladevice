@@ -2,8 +2,8 @@
 //  inputtimesource.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "basegametiming/inputtimesource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/inputtimesource.h"
 
 namespace BaseGameFeature
 {

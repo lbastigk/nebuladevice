@@ -2,8 +2,8 @@
 //  localstringatomtable.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/localstringatomtable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/localstringatomtable.h"
 
 namespace Util
 {

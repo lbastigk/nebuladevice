@@ -7,10 +7,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "messaging/message.h"
-#include "vibration/vibrationprotocol.h"
-#include "timing/timer.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/vibration/vibrationprotocol.h"
+#include "Nebuladevice/foundation/timing/timer.h"
 
 //------------------------------------------------------------------------------
 namespace Vibration

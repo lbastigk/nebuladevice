@@ -11,7 +11,7 @@ begintarget benchmarkbase_win32
     settype lib
     setbasedir benchmarks
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../benchmarks;../addons"    
+    setincpath_win32 "../foundation;../render;../external;../benchmarks;../addons"    
     setclusters { benchmarkbase }
 endtarget
 #-------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ begintarget benchmarkfoundation_win32
     settype exe
     setbasedir benchmarks
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../benchmarks;../addons"    
+    setincpath_win32 "../foundation;../render;../external;../benchmarks;../addons"    
     setdepends benchmarkbase_win32
     setclusters { benchmarkfoundation }
     setdepends {
@@ -35,7 +35,7 @@ begintarget benchmarkaddon_win32
     settype exe
     setbasedir benchmarks
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../benchmarks;../addons"    
+    setincpath_win32 "../foundation;../render;../external;../benchmarks;../addons"    
     setdepends benchmarkbase_win32
     setclusters { benchmarkaddon }
     setdepends {

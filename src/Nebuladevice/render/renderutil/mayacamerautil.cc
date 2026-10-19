@@ -2,9 +2,9 @@
 //  mayacamerautil.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "renderutil/mayacamerautil.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/renderutil/mayacamerautil.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 
 namespace RenderUtil
 {

@@ -2,9 +2,9 @@
 //  win360thread.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "threading/win360/win360thread.h"
-#include "system/systeminfo.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/threading/win360/win360thread.h"
+#include "Nebuladevice/foundation/system/systeminfo.h"
 #if __XBOX360__
 #include "threading/xbox360/xbox360threading.h"
 #endif

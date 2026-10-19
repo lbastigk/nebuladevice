@@ -7,14 +7,14 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "rendermodules/rendermodule.h"
-#include "core/singleton.h"
-#include "util/stringatom.h"
-#include "resources/resourceid.h"
-#include "input/inputevent.h"
-#include "sui/suievent.h"
-#include "sui/suiactions.h"
-#include "sui/suiprotocol.h" 
+#include "Nebuladevice/render/rendermodules/rendermodule.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/input/inputevent.h"
+#include "Nebuladevice/addons/sui/suievent.h"
+#include "Nebuladevice/addons/sui/suiactions.h"
+#include "Nebuladevice/addons/sui/suiprotocol.h" 
 
 //------------------------------------------------------------------------------
 namespace SUI

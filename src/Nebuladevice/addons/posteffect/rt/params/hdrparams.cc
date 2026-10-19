@@ -2,8 +2,8 @@
 //  hdrparams.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "hdrparams.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/params/hdrparams.h"
 
 namespace PostEffect
 {

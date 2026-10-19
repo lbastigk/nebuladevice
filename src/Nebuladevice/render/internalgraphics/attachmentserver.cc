@@ -2,17 +2,17 @@
 //  attachmentserver.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalgraphics/attachmentserver.h"
-#include "graphics/graphicsprotocol.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalview.h"
-#include "characters/character.h"
-#include "io/excelxmlreader.h"
-#include "io/ioserver.h"
-#include "animation/animeventinfo.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/internalgraphics/attachmentserver.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/characters/character.h"
+#include "Nebuladevice/foundation/io/excelxmlreader.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/render/animation/animeventinfo.h"
 
 namespace InternalGraphics
 {

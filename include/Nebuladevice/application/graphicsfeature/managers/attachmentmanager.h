@@ -7,11 +7,11 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "game/manager.h"
-#include "core/singleton.h"
-#include "util/string.h"
-#include "math/matrix44.h"
-#include "internalgraphics/attachmentserver.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/render/internalgraphics/attachmentserver.h"
 
 // forward decl
 namespace Graphics

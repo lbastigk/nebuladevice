@@ -2,23 +2,23 @@
 //  enventitymanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "basegameattr/basegameattributes.h"
-#include "graphicsattr/graphicsattributes.h"
-#include "managers/enventitymanager.h"
-#include "managers/factorymanager.h"
-#include "managers/entitymanager.h"
-#include "io/ioserver.h"
-#include "graphicsutil/segmentedgfxutil.h"
-#include "graphics/stage.h"
-#include "basegameprotocol.h"
-#include "game/gameserver.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/application/basegamefeature/managers/enventitymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsutil/segmentedgfxutil.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
 
 #if __USE_PHYSICS__
-#include "physics/collideshapeloader.h"
-#include "physicsfeature/physicsfeatureunit.h"   
-#include "physicsfeature/properties/environmentcollideproperty.h"
+#include "Nebuladevice/addons/physics/collideshapeloader.h"
+#include "Nebuladevice/application/physicsfeature/physicsfeatureunit.h"   
+#include "Nebuladevice/application/physicsfeature/properties/environmentcollideproperty.h"
 #endif    
 
 namespace BaseGameFeature

@@ -2,14 +2,14 @@
 //  physics/entity.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/composite.h"
-#include "physics/physicsentity.h"
-#include "physics/level.h"
-#include "physics/rigidbody.h"
-#include "physics/shape.h"
-#include "physics/compositeloader.h"
-#include "debugrender/debugrender.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/composite.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/addons/physics/compositeloader.h"
+#include "Nebuladevice/render/debugrender/debugrender.h"
 
 namespace Physics
 {

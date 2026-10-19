@@ -9,10 +9,10 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/config.h"
-#include "attr/attribute.h"
-#include "addons/db/database.h"
-#include "extlibs/sqlite/sqlite3.h"
+#include "Nebuladevice/foundation/core/config.h"
+#include "Nebuladevice/addons/attr/attribute.h"
+#include "Nebuladevice/addons/db/database.h"
+#include "sqlite/sqlite3.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

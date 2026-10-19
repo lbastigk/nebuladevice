@@ -2,10 +2,10 @@
 //  consolepagehandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/debug/consolepagehandler.h"
-#include "io/console.h"
-#include "http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/debug/consolepagehandler.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
 
 namespace Debug
 {

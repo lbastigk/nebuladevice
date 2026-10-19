@@ -2,9 +2,9 @@
 //  framesynctimer.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "framesync/framesynctimer.h"
-#include "framesync/framesynchandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/framesync/framesynchandlerthread.h"
 
 namespace FrameSync
 {

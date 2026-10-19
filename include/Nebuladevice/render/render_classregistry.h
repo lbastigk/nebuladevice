@@ -8,15 +8,15 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "models/modelnode.h"
-#include "models/nodes/shapenode.h"
-#include "characters/characternode.h"
-#include "characters/characterskinnode.h"
-#include "models/nodes/animatornodeinstance.h"
-#include "particles/particlesystemnode.h"
-#include "frame/framepass.h"
-#include "terrain/terrainnode.h"
-#include "terrain/terrainnodeinstance.h"
+#include "Nebuladevice/render/models/modelnode.h"
+#include "Nebuladevice/render/models/nodes/shapenode.h"
+#include "Nebuladevice/render/characters/characternode.h"
+#include "Nebuladevice/render/characters/characterskinnode.h"
+#include "Nebuladevice/render/models/nodes/animatornodeinstance.h"
+#include "Nebuladevice/render/particles/particlesystemnode.h"
+#include "Nebuladevice/render/frame/framepass.h"
+#include "Nebuladevice/render/terrain/terrainnode.h"
+#include "Nebuladevice/render/terrain/terrainnodeinstance.h"
 
 #if __WII__
 #include "frame/wii/wiifsaaframepass.h"

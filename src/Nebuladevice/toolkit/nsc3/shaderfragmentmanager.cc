@@ -2,9 +2,9 @@
 //  shaderfragmentmanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shaderfragmentmanager.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragmentmanager.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Tools
 {

@@ -15,9 +15,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "net/tcpclientconnection.h"
-#include "net/tcpmessagecodec.h"
-#include "util/queue.h"
+#include "Nebuladevice/foundation/net/tcpclientconnection.h"
+#include "Nebuladevice/foundation/net/tcpmessagecodec.h"
+#include "Nebuladevice/foundation/util/queue.h"
 
 //------------------------------------------------------------------------------
 namespace Net

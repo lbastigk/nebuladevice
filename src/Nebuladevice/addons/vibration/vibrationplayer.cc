@@ -2,10 +2,10 @@
 //  audioplayer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vibration/vibrationplayer.h"
-#include "vibration/vibrationprotocol.h"
-#include "vibration/vibrationinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vibration/vibrationplayer.h"
+#include "Nebuladevice/addons/vibration/vibrationprotocol.h"
+#include "Nebuladevice/addons/vibration/vibrationinterface.h"
 
 namespace Vibration
 {

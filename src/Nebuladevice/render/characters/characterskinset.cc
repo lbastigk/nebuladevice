@@ -2,11 +2,11 @@
 //  characterskinset.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characterskinset.h"
-#include "characters/characterskinlibrary.h"
-#include "characters/characterskinlist.h"
-#include "models/modelinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characterskinset.h"
+#include "Nebuladevice/render/characters/characterskinlibrary.h"
+#include "Nebuladevice/render/characters/characterskinlist.h"
+#include "Nebuladevice/render/models/modelinstance.h"
 
 namespace Characters
 {

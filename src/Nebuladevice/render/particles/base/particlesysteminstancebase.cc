@@ -2,14 +2,14 @@
 //  particlesysteminstancebase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/base/particlesysteminstancebase.h"
-#include "math/polar.h"
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
-#include "particles/particlerenderer.h"
-#include "jobs/jobport.h"
-#include "jobs/job.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/base/particlesysteminstancebase.h"
+#include "Nebuladevice/foundation/math/polar.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/particles/particlerenderer.h"
+#include "Nebuladevice/foundation/jobs/jobport.h"
+#include "Nebuladevice/foundation/jobs/job.h"
 #if __PS3__
 #include "coregraphics/ps3/ps3dynamicgeometryserver.h"
 #endif // __PS3__

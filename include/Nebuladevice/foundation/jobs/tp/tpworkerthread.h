@@ -7,10 +7,10 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "threading/thread.h"
-#include "threading/safequeue.h"
-#include "jobs/tp/tpjobcommand.h"     
-#include "debug/debugtimer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/foundation/threading/safequeue.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobcommand.h"     
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 //------------------------------------------------------------------------------
 namespace Jobs

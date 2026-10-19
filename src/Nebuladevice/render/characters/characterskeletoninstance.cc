@@ -2,13 +2,13 @@
 //  characterskeletoninstance.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characterskeletoninstance.h"
-#include "characters/skinnedmeshrenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characterskeletoninstance.h"
+#include "Nebuladevice/render/characters/skinnedmeshrenderer.h"
 
 // for debug visualization
-#include "coregraphics/shaperenderer.h"
-#include "threading/thread.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Characters
 {

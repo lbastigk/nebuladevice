@@ -2,8 +2,8 @@
 //  gamecontentserver.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/gamecontentserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/gamecontentserver.h"
 
 namespace IO
 {

@@ -14,7 +14,7 @@ begintarget foundation_win32
     settype lib
     setbasedir foundation
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs"
+    setincpath_win32 "../foundation;../external"
     setdepends {
         foundation_nidls_win32
     }

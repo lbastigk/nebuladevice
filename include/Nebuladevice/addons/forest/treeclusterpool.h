@@ -8,12 +8,12 @@
         
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/quadtree.h"
-#include "forest/treeclusterpool.h"
-#include "forest/treeinstance.h"
-#include "forest/treecluster.h"
-#include "forest/treeclustergraphicsentity.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/quadtree.h"
+#include "Nebuladevice/addons/forest/treeclusterpool.h"
+#include "Nebuladevice/addons/forest/treeinstance.h"
+#include "Nebuladevice/addons/forest/treecluster.h"
+#include "Nebuladevice/addons/forest/treeclustergraphicsentity.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

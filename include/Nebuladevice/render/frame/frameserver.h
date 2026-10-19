@@ -7,10 +7,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "resources/resourceid.h"
-#include "frame/frameshader.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/frame/frameshader.h"
 
 //------------------------------------------------------------------------------
 namespace Frame

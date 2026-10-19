@@ -2,10 +2,10 @@
 //  masterEvents/script/actionlist.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/actions/actionlist.h"
-#include "scriptfeature/log/infolog.h"
-#include "scriptfeature/actionreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/actions/actionlist.h"
+#include "Nebuladevice/application/scriptfeature/log/infolog.h"
+#include "Nebuladevice/application/scriptfeature/actionreader.h"
 
 namespace Actions
 {

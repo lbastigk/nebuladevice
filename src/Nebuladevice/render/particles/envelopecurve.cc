@@ -1,8 +1,8 @@
 //------------------------------------------------------------------------------
 //  envelopecurve.cc
 //  (C) 2008 Radon Labs GmbH
-#include "stdneb.h"
-#include "particles/envelopecurve.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/envelopecurve.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

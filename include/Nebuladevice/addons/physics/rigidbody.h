@@ -10,14 +10,14 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "math/matrix44.h"
-#include "math/vector.h"
-#include "math/plane.h"
-#include "physics/materialtable.h"
-#include "physics/physicsserver.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/plane.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
 #include "ode/ode.h"
-#include "util/fixedarray.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

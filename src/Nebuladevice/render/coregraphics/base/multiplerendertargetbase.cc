@@ -2,8 +2,8 @@
 //  multiplerendertargetbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/multiplerendertargetbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/multiplerendertargetbase.h"
 
 namespace Base
 {

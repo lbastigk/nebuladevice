@@ -2,39 +2,39 @@
 //  game/basegamefeature.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "basegamefeature/basegamefeatureunit.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/basegamefeatureunit.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
 #if __USE_PHYSICS__
-#include "physicsfeature/physicsfeatureunit.h"
+#include "Nebuladevice/application/physicsfeature/physicsfeatureunit.h"
 #endif
-#include "appgame/gameapplication.h"
-#include "core/factory.h"
-#include "basegameattr/basegameattributes.h"
-#include "loader/loaderserver.h"
-#include "appgame/appconfig.h"
-#include "game/gameserver.h"
-#include "game/gameserver.h"
-#include "addons/db/dbserver.h"
-#include "io/ioserver.h"
-#include "io/console.h"
-#include "loader/entityloader.h"
-#include "loader/environmentloader.h"
-#include "basegametiming/systemtimesource.h"
-#include "basegametiming/inputtimesource.h"
-#include "basegametiming/gametimesource.h"
-#include "input/inputserver.h"
-#include "input/keyboard.h"
-#include "debugrender/debugrender.h"
-#include "http/httpserverproxy.h"
-#include "debug/objectinspectorhandler.h"
-#include "debug/debugserver.h"
+#include "Nebuladevice/application/appgame/gameapplication.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/application/basegamefeature/loader/entityloader.h"
+#include "Nebuladevice/application/basegamefeature/loader/environmentloader.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/systemtimesource.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/inputtimesource.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/debugrender/debugrender.h"
+#include "Nebuladevice/foundation/http/httpserverproxy.h"
+#include "Nebuladevice/application/basegamefeature/debug/objectinspectorhandler.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
 
 
 
 // include all properties for known by managers::factorymanager
-#include "properties/timeproperty.h"
-#include "properties/transformableproperty.h"
+#include "Nebuladevice/application/basegamefeature/properties/timeproperty.h"
+#include "Nebuladevice/application/basegamefeature/properties/transformableproperty.h"
 
 namespace BaseGameFeature
 {

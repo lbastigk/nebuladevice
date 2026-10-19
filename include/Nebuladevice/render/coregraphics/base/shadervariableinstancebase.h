@@ -15,10 +15,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/variant.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/shadervariable.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/variant.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
 
 //------------------------------------------------------------------------------
 namespace Base

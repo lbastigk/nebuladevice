@@ -2,8 +2,8 @@
 //  displaypanel.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "displaypanel.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/editor/ui/displaypanel.h"
 #include "wx/wx.h"
 
 

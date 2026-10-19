@@ -2,8 +2,8 @@
 //  videoserverbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "video/base/videoserverbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/video/base/videoserverbase.h"
 
 namespace Base
 {

@@ -2,11 +2,11 @@
 //  network/multiplayerfeature/objectview.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/objectview.h"
-#include "multiplayerfeature/distributionmanager.h"
-#include "util/bitfield.h"
-#include "framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/objectview.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionmanager.h"
+#include "Nebuladevice/foundation/util/bitfield.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
 
 namespace MultiplayerFeature
 {

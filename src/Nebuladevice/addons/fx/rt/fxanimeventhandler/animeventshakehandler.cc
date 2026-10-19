@@ -2,15 +2,15 @@
 //  animeventshakehandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/fxanimeventhandler/animeventshakehandler.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "fx/rt/effects/camerashakefx.h"
-#include "fx/rt/fxserver.h"
-#include "fx/animeventregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventshakehandler.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/addons/fx/rt/effects/camerashakefx.h"
+#include "Nebuladevice/addons/fx/rt/fxserver.h"
+#include "Nebuladevice/addons/fx/animeventregistry.h"
 
 namespace FX
 {

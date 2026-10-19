@@ -2,9 +2,9 @@
 //  suihandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "sui/rt/suihandler.h"
-#include "sui/rt/suiserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sui/rt/suihandler.h"
+#include "Nebuladevice/addons/sui/rt/suiserver.h"
 
 namespace SUI
 {

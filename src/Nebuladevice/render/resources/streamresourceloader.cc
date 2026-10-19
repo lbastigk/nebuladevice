@@ -2,10 +2,10 @@
 //  streamresourceloader.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/streamresourceloader.h"
-#include "io/memorystream.h"
-#include "io/iointerface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streamresourceloader.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/io/iointerface.h"
 
 namespace Resources
 {

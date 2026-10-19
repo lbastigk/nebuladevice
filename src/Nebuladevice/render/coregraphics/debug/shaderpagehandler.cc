@@ -2,17 +2,17 @@
 //  shaderpagehandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/debug/shaderpagehandler.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/shader.h"
-#include "http/html/htmlpagewriter.h"
-#include "io/ioserver.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "models/modelnodeinstance.h"
-#include "models/nodes/statenode.h"
-#include "models/nodes/statenodeinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/debug/shaderpagehandler.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/shader.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
+#include "Nebuladevice/render/models/nodes/statenode.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
 
 namespace Debug
 {

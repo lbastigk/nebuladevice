@@ -7,11 +7,11 @@
     
     (C) 2010 Radon Labs GmbH
 */
-#include "math/plane.h"
-#include "math/matrix44.h"
-#include "math/bbox.h"
-#include "math/point.h"
-#include "math/clipstatus.h"
+#include "Nebuladevice/foundation/math/plane.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/clipstatus.h"
 
 //------------------------------------------------------------------------------
 namespace Math

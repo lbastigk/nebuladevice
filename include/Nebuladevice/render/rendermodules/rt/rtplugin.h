@@ -24,9 +24,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "timing/time.h"
-#include "frame/framebatch.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/frame/framebatch.h"
 
 namespace InternalGraphics
 {

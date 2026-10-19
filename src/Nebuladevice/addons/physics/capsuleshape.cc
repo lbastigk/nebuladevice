@@ -2,10 +2,10 @@
 //  physics/capsuleshape.cc
 //  (C) 2005 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/capsuleshape.h"
-#include "debugrender/debugshaperenderer.h"
-#include "math/vector.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/capsuleshape.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 namespace Physics
 {

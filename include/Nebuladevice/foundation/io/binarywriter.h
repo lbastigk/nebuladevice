@@ -10,14 +10,14 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "io/streamwriter.h"
-#include "util/blob.h"
-#include "util/guid.h"
-#include "system/byteorder.h"
+#include "Nebuladevice/foundation/io/streamwriter.h"
+#include "Nebuladevice/foundation/util/blob.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
 #if !__OSX__
-#include "math/float2.h"
-#include "math/point.h"
-#include "math/vector.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/vector.h"
 #endif
 
 //------------------------------------------------------------------------------

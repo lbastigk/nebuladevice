@@ -2,16 +2,16 @@
 //  TerrainNode.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "terrainnode.h"
-#include "terrainnodeinstance.h"
-#include "terrainrenderer.h"
-#include "coregraphics/renderdevice.h"
-#include "resources/resourceloader.h"
-#include "resources/resourcemanager.h"
-#include "resources/emptyresourceloader.h"
-#include "coregraphics/memoryvertexbufferloader.h"
-#include "models/model.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/terrain/terrainnode.h"
+#include "Nebuladevice/render/terrain/terrainnodeinstance.h"
+#include "Nebuladevice/render/terrain/terrainrenderer.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/resources/emptyresourceloader.h"
+#include "Nebuladevice/render/coregraphics/memoryvertexbufferloader.h"
+#include "Nebuladevice/render/models/model.h"
 
 
 namespace Terrain

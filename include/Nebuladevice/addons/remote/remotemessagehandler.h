@@ -10,11 +10,11 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "messaging/message.h"
-#include "io/console.h"
-#include "remote/remotecontrol.h"
-#include "remote/remoteprotocol.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/addons/remote/remotecontrol.h"
+#include "Nebuladevice/addons/remote/remoteprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

@@ -10,10 +10,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "timing/time.h"
-#include "models/model.h"
-#include "models/modelnodeinstance.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
 
 namespace InternalGraphics
 {

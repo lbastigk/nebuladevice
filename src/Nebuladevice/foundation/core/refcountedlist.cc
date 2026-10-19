@@ -2,10 +2,10 @@
 //  refcountedlist.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/refcountedlist.h"
-#include "core/refcounted.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/refcountedlist.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 namespace Core
 {

@@ -9,10 +9,10 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "basegameattr/basegameattributes.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/animsamplebuffer.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/animsamplebuffer.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

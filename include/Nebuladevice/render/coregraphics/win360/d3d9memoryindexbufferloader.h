@@ -9,7 +9,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/memoryindexbufferloaderbase.h"
+#include "Nebuladevice/render/coregraphics/base/memoryindexbufferloaderbase.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

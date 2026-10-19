@@ -2,8 +2,8 @@
 //  texturecreator.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "texturecreator.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/texturecreator.h"
 
 #if __WIN32__ 
 namespace Resources

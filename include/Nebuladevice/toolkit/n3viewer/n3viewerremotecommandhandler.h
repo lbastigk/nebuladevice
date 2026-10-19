@@ -7,7 +7,7 @@
     
     (C) 2010 Radon Labs GmbH
 */
-#include "remote/remotecommandhandler.h"
+#include "Nebuladevice/addons/remote/remotecommandhandler.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

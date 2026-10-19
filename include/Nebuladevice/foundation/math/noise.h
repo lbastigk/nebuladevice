@@ -11,7 +11,7 @@
 
     (C) 2006 RadonLabs GmbH
 */
-#include "core/types.h"
+#include "Nebuladevice/foundation/core/types.h"
 
 //------------------------------------------------------------------------------
 namespace Math

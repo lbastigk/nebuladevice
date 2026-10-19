@@ -7,20 +7,20 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "attr/boolattrid.h"
-#include "attr/floatattrid.h"
-#include "attr/intattrid.h"
-#include "attr/matrix44attrid.h"
-#include "attr/float4attrid.h"
-#include "attr/stringattrid.h"
-#include "attr/guidattrid.h"
-#include "attr/blobattrid.h"
-#include "util/variant.h"
-#include "math/float4.h"
-#include "math/matrix44.h"
-#include "util/keyvaluepair.h"
-#include "util/guid.h"
-#include "util/blob.h"
+#include "Nebuladevice/addons/attr/boolattrid.h"
+#include "Nebuladevice/addons/attr/floatattrid.h"
+#include "Nebuladevice/addons/attr/intattrid.h"
+#include "Nebuladevice/addons/attr/matrix44attrid.h"
+#include "Nebuladevice/addons/attr/float4attrid.h"
+#include "Nebuladevice/addons/attr/stringattrid.h"
+#include "Nebuladevice/addons/attr/guidattrid.h"
+#include "Nebuladevice/addons/attr/blobattrid.h"
+#include "Nebuladevice/foundation/util/variant.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/util/keyvaluepair.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/util/blob.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

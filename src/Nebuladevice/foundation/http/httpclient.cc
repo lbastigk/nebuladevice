@@ -2,13 +2,13 @@
 //  httpclient.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
 // HttpClient is not implemented on the Wii
 #if __NEBULA3_HTTP_FILESYSTEM__
-#include "http/httpclient.h"
-#include "http/httprequestwriter.h"
-#include "http/httpresponsereader.h"
+#include "Nebuladevice/foundation/http/httpclient.h"
+#include "Nebuladevice/foundation/http/httprequestwriter.h"
+#include "Nebuladevice/foundation/http/httpresponsereader.h"
 
 namespace Http
 {

@@ -13,10 +13,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "game/entity.h"
-#include "graphicsattr/graphicsattributes.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

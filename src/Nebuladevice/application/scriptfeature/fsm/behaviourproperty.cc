@@ -2,18 +2,18 @@
 //  behaviourproperty.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/fsm/behaviourproperty.h"
-#include "scriptfeature/fsm/statemachine.h"
-#include "scriptfeature/fsm/state.h"
-#include "scriptfeature/managers/scriptmanager.h"
-#include "scriptfeature/scriptprotocol.h"
-#include "game/entity.h"
-#include "debugrender/debugrender.h"
-#include "basegamefeature/basegameattr/basegameattributes.h"
-#include "basegamefeature/basegametiming/gametimesource.h"
-#include "scriptfeature/actions/sequenceaction.h"
-#include "scriptfeature/actions/actionlist.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/fsm/behaviourproperty.h"
+#include "Nebuladevice/application/scriptfeature/fsm/statemachine.h"
+#include "Nebuladevice/application/scriptfeature/fsm/state.h"
+#include "Nebuladevice/application/scriptfeature/managers/scriptmanager.h"
+#include "Nebuladevice/application/scriptfeature/scriptprotocol.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/render/debugrender/debugrender.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/application/scriptfeature/actions/sequenceaction.h"
+#include "Nebuladevice/application/scriptfeature/actions/actionlist.h"
 
 namespace Attr
 {

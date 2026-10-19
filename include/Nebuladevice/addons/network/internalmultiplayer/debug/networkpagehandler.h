@@ -6,7 +6,7 @@
 (C) 2009 Radon Labs GmbH
 */    
 #if __WIN32__ || __PS3__
-#include "internalmultiplayer/debug/raknet/raknetnetworkpagehandler.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/debug/raknet/raknetnetworkpagehandler.h"
 namespace Debug
 {
     class NetworkPageHandler : public RakNet::RakNetNetworkPageHandler
@@ -21,7 +21,7 @@ namespace Debug
 }
 #elif __XBOX360__
 #if XBOX360_USE_RAKNET
-#include "internalmultiplayer/debug/raknet/raknetnetworkpagehandler.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/debug/raknet/raknetnetworkpagehandler.h"
 namespace Debug
 {
     class NetworkPageHandler : public RakNet::RakNetInternalMultiplayerServer

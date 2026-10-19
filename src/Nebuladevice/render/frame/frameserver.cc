@@ -2,11 +2,11 @@
 //  frameserver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "frame/frameserver.h"
-#include "io/ioserver.h"
-#include "io/uri.h"
-#include "frame/frameshaderloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/frame/frameserver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/render/frame/frameshaderloader.h"
 
 namespace Frame
 {

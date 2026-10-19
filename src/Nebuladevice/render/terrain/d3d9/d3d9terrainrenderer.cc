@@ -2,10 +2,10 @@
 //  d3d9terrainrenderer.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "terrain/d3d9/d3d9terrainrenderer.h"
-#include "coregraphics/vertexlayoutserver.h"
-#include "coregraphics/memoryindexbufferloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/terrain/d3d9/d3d9terrainrenderer.h"
+#include "Nebuladevice/render/coregraphics/vertexlayoutserver.h"
+#include "Nebuladevice/render/coregraphics/memoryindexbufferloader.h"
 
 
 

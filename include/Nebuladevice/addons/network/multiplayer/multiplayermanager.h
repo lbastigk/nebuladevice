@@ -7,15 +7,15 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "util/stringatom.h"
-#include "util/fixedarray.h"
-#include "messaging/message.h"
-#include "network/multiplayer/session.h"
-#include "network/multiplayer/player.h"
-#include "multiplayerprotocol.h"
-#include "notificationprotocol.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/network/multiplayer/session.h"
+#include "Nebuladevice/addons/network/multiplayer/player.h"
+#include "Nebuladevice/addons/network/multiplayerprotocol.h"
+#include "Nebuladevice/addons/network/notificationprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace Multiplayer

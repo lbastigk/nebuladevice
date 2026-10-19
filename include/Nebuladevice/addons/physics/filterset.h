@@ -10,8 +10,8 @@
     
     (C) 2004 RadonLabs GmbH
 */
-#include "util/array.h"
-#include "physics/collidecategory.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/addons/physics/collidecategory.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

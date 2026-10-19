@@ -10,7 +10,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "mayaextractors/mayaextractorbase.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayaextractorbase.h"
 #include <maya/MDagPath.h>
 
 //------------------------------------------------------------------------------

@@ -11,7 +11,7 @@
 
     (C) 2006 RadonLabs GmbH
 */
-#include "core/types.h"
+#include "Nebuladevice/foundation/core/types.h"
 
 // platform secific stuff for handling/suppress "unused-argument"-warnings
 #if NEBULA3_DEBUG

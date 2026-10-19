@@ -2,9 +2,9 @@
 //  CharacterVariationLibrary.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "characters/CharacterVariationLibrary.h"
-#include "coreanimation/jobs/animjobutil.h"
+#include "Nebuladevice/render/coreanimation/jobs/animjobutil.h"
 
 namespace Characters
 {

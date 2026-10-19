@@ -2,27 +2,27 @@
 //  renderapplication.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "render_classregistry.h"
-#include "apprender/renderapplication.h"
-#include "io/logfileconsolehandler.h"
-#include "memory/debug/memorypagehandler.h"
-#include "core/debug/corepagehandler.h"
-#include "core/debug/stringatompagehandler.h"
-#include "io/debug/iopagehandler.h"
-#include "http/debug/svgtestpagehandler.h"
-#include "http/debug/helloworldrequesthandler.h"
-#include "threading/debug/threadpagehandler.h"
-#include "io/debug/consolepagehandler.h"
-#include "resources/simpleresourcemapper.h"
-#include "coregraphics/streamtextureloader.h"
-#include "coregraphics/streammeshloader.h"
-#include "coreanimation/streamanimationloader.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/managedanimresource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/render_classregistry.h"
+#include "Nebuladevice/render/apprender/renderapplication.h"
+#include "Nebuladevice/foundation/io/logfileconsolehandler.h"
+#include "Nebuladevice/foundation/memory/debug/memorypagehandler.h"
+#include "Nebuladevice/foundation/core/debug/corepagehandler.h"
+#include "Nebuladevice/foundation/core/debug/stringatompagehandler.h"
+#include "Nebuladevice/foundation/io/debug/iopagehandler.h"
+#include "Nebuladevice/foundation/http/debug/svgtestpagehandler.h"
+#include "Nebuladevice/foundation/http/debug/helloworldrequesthandler.h"
+#include "Nebuladevice/foundation/threading/debug/threadpagehandler.h"
+#include "Nebuladevice/foundation/io/debug/consolepagehandler.h"
+#include "Nebuladevice/render/resources/simpleresourcemapper.h"
+#include "Nebuladevice/render/coregraphics/streamtextureloader.h"
+#include "Nebuladevice/render/coregraphics/streammeshloader.h"
+#include "Nebuladevice/render/coreanimation/streamanimationloader.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/managedanimresource.h"
 
 #if __WIN32__
-#include "system/win32/win32registry.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
 #endif
 
 namespace App

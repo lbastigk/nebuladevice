@@ -2,11 +2,11 @@
 //  RakNetTimeStamp.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/raknet/raknettimestamp.h"
-#include "internalmultiplayer/packetid.h"
-#include "internalmultiplayer/netstream.h"
-#include "extlibs/raknet/raknettypes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknettimestamp.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/packetid.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/netstream.h"
+#include "raknet/raknettypes.h"
 
 namespace RakNet
 {

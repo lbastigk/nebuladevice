@@ -2,9 +2,9 @@
 //  httpstream.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httpstream.h"
-#include "http/httpclientregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httpstream.h"
+#include "Nebuladevice/foundation/http/httpclientregistry.h"
 
 // HttpStream not implemented on Wii
 #if __NEBULA3_HTTP_FILESYSTEM__

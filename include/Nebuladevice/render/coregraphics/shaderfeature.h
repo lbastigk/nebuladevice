@@ -26,9 +26,9 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "util/stringatom.h"
-#include "util/array.h"
-#include "util/dictionary.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
 
 namespace Base
 {

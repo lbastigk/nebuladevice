@@ -7,7 +7,7 @@
     
     (C) 2008 Radon Labs GmbH
 */    
-#include "threading/interlocked.h"
+#include "Nebuladevice/foundation/threading/interlocked.h"
 
 //------------------------------------------------------------------------------
 namespace Threading

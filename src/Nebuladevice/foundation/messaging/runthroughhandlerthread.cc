@@ -2,8 +2,8 @@
 //  runthroughhandlerthread.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/runthroughhandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/runthroughhandlerthread.h"
 
 namespace Messaging
 {

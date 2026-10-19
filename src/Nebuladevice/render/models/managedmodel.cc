@@ -2,8 +2,8 @@
 //  managedmodel.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/managedmodel.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/managedmodel.h"
 
 namespace Models
 {

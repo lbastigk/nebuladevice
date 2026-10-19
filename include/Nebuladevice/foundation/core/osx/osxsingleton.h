@@ -16,8 +16,8 @@
  
     (C) 2010 Radon Labs GmbH
  */
-#include "core/types.h"
-#include "threading/osx/osxthreadlocalptr.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/threading/osx/osxthreadlocalptr.h"
 
 //------------------------------------------------------------------------------
 #define __DeclareSingleton(type) \

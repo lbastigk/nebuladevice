@@ -2,14 +2,14 @@
 //  util/segmentedgfxutil.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphicsutil/segmentedgfxutil.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/modelentity.h"
-#include "graphics/stage.h"
-#include "resources/resourceid.h"
-#include "models/nodes/transformnode.h"
-#include "core/factory.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsutil/segmentedgfxutil.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/modelentity.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
+#include "Nebuladevice/foundation/core/factory.h"
 
 namespace GraphicsFeature
 {

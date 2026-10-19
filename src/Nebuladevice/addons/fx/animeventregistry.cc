@@ -2,10 +2,10 @@
 //  animeventregistry.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/animeventregistry.h"
-#include "db/reader.h"
-#include "db/dbserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/animeventregistry.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/dbserver.h"
 
 namespace Attr
 {

@@ -8,10 +8,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "characters/characterjoint.h"
-#include "util/fixedarray.h"
-#include "util/dictionary.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/characters/characterjoint.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

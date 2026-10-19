@@ -2,10 +2,10 @@
 //  fmodmusicpromptwrapper.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fmodmusicpromptwrapper.h"
-#include "audio2/fmodcoreaudio/fmodaudiodevice.h"
-#include "audio2/fmodcoreaudio/fmoderror.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodmusicpromptwrapper.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodaudiodevice.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmoderror.h"
 
 namespace FmodCoreAudio
 {

@@ -2,9 +2,9 @@
 //  helloworldrequesthandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/debug/helloworldrequesthandler.h"
-#include "http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/debug/helloworldrequesthandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
 
 namespace Debug
 {

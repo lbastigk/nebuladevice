@@ -2,8 +2,8 @@
 //  tcpserver.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/tcpserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/tcpserver.h"
 
 namespace Net
 {

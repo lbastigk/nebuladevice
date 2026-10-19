@@ -2,14 +2,14 @@
 //  n2converter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n2converter.h"
-#include "toolkitutil/binarymodelwriter.h"
-#include "toolkitutil/xmlmodelwriter.h"
-#include "io/ioserver.h"
-#include "math/point.h"
-#include "math/vector.h"
-#include "io/xmlreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/n2converter.h"
+#include "Nebuladevice/toolkit/toolkitutil/binarymodelwriter.h"
+#include "Nebuladevice/toolkit/toolkitutil/xmlmodelwriter.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
 
 namespace ToolkitUtil
 {

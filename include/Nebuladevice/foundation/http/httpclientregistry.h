@@ -11,12 +11,12 @@
 */
 // HttpClientRegistry not implemented on the Wii
 #if __NEBULA3_HTTP_FILESYSTEM__
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "http/httpclient.h"
-#include "io/uri.h"
-#include "util/dictionary.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/http/httpclient.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Http

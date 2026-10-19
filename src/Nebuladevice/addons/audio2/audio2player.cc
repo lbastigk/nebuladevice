@@ -2,10 +2,10 @@
 //  audio2player.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audio2/audio2player.h"
-#include "audio2/audio2protocol.h"
-#include "audio2/audio2interface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/audio2player.h"
+#include "Nebuladevice/addons/audio2/audio2protocol.h"
+#include "Nebuladevice/addons/audio2/audio2interface.h"
 
 __ImplementClass(Audio2::Audio2Player, 'APLR', Core::RefCounted);
 __ImplementSingleton(Audio2::Audio2Player);

@@ -7,9 +7,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__WIN32__ || __XBOX360__ || __PS3__)
-#include "net/tcp/stdtcpclientconnection.h"
+#include "Nebuladevice/foundation/net/tcp/stdtcpclientconnection.h"
 namespace Net
 {
 class TcpClientConnection : public StdTcpClientConnection

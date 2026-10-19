@@ -7,11 +7,11 @@
 
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "resources/streaming/resourceinfo.h"
-#include "coregraphics/pixelformat.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/resources/streaming/resourceinfo.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
 #include "d3dx9tex.h"
 
 //------------------------------------------------------------------------------

@@ -2,11 +2,11 @@
 //  factory.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/factory.h"
-#include "core/refcounted.h"
-#include "core/rtti.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/rtti.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 namespace Core
 {

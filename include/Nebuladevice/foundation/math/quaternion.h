@@ -10,7 +10,7 @@
     (C) 2004 RadonLabs GmbH
 */
 #if __WIN32__ || __XBOX360__
-#include "math/xnamath/xna_quaternion.h"
+#include "Nebuladevice/foundation/math/xnamath/xna_quaternion.h"
 #elif __WII__
 #include "math/wii/wii_quaternion.h"
 #elif __PS3__

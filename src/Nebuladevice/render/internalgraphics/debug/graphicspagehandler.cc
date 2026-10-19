@@ -2,17 +2,17 @@
 //  graphicspagehandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalgraphics/debug/graphicspagehandler.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalview.h"
-#include "characters/character.h"
-#include "models/nodes/statenode.h"
-#include "shared/graphics/charjointinfo.h"
-#include "animation/playclipjob.h"
-#include "debugrender/debuggraphicshandler.h"
-#include "graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/internalgraphics/debug/graphicspagehandler.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/characters/character.h"
+#include "Nebuladevice/render/models/nodes/statenode.h"
+#include "Nebuladevice/render/shared/graphics/charjointinfo.h"
+#include "Nebuladevice/render/animation/playclipjob.h"
+#include "Nebuladevice/render/debugrender/debuggraphicshandler.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
 
 namespace Debug
 {

@@ -7,9 +7,9 @@
  
     (C) 2010 Radon Labs GmbH
  */
-#include "core/types.h"
-#include "util/string.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 //------------------------------------------------------------------------------
 namespace OSX

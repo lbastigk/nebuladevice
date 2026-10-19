@@ -2,15 +2,15 @@
 //  game/entity.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "attr/attributedefinition.h"
-#include "game/entity.h"
-#include "math/transform44.h"
-#include "core/factory.h"
-#include "app/application.h"
-#include "managers/categorymanager.h"
-#include "managers/entitymanager.h"
-#include "debug/debugserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/attr/attributedefinition.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/foundation/math/transform44.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/foundation/app/application.h"
+#include "Nebuladevice/application/basegamefeature/managers/categorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
 
 namespace Game
 {

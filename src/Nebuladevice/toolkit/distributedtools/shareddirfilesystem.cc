@@ -2,11 +2,11 @@
 //  shareddirfilesystem.cc
 // (C) 2009 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shareddirfilesystem.h"
-#include "io/ioserver.h"
-#include "io/stream.h"
-#include "io/console.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddirfilesystem.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/console.h"
 
 using namespace IO;
 using namespace Util;

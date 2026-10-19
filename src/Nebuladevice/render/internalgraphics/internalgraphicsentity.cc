@@ -2,11 +2,11 @@
 //  internalgraphicsentity.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "shared/graphics/graphicsentityshared.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/shared/graphics/graphicsentityshared.h"
 
 namespace InternalGraphics
 {

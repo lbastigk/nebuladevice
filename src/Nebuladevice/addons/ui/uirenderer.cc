@@ -2,11 +2,11 @@
 //  uirenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/uirenderer.h"
-#include "ui/uirenderprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/uirenderer.h"
+#include "Nebuladevice/addons/ui/uirenderprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace UI
 {

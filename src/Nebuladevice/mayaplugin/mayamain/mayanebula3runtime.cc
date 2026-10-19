@@ -2,9 +2,9 @@
 //  mayanebula3runtime.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayanebula3runtime.h"
-#include "io/logfileconsolehandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayanebula3runtime.h"
+#include "Nebuladevice/foundation/io/logfileconsolehandler.h"
 
 namespace Maya
 {

@@ -13,8 +13,8 @@
     
     (C) 2007 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "app/application.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/app/application.h"
 
 //------------------------------------------------------------------------------
 namespace App

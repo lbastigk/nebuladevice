@@ -2,9 +2,9 @@
 //  message/dispatcher.cc
 //  (C) 2005 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/dispatcher.h"
-#include "messaging/port.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/dispatcher.h"
+#include "Nebuladevice/foundation/messaging/port.h"
 
 namespace Messaging
 {

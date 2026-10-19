@@ -10,12 +10,12 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/resourceloader.h"
-#include "io/stream.h"
-#include "io/iointerfaceprotocol.h"
-#include "util/stack.h"
-#include "models/model.h"
-#include "coregraphics/streammeshloader.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/iointerfaceprotocol.h"
+#include "Nebuladevice/foundation/util/stack.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/coregraphics/streammeshloader.h"
 
 //------------------------------------------------------------------------------
 namespace Models

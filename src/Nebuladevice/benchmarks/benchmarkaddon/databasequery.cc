@@ -2,12 +2,12 @@
 //  databasequery.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "benchmarkaddon/databasequery.h"
-#include "benchmarkaddon/dbattrs.h"
-#include "io/ioserver.h"
-#include "addons/db/sqlite3/sqlite3factory.h"
-#include "addons/db/dataset.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkaddon/databasequery.h"
+#include "Nebuladevice/benchmarks/benchmarkaddon/dbattrs.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3factory.h"
+#include "Nebuladevice/addons/db/dataset.h"
 
 namespace Benchmarking
 {

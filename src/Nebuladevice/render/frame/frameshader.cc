@@ -2,8 +2,8 @@
 //  frameshader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "frame/frameshader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/frame/frameshader.h"
 
 namespace Frame
 {

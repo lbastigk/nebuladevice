@@ -11,7 +11,7 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "physics/shape.h"
+#include "Nebuladevice/addons/physics/shape.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

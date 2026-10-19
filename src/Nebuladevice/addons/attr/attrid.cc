@@ -2,8 +2,8 @@
 //  attrid.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "attr/attrid.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/attr/attrid.h"
 
 namespace Attr
 {

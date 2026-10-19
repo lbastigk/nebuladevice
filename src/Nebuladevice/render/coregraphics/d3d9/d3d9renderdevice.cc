@@ -2,15 +2,15 @@
 //  d3d9renderdevice.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/config.h"
-#include "coregraphics/d3d9/d3d9renderdevice.h"
-#include "coregraphics/displaydevice.h"
-#include "coregraphics/vertexbuffer.h"
-#include "coregraphics/indexbuffer.h"
-#include "coregraphics/win360/d3d9types.h"
-#include "coregraphics/d3d9/d3d9resourceeventhandler.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/config.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9renderdevice.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/indexbuffer.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9resourceeventhandler.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 #include <dxerr.h>
 

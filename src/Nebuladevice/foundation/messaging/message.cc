@@ -2,9 +2,9 @@
 //  message.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/message.h"
-#include "messaging/port.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/messaging/port.h"
 
 namespace Messaging
 {

@@ -8,14 +8,14 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "posteffect/rt/params/colorparams.h"
-#include "posteffect/rt/params/depthoffieldparams.h"
-#include "posteffect/rt/params/fogparams.h"
-#include "posteffect/rt/params/hdrparams.h"
-#include "posteffect/rt/params/lightparams.h"
-#include "posteffect/rt/params/skyparams.h"
-#include "math/point.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/posteffect/rt/params/colorparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/depthoffieldparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/fogparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/hdrparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/lightparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/skyparams.h"
+#include "Nebuladevice/foundation/math/point.h"
 
 //------------------------------------------------------------------------------
 namespace PostEffect

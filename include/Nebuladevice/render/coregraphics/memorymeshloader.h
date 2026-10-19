@@ -7,11 +7,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "resources/resourceloader.h"
-#include "coregraphics/base/resourcebase.h"
-#include "coregraphics/vertexbuffer.h"
-#include "coregraphics/indexbuffer.h"
-#include "coregraphics/primitivegroup.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/render/coregraphics/base/resourcebase.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/indexbuffer.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
 
 //------------------------------------------------------------------------------
 namespace CoreGraphics

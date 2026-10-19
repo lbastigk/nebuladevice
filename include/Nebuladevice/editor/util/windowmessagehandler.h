@@ -7,7 +7,7 @@
     
     (C) 2010 xoyojank
 */
-#include "coregraphics/displayevent.h"
+#include "Nebuladevice/render/coregraphics/displayevent.h"
 
 //------------------------------------------------------------------------------
 namespace Editor

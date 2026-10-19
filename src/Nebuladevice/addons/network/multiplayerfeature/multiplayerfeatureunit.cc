@@ -2,10 +2,10 @@
 //  multiplayer/multiplayerfeatureunit.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/multiplayerfeatureunit.h"
-#include "multiplayerfeature/distributionnotificationhandler.h"
-#include "basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/multiplayerfeatureunit.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionnotificationhandler.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
 
 using namespace InternalMultiplayer;
 using namespace Multiplayer;

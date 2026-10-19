@@ -9,7 +9,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/memoryvertexbufferloaderbase.h"
+#include "Nebuladevice/render/coregraphics/base/memoryvertexbufferloaderbase.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

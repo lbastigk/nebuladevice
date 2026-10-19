@@ -8,8 +8,8 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "internalgraphics/internalgraphicsentity.h"
-#include "shared/graphics/camerasettings.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/shared/graphics/camerasettings.h"
 
 //------------------------------------------------------------------------------
 namespace InternalGraphics

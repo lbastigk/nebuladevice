@@ -15,27 +15,27 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "game/featureunit.h"
-#include "math/bbox.h"
-#include "basegametiming/timemanager.h"
-#include "managers/factorymanager.h"
-#include "managers/focusmanager.h"
-#include "managers/entitymanager.h"
-#include "managers/categorymanager.h"
-#include "managers/globalattrsmanager.h"
-#include "managers/animeventmanager.h"
-#include "addons/db/dbserver.h"
-#include "loader/loaderserver.h"
-#include "managers/enventitymanager.h"
-#include "http/httprequesthandler.h"
-#include "vibration/vibrationinterface.h"
-#include "audio2/audio2server.h"
-#include "audio2/audio2interface.h"
-#include "audio2/audio2player.h"
-#include "debug/debugcounter.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/timemanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/categorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/globalattrsmanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/animeventmanager.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
+#include "Nebuladevice/application/basegamefeature/managers/enventitymanager.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/addons/vibration/vibrationinterface.h"
+#include "Nebuladevice/addons/audio2/audio2server.h"
+#include "Nebuladevice/addons/audio2/audio2interface.h"
+#include "Nebuladevice/addons/audio2/audio2player.h"
+#include "Nebuladevice/foundation/debug/debugcounter.h"
 
 #if __USE_PHYSICS__
-#include "managers/envquerymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/envquerymanager.h"
 #endif
 
 //------------------------------------------------------------------------------

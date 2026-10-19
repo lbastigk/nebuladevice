@@ -2,9 +2,9 @@
 //  distributedjobservice.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "distributedjobserviceapp.h"
-#include "util/globalstringatomtable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedjobservice/distributedjobserviceapp.h"
+#include "Nebuladevice/foundation/util/globalstringatomtable.h"
 
 //------------------------------------------------------------------------------
 /**

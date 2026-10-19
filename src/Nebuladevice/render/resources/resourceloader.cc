@@ -2,10 +2,10 @@
 //  resourceloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/resourceloader.h"
-#include "resources/resource.h"
-#include "resources/resourcesaver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/resources/resourcesaver.h"
 
 namespace Resources
 {

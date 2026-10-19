@@ -2,25 +2,25 @@
 //  script/quest.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/scriptattr/scriptattributes.h"
-#include "scriptfeature/quest/task.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/scriptattr/scriptattributes.h"
+#include "Nebuladevice/application/scriptfeature/quest/task.h"
 
-#include "scriptfeature/actions/action.h"
-#include "scriptfeature/conditions/condition.h"
-#include "scriptfeature/actions/sequenceaction.h"
-#include "scriptfeature/actions/actionlist.h"
+#include "Nebuladevice/application/scriptfeature/actions/action.h"
+#include "Nebuladevice/application/scriptfeature/conditions/condition.h"
+#include "Nebuladevice/application/scriptfeature/actions/sequenceaction.h"
+#include "Nebuladevice/application/scriptfeature/actions/actionlist.h"
 
-#include "appgame/appconfig.h"
-#include "scriptfeature/managers/logmanager.h"
-#include "scriptfeature/log/infolog.h"
-//#include "locale/localeserver.h"
-#include "db/dbserver.h"
-#include "db/writer.h"
-#include "db/reader.h"
-#include "scriptfeature/managers/questmanager.h"
-#include "scriptfeature/managers/scripttemplatemanager.h"
-#include "scriptfeature/managers/scriptmanager.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
+#include "Nebuladevice/application/scriptfeature/managers/logmanager.h"
+#include "Nebuladevice/application/scriptfeature/log/infolog.h"
+//#include "Nebuladevice/addons/locale/localeserver.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/db/writer.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/application/scriptfeature/managers/questmanager.h"
+#include "Nebuladevice/application/scriptfeature/managers/scripttemplatemanager.h"
+#include "Nebuladevice/application/scriptfeature/managers/scriptmanager.h"
 
 namespace Script
 {

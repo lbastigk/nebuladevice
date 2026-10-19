@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "coregraphics/base/displaydevicebase.h"
+#include "Nebuladevice/render/coregraphics/base/displaydevicebase.h"
 
 //------------------------------------------------------------------------------
 namespace Win32

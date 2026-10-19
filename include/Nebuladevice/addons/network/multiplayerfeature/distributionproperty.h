@@ -13,9 +13,9 @@
   
     (C) 2009 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "internalmultiplayer/bitreader.h"
-#include "multiplayerfeature/objectview.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitreader.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/objectview.h"
 
 namespace Attr  
 {

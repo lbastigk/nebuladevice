@@ -2,8 +2,8 @@
 //  displaydevicebase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/displaydevicebase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/displaydevicebase.h"
 
 namespace Base
 {

@@ -29,11 +29,11 @@
     for instance and in the localized text string the translator can decide if
     the argument has to be translated too by using 'l' instead of 's'.
 */
-#include "util/dictionary.h"
-#include "io/uri.h"
-#include "core/ptr.h"
-#include "core/refcounted.h"
-#include "core/singleton.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 //------------------------------------------------------------------------------
 namespace Locale

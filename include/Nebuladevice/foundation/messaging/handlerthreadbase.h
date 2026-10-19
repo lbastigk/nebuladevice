@@ -7,11 +7,11 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "threading/thread.h"
-#include "threading/event.h"
-#include "threading/criticalsection.h"
-#include "messaging/handler.h"
-#include "messaging/message.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/foundation/threading/event.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/messaging/handler.h"
+#include "Nebuladevice/foundation/messaging/message.h"
 
 //------------------------------------------------------------------------------
 namespace Messaging

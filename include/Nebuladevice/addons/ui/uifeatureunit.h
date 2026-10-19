@@ -10,8 +10,8 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "game/featureunit.h"
-#include "ui/uirendermodule.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/addons/ui/uirendermodule.h"
 
 //------------------------------------------------------------------------------
 namespace UI

@@ -2,8 +2,8 @@
 //  shadersampler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shadersampler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shadersampler.h"
 
 namespace Tools
 {

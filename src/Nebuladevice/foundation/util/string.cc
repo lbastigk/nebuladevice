@@ -2,8 +2,8 @@
 //  string.cc
 //  (C) 2006 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/string.h"
 #include <string.h>
 #include <stdio.h>
 #include <ctype.h>

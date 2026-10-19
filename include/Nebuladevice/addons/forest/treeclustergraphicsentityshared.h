@@ -7,7 +7,7 @@
     
     (C) 2010 Radon Labs GmbH
 */
-#include "shared/graphics/graphicsentityshared.h"
+#include "Nebuladevice/render/shared/graphics/graphicsentityshared.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

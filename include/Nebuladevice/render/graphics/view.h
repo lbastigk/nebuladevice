@@ -7,10 +7,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/stringatom.h"
-#include "resources/resourceid.h"
-#include "threading/objectref.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/threading/objectref.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

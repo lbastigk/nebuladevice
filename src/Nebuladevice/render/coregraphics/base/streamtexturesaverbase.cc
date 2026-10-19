@@ -2,8 +2,8 @@
 //  streamtexturesaverbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/streamtexturesaverbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/streamtexturesaverbase.h"
 
 namespace Base
 {

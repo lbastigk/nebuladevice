@@ -2,12 +2,12 @@
 //  streammodelloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/streammodelloader.h"
-#include "io/iointerface.h"
-#include "io/memorystream.h"
-#include "models/model.h"
-#include "models/nodes/shapenode.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/streammodelloader.h"
+#include "Nebuladevice/foundation/io/iointerface.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/models/nodes/shapenode.h"
 
 namespace Models
 {

@@ -2,11 +2,11 @@
 //  writer.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/writer.h"
-#include "addons/db/dbserver.h"
-#include "addons/db/database.h"
-#include "addons/db/dbfactory.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/writer.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/db/database.h"
+#include "Nebuladevice/addons/db/dbfactory.h"
 
 namespace Db
 {

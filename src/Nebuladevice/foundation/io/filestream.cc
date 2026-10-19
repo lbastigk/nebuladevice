@@ -2,8 +2,8 @@
 //  filestream.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/filestream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/filestream.h"
 
 namespace IO
 {

@@ -8,8 +8,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/consolehandler.h"
-#include "util/ringbuffer.h"
+#include "Nebuladevice/foundation/io/consolehandler.h"
+#include "Nebuladevice/foundation/util/ringbuffer.h"
 
 //------------------------------------------------------------------------------
 namespace IO

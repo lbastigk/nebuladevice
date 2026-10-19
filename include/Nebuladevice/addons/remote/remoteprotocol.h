@@ -4,9 +4,9 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "remote/remoterequesthandler.h"
-#include "remote/remotecommandhandler.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/remote/remoterequesthandler.h"
+#include "Nebuladevice/addons/remote/remotecommandhandler.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

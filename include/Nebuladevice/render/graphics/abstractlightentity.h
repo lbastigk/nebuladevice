@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "graphics/graphicsentity.h"
-#include "lighting/lighttype.h"
+#include "Nebuladevice/render/graphics/graphicsentity.h"
+#include "Nebuladevice/render/lighting/lighttype.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

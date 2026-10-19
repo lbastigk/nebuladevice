@@ -2,8 +2,8 @@
 //  stringbuffer.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/stringbuffer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/stringbuffer.h"
 
 #include <string.h>
 

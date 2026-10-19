@@ -2,18 +2,18 @@
 //  RakNetinternalmultiplayerserver.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/raknet/raknetinternalmultiplayerserver.h"
-#include "notificationprotocol.h"
-#include "extlibs/raknet/raknetworkfactory.h"
-#include "extlibs/raknet/raknettypes.h"
-#include "extlibs/raknet/rakmemoryoverride.h"
-#include "extlibs/raknet/raknetstatistics.h"
-#include "internalmultiplayer/bitreader.h"
-#include "internalmultiplayer/bitwriter.h"
-#include "debug/debugserver.h"            
-#include "http/html/htmlpagewriter.h"
-#include "http/svg/svglinechartwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetinternalmultiplayerserver.h"
+#include "Nebuladevice/addons/network/notificationprotocol.h"
+#include "raknet/raknetworkfactory.h"
+#include "raknet/raknettypes.h"
+#include "raknet/rakmemoryoverride.h"
+#include "raknet/raknetstatistics.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitreader.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitwriter.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"            
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/http/svg/svglinechartwriter.h"
 
 namespace RakNet
 {

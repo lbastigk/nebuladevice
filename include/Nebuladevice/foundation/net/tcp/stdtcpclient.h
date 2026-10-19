@@ -21,10 +21,10 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "net/socket/ipaddress.h"
-#include "net/socket/socket.h"
-#include "io/stream.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/net/socket/ipaddress.h"
+#include "Nebuladevice/foundation/net/socket/socket.h"
+#include "Nebuladevice/foundation/io/stream.h"
 
 //------------------------------------------------------------------------------
 namespace Net

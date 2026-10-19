@@ -8,7 +8,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__)
-#include "coregraphics/win360/d3d9memoryindexbufferloader.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9memoryindexbufferloader.h"
 namespace CoreGraphics
 {
 class MemoryIndexBufferLoader : public Win360::D3D9MemoryIndexBufferLoader
@@ -18,7 +18,7 @@ class MemoryIndexBufferLoader : public Win360::D3D9MemoryIndexBufferLoader
 }
 #elif __WII__
 // empty shell on Wii
-#include "coregraphics/base/memoryindexbufferloaderbase.h"
+#include "Nebuladevice/render/coregraphics/base/memoryindexbufferloaderbase.h"
 namespace CoreGraphics
 {
 class MemoryIndexBufferLoader : public Base::MemoryIndexBufferLoaderBase

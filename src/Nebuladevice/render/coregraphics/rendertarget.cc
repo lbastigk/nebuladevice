@@ -2,8 +2,8 @@
 //  rendertarget.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/rendertarget.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
 #if __WIN32__
 namespace CoreGraphics
 {

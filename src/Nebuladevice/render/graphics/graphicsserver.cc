@@ -2,8 +2,8 @@
 //  graphicsserver.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
 
 namespace Graphics
 {

@@ -11,17 +11,17 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "io/streamreader.h"
+#include "Nebuladevice/foundation/io/streamreader.h"
 #if !__OSX__
-#include "math/float2.h"
-#include "math/float4.h"
-#include "math/point.h"
-#include "math/vector.h"
-#include "math/matrix44.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
 #endif
-#include "util/guid.h"
-#include "util/blob.h"
-#include "system/byteorder.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/util/blob.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
 
 //------------------------------------------------------------------------------
 namespace IO

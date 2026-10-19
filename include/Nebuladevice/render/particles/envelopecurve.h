@@ -8,7 +8,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "math/scalar.h"
+#include "Nebuladevice/foundation/math/scalar.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

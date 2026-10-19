@@ -2,8 +2,8 @@
 //  binaryreader.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/binaryreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
 
 namespace IO
 {

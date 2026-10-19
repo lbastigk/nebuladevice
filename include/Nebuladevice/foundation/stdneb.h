@@ -7,9 +7,9 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if __WIN32__
-#include "core/win32/precompiled.h"
+#include "Nebuladevice/foundation/core/win32/precompiled.h"
 #elif __XBOX360__
 #include "core/xbox360/precompiled.h"
 #elif __WII__
@@ -17,7 +17,7 @@
 #elif __PS3__
 #include "core/ps3/precompiled.h"
 #elif __OSX__
-#include "core/osx/precompiled.h"
+#include "Nebuladevice/foundation/core/osx/precompiled.h"
 #else
 #error "precompiled.h not implemented on this platform"
 #endif

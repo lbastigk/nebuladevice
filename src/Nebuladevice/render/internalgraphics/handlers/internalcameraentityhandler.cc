@@ -2,13 +2,13 @@
 //  internalcameraentityhandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsprotocol.h"
-#include "internalgraphics/internalcameraentity.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalview.h"
-#include "messaging/staticmessagehandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
 
 using namespace Util;
 using namespace Graphics;

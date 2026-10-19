@@ -10,8 +10,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "input/base/mousebase.h"
-#include "input/win32/win32inputserver.h"
+#include "Nebuladevice/render/input/base/mousebase.h"
+#include "Nebuladevice/render/input/win32/win32inputserver.h"
 
 //------------------------------------------------------------------------------
 namespace Win32

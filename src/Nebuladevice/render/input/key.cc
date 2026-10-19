@@ -2,8 +2,8 @@
 //  key.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/key.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/key.h"
 
 namespace Input
 {

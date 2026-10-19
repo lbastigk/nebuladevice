@@ -8,7 +8,7 @@
     (C) 2008 Radon Labs GmbH
 */
 #if (__WIN32__ )
-#include "ui/win360/win360coreuirenderer.h"
+#include "Nebuladevice/addons/ui/win360/win360coreuirenderer.h"
 namespace CoreUI
 {
 class CoreUIRenderer : public Win32::Win360CoreUIRenderer
@@ -24,7 +24,7 @@ public:
 } // namespace CoreUI
 
 #elif (__XBOX360__)
-#include "ui/win360/win360coreuirenderer.h"
+#include "Nebuladevice/addons/ui/win360/win360coreuirenderer.h"
 namespace CoreUI
 {
 class CoreUIRenderer : public Win32::Win360CoreUIRenderer

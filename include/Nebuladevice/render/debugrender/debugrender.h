@@ -7,9 +7,9 @@
 */
 
 // debug text render macro
-#include "debugrender/debugrenderprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "debugrender/debugtextrenderer.h"
+#include "Nebuladevice/render/debugrender/debugrenderprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/debugrender/debugtextrenderer.h"
 
 #if (NEBULA3_DEBUG || __WIN32__ || __XBOX360__)
 #define _debug_text(txt, pos, color) { Debug::DebugTextRenderer::Instance()->DrawText(txt, color, pos); }

@@ -2,10 +2,10 @@
 //  animatornode.cc
 //  (C) 2008 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/nodes/animatornode.h"
-#include "models/nodes/animatornodeinstance.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/nodes/animatornode.h"
+#include "Nebuladevice/render/models/nodes/animatornodeinstance.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 
 namespace Models
 {

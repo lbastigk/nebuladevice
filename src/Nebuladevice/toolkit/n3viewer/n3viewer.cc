@@ -2,8 +2,8 @@
 //  n3viewer.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n3viewerapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/n3viewer/n3viewerapp.h"
 
 ImplementNebulaApplication();
 

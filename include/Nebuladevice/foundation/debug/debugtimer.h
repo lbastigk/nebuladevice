@@ -7,11 +7,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "timing/timer.h"
-#include "util/stringatom.h"
-#include "util/ringbuffer.h"
-#include "threading/criticalsection.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/ringbuffer.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
 
 //------------------------------------------------------------------------------
 #if NEBULA3_ENABLE_PROFILING

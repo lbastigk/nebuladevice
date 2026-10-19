@@ -2,9 +2,9 @@
 //  bitreader.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/bitreader.h"
-#include "internalmultiplayer/timestamp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitreader.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/timestamp.h"
 
 namespace InternalMultiplayer
 {

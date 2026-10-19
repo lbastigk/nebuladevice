@@ -2,13 +2,13 @@
 //  visresolver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/visresolver.h"
-#include "models/model.h"
-#include "models/modelnode.h"
-#include "models/modelnodeinstance.h"
-#include "models/modelinstance.h"
-#include "framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/visresolver.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/models/modelnode.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
 
 namespace Models
 {

@@ -2,8 +2,8 @@
 //  netstream.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/netstream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/netstream.h"
 
 namespace InternalMultiplayer
 {

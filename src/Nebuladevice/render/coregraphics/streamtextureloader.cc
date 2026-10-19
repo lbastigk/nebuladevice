@@ -2,8 +2,8 @@
 //  streamtextureloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/streamtextureloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/streamtextureloader.h"
 
 #if __WIN32__
 namespace CoreGraphics

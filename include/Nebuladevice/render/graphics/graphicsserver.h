@@ -8,11 +8,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "graphics/stage.h"
-#include "graphics/view.h"
-#include "rendermodules/rendermodule.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/render/graphics/view.h"
+#include "Nebuladevice/render/rendermodules/rendermodule.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

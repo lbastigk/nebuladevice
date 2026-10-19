@@ -2,10 +2,10 @@
 //  assignregistry.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/assignregistry.h"
-#include "io/fswrapper.h"
-#include "core/coreserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
+#include "Nebuladevice/foundation/io/fswrapper.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
 
 namespace IO
 {

@@ -2,12 +2,12 @@
 //  physics/explosionareaimpulse.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/explosionareaimpulse.h"
-#include "physics/physicsserver.h"
-#include "physics/sphereshape.h"
-#include "physics/materialtable.h"
-#include "physics/rigidbody.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/explosionareaimpulse.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/sphereshape.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
 
 namespace Physics
 {

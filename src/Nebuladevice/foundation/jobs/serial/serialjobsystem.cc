@@ -2,8 +2,8 @@
 //  serialjobsystem.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "jobs/serial/serialjobsystem.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/jobs/serial/serialjobsystem.h"
 
 namespace Jobs
 {

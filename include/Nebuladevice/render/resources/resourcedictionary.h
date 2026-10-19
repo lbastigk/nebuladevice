@@ -30,11 +30,11 @@
     
     (C) 2008 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "io/uri.h"
-#include "resources/resourceid.h"
-#include "system/byteorder.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

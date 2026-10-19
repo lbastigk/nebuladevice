@@ -10,9 +10,9 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "vegetation/grasspatchcoords.h"
-#include "vegetation/grasspatch.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/vegetation/grasspatchcoords.h"
+#include "Nebuladevice/addons/vegetation/grasspatch.h"
 
 //------------------------------------------------------------------------------
 namespace Vegetation

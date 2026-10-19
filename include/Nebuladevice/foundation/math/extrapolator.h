@@ -12,7 +12,7 @@
 
 (C) 2009 Radon Labs GmbH
 */
-#include "timing/time.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 namespace Math
 {

@@ -3,13 +3,13 @@
 // (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
 
-#include "stdneb.h"
-#include "forestrendermodule.h"
-#include "rt/forestrtplugin.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicsprotocol.h"
-#include "forest/forestprotocol.h"
-#include "forest/forestrendermodule.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/forestrendermodule.h"
+#include "Nebuladevice/addons/forest/rt/forestrtplugin.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/addons/forest/forestprotocol.h"
+#include "Nebuladevice/addons/forest/forestrendermodule.h"
 
 namespace Forest
 {

@@ -2,9 +2,9 @@
 // fxrtplugin.cc
 // (C) Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsinterface.h"
-#include "fx/rt/fxrtplugin.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/addons/fx/rt/fxrtplugin.h"
 
 namespace FX
 {

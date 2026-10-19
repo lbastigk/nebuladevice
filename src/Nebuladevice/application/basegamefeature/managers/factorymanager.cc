@@ -2,21 +2,21 @@
 //  managers/factorymanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/factory.h"
-#include "util/guid.h"
-#include "managers/factorymanager.h"
-#include "game/property.h"
-#include "game/entity.h"
-#include "basegameattr/basegameattributes.h"
-#include "io/ioserver.h"
-#include "io/xmlreader.h"
-#include "basegamefeatureunit.h"
-#include "game/gameserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/application/basegamefeature/basegamefeatureunit.h"
+#include "Nebuladevice/application/game/gameserver.h"
 
-#include "scriptfeature/conditions/and.h"
-#include "scriptfeature/conditions/not.h"
-#include "scriptfeature/conditions/or.h"
+#include "Nebuladevice/application/scriptfeature/conditions/and.h"
+#include "Nebuladevice/application/scriptfeature/conditions/not.h"
+#include "Nebuladevice/application/scriptfeature/conditions/or.h"
 
 namespace BaseGameFeature
 {

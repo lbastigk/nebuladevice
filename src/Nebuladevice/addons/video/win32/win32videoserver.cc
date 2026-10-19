@@ -2,8 +2,8 @@
 //  win32inputserver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "video/win32/win32videoserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/video/win32/win32videoserver.h"
 
 namespace Win32
 {

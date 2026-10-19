@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "io/stream.h"
+#include "Nebuladevice/foundation/io/stream.h"
 
 //------------------------------------------------------------------------------
 namespace IO

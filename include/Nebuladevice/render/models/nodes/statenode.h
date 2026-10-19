@@ -8,10 +8,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "models/nodes/transformnode.h"
-#include "coregraphics/shaderinstance.h"
-#include "resources/managedtexture.h"
-#include "util/variant.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/resources/managedtexture.h"
+#include "Nebuladevice/foundation/util/variant.h"
 
 //------------------------------------------------------------------------------
 namespace Models

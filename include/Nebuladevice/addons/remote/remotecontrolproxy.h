@@ -13,10 +13,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "remote/remoterequesthandler.h"
-#include "remote/remotecommandhandler.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/remote/remoterequesthandler.h"
+#include "Nebuladevice/addons/remote/remotecommandhandler.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

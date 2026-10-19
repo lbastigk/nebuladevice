@@ -7,7 +7,7 @@
 
     (C) 2010 Radon Labs GmbH
 */
-#include "rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
 
 //------------------------------------------------------------------------------
 namespace FrameCapture

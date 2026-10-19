@@ -11,14 +11,14 @@
     
     (C) 2004 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "physics/physicsentity.h"
-#include "physics/contactpoint.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/contactpoint.h"
 #include "ode/ode.h"
-#include "math/pfeedbackloop.h"
-#include "math/float2.h"
-#include "math/line.h"
+#include "Nebuladevice/foundation/math/pfeedbackloop.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/math/line.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

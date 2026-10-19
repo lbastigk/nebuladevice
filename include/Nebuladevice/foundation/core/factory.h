@@ -11,12 +11,12 @@
 
     (C) 2005 Radon Labs GmbH
 */
-#include "util/array.h"
-#include "util/string.h"
-#include "util/fourcc.h"
-#include "util/dictionary.h"
-#include "util/hashtable.h"
-#include "core/ptr.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/fourcc.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/hashtable.h"
+#include "Nebuladevice/foundation/core/ptr.h"
 
 //------------------------------------------------------------------------------
 namespace Core 

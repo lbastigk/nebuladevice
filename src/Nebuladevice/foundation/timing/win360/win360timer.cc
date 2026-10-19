@@ -2,8 +2,8 @@
 //  win360timer.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "timing/win360/win360timer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/timing/win360/win360timer.h"
 
 namespace Win360
 {

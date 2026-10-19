@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "mayaexporters/mayaexporterbase.h"
-#include "mayashaders/mayashaderfilter.h"
-#include "math/transform44.h"
+#include "Nebuladevice/mayaplugin/mayaexporters/mayaexporterbase.h"
+#include "Nebuladevice/mayaplugin/mayashaders/mayashaderfilter.h"
+#include "Nebuladevice/foundation/math/transform44.h"
 
 #include <maya/MDagPath.h>
 #include <maya/MIntArray.h>

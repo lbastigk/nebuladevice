@@ -8,7 +8,7 @@
     (C) 2009 Radon Labs GmbH
 */
 #if __WIN32__ || __XBOX360__
-#include "io/zipfs/zipfilesystem.h"
+#include "Nebuladevice/foundation/io/zipfs/zipfilesystem.h"
 namespace IO
 {
 class ArchiveFileSystem : public ZipFileSystem

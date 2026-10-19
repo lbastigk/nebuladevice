@@ -8,11 +8,11 @@
     (C) 2010 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "coregraphics/imagefileformat.h"
-#include "timing/time.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/coregraphics/imagefileformat.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 //------------------------------------------------------------------------------
 namespace FrameCapture

@@ -2,8 +2,8 @@
 //  bxmlreader.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "bxmlreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/bxmlreader.h"
 
 namespace IO
 {

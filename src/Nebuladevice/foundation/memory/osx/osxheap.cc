@@ -2,9 +2,9 @@
 //  osxheap.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "memory/osx/osxheap.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/memory/osx/osxheap.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 namespace OSX
 {

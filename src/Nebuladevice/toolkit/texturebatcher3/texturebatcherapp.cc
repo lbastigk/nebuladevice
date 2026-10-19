@@ -2,14 +2,14 @@
 //  texturebatcherapp.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "texturebatcherapp.h"
-#include "toolkitutil/platform.h"
-#include "io/ioserver.h"
-#include "io/textreader.h"
-#include "io/console.h"
-#include "io/uri.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/texturebatcher3/texturebatcherapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 namespace Toolkit
 {

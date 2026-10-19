@@ -2,11 +2,11 @@
 //  AnimationControlProperty.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "properties/AnimationControlProperty.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphicsfeatureunit.h"
-#include "basegameprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
 
 namespace GraphicsFeature
 {

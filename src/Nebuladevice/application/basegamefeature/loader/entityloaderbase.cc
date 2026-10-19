@@ -2,9 +2,9 @@
 //  loader/entityloaderbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "loader/entityloaderbase.h"
-#include "basegameattr/basegameattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/loader/entityloaderbase.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
 
 namespace BaseGameFeature
 {

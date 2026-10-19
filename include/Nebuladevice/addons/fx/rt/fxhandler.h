@@ -7,8 +7,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "fx/fxprotocol.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/addons/fx/fxprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace FX

@@ -14,7 +14,7 @@
     (C) 2007 Radon Labs GmbH
 */    
 #if (__WIN32__ || __XBOX360__ || __PS3__)
-#include "coregraphics/base/vertexlayoutserverbase.h"
+#include "Nebuladevice/render/coregraphics/base/vertexlayoutserverbase.h"
 namespace CoreGraphics
 {
 class VertexLayoutServer : public Base::VertexLayoutServerBase
@@ -23,7 +23,7 @@ class VertexLayoutServer : public Base::VertexLayoutServerBase
 };
 }
 #elif __XBOX360__
-#include "coregraphics/base/vertexlayoutserverbase.h"
+#include "Nebuladevice/render/coregraphics/base/vertexlayoutserverbase.h"
 namespace CoreGraphics
 {
 class VertexLayoutServer : public Base::VertexLayoutServerBase

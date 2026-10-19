@@ -8,8 +8,8 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "game/manager.h"
-#include "core/singleton.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 namespace Game
 {

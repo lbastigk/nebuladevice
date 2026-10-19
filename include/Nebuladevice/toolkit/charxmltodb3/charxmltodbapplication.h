@@ -8,12 +8,12 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "app/consoleapplication.h"
-#include "io/xmlreader.h"
-#include "io/uri.h"
-#include "addons/db/database.h"
-#include "addons/db/sqlite3/sqlite3factory.h"
-#include "addons/db/dataset.h"
+#include "Nebuladevice/foundation/app/consoleapplication.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/addons/db/database.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3factory.h"
+#include "Nebuladevice/addons/db/dataset.h"
 
 namespace Toolkit
 {

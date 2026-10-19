@@ -2,16 +2,16 @@
 //  ambiencebubbleproperty.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/ambiencebubbleproperty.h"
-#include "game/entity.h"
-#include "posteffect/posteffectmanager.h"
-#include "properties/lightproperty.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/ambiencebubbleproperty.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/addons/posteffect/posteffectmanager.h"
+#include "Nebuladevice/application/graphicsfeature/properties/lightproperty.h"
 //#include "msg/EnableAmbienceBubble.h"
 //#include "msg/attributesupdated.h"
 //#include "gfx2/ngfxserver2.h"
 //#include "managers/debugmanager.h"
-#include "basegameprotocol.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

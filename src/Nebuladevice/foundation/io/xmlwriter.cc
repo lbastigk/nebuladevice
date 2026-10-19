@@ -2,8 +2,8 @@
 //  xmlwriter.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/xmlwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
 
 namespace IO
 {

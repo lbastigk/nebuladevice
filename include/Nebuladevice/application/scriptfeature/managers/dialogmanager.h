@@ -18,10 +18,10 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "game/manager.h"
-#include "core/singleton.h"
-#include "util/dictionary.h"
-#include "util/guid.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/guid.h"
 
 namespace Actions
 {

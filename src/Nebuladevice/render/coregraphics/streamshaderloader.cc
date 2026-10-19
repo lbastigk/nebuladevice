@@ -2,8 +2,8 @@
 //  streamshaderloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/streamshaderloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/streamshaderloader.h"
 
 #if __WIN32__
 namespace CoreGraphics

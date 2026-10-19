@@ -20,7 +20,7 @@
     (C) 2006 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__)
-#include "net/win360/win360ipaddress.h"
+#include "Nebuladevice/foundation/net/win360/win360ipaddress.h"
 namespace Net
 {
 typedef Win360::Win360IpAddress IpAddress;

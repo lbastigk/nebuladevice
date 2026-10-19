@@ -9,9 +9,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "attr/attribute.h"
-#include "timing/time.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/addons/attr/attribute.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

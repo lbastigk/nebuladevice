@@ -2,10 +2,10 @@
 //  network/multiplayer/DistributionNotificationHandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/distributionnotificationhandler.h"
-#include "multiplayerfeature/distributionmanager.h"
-#include "multiplayer/multiplayermanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionnotificationhandler.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionmanager.h"
+#include "Nebuladevice/addons/network/multiplayer/multiplayermanager.h"
 
 namespace MultiplayerFeature
 {

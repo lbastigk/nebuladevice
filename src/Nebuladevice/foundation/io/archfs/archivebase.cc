@@ -2,8 +2,8 @@
 //  archivebase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/archfs/archivebase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/archfs/archivebase.h"
 
 namespace IO
 {

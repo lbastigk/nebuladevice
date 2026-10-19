@@ -8,9 +8,9 @@
     (C) 2009 Radon Labs GmbH
 */
 
-#include "core/refcounted.h"
-#include "audio2/fmodeventid.h"
-#include "audio2/fmodeventstate.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/audio2/fmodeventid.h"
+#include "Nebuladevice/addons/audio2/fmodeventstate.h"
 
 namespace FMOD { class Event; class EventProject; }
 namespace Math { class vector; }

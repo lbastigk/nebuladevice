@@ -7,13 +7,13 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "internalgraphics/internalgraphicsentity.h"
-#include "resources/resourceid.h"
-#include "models/managedmodel.h"
-#include "models/modelinstance.h"
-#include "characters/characterinstance.h"
-#include "graphics/graphicsprotocol.h"
-#include "shared/graphics/modelentityshared.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/models/managedmodel.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/characters/characterinstance.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/shared/graphics/modelentityshared.h"
 
 //------------------------------------------------------------------------------
 namespace InternalGraphics

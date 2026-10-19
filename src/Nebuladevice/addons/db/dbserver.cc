@@ -2,10 +2,10 @@
 //  db/dbserver.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/dbserver.h"
-#include "addons/db/dbfactory.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/db/dbfactory.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace Db
 {

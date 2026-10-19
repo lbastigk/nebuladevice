@@ -2,8 +2,8 @@
 //  skinnedmeshrenderer.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/skinnedmeshrenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/skinnedmeshrenderer.h"
 
 namespace Characters
 {

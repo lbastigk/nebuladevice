@@ -2,10 +2,10 @@
 //  uigraphicshandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/rt/coreuigraphicshandler.h"
-#include "ui/rt/coreuirenderer.h"
-#include "ui/uirenderprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/rt/coreuigraphicshandler.h"
+#include "Nebuladevice/addons/ui/rt/coreuirenderer.h"
+#include "Nebuladevice/addons/ui/uirenderprotocol.h"
 
 namespace CoreUI
 {

@@ -8,9 +8,9 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "util/string.h"
-#include "internalmultiplayer/handle.h"
-#include "internalmultiplayer/base/internalplayerbase.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/handle.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/internalplayerbase.h"
 
 namespace InternalMultiplayer
 {

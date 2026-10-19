@@ -2,8 +2,8 @@
 //  socket.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/socket/socket.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/socket/socket.h"
 
 namespace Net
 {

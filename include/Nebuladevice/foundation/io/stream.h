@@ -14,10 +14,10 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "io/uri.h"
-#include "threading/criticalsection.h"
-#include "io/mediatype.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/io/mediatype.h"
 
 //------------------------------------------------------------------------------
 namespace IO

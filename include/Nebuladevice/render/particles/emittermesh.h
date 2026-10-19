@@ -12,8 +12,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "coregraphics/mesh.h"
-#include "util/fixedarray.h"
+#include "Nebuladevice/render/coregraphics/mesh.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

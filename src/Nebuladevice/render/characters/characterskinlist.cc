@@ -2,8 +2,8 @@
 //  characterskinlist.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characterskinlist.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characterskinlist.h"
 
 namespace Characters
 {

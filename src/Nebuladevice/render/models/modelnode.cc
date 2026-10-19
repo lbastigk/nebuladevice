@@ -2,11 +2,11 @@
 //  modelnode.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/modelnode.h"
-#include "models/model.h"
-#include "models/modelinstance.h"
-#include "models/modelnodeinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/modelnode.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
 
 namespace Models
 {

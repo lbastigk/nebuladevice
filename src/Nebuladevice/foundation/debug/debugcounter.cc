@@ -2,9 +2,9 @@
 //  debugcounter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debug/debugcounter.h"
-#include "debug/debugserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/debug/debugcounter.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
 
 namespace Debug
 {

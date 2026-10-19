@@ -8,14 +8,14 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/dictionary.h"
-#include "resources/resourceid.h"
-#include "resources/managedtexture.h"
-#include "coregraphics/rendertarget.h"
-#include "coregraphics/shadervariableinstance.h"
-#include "frame/framepassbase.h"
-#include "internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/resources/managedtexture.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/render/frame/framepassbase.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
 
 //------------------------------------------------------------------------------
 namespace Frame

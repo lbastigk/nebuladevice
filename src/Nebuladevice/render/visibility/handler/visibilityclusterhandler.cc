@@ -2,13 +2,13 @@
 //  internalgraphicshandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "visibility/visibilityprotocol.h"
-#include "messaging/staticmessagehandler.h"
-#include "visibility/visibilitysystems/visibilitycluster.h"
-#include "visibility/visibilitychecker.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/visibility/visibilityprotocol.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitycluster.h"
+#include "Nebuladevice/render/visibility/visibilitychecker.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
                           
 using namespace Util;
 using namespace Visibility;

@@ -7,8 +7,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "math/matrix44.h"
-#include "parambase.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/addons/posteffect/rt/params/parambase.h"
 
 //------------------------------------------------------------------------------
 namespace PostEffect

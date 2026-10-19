@@ -2,8 +2,8 @@
 //  primitivetopology.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/primitivetopology.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/primitivetopology.h"
 
 namespace CoreGraphics
 {

@@ -2,8 +2,8 @@
 //  mayaattrtype.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayautil/mayaattrtype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayaattrtype.h"
 
 namespace Maya
 {

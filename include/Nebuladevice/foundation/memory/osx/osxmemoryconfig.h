@@ -7,7 +7,7 @@
  
     (C) 2010 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 
 namespace Memory
 {

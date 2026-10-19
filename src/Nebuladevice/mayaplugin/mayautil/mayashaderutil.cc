@@ -2,8 +2,8 @@
 //  mayashaderutil.cc
 //  (C) 2009 Radon Lab GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayashaderutil.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayashaderutil.h"
 
 #include <maya/MFnDependencyNode.h>
 #include <maya/MPlug.h>

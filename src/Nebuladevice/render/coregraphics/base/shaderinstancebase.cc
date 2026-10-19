@@ -2,11 +2,11 @@
 //  shaderinstancebase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/shaderinstance.h"
-#include "coregraphics/shader.h"
-#include "coregraphics/shadervariation.h"
-#include "coregraphics/shaderserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/coregraphics/shader.h"
+#include "Nebuladevice/render/coregraphics/shadervariation.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
 
 namespace Base
 {

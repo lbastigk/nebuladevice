@@ -2,12 +2,12 @@
 //  d3d9shaderinstance.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9shaderinstance.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/shader.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/shadervariation.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9shaderinstance.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/shader.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/shadervariation.h"
 
 namespace Direct3D9
 {

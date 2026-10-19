@@ -9,7 +9,7 @@
     (C) 2007 Radon Labs GmbH
 */    
 #if (__WIN32__)
-#include "coregraphics/d3d9/d3d9streamtextureloader.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9streamtextureloader.h"
 namespace CoreGraphics
 {
 class StreamTextureLoader : public Direct3D9::D3D9StreamTextureLoader

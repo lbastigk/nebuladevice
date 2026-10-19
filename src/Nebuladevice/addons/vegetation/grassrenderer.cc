@@ -2,18 +2,18 @@
 //  grassrenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grassrenderer.h"
-#include "vegetation/grasspatcharray.h"
-#include "vegetation/grassheightmap.h"
-#include "vegetation/grassgroundmap.h"
-#include "graphics/graphicsserver.h"
-#include "util/commandlineargs.h"
-#include "models/modelinstance.h"
-#include "models/modelnode.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalview.h"
-#include "internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grassrenderer.h"
+#include "Nebuladevice/addons/vegetation/grasspatcharray.h"
+#include "Nebuladevice/addons/vegetation/grassheightmap.h"
+#include "Nebuladevice/addons/vegetation/grassgroundmap.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/foundation/util/commandlineargs.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/models/modelnode.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
 
 namespace Vegetation
 {

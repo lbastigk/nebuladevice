@@ -8,10 +8,10 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "addons/db/database.h"
-#include "addons/db/sqlite3/sqlite3factory.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/db/database.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3factory.h"
 
 //------------------------------------------------------------------------------
 namespace Db

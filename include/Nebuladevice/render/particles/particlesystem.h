@@ -8,12 +8,12 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "particles/emitterattrs.h"
-#include "particles/envelopesamplebuffer.h"
-#include "particles/emittermesh.h"
-#include "coregraphics/mesh.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/particles/emitterattrs.h"
+#include "Nebuladevice/render/particles/envelopesamplebuffer.h"
+#include "Nebuladevice/render/particles/emittermesh.h"
+#include "Nebuladevice/render/coregraphics/mesh.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

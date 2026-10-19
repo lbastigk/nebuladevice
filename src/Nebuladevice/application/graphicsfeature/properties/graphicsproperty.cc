@@ -2,21 +2,21 @@
 //  properties/graphicsproperty.h
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/graphicsproperty.h"
-#include "appgame/appconfig.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/graphicsproperty.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
 #if __USE_PHYSICS__
 //#include "graphicsutil/physicsgfxutil.h"
-//#include "properties/physicsproperty.h"
+//#include "Nebuladevice/application/physicsfeature/properties/physicsproperty.h"
 #endif
-#include "graphicsfeatureunit.h"
-#include "graphicsutil/segmentedgfxutil.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/stage.h"
-#include "game/entity.h"
-#include "basegameattr/basegameattributes.h"
-#include "basegameprotocol.h"
-#include "debugrender/debugrender.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsutil/segmentedgfxutil.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/render/debugrender/debugrender.h"
 
 namespace GraphicsFeature
 {

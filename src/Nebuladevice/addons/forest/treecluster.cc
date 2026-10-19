@@ -2,8 +2,8 @@
 //  treecluster.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/treecluster.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/treecluster.h"
 
 namespace Forest
 {

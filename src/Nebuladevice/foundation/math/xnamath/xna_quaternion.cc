@@ -2,10 +2,10 @@
 //  xna_quaternion.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "math/float4.h"
-#include "math/matrix44.h"
-#include "system/byteorder.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
 
 namespace Math
 {

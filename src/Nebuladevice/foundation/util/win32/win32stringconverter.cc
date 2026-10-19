@@ -2,8 +2,8 @@
 //  win32stringconverter.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "win32stringconverter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/win32/win32stringconverter.h"
 
 namespace Win32
 {

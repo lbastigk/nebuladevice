@@ -8,7 +8,7 @@
     (C) 2009 Radon Labs GmbH
 */
 #if (__WIN32__||__XBOX360__)
-#include "sui/base/suilayoutbase.h"
+#include "Nebuladevice/addons/sui/base/suilayoutbase.h"
 namespace SUI
 {
 class SUILayout : public Base::SUILayoutBase

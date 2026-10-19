@@ -10,7 +10,7 @@
 */
 
 //------------------------------------------------------------------------------
-#include "resourcescheduler.h"
+#include "Nebuladevice/render/resources/streaming/resourcescheduler.h"
 
 namespace Resources
 {

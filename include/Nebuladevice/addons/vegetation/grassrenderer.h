@@ -11,13 +11,13 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "vegetation/grasspatchcoords.h"
-#include "vegetation/grasslayer.h"
-#include "vegetation/grasslibrary.h"
-#include "vegetation/grasslayerinfo.h"
-#include "internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/vegetation/grasspatchcoords.h"
+#include "Nebuladevice/addons/vegetation/grasslayer.h"
+#include "Nebuladevice/addons/vegetation/grasslibrary.h"
+#include "Nebuladevice/addons/vegetation/grasslayerinfo.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
 
 //------------------------------------------------------------------------------
 namespace Vegetation

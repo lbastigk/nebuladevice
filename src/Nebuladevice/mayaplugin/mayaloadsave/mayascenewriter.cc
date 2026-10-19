@@ -2,8 +2,8 @@
 //  mayascenewriter.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaloadsave/mayascenewriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayaloadsave/mayascenewriter.h"
 
 namespace Maya
 {

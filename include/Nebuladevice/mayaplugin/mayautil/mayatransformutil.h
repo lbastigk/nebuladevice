@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "math/matrix44.h"
-#include "math/transform44.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/transform44.h"
 #include <maya/MDagPath.h>
 #include <maya/MMatrix.h>
 #include <maya/MPoint.h>

@@ -8,7 +8,7 @@
     
     (C) 2008 Radon Labs
 */
-#include "core/exithandler.h"
+#include "Nebuladevice/foundation/core/exithandler.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

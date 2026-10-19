@@ -21,9 +21,9 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "game/featureunit.h"
-#include "physics/physicsserver.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 //------------------------------------------------------------------------------
 namespace PhysicsFeature

@@ -2,14 +2,14 @@
 //  debuggraphicshandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debugrender/debuggraphicshandler.h"
-#include "coregraphics/textrenderer.h"
-#include "coregraphics/shaderserver.h"
-#include "io/memorystream.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "coregraphics/shadersemantics.h"
-#include "debug/debugserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/debugrender/debuggraphicshandler.h"
+#include "Nebuladevice/render/coregraphics/textrenderer.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
 
 namespace Debug
 {

@@ -2,8 +2,8 @@
 //  shareddircontrol.cc
 // (C) 2009 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shareddircontrol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddircontrol.h"
 
 using namespace IO;
 using namespace Util;

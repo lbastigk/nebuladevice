@@ -2,14 +2,14 @@
 //  scriptfeature/managers/questmanager.cc
 //  (C) 2005 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/managers/questmanager.h"
-#include "scriptfeature/scriptattr/scriptattributes.h"
-#include "scriptfeature/quest/task.h"
-#include "scriptfeature/managers/scripttemplatemanager.h"
-#include "db/dbserver.h"
-#include "db/reader.h"
-#include "db/writer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/managers/questmanager.h"
+#include "Nebuladevice/application/scriptfeature/scriptattr/scriptattributes.h"
+#include "Nebuladevice/application/scriptfeature/quest/task.h"
+#include "Nebuladevice/application/scriptfeature/managers/scripttemplatemanager.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/writer.h"
 
 namespace Script
 {

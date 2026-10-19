@@ -2,12 +2,12 @@
 //  ui/uifeatureunit.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/uifeatureunit.h"
-#include "graphics/graphicsserver.h"
-#include "framesync/framesynctimer.h"
-#include "ui/uimanager.h"
-#include "ui/uirenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/uifeatureunit.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/addons/ui/uimanager.h"
+#include "Nebuladevice/addons/ui/uirenderer.h"
 
 namespace UI
 {

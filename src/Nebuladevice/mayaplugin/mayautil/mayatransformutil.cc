@@ -2,10 +2,10 @@
 //  mayatransformutil.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayatransformutil.h"
-#include "mayautil/mayanodeutil.h"
-#include "mayautil/mayatype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatransformutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayanodeutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
 #include <maya/MFnTransform.h>
 #include <maya/MQuaternion.h>
 

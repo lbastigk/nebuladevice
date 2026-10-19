@@ -2,10 +2,10 @@
 //  memorymeshloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/memorymeshloader.h"
-#include "coregraphics/mesh.h"
-#include "coregraphics/legacy/nvx2streamreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/memorymeshloader.h"
+#include "Nebuladevice/render/coregraphics/mesh.h"
+#include "Nebuladevice/render/coregraphics/legacy/nvx2streamreader.h"
 
 namespace CoreGraphics
 {

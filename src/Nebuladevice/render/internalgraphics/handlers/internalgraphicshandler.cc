@@ -2,21 +2,21 @@
 //  internalgraphicshandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsprotocol.h"
-#include "messaging/staticmessagehandler.h"
-#include "coregraphics/displaydevice.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/shaderserver.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalview.h"
-#include "frame/frameserver.h"
-#include "animation/animeventserver.h"
-#include "coregraphics/mouserenderdevice.h"
-#include "framesync/framesynctimer.h"
-#include "lighting/shadowserver.h"
-#include "resources/resourcemanager.h"
-#include "particles/particleserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/frame/frameserver.h"
+#include "Nebuladevice/render/animation/animeventserver.h"
+#include "Nebuladevice/render/coregraphics/mouserenderdevice.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/render/lighting/shadowserver.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/particles/particleserver.h"
 
 using namespace Util;
 using namespace CoreGraphics;

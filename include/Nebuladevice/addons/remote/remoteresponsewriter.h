@@ -9,8 +9,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/streamwriter.h"
-#include "remote/remotestatus.h"
+#include "Nebuladevice/foundation/io/streamwriter.h"
+#include "Nebuladevice/addons/remote/remotestatus.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

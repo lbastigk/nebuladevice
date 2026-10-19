@@ -2,8 +2,8 @@
 //  vertexbuffer.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/vertexbuffer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
 #if (__WIN32__ || __XBOX360__)
 namespace CoreGraphics
 {

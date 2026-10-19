@@ -7,9 +7,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__WIN32__ || __XBOX360__)
-#include "threading/win360/win360thread.h"
+#include "Nebuladevice/foundation/threading/win360/win360thread.h"
 namespace Threading
 {
 class Thread : public Win360::Win360Thread
@@ -36,7 +36,7 @@ class Thread : public PS3::PS3Thread
 };
 }
 #elif __OSX__
-#include "threading/osx/osxthread.h"
+#include "Nebuladevice/foundation/threading/osx/osxthread.h"
 namespace Threading
 {
 class Thread : public OSX::OSXThread

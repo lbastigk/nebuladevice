@@ -2,8 +2,8 @@
 //  charxmltodb.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "charxmltodbapplication.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/charxmltodb3/charxmltodbapplication.h"
 
 using namespace Util;
 using namespace Toolkit;

@@ -2,12 +2,12 @@
 //  tpjob.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "jobs/tp/tpjob.h"
-#include "jobs/tp/tpjobthreadpool.h"
-#include "jobs/jobsystem.h"
-#include "math/scalar.h"
-#include "threading/interlocked.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjob.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobthreadpool.h"
+#include "Nebuladevice/foundation/jobs/jobsystem.h"
+#include "Nebuladevice/foundation/math/scalar.h"
+#include "Nebuladevice/foundation/threading/interlocked.h"
 
 namespace Jobs
 {

@@ -7,9 +7,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "models/nodes/transformnodeinstance.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/render/models/nodes/transformnodeinstance.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
 
 //------------------------------------------------------------------------------
 namespace Models

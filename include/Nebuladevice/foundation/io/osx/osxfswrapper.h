@@ -7,11 +7,11 @@
  
     (C) 2010 Radon Labs GmbH
 */    
-#include "core/types.h"
-#include "util/string.h"
-#include "util/array.h"
-#include "io/stream.h"
-#include "io/filetime.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/filetime.h"
 
 //------------------------------------------------------------------------------
 namespace OSX

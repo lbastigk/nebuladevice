@@ -2,17 +2,17 @@
 //  distributedtoolkitapp.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "distributedtools/distributedtoolkitapp.h"
-#include "distributedtools/distributedjobs/distributedappjob.h"
-#include "distributedtools/distributedjobscheduler.h"
-#include "distributedtools/remotejobservice.h"
-#include "io/ioserver.h"
-#include "io/textreader.h"
-#include "io/uri.h"
-#include "io/memorystream.h"
-#include "timing/timer.h"
-#include "system/win32/win32registry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedtoolkitapp.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributedappjob.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobscheduler.h"
+#include "Nebuladevice/toolkit/distributedtools/remotejobservice.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
 
 using namespace Util;
 using namespace IO;

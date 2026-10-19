@@ -9,13 +9,13 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "lighting/base/lightserverbase.h"
-#include "lighting/internalpointlightentity.h"
-#include "lighting/internalspotlightentity.h"
-#include "coregraphics/shaderinstance.h"
-#include "resources/managedmesh.h"
-#include "resources/managedtexture.h"
-#include "renderutil/drawfullscreenquad.h"
+#include "Nebuladevice/render/lighting/base/lightserverbase.h"
+#include "Nebuladevice/render/lighting/internalpointlightentity.h"
+#include "Nebuladevice/render/lighting/internalspotlightentity.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/resources/managedmesh.h"
+#include "Nebuladevice/render/resources/managedtexture.h"
+#include "Nebuladevice/render/renderutil/drawfullscreenquad.h"
 
 //------------------------------------------------------------------------------
 namespace Lighting

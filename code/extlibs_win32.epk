@@ -36,7 +36,7 @@ begintarget ode_win32
     settype lib    
     setbasedir extlibs
     setclusters { ode/ode ode/src ode/src/joints}
-    setincpath_win32 "../foundation;../extlibs/opcode;../extlibs/ode;../extlibs/GIMPACT;../extlibs/ode/ode"
+    setincpath_win32 "../foundation;../external/opcode;../external/ode;../external/GIMPACT;../external/ode/ode"
     setdefines { _CRT_SECURE_NO_DEPRECATE=1;__ODE__;}
     setadditionaloptions { /wd4267 }
 endtarget
@@ -45,7 +45,7 @@ begintarget opcode_win32
     settype lib    
     setbasedir extlibs
     setclusters { OPCODE OPCODE/Ice }
-    setincpath_win32 "../foundation;../extlibs/opcode;../extlibs/ode;../extlibs/GIMPACT;../extlibs/ode/ode"
+    setincpath_win32 "../foundation;../external/opcode;../external/ode;../external/GIMPACT;../external/ode/ode"
     setdefines { _CRT_SECURE_NO_DEPRECATE=1;}
 endtarget
 
@@ -53,7 +53,7 @@ begintarget gimpact_win32
     settype lib    
     setbasedir extlibs
     setclusters { gimpact gimpact/gimpact }
-    setincpath_win32 "../foundation;../extlibs/opcode;../extlibs/ode;../extlibs/GIMPACT;../extlibs/ode/ode"
+    setincpath_win32 "../foundation;../external/opcode;../external/ode;../external/GIMPACT;../external/ode/ode"
     setdefines { _CRT_SECURE_NO_DEPRECATE=1;}
     setadditionaloptions { /wd4311 /wd4312 }
 endtarget
@@ -62,7 +62,7 @@ begintarget raknet_win32
     settype lib
     setbasedir extlibs
     setclusters { raknet }
-    setincpath_win32 "../extlibs/raknet/DependentExtensions/openssl-0.9.8g;../extlibs/raknet/DependentExtensions/udt4/src;"
+    setincpath_win32 "../external/raknet/DependentExtensions/openssl-0.9.8g;../external/raknet/DependentExtensions/udt4/src;"
     setdefines { _CRT_SECURE_NO_DEPRECATE=1;_RAKNET_LIB;_CRT_NONSTDC_NO_DEPRECATE=1;_VC80_UPGRADE=0x0710;_MBCS;_HAS_EXCEPTIONS=1 }
     setadditionaloptions { /EHsc }
 endtarget

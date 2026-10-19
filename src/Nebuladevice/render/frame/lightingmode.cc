@@ -2,8 +2,8 @@
 //  lightingmode.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "frame/lightingmode.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/frame/lightingmode.h"
 
 namespace Frame
 {

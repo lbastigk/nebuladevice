@@ -7,9 +7,9 @@
     
     (C) 2008 Radon Labs GmbH
 */    
-#include "characters/base/skinnedmeshrendererbase.h"
-#include "util/stack.h"
-#include "coregraphics/texture.h"
+#include "Nebuladevice/render/characters/base/skinnedmeshrendererbase.h"
+#include "Nebuladevice/foundation/util/stack.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
 
 //------------------------------------------------------------------------------
 namespace Win32

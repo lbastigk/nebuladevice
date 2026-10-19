@@ -15,24 +15,24 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "game/featureunit.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/display.h"
-#include "graphics/stage.h"
-#include "graphics/view.h"
-#include "graphics/cameraentity.h"
-#include "input/inputserver.h"
-#include "debugrender/debugshaperenderer.h"
-#include "debugrender/debugtextrenderer.h"
-#include "properties/pathanimproperty.h"
-#include "posteffect/posteffectmanager.h"
-#include "graphicsfeature/managers/attachmentmanager.h"
-#include "debug/debugtimer.h"
-#include "framesync/framesynctimer.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/display.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/render/graphics/view.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
+#include "Nebuladevice/render/debugrender/debugtextrenderer.h"
+#include "Nebuladevice/application/graphicsfeature/properties/pathanimproperty.h"
+#include "Nebuladevice/addons/posteffect/posteffectmanager.h"
+#include "Nebuladevice/application/graphicsfeature/managers/attachmentmanager.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 #if !(__WII__ || __PS3__)
-#include "addons/posteffect/posteffectmanager.h"
+#include "Nebuladevice/addons/posteffect/posteffectmanager.h"
 #endif
 
 //------------------------------------------------------------------------------

@@ -2,9 +2,9 @@
 //  reader.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/reader.h"
-#include "addons/db/dbserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/dbserver.h"
 
 namespace Db
 {

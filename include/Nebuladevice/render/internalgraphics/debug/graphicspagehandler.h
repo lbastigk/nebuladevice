@@ -7,18 +7,18 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "http/httprequesthandler.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "internalgraphics/internalcameraentity.h"
-#include "http/html/htmlpagewriter.h"
-#include "resources/resourceid.h"
-#include "lighting/internalabstractlightentity.h"
-#include "models/modelinstance.h"
-#include "models/nodes/transformnodeinstance.h"
-#include "models/nodes/animatornodeinstance.h"
-#include "models/nodes/statenodeinstance.h"
-#include "models/nodes/shapenodeinstance.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/lighting/internalabstractlightentity.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/models/nodes/transformnodeinstance.h"
+#include "Nebuladevice/render/models/nodes/animatornodeinstance.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/models/nodes/shapenodeinstance.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

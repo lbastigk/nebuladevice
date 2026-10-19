@@ -15,7 +15,7 @@
     (C) 2007 Radon Labs GmbH
 */    
 #if (__WIN32__ || __XBOX360__)
-#include "threading/win360/win360barrier.h"
+#include "Nebuladevice/foundation/threading/win360/win360barrier.h"
 #elif __WII__
 #include "threading/wii/wiibarrier.h"
 #elif __PS3__

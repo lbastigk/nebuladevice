@@ -2,9 +2,9 @@
 //  tpjobthreadpool.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "jobs/tp/tpjobthreadpool.h"
-#include "system/systeminfo.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/jobs/tp/tpjobthreadpool.h"
+#include "Nebuladevice/foundation/system/systeminfo.h"
 
 namespace Jobs
 {

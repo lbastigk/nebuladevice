@@ -15,8 +15,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

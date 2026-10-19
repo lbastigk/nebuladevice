@@ -2,8 +2,8 @@
 //  textlabel.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "textlabel.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/elements/textlabel.h"
 
 namespace UI
 {

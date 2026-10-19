@@ -9,12 +9,12 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "util/dictionary.h"
-#include "util/string.h"
-#include "io/uri.h"
-#include "io/xmlreader.h"
-#include "shaderparam.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/toolkit/nsc3/shaderparam.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

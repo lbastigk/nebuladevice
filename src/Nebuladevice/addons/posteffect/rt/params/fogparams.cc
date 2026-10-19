@@ -2,8 +2,8 @@
 //  fogparams.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fogparams.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/posteffect/rt/params/fogparams.h"
 
 namespace PostEffect
 {

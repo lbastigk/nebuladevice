@@ -9,7 +9,7 @@
 
     (C) 2005 Radon Labs GmbH
 */
-#include "fx/rt/effects/effect.h"
+#include "Nebuladevice/addons/fx/rt/effects/effect.h"
 
 //------------------------------------------------------------------------------
 namespace FX

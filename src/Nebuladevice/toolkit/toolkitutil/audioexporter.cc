@@ -2,11 +2,11 @@
 //  audioexporter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audioexporter.h"
-#include "io/ioserver.h"
-#include "io/uri.h"
-#include "toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/audioexporter.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
 
 namespace ToolkitUtil
 {

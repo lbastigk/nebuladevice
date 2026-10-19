@@ -2,12 +2,12 @@
 //  shaderserverbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/shaderserverbase.h"
-#include "coregraphics/streamshaderloader.h"
-#include "io/ioserver.h"
-#include "io/textreader.h"
-#include "coregraphics/shadersemantics.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/shaderserverbase.h"
+#include "Nebuladevice/render/coregraphics/streamshaderloader.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/render/coregraphics/shadersemantics.h"
 
 namespace Base
 {

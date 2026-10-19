@@ -2,8 +2,8 @@
 //  definition.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "attr/attributedefinitionbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/attr/attributedefinitionbase.h"
 
 namespace Attr
 {

@@ -2,9 +2,9 @@
 //  pointlightentity.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/pointlightentity.h"
-#include "graphics/stage.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/pointlightentity.h"
+#include "Nebuladevice/render/graphics/stage.h"
 
 namespace Graphics
 {

@@ -2,8 +2,8 @@
 //  string.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/string.h"
 #include "mathlib/vector.h"
 #include "mathlib/matrix.h"
 

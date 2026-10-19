@@ -7,9 +7,9 @@
         
     (C) 2008 Radon Labs GmbH
 */
-#include "toolkitutil/platform.h"
-#include "io/uri.h"
-#include "util/string.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

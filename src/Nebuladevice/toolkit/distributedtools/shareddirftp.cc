@@ -2,15 +2,15 @@
 //  shareddirftp.cc
 // (C) 2009 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shareddirftp.h"
-#include "io/memorystream.h"
-#include "io/ioserver.h"
-#include "io/textwriter.h"
-#include "io/textreader.h"
-#include "toolkitutil/applauncher.h"
-#include "io/console.h"
-#include "timing/timer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/shareddirftp.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/timing/timer.h"
 
 using namespace IO;
 using namespace Util;

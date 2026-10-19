@@ -18,10 +18,10 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
+#include "Nebuladevice/foundation/core/types.h"
 #if !__OSX__
-#include "math/float4.h"
-#include "math/matrix44.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
 #endif
 
 //------------------------------------------------------------------------------

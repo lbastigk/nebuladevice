@@ -8,9 +8,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "memory/heap.h"
-#include "memory/poolarrayallocator.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/memory/heap.h"
+#include "Nebuladevice/foundation/memory/poolarrayallocator.h"
 
 //------------------------------------------------------------------------------
 namespace Util

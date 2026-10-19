@@ -2,9 +2,9 @@
 //  InternalMultiplayerinterface.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "InternalMultiplayer/InternalMultiplayerinterface.h"
-#include "messaging/runthroughhandlerthread.h"
+#include "Nebuladevice/foundation/messaging/runthroughhandlerthread.h"
 
 namespace InternalMultiplayer
 {

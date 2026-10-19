@@ -2,10 +2,10 @@
 //  debughandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debug/debughandler.h"
-#include "debug/debugpagehandler.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/debug/debughandler.h"
+#include "Nebuladevice/foundation/debug/debugpagehandler.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 namespace Debug
 {

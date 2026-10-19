@@ -2,18 +2,18 @@
 //  runbenchmarks.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/coreserver.h"
-#include "core/sysfunc.h"
-#include "benchmarkbase/benchmarkrunner.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/benchmarks/benchmarkbase/benchmarkrunner.h"
 
-#include "createobjects.h"
-#include "createobjectsbyfourcc.h"
-#include "createobjectsbyclassname.h"
-#include "float4math.h"
-#include "matrix44inverse.h"
-#include "matrix44multiply.h"
-#include "mempoolbenchmark.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/createobjects.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/createobjectsbyfourcc.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/createobjectsbyclassname.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/float4math.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/matrix44inverse.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/matrix44multiply.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/mempoolbenchmark.h"
 
 using namespace Core;
 using namespace Benchmarking;

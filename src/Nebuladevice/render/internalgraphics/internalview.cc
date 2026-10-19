@@ -2,16 +2,16 @@
 //  internalview.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalgraphics/internalview.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "models/visresolver.h"
-#include "coregraphics/transformdevice.h"
-#include "coregraphics/shaperenderer.h"
-#include "models/modelserver.h"
-#include "lighting/lightserver.h"
-#include "lighting/shadowserver.h"
-#include "particles/particlerenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/models/visresolver.h"
+#include "Nebuladevice/render/coregraphics/transformdevice.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/render/models/modelserver.h"
+#include "Nebuladevice/render/lighting/lightserver.h"
+#include "Nebuladevice/render/lighting/shadowserver.h"
+#include "Nebuladevice/render/particles/particlerenderer.h"
 
 namespace InternalGraphics
 {

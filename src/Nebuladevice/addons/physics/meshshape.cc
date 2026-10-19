@@ -2,12 +2,12 @@
 //  physics/meshshape.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/meshshape.h"
-#include "coregraphics/legacy/nvx2streamreader.h"
-#include "physics/meshcache.h"
-#include "physics/physicsserver.h"
-#include "debugrender/debugshaperenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/meshshape.h"
+#include "Nebuladevice/render/coregraphics/legacy/nvx2streamreader.h"
+#include "Nebuladevice/addons/physics/meshcache.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
 
 namespace Physics
 {

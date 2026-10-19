@@ -2,12 +2,12 @@
 //  mayaattrutilcmd.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaattrutilcmd.h"
-#include "mayautil/mayaattrutil.h"
-#include "mayautil/mayanodeutil.h"
-#include "mayamain/mayalogger.h"
-#include "mayautil/mayatype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayacommands/mayaattrutilcmd.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayaattrutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayanodeutil.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayalogger.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
 #include <maya/MArgDatabase.h>
 #include <maya/MDagPathArray.h>
 

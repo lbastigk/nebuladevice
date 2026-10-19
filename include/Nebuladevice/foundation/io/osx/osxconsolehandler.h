@@ -8,7 +8,7 @@
  
     (C) 2010 Radon Labs GmbH
  */
-#include "io/consolehandler.h"
+#include "Nebuladevice/foundation/io/consolehandler.h"
 
 //------------------------------------------------------------------------------
 namespace OSX

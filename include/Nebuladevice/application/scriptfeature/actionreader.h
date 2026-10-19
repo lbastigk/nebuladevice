@@ -12,9 +12,9 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "scriptfeature/actions/action.h"
-#include "scriptfeature/conditions/condition.h"
-#include "math/vector.h"
+#include "Nebuladevice/application/scriptfeature/actions/action.h"
+#include "Nebuladevice/application/scriptfeature/conditions/condition.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------
 namespace Script

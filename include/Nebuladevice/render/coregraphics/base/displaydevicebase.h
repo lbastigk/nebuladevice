@@ -10,13 +10,13 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "coregraphics/antialiasquality.h"
-#include "coregraphics/adapter.h"
-#include "coregraphics/displayeventhandler.h"
-#include "coregraphics/displaymode.h"
-#include "coregraphics/adapterinfo.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/coregraphics/antialiasquality.h"
+#include "Nebuladevice/render/coregraphics/adapter.h"
+#include "Nebuladevice/render/coregraphics/displayeventhandler.h"
+#include "Nebuladevice/render/coregraphics/displaymode.h"
+#include "Nebuladevice/render/coregraphics/adapterinfo.h"
 
 //------------------------------------------------------------------------------
 namespace Base

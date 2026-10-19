@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "graphics/abstractlightentity.h"
-#include "math/vector.h"
+#include "Nebuladevice/render/graphics/abstractlightentity.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------
 namespace GraphicsFeature

@@ -7,7 +7,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "properties/graphicsproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/graphicsproperty.h"
 
 //------------------------------------------------------------------------------
 namespace GraphicsFeature

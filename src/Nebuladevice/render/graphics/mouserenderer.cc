@@ -2,10 +2,10 @@
 //  mouserenderer.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/mouserenderer.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/mouserenderer.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
 
 namespace Graphics
 {

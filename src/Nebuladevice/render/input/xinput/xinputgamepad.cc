@@ -2,9 +2,9 @@
 //  xinputgamepad.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/xinput/xinputgamepad.h"
-#include "framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/xinput/xinputgamepad.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
 
 namespace XInput
 {

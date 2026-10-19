@@ -7,11 +7,11 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/stringatom.h"
-#include "forest/treeinstance.h"
-#include "forest/treelod.h"
-#include "models/managedmodel.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/addons/forest/treeinstance.h"
+#include "Nebuladevice/addons/forest/treelod.h"
+#include "Nebuladevice/render/models/managedmodel.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

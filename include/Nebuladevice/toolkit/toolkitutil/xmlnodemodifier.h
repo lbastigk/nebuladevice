@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "util/string.h"
-#include "util/array.h"
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 namespace IO
 {

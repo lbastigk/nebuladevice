@@ -2,7 +2,7 @@
 //  emptyresourceloader.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "emptyresourceloader.h"
 
 namespace Resources

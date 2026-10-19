@@ -22,7 +22,7 @@ begintarget nsh3
     settype exe
     setbasedir tools
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../tools"    
+    setincpath_win32 "../foundation;../external;../tools"    
     setclusters { nsh3 }
     setdepends {
         foundation_win32
@@ -36,7 +36,7 @@ begintarget nsc3
     settype exe
     setbasedir tools
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../tools"    
+    setincpath_win32 "../foundation;../external;../tools"    
     setclusters { nsc3 }
     setdepends {
         foundation_win32
@@ -50,7 +50,7 @@ begintarget testserver
     settype exe
     setbasedir tools
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../tools"    
+    setincpath_win32 "../foundation;../external;../tools"    
     setclusters { testserver }
     setdepends {
         foundation_win32
@@ -64,7 +64,7 @@ begintarget testclient
     settype exe
     setbasedir tools
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../tools"    
+    setincpath_win32 "../foundation;../external;../tools"    
     setclusters { testclient }
     setdepends {
         foundation_win32
@@ -78,7 +78,7 @@ begintarget testviewer
     settype exe
     setbasedir tools
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tools;../addons"    
+    setincpath_win32 "../foundation;../render;../external;../tools;../addons"    
     setclusters { testviewer }
     setdepends {
         foundation_win32
@@ -101,7 +101,7 @@ begintarget testhttpviewer
     settype exe
     setbasedir tools
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tools;../addons"    
+    setincpath_win32 "../foundation;../render;../external;../tools;../addons"    
     setclusters { testhttpviewer }
     setrsrc_win32 { ../res/nebula.rc }    
     setdepends {
@@ -121,7 +121,7 @@ endtarget
 #    settype exe
 #    setbasedir tools
 #    setprecompiledheader stdneb    
-#    setincpath_win32 "../foundation;../render;../extlibs;../tools;../addons"    
+#    setincpath_win32 "../foundation;../render;../external;../tools;../addons"    
 #    setclusters { testremoteviewer }
 #    setdepends {
 #        foundation_win32
@@ -138,7 +138,7 @@ begintarget testgame
    settype exe
    setbasedir tools
    setprecompiledheader stdneb    
-   setincpath_win32 "../application;../application/basegamefeature;../application/corefeature;../application/graphicsfeature;../application/physicsfeature;../foundation;../render;../extlibs;../tools;../addons;../extlibs/ode;"    
+   setincpath_win32 "../application;../application/basegamefeature;../application/corefeature;../application/graphicsfeature;../application/physicsfeature;../foundation;../render;../external;../tools;../addons;../external/ode;"    
    setclusters { testgame }
    setdepends {
        foundation_win32
@@ -164,8 +164,8 @@ begintarget testnetworkgame
    settype exe
    setbasedir tools
    setprecompiledheader stdneb    
-   setincpath_win32 "../application;../application/basegamefeature;../application/corefeature;../application/graphicsfeature;../application/physicsfeature;../foundation;../render;../extlibs;../network;../tools;../addons;../extlibs/ode;;../addons/network"    
-   setlibpath_win32 "../extlibs/raknet/Lib"
+   setincpath_win32 "../application;../application/basegamefeature;../application/corefeature;../application/graphicsfeature;../application/physicsfeature;../foundation;../render;../external;../network;../tools;../addons;../external/ode;;../addons/network"    
+   setlibpath_win32 "../external/raknet/Lib"
    setclusters { testnetworkgame testnetworkgame/motion }
    setdepends {
        foundation_win32
@@ -193,8 +193,8 @@ begintarget genrandtable
     settype exe
     setbasedir tools
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../tools"    
-    setlibpath_win32 "../extlibs/raknet/Lib"
+    setincpath_win32 "../foundation;../external;../tools"    
+    setlibpath_win32 "../external/raknet/Lib"
     setclusters { genrandtable }
     setdepends {
         foundation_win32
@@ -208,8 +208,8 @@ endtarget
 #    settype exe
 #    setbasedir tools
 #    setprecompiledheader stdneb    
-#    setincpath_win32 "../foundation;../addons/network;../extlibs;../tools;../testnetwork;"    
-#    setlibpath_win32 "../extlibs/raknet/Lib"
+#    setincpath_win32 "../foundation;../addons/network;../external;../tools;../testnetwork;"    
+#    setlibpath_win32 "../external/raknet/Lib"
 #    setclusters { testnetwork }
 #    setdepends {
 #        foundation_win32

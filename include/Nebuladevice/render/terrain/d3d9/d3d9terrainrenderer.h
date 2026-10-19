@@ -5,10 +5,10 @@
 
 	(C) 2011 xiongyouyi
 */
-#include "terrain/base/terrainrendererbase.h"
-#include "coregraphics/indexbuffer.h"
-#include "coregraphics/vertexlayout.h"
-#include "coregraphics/primitivegroup.h"
+#include "Nebuladevice/render/terrain/base/terrainrendererbase.h"
+#include "Nebuladevice/render/coregraphics/indexbuffer.h"
+#include "Nebuladevice/render/coregraphics/vertexlayout.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
 
 
 //------------------------------------------------------------------------------

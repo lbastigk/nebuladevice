@@ -9,10 +9,10 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "io/uri.h"
-#include "io/textwriter.h"
-#include "toolkit/idlcompiler/idldocument.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
+#include "Nebuladevice/toolkit/idlcompiler/idldocument.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

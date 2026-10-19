@@ -2,9 +2,9 @@
 //  grassplantmesh.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grassplantmesh.h"
-#include "coregraphics/primitivegroup.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grassplantmesh.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
 
 namespace Vegetation
 {

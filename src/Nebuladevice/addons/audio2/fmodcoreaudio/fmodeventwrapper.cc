@@ -2,11 +2,11 @@
 //  fmodeventwrapper.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "audio2/fmodcoreaudio/fmodeventwrapper.h"
-#include "audio2/fmodcoreaudio/fmodaudiodevice.h"
-#include "audio2/fmodcoreaudio/fmoderror.h"
-#include "audio2/fmodeventparameterid.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodeventwrapper.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmodaudiodevice.h"
+#include "Nebuladevice/addons/audio2/fmodcoreaudio/fmoderror.h"
+#include "Nebuladevice/addons/audio2/fmodeventparameterid.h"
 
 #include <fmod_event.hpp>
 

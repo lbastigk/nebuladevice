@@ -23,7 +23,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "util/array.h"
+#include "Nebuladevice/foundation/util/array.h"
 
 //------------------------------------------------------------------------------
 namespace Util

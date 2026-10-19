@@ -9,8 +9,8 @@
     
     (C) 2007 RadonLabs GmbH
 */
-#include "core/types.h"
-#include "math/scalar.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/math/scalar.h"
 
 //------------------------------------------------------------------------------
 namespace Math

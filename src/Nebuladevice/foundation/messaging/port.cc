@@ -2,8 +2,8 @@
 //  port.cc
 //  (C) 2006 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/port.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/port.h"
 
 namespace Messaging
 {

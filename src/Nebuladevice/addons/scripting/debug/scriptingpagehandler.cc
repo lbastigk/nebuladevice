@@ -2,11 +2,11 @@
 //  scriptingpagehandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scripting/debug/scriptingpagehandler.h"
-#include "http/html/htmlpagewriter.h"
-#include "scripting/scriptserver.h"
-#include "scripting/command.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/scripting/debug/scriptingpagehandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/addons/scripting/scriptserver.h"
+#include "Nebuladevice/addons/scripting/command.h"
 
 namespace Debug
 {

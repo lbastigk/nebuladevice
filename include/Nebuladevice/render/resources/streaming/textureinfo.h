@@ -10,7 +10,7 @@
 
 //------------------------------------------------------------------------------
 //#if __WIN32__
-#include "resources/d3d9streaming/d3d9textureinfo.h"
+#include "Nebuladevice/render/resources/d3d9streaming/d3d9textureinfo.h"
 namespace Resources
 {
 class TextureInfo : public Resources::D3D9TextureInfo

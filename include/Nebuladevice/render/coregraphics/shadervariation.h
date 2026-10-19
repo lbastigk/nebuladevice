@@ -9,7 +9,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if __WIN32__
-#include "coregraphics/d3d9/d3d9shadervariation.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9shadervariation.h"
 namespace CoreGraphics
 {
 class ShaderVariation : public Direct3D9::D3D9ShaderVariation

@@ -2,22 +2,22 @@
 //  properties/actorphysicsproperty.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/actorphysicsproperty.h"
-#include "core/factory.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "physicsattr/physicsattributes.h"
-#include "physics/physicsserver.h"
-#include "physics/level.h"
-#include "basegametiming/gametimesource.h"
-#include "math/polar.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/cameraentity.h"
-#include "managers/entitymanager.h"
-#include "basegametiming/inputtimesource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/physicsfeature/properties/actorphysicsproperty.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/physicsfeature/physicsattr/physicsattributes.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/foundation/math/polar.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/inputtimesource.h"
 //#include "navigation/server.h"
-#include "basegameprotocol.h"
-#include "physicsprotocol.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/application/physicsfeature/physicsprotocol.h"
 
 namespace Attr
 {

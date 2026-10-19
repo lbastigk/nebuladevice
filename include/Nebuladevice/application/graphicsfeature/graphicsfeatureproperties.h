@@ -7,15 +7,15 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "graphicsfeature/properties/cameraproperty.h"
-#include "graphicsfeature/properties/chasecameraproperty.h"
-#include "graphicsfeature/properties/mayacameraproperty.h"
-#include "graphicsfeature/properties/environmentgraphicsproperty.h"
-#include "graphicsfeature/properties/graphicsproperty.h"
-#include "graphicsfeature/properties/inputproperty.h"
-#include "graphicsfeature/properties/lightproperty.h"
-#include "graphicsfeature/properties/actorgraphicsproperty.h"
-#include "graphicsfeature/properties/ambiencebubbleproperty.h"
-#include "graphicsfeature/properties/animationcontrolproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/cameraproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/chasecameraproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/mayacameraproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/environmentgraphicsproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/graphicsproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/inputproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/lightproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/actorgraphicsproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/ambiencebubbleproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/animationcontrolproperty.h"
 
 //------------------------------------------------------------------------------

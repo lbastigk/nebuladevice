@@ -7,13 +7,13 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "toolkit/toolkitutil/platform.h"
-#include "io/uri.h"
-#include "util/stringatom.h"
-#include "render/resources/streaming/textureinfo.h"
-#include "io/stream.h"
-#include "render/resources/streaming/poolresourcemapper.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/resources/streaming/textureinfo.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/render/resources/streaming/poolresourcemapper.h"
 
 #define DEBUG_RES_DICT_BUILDER (1)
 

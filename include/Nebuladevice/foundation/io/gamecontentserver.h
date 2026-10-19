@@ -9,9 +9,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__WIN32__ || __XBOX360__ || __WII__ || __OSX__)
-#include "io/base/gamecontentserverbase.h"
+#include "Nebuladevice/foundation/io/base/gamecontentserverbase.h"
 namespace IO
 {
 class GameContentServer : public Base::GameContentServerBase

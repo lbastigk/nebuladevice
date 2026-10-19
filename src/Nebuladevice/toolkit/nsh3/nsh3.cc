@@ -2,8 +2,8 @@
 //  nsh3.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkit/nsh3/shellapplication.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsh3/shellapplication.h"
 
 using namespace Tools;
 using namespace Util;

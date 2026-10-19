@@ -2,11 +2,11 @@
 //  zipfilesystem.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/zipfs/zipfilesystem.h"
-#include "io/ioserver.h"
-#include "io/archfs/archive.h"
-#include "io/zipfs/zipfilestream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/zipfs/zipfilesystem.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/archfs/archive.h"
+#include "Nebuladevice/foundation/io/zipfs/zipfilestream.h"
 
 namespace IO
 {

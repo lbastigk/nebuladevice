@@ -8,9 +8,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/texutil/textureconversionjob.h"
-#include "toolkitutil/applauncher.h"
-#include "io/uri.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureconversionjob.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 namespace ToolkitUtil
 {

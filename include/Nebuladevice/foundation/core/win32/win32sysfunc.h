@@ -7,8 +7,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "core/exithandler.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/core/exithandler.h"
 namespace System
 {
     class SystemInfo;

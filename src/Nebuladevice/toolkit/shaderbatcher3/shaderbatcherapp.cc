@@ -2,9 +2,9 @@
 //  shaderbatcherapp.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shaderbatcherapp.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/shaderbatcher3/shaderbatcherapp.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 namespace Toolkit
 {

@@ -17,9 +17,9 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "distributedtools/remotejobservice.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/toolkit/distributedtools/remotejobservice.h"
 
 namespace IO
 {

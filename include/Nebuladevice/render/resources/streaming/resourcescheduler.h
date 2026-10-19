@@ -10,7 +10,7 @@
 */
 
 //------------------------------------------------------------------------------
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 namespace Resources
 {

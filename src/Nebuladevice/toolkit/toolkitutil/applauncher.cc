@@ -2,8 +2,8 @@
 //  applauncher.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "applauncher.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
 
 namespace ToolkitUtil
 {

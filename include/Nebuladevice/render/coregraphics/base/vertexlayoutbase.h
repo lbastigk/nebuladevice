@@ -10,8 +10,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "coregraphics/vertexcomponent.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/coregraphics/vertexcomponent.h"
 
 namespace CoreGraphics
 {

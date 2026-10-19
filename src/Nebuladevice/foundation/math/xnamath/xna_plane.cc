@@ -2,9 +2,9 @@
 //  plane.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "math/plane.h"
-#include "math/matrix44.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/math/plane.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
 
 namespace Math
 {

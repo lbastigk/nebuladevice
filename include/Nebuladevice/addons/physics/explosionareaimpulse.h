@@ -12,9 +12,9 @@
     
     (C) 2005 Radon Labs GmbH
 */
-#include "physics/areaimpulse.h"
-#include "util/array.h"
-#include "physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/areaimpulse.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

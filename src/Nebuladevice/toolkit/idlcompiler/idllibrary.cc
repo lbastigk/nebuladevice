@@ -2,8 +2,8 @@
 //  idllibrary.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkit/idlcompiler/idllibrary.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/idlcompiler/idllibrary.h"
 
 namespace Tools
 {

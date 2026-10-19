@@ -2,11 +2,11 @@
 //  osxmemory.cc
 //  (C) 2010 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/types.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
-// #include "threading/interlocked.h"
+// #include "Nebuladevice/foundation/threading/interlocked.h"
 
 // overriden new/delete operators
 void* operator new(size_t size)

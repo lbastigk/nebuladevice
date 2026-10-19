@@ -2,10 +2,10 @@
 //  n2batchconverter.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n2batchconverter.h"
-#include "io/assignregistry.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/n2batchconverter.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace ToolkitUtil
 {

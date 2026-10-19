@@ -2,8 +2,8 @@
 //  envelopesamplebuffer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/envelopesamplebuffer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/envelopesamplebuffer.h"
 
 namespace Particles
 {

@@ -15,7 +15,7 @@ begintarget application_win32
     settype lib
     setbasedir application
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../application;../application/basegamefeature;../application/graphicsfeature;../application/physicsfeature;../application/networkfeature;../application/stateobjectfeature;../addons/network;../addons/posteffect;../render;../extlibs;../addons;../extlibs/ode;"
+    setincpath_win32 "../foundation;../application;../application/basegamefeature;../application/graphicsfeature;../application/physicsfeature;../application/networkfeature;../application/stateobjectfeature;../addons/network;../addons/posteffect;../render;../external;../addons;../external/ode;"
     setdepends {
         posteffect_nidls_win32
 		posteffect_win32

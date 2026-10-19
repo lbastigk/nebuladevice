@@ -2,11 +2,11 @@
 //  suirendermodule.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "sui/suirendermodule.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicsprotocol.h"
-#include "sui/rt/suirtplugin.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sui/suirendermodule.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/addons/sui/rt/suirtplugin.h"
 
 namespace SUI
 {

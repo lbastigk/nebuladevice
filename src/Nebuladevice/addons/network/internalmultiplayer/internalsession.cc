@@ -2,8 +2,8 @@
 //  internalsession.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/internalsession.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalsession.h"
 
 namespace InternalMultiplayer
 {

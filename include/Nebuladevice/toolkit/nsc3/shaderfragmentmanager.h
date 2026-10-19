@@ -10,11 +10,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "io/uri.h"
-#include "shaderfragment.h"
-#include "shaderfragmentgroup.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragment.h"
+#include "Nebuladevice/toolkit/nsc3/shaderfragmentgroup.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

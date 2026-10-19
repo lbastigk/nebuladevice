@@ -9,8 +9,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "coregraphics/primitivegroup.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

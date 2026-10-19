@@ -2,12 +2,12 @@
 //  sequencer/xmlattrparser.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
-#include "sequencer/xmlattrparser.h"
-#include "sequencer/beziergraph.h"
-#include "sequencer/beziercurve.h"
-#include "util/string.h"
+#include "Nebuladevice/addons/sequencer/xmlattrparser.h"
+#include "Nebuladevice/addons/sequencer/beziergraph.h"
+#include "Nebuladevice/addons/sequencer/beziercurve.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 namespace Sequencer
 {

@@ -2,8 +2,8 @@
 //  ui/dragbox.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "dragbox.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/elements/dragbox.h"
 
 namespace UI
 {

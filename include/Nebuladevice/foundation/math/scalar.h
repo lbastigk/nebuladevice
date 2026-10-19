@@ -14,7 +14,7 @@
 */
 
 #if __WIN32__ || __XBOX360__
-#include "math/xnamath/xna_scalar.h"
+#include "Nebuladevice/foundation/math/xnamath/xna_scalar.h"
 #elif __WII__
 #include "math/wii/wii_scalar.h"
 #elif __PS3__

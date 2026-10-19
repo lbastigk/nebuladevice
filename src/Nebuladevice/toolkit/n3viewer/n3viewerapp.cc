@@ -2,9 +2,9 @@
 //  n3viewerapp.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n3viewerapp.h"
-#include "system/win32/win32registry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/n3viewer/n3viewerapp.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
 
 namespace Toolkit
 {

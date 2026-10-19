@@ -8,16 +8,16 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "math/matrix44.h"
-#include "math/float4.h"
-#include "math/bbox.h"
-#include "coregraphics/primitivetopology.h"
-#include "coregraphics/indextype.h"
-#include "coregraphics/shaderinstance.h"
-#include "coregraphics/rendershape.h"
-#include "threading/threadid.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/render/coregraphics/primitivetopology.h"
+#include "Nebuladevice/render/coregraphics/indextype.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
+#include "Nebuladevice/render/coregraphics/rendershape.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
 
 //------------------------------------------------------------------------------
 namespace Base

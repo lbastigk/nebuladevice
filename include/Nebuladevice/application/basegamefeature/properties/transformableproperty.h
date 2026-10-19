@@ -7,8 +7,8 @@
   
     (C) 2007 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

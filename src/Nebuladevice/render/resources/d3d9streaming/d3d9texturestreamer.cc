@@ -2,14 +2,14 @@
 //  d3d9texturestreamer.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "d3d9texturestreamer.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/renderdevice.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/d3d9streaming/d3d9texturestreamer.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 #include "ddraw.h"
-#include "coregraphics/win360/d3d9types.h"
-#include "foundation/util/array.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/foundation/util/array.h"
 
 namespace Resources
 {

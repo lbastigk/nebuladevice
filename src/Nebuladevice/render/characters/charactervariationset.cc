@@ -2,9 +2,9 @@
 //  CharacterVariationSet.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/charactervariationset.h"
-#include "characters/charactervariationlibrary.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/charactervariationset.h"
+#include "Nebuladevice/render/characters/charactervariationlibrary.h"
 
 namespace Characters
 {

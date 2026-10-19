@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */    
-#include "interface/interfacebase.h"
-#include "core/singleton.h"
-#include "messaging/batchmessage.h"
+#include "Nebuladevice/foundation/interface/interfacebase.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/messaging/batchmessage.h"
 
 //------------------------------------------------------------------------------
 namespace Vibration

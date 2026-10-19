@@ -2,10 +2,10 @@
 //  uigraphicshandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/fxhandler.h"
-#include "fx/fxprotocol.h"
-#include "fx/rt/fxserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/fxhandler.h"
+#include "Nebuladevice/addons/fx/fxprotocol.h"
+#include "Nebuladevice/addons/fx/rt/fxserver.h"
 
 namespace FX
 {

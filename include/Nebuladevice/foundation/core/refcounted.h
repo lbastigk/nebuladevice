@@ -18,15 +18,15 @@
 
     (C) 2006 RadonLabs GmbH
 */
-#include "core/types.h"
-#include "core/rtti.h"
-#include "core/factory.h"
-#include "threading/interlocked.h"
-#include "core/refcountedlist.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/core/rtti.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/foundation/threading/interlocked.h"
+#include "Nebuladevice/foundation/core/refcountedlist.h"
 
 #if NEBULA3_DEBUG
-#include "threading/criticalsection.h"
-#include "util/dictionary.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
 #endif
 
 //------------------------------------------------------------------------------

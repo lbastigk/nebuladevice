@@ -10,16 +10,16 @@
     
     (C) 2009 Radon Labs GmbH
 */    
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 
 // HttpClient not implemented on the Wii
 #if __NEBULA3_HTTP_FILESYSTEM__
-#include "core/refcounted.h"
-#include "net/tcpclient.h"
-#include "http/httpstatus.h"
-#include "http/httpmethod.h"
-#include "io/uri.h"
-#include "io/stream.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/net/tcpclient.h"
+#include "Nebuladevice/foundation/http/httpstatus.h"
+#include "Nebuladevice/foundation/http/httpmethod.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/io/stream.h"
 
 //------------------------------------------------------------------------------
 namespace Http

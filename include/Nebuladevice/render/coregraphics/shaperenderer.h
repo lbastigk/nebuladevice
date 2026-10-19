@@ -8,7 +8,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__)
-#include "coregraphics/win360/d3d9shaperenderer.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9shaperenderer.h"
 namespace CoreGraphics
 {
 class ShapeRenderer : public Win360::D3D9ShapeRenderer

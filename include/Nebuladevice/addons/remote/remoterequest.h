@@ -9,9 +9,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "messaging/message.h"
-#include "remote/remotestatus.h"
-#include "io/xmlreader.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/remote/remotestatus.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

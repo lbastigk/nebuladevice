@@ -2,11 +2,11 @@
 //  coreuirtplugin.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/rt/coreuirtplugin.h"
-#include "frame/framebatch.h"
-#include "graphics/graphicsinterface.h"
-#include "internalgraphics/internalview.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/rt/coreuirtplugin.h"
+#include "Nebuladevice/render/frame/framebatch.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/internalgraphics/internalview.h"
 
 namespace CoreUI
 {

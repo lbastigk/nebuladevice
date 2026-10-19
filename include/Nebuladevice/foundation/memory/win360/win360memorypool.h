@@ -13,8 +13,8 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "threading/criticalsection.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

@@ -2,10 +2,10 @@
 //  d3d9vertexbuffer.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/win360/d3d9vertexbuffer.h"
-#include "coregraphics/win360/d3d9types.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9types.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 namespace Win360
 {

@@ -8,7 +8,7 @@
     (C) 2008 Radon Labs GmbH
 */
 #if __WIN32__
-#include "particles/d3d9/d3d9particlesysteminstance.h"
+#include "Nebuladevice/render/particles/d3d9/d3d9particlesysteminstance.h"
 namespace Particles
 {
 class ParticleSystemInstance : public Direct3D9::D3D9ParticleSystemInstance

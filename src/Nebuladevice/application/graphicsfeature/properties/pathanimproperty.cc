@@ -2,19 +2,19 @@
 //  properties/pathanimproperty.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/pathanimproperty.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "basegamefeature/basegameprotocol.h"
-#include "graphics/graphicsentity.h"
-#include "game/entity.h"
-#include "math/quaternion.h"
-#include "basegametiming/gametimesource.h"
-#include "coreanimation/animutil.h"
-#include "coreanimation/sampletype.h"
-#include "coreanimation/streamanimationloader.h"
-#include "coreanimation/infinitytype.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/pathanimproperty.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsentity.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/render/coreanimation/animutil.h"
+#include "Nebuladevice/render/coreanimation/sampletype.h"
+#include "Nebuladevice/render/coreanimation/streamanimationloader.h"
+#include "Nebuladevice/render/coreanimation/infinitytype.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 
 namespace Attr
 {

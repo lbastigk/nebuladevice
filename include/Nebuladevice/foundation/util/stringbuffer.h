@@ -19,8 +19,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/array.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/array.h"
 
 //------------------------------------------------------------------------------
 namespace Util

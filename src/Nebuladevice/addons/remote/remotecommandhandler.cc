@@ -2,8 +2,8 @@
 //  remotecommandhandler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remote/remotecommandhandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/remote/remotecommandhandler.h"
 
 namespace Remote
 {

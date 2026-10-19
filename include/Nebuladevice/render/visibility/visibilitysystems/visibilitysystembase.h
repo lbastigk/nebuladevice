@@ -5,10 +5,10 @@
        
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "visibility/observercontext.h"
-#include "visibility/visibilitycontext.h"
-#include "jobs/jobport.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/visibility/observercontext.h"
+#include "Nebuladevice/render/visibility/visibilitycontext.h"
+#include "Nebuladevice/foundation/jobs/jobport.h"
               
 //------------------------------------------------------------------------------
 namespace Visibility

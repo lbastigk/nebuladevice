@@ -7,10 +7,10 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "rendermodules/rt/rtplugin.h"
-#include "frame/framebatch.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/render/frame/framebatch.h"
 
 //------------------------------------------------------------------------------
 namespace RenderModules

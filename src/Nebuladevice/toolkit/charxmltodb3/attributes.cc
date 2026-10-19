@@ -2,8 +2,8 @@
 //  attr/attributes.h
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "attributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/charxmltodb3/attributes.h"
 
 namespace Attr
 {

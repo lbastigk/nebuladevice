@@ -8,10 +8,10 @@
       
     (C) 2009 Radon Labs GmbH
 */
-#include "coreanimation/animevent.h"
-#include "timing/time.h"
-#include "util/stringatom.h"
-#include "internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/coreanimation/animevent.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
 
 //------------------------------------------------------------------------------
 namespace Animation

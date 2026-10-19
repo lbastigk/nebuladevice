@@ -2,8 +2,8 @@
 //  audioserver.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "animation/animeventserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/animation/animeventserver.h"
 
 namespace Animation
 {

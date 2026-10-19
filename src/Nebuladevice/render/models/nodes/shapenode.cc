@@ -2,11 +2,11 @@
 //  shapenode.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/nodes/shapenode.h"
-#include "models/nodes/shapenodeinstance.h"
-#include "resources/resourcemanager.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/nodes/shapenode.h"
+#include "Nebuladevice/render/models/nodes/shapenodeinstance.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 namespace Models
 {

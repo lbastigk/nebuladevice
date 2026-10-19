@@ -2,11 +2,11 @@
 //  d3d9textrenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9textrenderer.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/displaydevice.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9textrenderer.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 namespace Direct3D9
 {

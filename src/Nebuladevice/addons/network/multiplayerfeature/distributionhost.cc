@@ -2,20 +2,20 @@
 //  network/multiplayer/distributionhost.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/distributionhost.h"
-#include "multiplayerfeature/distributionproperty.h"
-#include "multiplayer/multiplayermanager.h"
-#include "internalmultiplayer/base/packetprioritybase.h"
-#include "basegamefeature/basegameattr/basegameattributes.h"
-#include "basegamefeature/managers/entitymanager.h"
-#include "basegamefeature/managers/factorymanager.h"
-#include "multiplayerfeature/distributionid.h"
-#include "distributionprotocol.h"
-#include "db/reader.h"
-#include "db/dbserver.h"
-#include "multiplayerfeature/distributionmanager.h"
-#include "framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionhost.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionproperty.h"
+#include "Nebuladevice/addons/network/multiplayer/multiplayermanager.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/packetprioritybase.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionid.h"
+#include "Nebuladevice/addons/network/distributionprotocol.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionmanager.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
 
 namespace MultiplayerFeature
 {

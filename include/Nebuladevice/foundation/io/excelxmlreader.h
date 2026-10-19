@@ -8,11 +8,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/streamreader.h"
-#include "io/xmlreader.h"
-#include "util/string.h"
-#include "util/array.h"
-#include "util/fixedtable.h"
+#include "Nebuladevice/foundation/io/streamreader.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/fixedtable.h"
 
 //------------------------------------------------------------------------------
 namespace IO

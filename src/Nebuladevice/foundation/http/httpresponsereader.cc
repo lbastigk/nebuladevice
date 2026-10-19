@@ -2,10 +2,10 @@
 //  httpresponsereader.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httpresponsereader.h"
-#include "io/textreader.h"
-#include "io/memorystream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httpresponsereader.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
 
 namespace Http
 {

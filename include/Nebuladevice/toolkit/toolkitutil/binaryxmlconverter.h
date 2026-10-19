@@ -7,12 +7,12 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/platform.h"
-#include "toolkitutil/logger.h"
-#include "util/string.h"
-#include "util/stringatom.h"
-#include "io/xmlreader.h"
-#include "io/util/bxmlfilestructs.h"
+#include "Nebuladevice/toolkit/toolkitutil/platform.h"
+#include "Nebuladevice/toolkit/toolkitutil/logger.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/util/bxmlfilestructs.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

@@ -2,12 +2,12 @@
 //  archiveapp.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "archiverapp.h"
-#include "toolkitutil/applauncher.h"
-#include "io/xmlwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/archiver3/archiverapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
 #include "zlib/zlib.h"
-#include "io/binarywriter.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
 
 namespace Toolkit
 {

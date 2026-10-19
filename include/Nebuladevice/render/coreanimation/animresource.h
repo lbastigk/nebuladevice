@@ -10,9 +10,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "resources/resource.h"
-#include "coreanimation/animclip.h"
-#include "coreanimation/animkeybuffer.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/coreanimation/animclip.h"
+#include "Nebuladevice/render/coreanimation/animkeybuffer.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

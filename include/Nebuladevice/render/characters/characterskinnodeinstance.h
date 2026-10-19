@@ -7,9 +7,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "models/nodes/shapenodeinstance.h"
-#include "characters/characterinstance.h"
-#include "characters/skinnedmeshrenderer.h"
+#include "Nebuladevice/render/models/nodes/shapenodeinstance.h"
+#include "Nebuladevice/render/characters/characterinstance.h"
+#include "Nebuladevice/render/characters/skinnedmeshrenderer.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

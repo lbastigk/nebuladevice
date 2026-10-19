@@ -4,10 +4,10 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "util/array.h"
-#include "math/matrix44.h"
-#include "graphics/graphicsentity.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/render/graphics/graphicsentity.h"
 
 //------------------------------------------------------------------------------
 namespace Visibility

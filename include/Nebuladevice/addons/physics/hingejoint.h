@@ -8,8 +8,8 @@
 
     (C) 2003 RadonLabs GmbH
 */
-#include "physics/joint.h"
-#include "physics/jointaxis.h"
+#include "Nebuladevice/addons/physics/joint.h"
+#include "Nebuladevice/addons/physics/jointaxis.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

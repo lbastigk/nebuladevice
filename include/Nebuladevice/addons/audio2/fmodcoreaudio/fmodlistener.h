@@ -8,8 +8,8 @@
     (C) 2009 Radon Labs GmbH
 */
 
-#include "math/matrix44.h"
-#include "math/vector.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------
 namespace FmodCoreAudio

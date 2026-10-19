@@ -2,8 +2,8 @@
 //  textelement.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/textelement.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/textelement.h"
 
 namespace CoreGraphics
 {

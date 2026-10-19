@@ -7,25 +7,25 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "app/application.h"
-#include "core/coreserver.h"
-#include "jobs/jobsystem.h"
-#include "debug/debuginterface.h"
-#include "io/ioserver.h"
-#include "io/iointerface.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/display.h"
-#include "timing/timer.h"
-#include "debug/debuginterface.h"
-#include "debug/debugtimer.h"
-#include "input/inputserver.h"
-#include "io/gamecontentserver.h"
+#include "Nebuladevice/foundation/app/application.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/jobs/jobsystem.h"
+#include "Nebuladevice/foundation/debug/debuginterface.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/iointerface.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/display.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/foundation/debug/debuginterface.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/foundation/io/gamecontentserver.h"
 #if __NEBULA3_HTTP__
-#include "http/httpinterface.h"
-#include "http/httpserverproxy.h"
+#include "Nebuladevice/foundation/http/httpinterface.h"
+#include "Nebuladevice/foundation/http/httpserverproxy.h"
 #endif
 #if __NEBULA3_HTTP_FILESYSTEM__
-#include "http/httpclientregistry.h"
+#include "Nebuladevice/foundation/http/httpclientregistry.h"
 #endif
 
 //------------------------------------------------------------------------------

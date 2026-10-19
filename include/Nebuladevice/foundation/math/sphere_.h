@@ -9,12 +9,12 @@
 
     (C) 2004 RadonLabs GmbH
 */
-#include "math/vector.h"
-#include "math/point.h"
-#include "math/bbox.h"
-#include "math/matrix44.h"
-#include "math/rectangle.h"
-#include "math/clipstatus.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/rectangle.h"
+#include "Nebuladevice/foundation/math/clipstatus.h"
 
 //------------------------------------------------------------------------------
 namespace Math

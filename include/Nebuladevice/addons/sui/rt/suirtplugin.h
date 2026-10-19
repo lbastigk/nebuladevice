@@ -7,9 +7,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "rendermodules/rt/rtplugin.h"
-#include "sui/rt/suiserver.h"
-#include "sui/rt/suihandler.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/addons/sui/rt/suiserver.h"
+#include "Nebuladevice/addons/sui/rt/suihandler.h"
 
 //------------------------------------------------------------------------------
 namespace SUI

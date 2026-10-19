@@ -11,15 +11,15 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/string.h"
-#include "util/array.h"
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "core/ptr.h"
-#include "io/consolehandler.h"
-#include "threading/threadid.h"
-#include "threading/criticalsection.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/io/consolehandler.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
 
 //------------------------------------------------------------------------------
 namespace IO

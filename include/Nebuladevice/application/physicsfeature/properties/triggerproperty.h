@@ -9,10 +9,10 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "properties/transformableproperty.h"
-#include "physics/shape.h"
-#include "math/vector.h"
-#include "timing/time.h"
+#include "Nebuladevice/application/basegamefeature/properties/transformableproperty.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace PhysicsFeature

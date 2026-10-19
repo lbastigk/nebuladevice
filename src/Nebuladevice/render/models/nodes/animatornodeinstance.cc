@@ -2,21 +2,21 @@
 //  animatornodeinstance.cc
 //  (C) 2008 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/nodes/animatornodeinstance.h"
-#include "models/modelinstance.h"
-#include "models/modelnode.h"
-#include "models/modelnodeinstance.h"
-#include "models/nodes/statenodeinstance.h"
-#include "models/nodes/transformnodeinstance.h"
-#include "models/nodes/animatornode.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/shadervariableinstance.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/sampletype.h"
-#include "coreanimation/animsamplebuffer.h"
-#include "coreanimation/animutil.h"
-#include "internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/nodes/animatornodeinstance.h"
+#include "Nebuladevice/render/models/modelinstance.h"
+#include "Nebuladevice/render/models/modelnode.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/models/nodes/transformnodeinstance.h"
+#include "Nebuladevice/render/models/nodes/animatornode.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/sampletype.h"
+#include "Nebuladevice/render/coreanimation/animsamplebuffer.h"
+#include "Nebuladevice/render/coreanimation/animutil.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
 
 namespace Models
 {

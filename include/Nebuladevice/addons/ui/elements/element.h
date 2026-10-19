@@ -21,13 +21,13 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "math/rectangle.h"
-#include "input/key.h"
-#include "input/gamepad.h"
-#include "math/float2.h"
-#include "math/rectangle.h"
-#include "resources/resourceid.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/math/rectangle.h"
+#include "Nebuladevice/render/input/key.h"
+#include "Nebuladevice/render/input/gamepad.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/math/rectangle.h"
+#include "Nebuladevice/render/resources/resourceid.h"
 
 //------------------------------------------------------------------------------
 namespace UI

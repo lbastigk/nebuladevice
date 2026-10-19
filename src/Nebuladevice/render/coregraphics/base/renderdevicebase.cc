@@ -2,13 +2,13 @@
 //  renderdevicebase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/renderdevicebase.h"
-#include "coregraphics/rendertarget.h"
-#include "coregraphics/multiplerendertarget.h"
-#include "coregraphics/vertexbuffer.h"
-#include "coregraphics/indexbuffer.h"
-#include "coregraphics/shaderinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/renderdevicebase.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/coregraphics/multiplerendertarget.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/indexbuffer.h"
+#include "Nebuladevice/render/coregraphics/shaderinstance.h"
 
 namespace Base
 {

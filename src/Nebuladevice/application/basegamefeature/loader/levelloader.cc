@@ -2,25 +2,25 @@
 //  loader/levelloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "loader/levelloader.h"
-#include "loader/loaderserver.h"
-#include "appgame/appconfig.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/loader/levelloader.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
 #if __USE_PHYSICS__
-#include "physics/physicsserver.h"
-#include "physics/level.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/level.h"
 #endif
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "core/factory.h"
-#include "addons/db/dbserver.h"
-#include "addons/db/reader.h"
-#include "basegameattr/basegameattributes.h"
-#include "loader/environmentloader.h"
-#include "loader/entityloader.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/addons/db/dbserver.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/loader/environmentloader.h"
+#include "Nebuladevice/application/basegamefeature/loader/entityloader.h"
 //#include "loader/navmaploader.h"
-#include "game/gameserver.h"
-#include "loader/loaderserver.h"
-#include "managers/categorymanager.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
+#include "Nebuladevice/application/basegamefeature/managers/categorymanager.h"
 
 namespace BaseGameFeature
 {

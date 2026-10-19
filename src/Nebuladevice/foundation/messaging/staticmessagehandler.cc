@@ -2,8 +2,8 @@
 //  staticmessagehandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/staticmessagehandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/staticmessagehandler.h"
 
 namespace Messaging
 {

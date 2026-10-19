@@ -10,10 +10,10 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "lighting/base/lightserverbase.h"
-#include "resources/managedtexture.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/shaderfeature.h"
+#include "Nebuladevice/render/lighting/base/lightserverbase.h"
+#include "Nebuladevice/render/resources/managedtexture.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/shaderfeature.h"
 
 //------------------------------------------------------------------------------
 namespace Lighting

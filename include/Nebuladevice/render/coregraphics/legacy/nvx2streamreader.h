@@ -10,16 +10,16 @@
 
     (C) 2007 Radon Labs GmbH
 */    
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if NEBULA3_LEGACY_SUPPORT
-#include "io/streamreader.h"
-#include "coregraphics/vertexbuffer.h"
-#include "coregraphics/indexbuffer.h"
-#include "coregraphics/primitivegroup.h"
-#include "coregraphics/base/vertexbufferbase.h"
-#include "coregraphics/base/memoryvertexbufferloaderbase.h"
-#include "coregraphics/base/indexbufferbase.h"
-#include "coregraphics/base/memoryindexbufferloaderbase.h"
+#include "Nebuladevice/foundation/io/streamreader.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/indexbuffer.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
+#include "Nebuladevice/render/coregraphics/base/vertexbufferbase.h"
+#include "Nebuladevice/render/coregraphics/base/memoryvertexbufferloaderbase.h"
+#include "Nebuladevice/render/coregraphics/base/indexbufferbase.h"
+#include "Nebuladevice/render/coregraphics/base/memoryindexbufferloaderbase.h"
 
 //------------------------------------------------------------------------------
 namespace Legacy

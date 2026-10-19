@@ -2,11 +2,11 @@
 //  Win32skinnedmeshrenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/win32/win32skinnedmeshrenderer.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/renderdevice.h"
-#include "coregraphics/displaydevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/win32/win32skinnedmeshrenderer.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/displaydevice.h"
 
 namespace Win32
 {

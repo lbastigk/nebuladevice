@@ -2,16 +2,16 @@
 //  gameapplication.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "appgame/gameapplication.h"
-#include "core/debug/corepagehandler.h"
-#include "threading/debug/threadpagehandler.h"
-#include "memory/debug/memorypagehandler.h"
-#include "io/debug/iopagehandler.h"
-#include "io/logfileconsolehandler.h"
-#include "io/debug/consolepagehandler.h"
-#include "render/render_classregistry.h"
-#include "commandhandlers/createentitycommand.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/appgame/gameapplication.h"
+#include "Nebuladevice/foundation/core/debug/corepagehandler.h"
+#include "Nebuladevice/foundation/threading/debug/threadpagehandler.h"
+#include "Nebuladevice/foundation/memory/debug/memorypagehandler.h"
+#include "Nebuladevice/foundation/io/debug/iopagehandler.h"
+#include "Nebuladevice/foundation/io/logfileconsolehandler.h"
+#include "Nebuladevice/foundation/io/debug/consolepagehandler.h"
+#include "Nebuladevice/render/render_classregistry.h"
+#include "Nebuladevice/application/commandhandlers/createentitycommand.h"
 
 namespace App
 {

@@ -11,14 +11,14 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "util/stringatom.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalcameraentity.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/rendertarget.h"
-#include "frame/frameshader.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/rendertarget.h"
+#include "Nebuladevice/render/frame/frameshader.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 //------------------------------------------------------------------------------
 namespace InternalGraphics

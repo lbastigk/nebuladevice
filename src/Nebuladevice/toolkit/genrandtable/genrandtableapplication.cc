@@ -2,10 +2,10 @@
 //  genrandtableapplication.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "genrandtableapplication.h"
-#include "io/ioserver.h"
-#include "io/textwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/genrandtable/genrandtableapplication.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
 
 using namespace Util;
 using namespace IO;

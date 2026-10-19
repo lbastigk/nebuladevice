@@ -2,9 +2,9 @@
 //  assetupdater.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "assetupdater.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/assetupdater.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 namespace ToolkitUtil
 {

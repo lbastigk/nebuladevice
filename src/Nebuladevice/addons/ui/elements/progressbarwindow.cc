@@ -2,8 +2,8 @@
 //  progressbarwindow.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/elements/progressbarwindow.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/elements/progressbarwindow.h"
 
 namespace UI
 {

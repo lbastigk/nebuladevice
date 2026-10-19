@@ -10,11 +10,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "coregraphics/antialiasquality.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/batchtype.h"
-#include "math/rectangle.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/coregraphics/antialiasquality.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/batchtype.h"
+#include "Nebuladevice/foundation/math/rectangle.h"
 
 namespace CoreGraphics
 {

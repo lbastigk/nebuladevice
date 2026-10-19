@@ -9,7 +9,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/ptr.h"
+#include "Nebuladevice/foundation/core/ptr.h"
 
 //------------------------------------------------------------------------------
 template<class TYPE>

@@ -2,18 +2,18 @@
 //  network/multiplayer/base/distributionsystem.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/base/distributionsystem.h"
-#include "multiplayer/multiplayermanager.h"
-#include "internalmultiplayer/base/packetprioritybase.h"
-#include "internalmultiplayer/internalmultiplayerinterface.h"
-#include "basegamefeature/basegameattr/basegameattributes.h"
-#include "basegamefeature/managers/entitymanager.h"
-#include "basegamefeature/managers/factorymanager.h"
-#include "multiplayerfeature/distributionid.h"
-#include "distributionprotocol.h"
-#include "db/reader.h"
-#include "db/dbserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/base/distributionsystem.h"
+#include "Nebuladevice/addons/network/multiplayer/multiplayermanager.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/packetprioritybase.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerinterface.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionid.h"
+#include "Nebuladevice/addons/network/distributionprotocol.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/dbserver.h"
 
 namespace Base
 {

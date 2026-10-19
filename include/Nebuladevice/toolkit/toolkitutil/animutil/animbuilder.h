@@ -7,7 +7,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/animutil/animbuilderclip.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuilderclip.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

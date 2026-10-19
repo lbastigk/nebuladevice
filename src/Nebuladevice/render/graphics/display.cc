@@ -2,10 +2,10 @@
 //  display.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/display.h"
-#include "graphics/graphicsprotocol.h"
-#include "graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/display.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
 
 namespace Graphics
 {

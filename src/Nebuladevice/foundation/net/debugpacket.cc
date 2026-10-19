@@ -2,9 +2,9 @@
 //  debugpacket.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/debugpacket.h"
-#include "system/byteorder.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/debugpacket.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
 
 namespace Net
 {

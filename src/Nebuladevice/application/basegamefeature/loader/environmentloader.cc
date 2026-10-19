@@ -2,13 +2,13 @@
 //  loader/environmentloader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "loader/environmentloader.h"
-#include "loader/loaderserver.h"
-#include "managers/categorymanager.h"
-#include "managers/enventitymanager.h"
-#include "basegameattr/basegameattributes.h"
-#include "graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/loader/environmentloader.h"
+#include "Nebuladevice/application/basegamefeature/loader/loaderserver.h"
+#include "Nebuladevice/application/basegamefeature/managers/categorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/enventitymanager.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
 
 namespace BaseGameFeature
 {

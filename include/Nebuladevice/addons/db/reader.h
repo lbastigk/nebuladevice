@@ -8,13 +8,13 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "attr/attribute.h"
-#include "addons/db/dataset.h"
-#include "addons/db/valuetable.h"
-#include "util/guid.h"
-#include "util/blob.h"
-#include "db/database.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/attr/attribute.h"
+#include "Nebuladevice/addons/db/dataset.h"
+#include "Nebuladevice/addons/db/valuetable.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/util/blob.h"
+#include "Nebuladevice/addons/db/database.h"
 
 //------------------------------------------------------------------------------
 namespace Db

@@ -7,9 +7,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__XBOX360__ || __WIN32__)
-#include "memory/win360/win360memorypool.h"
+#include "Nebuladevice/foundation/memory/win360/win360memorypool.h"
 namespace Memory
 {
 typedef Win360::Win360MemoryPool MemoryPool;
@@ -27,7 +27,7 @@ namespace Memory
 typedef PS3::PS3MemoryPool MemoryPool;
 }
 #elif __OSX__
-#include "memory/osx/osxmemorypool.h"
+#include "Nebuladevice/foundation/memory/osx/osxmemorypool.h"
 namespace Memory
 {
 typedef OSX::OSXMemoryPool MemoryPool;

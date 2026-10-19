@@ -9,7 +9,7 @@ begintarget toolkitutil_win32
     settype lib
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;../toolkit"    
+    setincpath_win32 "../foundation;../render;../external;../tests;../addons;../toolkit"    
     setclusters { 
         toolkitutil 
             toolkitutil/meshutil 
@@ -25,7 +25,7 @@ begintarget buildclassregistryheader
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;../addons;../toolkit"    
+    setincpath_win32 "../foundation;../render;../external;../tests;../addons;../toolkit"    
     setclusters { buildclassregistryheader }
     setdepends {
         foundation_win32
@@ -39,7 +39,7 @@ begintarget charxmltodb3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs;../tools;../render;../addons;"
+    setincpath_win32 "../foundation;../external;../tools;../render;../addons;"
     setclusters { charxmltodb3 }
     setdepends {
 		foundation_win32
@@ -57,7 +57,7 @@ begintarget shaderbatcher3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit"    
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit"    
     setclusters { shaderbatcher3 }
     setdepends {
         foundation_win32
@@ -72,7 +72,7 @@ begintarget texturebatcher3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { texturebatcher3 }
     setdepends {
@@ -88,7 +88,7 @@ begintarget buildresdict3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { buildresdict3 }
     setdepends {
@@ -105,7 +105,7 @@ begintarget audiobatcher3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { audiobatcher3 }
     setdepends {
@@ -122,7 +122,7 @@ begintarget scaleformbatcher3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { scaleformbatcher3 }
     setdepends {
@@ -139,7 +139,7 @@ begintarget n2converter3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { n2converter3 }
     setdepends {
@@ -156,7 +156,7 @@ begintarget n2batchconverter3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { n2batchconverter3 }
     setdepends {
@@ -173,7 +173,7 @@ begintarget sequenceconverter3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { sequenceconverter3 }
     setdepends {
@@ -189,7 +189,7 @@ begintarget synctool3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { synctool3 }
     setdepends {
@@ -205,7 +205,7 @@ begintarget archiver3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { archiver3 }
     setdepends {
@@ -237,7 +237,7 @@ begintarget suiconverter3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../tests;..addons;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../tests;..addons;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { suiconverter3 }
     setdepends {
@@ -253,7 +253,7 @@ begintarget animconverter3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../extlibs;../toolkit" 
+    setincpath_win32 "../foundation;../render;../external;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { animconverter3 }
     setdepends {
@@ -269,7 +269,7 @@ begintarget n2tableconverter
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../toolkit" 
+    setincpath_win32 "../foundation;../external;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { n2tableconverter }
     setdepends {
@@ -285,7 +285,7 @@ begintarget binaryxmlconverter3
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../toolkit" 
+    setincpath_win32 "../foundation;../external;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { binaryxmlconverter }
     setdepends {
@@ -301,7 +301,7 @@ begintarget distributedtesttool
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../toolkit" 
+    setincpath_win32 "../foundation;../external;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { distributedtesttool }
     setdepends {
@@ -317,7 +317,7 @@ begintarget distributedjobservice
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../extlibs;../toolkit" 
+    setincpath_win32 "../foundation;../external;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { distributedjobservice }
     setdepends {
@@ -333,7 +333,7 @@ begintarget n3viewer
     settype exe
     setbasedir toolkit
     setprecompiledheader stdneb    
-    setincpath_win32 "../foundation;../render;../addons;../extlibs;../toolkit" 
+    setincpath_win32 "../foundation;../render;../addons;../external;../toolkit" 
     setlibpath_win32 "../../lib"
     setclusters { n3viewer }
     setdepends {

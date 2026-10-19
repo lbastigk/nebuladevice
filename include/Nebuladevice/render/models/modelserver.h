@@ -7,15 +7,15 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "models/model.h"
-#include "resources/resourceid.h"
-#include "models/managedmodel.h"
-#include "resources/resourcemapper.h"
-#include "models/modelnodetype.h"
-#include "io/uri.h"
-#include "models/visresolver.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/models/managedmodel.h"
+#include "Nebuladevice/render/resources/resourcemapper.h"
+#include "Nebuladevice/render/models/modelnodetype.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/render/models/visresolver.h"
 
 //------------------------------------------------------------------------------
 namespace Models

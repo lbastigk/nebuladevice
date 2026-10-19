@@ -17,8 +17,8 @@
 
     (C) 2009 Radon Labs
 */
-#include "io/memorystream.h"
-#include "io/binaryreader.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
 
 //------------------------------------------------------------------------------
 namespace Net

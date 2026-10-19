@@ -2,8 +2,8 @@
 //  blockinghandlerthread.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/blockinghandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/blockinghandlerthread.h"
 
 namespace Messaging
 {

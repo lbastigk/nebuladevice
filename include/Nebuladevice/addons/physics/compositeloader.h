@@ -8,8 +8,8 @@
 
     (C) 2005 RadonLabs GmbH
 */
-#include "physics/composite.h"
-#include "io/xmlreader.h"
+#include "Nebuladevice/addons/physics/composite.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

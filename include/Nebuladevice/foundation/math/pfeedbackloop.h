@@ -16,8 +16,8 @@
 
     (C) 2007 RadonLabs GmbH
 */
-#include "core/types.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 namespace Math
 {

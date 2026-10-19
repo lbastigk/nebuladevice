@@ -2,10 +2,10 @@
 //  visibilitycell.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "visibility/visibilitysystems/visibilitycell.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitycell.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
 
 namespace Visibility
 {

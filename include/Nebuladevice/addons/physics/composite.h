@@ -16,11 +16,11 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "util/array.h"
-#include "util/string.h"
-#include "physics/rigidbody.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

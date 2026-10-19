@@ -8,12 +8,12 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/rtti.h"
-#include "core/ptr.h"
-#include "audio2/fmodeventid.h"
-#include "audio2/fmodeventhandle.h"
-#include "audio2/fmodeventstate.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/rtti.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/addons/audio2/fmodeventid.h"
+#include "Nebuladevice/addons/audio2/fmodeventhandle.h"
+#include "Nebuladevice/addons/audio2/fmodeventstate.h"
 
 namespace Math { class vector; }
 

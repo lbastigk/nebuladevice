@@ -2,19 +2,19 @@
 //  triggerproperty.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/triggerproperty.h"
-#include "game/entity.h"
-#include "basegamefeature/basegametiming/gametimesource.h"
-#include "managers/envquerymanager.h"
-#include "physicsprotocol.h"
-#include "basegameprotocol.h"
-#include "managers/entitymanager.h"
-#include "physics/physicsserver.h"
-#include "physics/level.h"
-#include "physics/materialtable.h"
-#include "physicsattr/physicsattributes.h"
-#include "debugrender/debugshaperenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/physicsfeature/properties/triggerproperty.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/application/basegamefeature/managers/envquerymanager.h"
+#include "Nebuladevice/application/physicsfeature/physicsprotocol.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/application/physicsfeature/physicsattr/physicsattributes.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
 
 namespace PhysicsFeature
 {

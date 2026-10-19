@@ -2,8 +2,8 @@
 //  shaderslot.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shaderslot.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shaderslot.h"
 
 namespace Tools
 {

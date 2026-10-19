@@ -3,9 +3,9 @@
 // (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
 
-#include "stdneb.h"
-#include "forest/rt/forestrtplugin.h"
-#include "graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/rt/forestrtplugin.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
 
 namespace Forest
 {

@@ -11,7 +11,7 @@
     (C) 2007 RadonLabs GmbH
 */
 #if __WIN32__ || __XBOX360__
-#include "math/xnamath/xna_float4.h"
+#include "Nebuladevice/foundation/math/xnamath/xna_float4.h"
 #elif __WII__
 #include "math/wii/wii_float4.h"
 #elif __PS3__

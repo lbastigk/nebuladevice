@@ -9,8 +9,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "io/streamwriter.h"
-#include "http/httpstatus.h"
+#include "Nebuladevice/foundation/io/streamwriter.h"
+#include "Nebuladevice/foundation/http/httpstatus.h"
 
 //------------------------------------------------------------------------------
 namespace Http

@@ -7,10 +7,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/string.h"
-#include "io/filetime.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/io/filetime.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

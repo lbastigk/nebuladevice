@@ -2,10 +2,10 @@
 //  scriptfeature/conditions/and.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/conditions/and.h"
-#include "scriptfeature/log/infolog.h"
-#include "scriptfeature/actionreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/conditions/and.h"
+#include "Nebuladevice/application/scriptfeature/log/infolog.h"
+#include "Nebuladevice/application/scriptfeature/actionreader.h"
 
 namespace Conditions
 {

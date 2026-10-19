@@ -2,14 +2,14 @@
 //  debugpagehandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debug/debugpagehandler.h"
-#include "http/html/htmlpagewriter.h"
-#include "http/svg/svglinechartwriter.h"
-#include "debug/debugserver.h"
-#include "debug/debugtimer.h"
-#include "debug/debugcounter.h"
-#include "util/variant.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/debug/debugpagehandler.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/http/svg/svglinechartwriter.h"
+#include "Nebuladevice/foundation/debug/debugserver.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
+#include "Nebuladevice/foundation/debug/debugcounter.h"
+#include "Nebuladevice/foundation/util/variant.h"
 
 namespace Debug
 {

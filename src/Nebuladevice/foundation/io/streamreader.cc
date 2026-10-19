@@ -2,8 +2,8 @@
 //  streamreader.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/streamreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/streamreader.h"
 
 namespace IO
 {

@@ -2,14 +2,14 @@
 //  physics/ProbeSphere.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/probesphere.h"
-#include "physics/materialtable.h"
-#include "physics/physicsentity.h"
-#include "physics/contactpoint.h"
-#include "physics/filterset.h"
-#include "physics/physicsserver.h"
-#include "debugrender/debugshaperenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/probesphere.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/contactpoint.h"
+#include "Nebuladevice/addons/physics/filterset.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
 
 namespace Physics
 {

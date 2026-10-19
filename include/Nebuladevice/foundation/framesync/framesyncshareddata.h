@@ -11,11 +11,11 @@
     
     (C) 2010 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "threading/threadid.h"
-#include "framesync/framesynchandlerthread.h"
-#include "threading/interlocked.h"
-#include "threading/thread.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/foundation/framesync/framesynchandlerthread.h"
+#include "Nebuladevice/foundation/threading/interlocked.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 //------------------------------------------------------------------------------
 namespace FrameSync

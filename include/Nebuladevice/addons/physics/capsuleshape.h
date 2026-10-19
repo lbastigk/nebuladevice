@@ -8,7 +8,7 @@
     
     (C) 2005 RadonLabs GmbH
 */
-#include "physics/shape.h"
+#include "Nebuladevice/addons/physics/shape.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

@@ -2,12 +2,12 @@
 //  databaseinsert.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "benchmarkaddon/databaseinsert.h"
-#include "addons/db/sqlite3/sqlite3factory.h"
-#include "io/ioserver.h"
-#include "benchmarkaddon/dbattrs.h"
-#include "addons/db/dataset.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkaddon/databaseinsert.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3factory.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/benchmarks/benchmarkaddon/dbattrs.h"
+#include "Nebuladevice/addons/db/dataset.h"
 
 namespace Benchmarking
 {

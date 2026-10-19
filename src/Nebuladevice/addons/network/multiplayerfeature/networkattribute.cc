@@ -2,8 +2,8 @@
 //  network/multiplayer/networkattribute.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/networkattribute.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/networkattribute.h"
 
 namespace MultiplayerFeature
 {

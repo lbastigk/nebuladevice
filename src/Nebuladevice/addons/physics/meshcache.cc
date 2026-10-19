@@ -2,8 +2,8 @@
 //  meshcache.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/meshcache.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/meshcache.h"
 
 namespace Physics
 {

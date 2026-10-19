@@ -8,8 +8,8 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "internalgraphics/internalmodelentity.h"
-#include "forest/treecluster.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/addons/forest/treecluster.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

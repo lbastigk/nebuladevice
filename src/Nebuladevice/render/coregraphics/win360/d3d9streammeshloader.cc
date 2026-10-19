@@ -2,10 +2,10 @@
 //  D3d9StreamMeshLoader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/win360/d3d9streammeshloader.h"
-#include "coregraphics/mesh.h"
-#include "coregraphics/legacy/nvx2streamreader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/win360/d3d9streammeshloader.h"
+#include "Nebuladevice/render/coregraphics/mesh.h"
+#include "Nebuladevice/render/coregraphics/legacy/nvx2streamreader.h"
 
 namespace Win360
 {

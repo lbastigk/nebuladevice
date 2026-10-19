@@ -2,8 +2,8 @@
 //  network/multiplayer/player.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayer/player.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayer/player.h"
 
 namespace Multiplayer
 {

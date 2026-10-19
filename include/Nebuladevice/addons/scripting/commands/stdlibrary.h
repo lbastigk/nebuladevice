@@ -4,7 +4,7 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "scripting/command.h"
+#include "Nebuladevice/addons/scripting/command.h"
 
 //------------------------------------------------------------------------------
 namespace Commands

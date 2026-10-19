@@ -7,9 +7,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if __WIN32__
-#include "core/win32/win32sysfunc.h"
+#include "Nebuladevice/foundation/core/win32/win32sysfunc.h"
 namespace Core
 {
 class SysFunc : public Win32::SysFunc
@@ -45,7 +45,7 @@ class SysFunc : public PS3::SysFunc
 };
 } // namespace Core;
 #elif __OSX__
-#include "core/osx/osxsysfunc.h"
+#include "Nebuladevice/foundation/core/osx/osxsysfunc.h"
 namespace Core
 {
 class SysFunc : public OSX::SysFunc

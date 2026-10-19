@@ -7,9 +7,9 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "input/inputhandler.h"
-#include "threading/criticalsection.h"
-#include "threading/thread.h"
+#include "Nebuladevice/render/input/inputhandler.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 
 //------------------------------------------------------------------------------
 namespace Base

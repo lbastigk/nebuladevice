@@ -26,10 +26,10 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "addons/db/filterset.h"
-#include "addons/db/valuetable.h"
-#include "addons/db/relation.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/db/filterset.h"
+#include "Nebuladevice/addons/db/valuetable.h"
+#include "Nebuladevice/addons/db/relation.h"
 
 //------------------------------------------------------------------------------
 namespace Db

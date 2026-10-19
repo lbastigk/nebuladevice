@@ -2,13 +2,13 @@
 //  sequenceconverterapp.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "sequenceconverterapp.h"
-#include "system/win32/win32registry.h"
-#include "io/filestream.h"
-#include "io/xmlreader.h"
-#include "io/xmlwriter.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/sequenceconverter3/sequenceconverterapp.h"
+#include "Nebuladevice/foundation/system/win32/win32registry.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 using namespace IO;
 using namespace Util;

@@ -2,10 +2,10 @@
 //  physics/contactpoint.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/contactpoint.h"
-#include "physics/physicsentity.h"
-#include "physics/composite.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/contactpoint.h"
+#include "Nebuladevice/addons/physics/physicsentity.h"
+#include "Nebuladevice/addons/physics/composite.h"
 
 namespace Physics
 {

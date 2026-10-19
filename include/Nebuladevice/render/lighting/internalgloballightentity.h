@@ -13,7 +13,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "lighting/internalabstractlightentity.h"
+#include "Nebuladevice/render/lighting/internalabstractlightentity.h"
 
 //------------------------------------------------------------------------------
 namespace Lighting

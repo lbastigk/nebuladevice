@@ -2,9 +2,9 @@
 //  physics/util.cc
 //  (C) 2004 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/physicsutil.h"
-#include "physics/physicsserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/physicsutil.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
 
 namespace Physics
 {

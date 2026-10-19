@@ -2,10 +2,10 @@
 //  resourcedictionary.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/resourcedictionary.h"
-#include "io/ioserver.h"
-#include "io/stream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/resourcedictionary.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/stream.h"
 
 namespace Resources
 {

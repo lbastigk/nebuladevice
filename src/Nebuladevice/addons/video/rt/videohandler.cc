@@ -2,10 +2,10 @@
 //  videohandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "video/rt/videohandler.h"
-#include "video/videoprotocol.h"
-#include "video/rt/videoserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/video/rt/videohandler.h"
+#include "Nebuladevice/addons/video/videoprotocol.h"
+#include "Nebuladevice/addons/video/rt/videoserver.h"
 
 namespace Video
 {

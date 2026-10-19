@@ -2,8 +2,8 @@
 //  shaderparam.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shaderparam.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsc3/shaderparam.h"
 
 namespace Tools
 {

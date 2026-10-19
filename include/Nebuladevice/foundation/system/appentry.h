@@ -14,8 +14,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/commandlineargs.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/commandlineargs.h"
 
 //------------------------------------------------------------------------------
 #if __WIN32__

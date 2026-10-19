@@ -2,11 +2,11 @@
 //  memorypagehandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "memory/debug/memorypagehandler.h"
-#include "memory/heap.h"
-#include "http/html/htmlpagewriter.h"
-#include "memory/poolarrayallocator.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/memory/debug/memorypagehandler.h"
+#include "Nebuladevice/foundation/memory/heap.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/memory/poolarrayallocator.h"
 
 namespace Debug
 {

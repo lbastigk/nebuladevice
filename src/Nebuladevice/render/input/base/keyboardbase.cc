@@ -2,9 +2,9 @@
 //  keyboardbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/base/keyboardbase.h"
-#include "input/inputserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/base/keyboardbase.h"
+#include "Nebuladevice/render/input/inputserver.h"
 
 namespace Base
 {

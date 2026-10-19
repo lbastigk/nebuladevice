@@ -2,12 +2,12 @@
 //  mayalodnodeextractor.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaextractors/mayalodnodeextractor.h"
-#include "mayautil/mayanodeutil.h"
-#include "mayautil/mayatype.h"
-#include "mayautil/mayaattrutil.h"
-#include "mayautil/mayatransformutil.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayalodnodeextractor.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayanodeutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatype.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayaattrutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatransformutil.h"
 #include <maya/MDagPathArray.h>
 #include <maya/MFnDagNode.h>
 

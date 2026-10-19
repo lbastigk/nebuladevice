@@ -2,9 +2,9 @@
 //  createobjectsbyclassname.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "createobjectsbyclassname.h"
-#include "core/factory.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/createobjectsbyclassname.h"
+#include "Nebuladevice/foundation/core/factory.h"
 
 namespace Benchmarking
 {

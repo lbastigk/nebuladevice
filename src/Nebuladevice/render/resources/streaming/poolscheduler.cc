@@ -2,13 +2,13 @@
 //  poolscheduler.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "poolscheduler.h"
-#include "resources/resource.h"
-#include "resourcepool.h"
-#include "resourceslot.h"
-#include "resourcerequestinfo.h"
-#include "resources/managedresource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/poolscheduler.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/render/resources/streaming/resourcepool.h"
+#include "Nebuladevice/render/resources/streaming/resourceslot.h"
+#include "Nebuladevice/render/resources/streaming/resourcerequestinfo.h"
+#include "Nebuladevice/render/resources/managedresource.h"
 
 namespace Resources {
 __ImplementClass(Resources::PoolScheduler, 'POSC', Core::RefCounted);

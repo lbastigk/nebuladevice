@@ -10,7 +10,7 @@
     (C) 2006 Radon Labs GmbH
 */
 #if __WIN32__ || __XBOX360__
-#include "math/xnamath/xna_matrix44.h"
+#include "Nebuladevice/foundation/math/xnamath/xna_matrix44.h"
 #elif __WII__
 #include "math/wii/wii_matrix44.h"
 #elif __PS3__

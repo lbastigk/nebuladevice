@@ -2,9 +2,9 @@
 /**   
     (C) 2009 Radon Labs GmbH
 */
-#include "stdneb.h"
-#include "threading/win360/win360criticalsection.h"     
-#include "system/systeminfo.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/threading/win360/win360criticalsection.h"     
+#include "Nebuladevice/foundation/system/systeminfo.h"
    
 namespace Win360
 {

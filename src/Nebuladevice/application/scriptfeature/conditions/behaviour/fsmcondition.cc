@@ -2,8 +2,8 @@
 //  fsmcondition.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/conditions/behaviour/fsmcondition.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/conditions/behaviour/fsmcondition.h"
 
 namespace Conditions
 {

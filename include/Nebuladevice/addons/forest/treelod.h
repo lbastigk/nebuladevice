@@ -7,9 +7,9 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "models/nodes/shapenode.h"
-#include "models/modelinstance.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/models/nodes/shapenode.h"
+#include "Nebuladevice/render/models/modelinstance.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

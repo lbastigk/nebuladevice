@@ -7,11 +7,11 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "game/manager.h"
-#include "util/guid.h"
-#include "util/blob.h"
-#include "core/singleton.h"
-#include "attr/attributecontainer.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/util/blob.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/attr/attributecontainer.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

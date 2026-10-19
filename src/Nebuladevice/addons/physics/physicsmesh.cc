@@ -2,11 +2,11 @@
 //  physicsmesh.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/physicsmesh.h"
-#include "coregraphics/legacy/nvx2streamreader.h"
-#include "io/ioserver.h"
-#include "system/byteorder.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/physicsmesh.h"
+#include "Nebuladevice/render/coregraphics/legacy/nvx2streamreader.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
 //#include "coregraphics/cpumemoryvertexbuffer.h"
 //#include "coregraphics/cpumemoryvertexbufferloader.h"
 

@@ -2,8 +2,8 @@
 //  mouse.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/mouse.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/mouse.h"
 #if __WIN32__
 namespace Input
 {

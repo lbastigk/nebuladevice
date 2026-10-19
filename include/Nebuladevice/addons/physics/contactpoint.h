@@ -8,8 +8,8 @@
 
     (C) 2003 RadonLabs GmbH
 */
-#include "math/vector.h"
-#include "physics/materialtable.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

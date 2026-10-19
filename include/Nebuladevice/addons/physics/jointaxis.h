@@ -8,9 +8,9 @@
     
     (C) 2005 Radon Labs GmbH
 */
-#include "core/types.h"
+#include "Nebuladevice/foundation/core/types.h"
 #include "ode/ode.h"
-#include "math/vector.h"
+#include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

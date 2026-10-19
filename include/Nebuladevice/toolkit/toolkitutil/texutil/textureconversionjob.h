@@ -8,9 +8,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "util/string.h"
-#include "toolkitutil/texutil/textureattrtable.h"
-#include "toolkitutil/logger.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureattrtable.h"
+#include "Nebuladevice/toolkit/toolkitutil/logger.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

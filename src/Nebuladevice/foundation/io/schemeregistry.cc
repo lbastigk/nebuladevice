@@ -2,12 +2,12 @@
 //  schemeregistry.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/schemeregistry.h"
-#include "io/stream.h"
-#include "io/filestream.h"
-#include "http/httpstream.h"
-#include "http/httpnzstream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/schemeregistry.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/foundation/http/httpstream.h"
+#include "Nebuladevice/foundation/http/httpnzstream.h"
 
 namespace IO
 {

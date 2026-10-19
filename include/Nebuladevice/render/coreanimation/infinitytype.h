@@ -8,9 +8,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
+#include "Nebuladevice/foundation/core/types.h"
 #if !__NEBULA3_JOB__
-#include "util/string.h"
+#include "Nebuladevice/foundation/util/string.h"
 #endif
 
 //------------------------------------------------------------------------------

@@ -12,7 +12,7 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "appgame/statehandler.h"
+#include "Nebuladevice/application/appgame/statehandler.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

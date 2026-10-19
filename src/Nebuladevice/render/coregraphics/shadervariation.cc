@@ -2,8 +2,8 @@
 //  shadervariation.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/shadervariation.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/shadervariation.h"
 
 #if __WIN32__
 namespace CoreGraphics

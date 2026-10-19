@@ -7,13 +7,13 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "apprender/viewerapplication.h"
-#include "remote/remoteinterface.h"
-#include "remote/remotecontrolproxy.h"
-#include "resources/resourceid.h"
-#include "graphics/modelentity.h"
-#include "graphics/globallightentity.h"
-#include "n3viewer/n3viewerremotecommandhandler.h"
+#include "Nebuladevice/render/apprender/viewerapplication.h"
+#include "Nebuladevice/addons/remote/remoteinterface.h"
+#include "Nebuladevice/addons/remote/remotecontrolproxy.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/render/graphics/modelentity.h"
+#include "Nebuladevice/render/graphics/globallightentity.h"
+#include "Nebuladevice/toolkit/n3viewer/n3viewerremotecommandhandler.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

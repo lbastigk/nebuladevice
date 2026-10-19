@@ -10,7 +10,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "jobs/base/jobportbase.h"
+#include "Nebuladevice/foundation/jobs/base/jobportbase.h"
 
 //------------------------------------------------------------------------------
 namespace Jobs

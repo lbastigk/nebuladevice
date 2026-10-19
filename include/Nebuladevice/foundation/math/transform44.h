@@ -9,10 +9,10 @@
     
     (C) 2004 RadonLabs GmbH
 */
-#include "math/matrix44.h"
-#include "math/vector.h"
-#include "math/point.h"
-#include "math/quaternion.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
 
 //------------------------------------------------------------------------------
 namespace Math

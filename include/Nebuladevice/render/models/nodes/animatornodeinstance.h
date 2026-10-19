@@ -8,14 +8,14 @@
     (C) 2008 Radon Labs GmbH
 */
 
-#include "models/modelnodeinstance.h"
-#include "timing/time.h"
-#include "models/nodes/animlooptype.h"
-#include "models/nodes/animkeyarray.h"
-#include "models/nodes/animkey.h"
-#include "math/vector.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/models/nodes/animlooptype.h"
+#include "Nebuladevice/render/models/nodes/animkeyarray.h"
+#include "Nebuladevice/render/models/nodes/animkey.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
 
 namespace Models
 {

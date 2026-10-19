@@ -8,17 +8,17 @@
     
     (C) 2005 Radon Labs GmbH
 */
-#include "game/manager.h"
-#include "game/entity.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/application/game/entity.h"
 #if __USE_PHYSICS__
-#include "physics/filterset.h"
-#include "physics/materialtable.h"
+#include "Nebuladevice/addons/physics/filterset.h"
+#include "Nebuladevice/addons/physics/materialtable.h"
 #endif
-#include "math/point.h"
-#include "math/vector.h"
-#include "math/line.h"
-#include "math/float2.h"
-#include "graphics/view.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/line.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/render/graphics/view.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

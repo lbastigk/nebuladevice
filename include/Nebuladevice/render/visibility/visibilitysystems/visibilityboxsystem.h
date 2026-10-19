@@ -11,9 +11,9 @@
        
     (C) 2010 Radon Labs GmbH
 */
-#include "visibility/visibilitysystems/visibilitysystembase.h"
-#include "visibility/visibilitysystems/visibilitybox.h"
-#include "util/bitfield.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitysystembase.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitybox.h"
+#include "Nebuladevice/foundation/util/bitfield.h"
               
 //------------------------------------------------------------------------------
 namespace Visibility

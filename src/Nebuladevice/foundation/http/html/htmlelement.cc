@@ -2,8 +2,8 @@
 //  htmlelement.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/html/htmlelement.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/html/htmlelement.h"
 
 namespace Http
 {

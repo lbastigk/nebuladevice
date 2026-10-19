@@ -12,10 +12,10 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "io/archfs/archivebase.h"
+#include "Nebuladevice/foundation/io/archfs/archivebase.h"
 #include "zlib/unzip.h"
-#include "io/zipfs/zipfileentry.h"
-#include "io/zipfs/zipdirentry.h"
+#include "Nebuladevice/foundation/io/zipfs/zipfileentry.h"
+#include "Nebuladevice/foundation/io/zipfs/zipdirentry.h"
 
 //------------------------------------------------------------------------------
 namespace IO

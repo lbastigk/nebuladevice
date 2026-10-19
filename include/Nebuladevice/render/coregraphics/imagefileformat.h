@@ -7,9 +7,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/string.h"
-#include "io/mediatype.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/io/mediatype.h"
 
 //------------------------------------------------------------------------------
 namespace CoreGraphics

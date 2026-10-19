@@ -9,8 +9,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/shaderinstancebase.h"
-#include "coregraphics/shaderfeature.h"
+#include "Nebuladevice/render/coregraphics/base/shaderinstancebase.h"
+#include "Nebuladevice/render/coregraphics/shaderfeature.h"
 
 namespace CoreGraphics
 {

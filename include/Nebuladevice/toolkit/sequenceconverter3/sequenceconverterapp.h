@@ -8,8 +8,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "toolkitutil/toolkitapp.h"
-#include "toolkitutil/xmlnodemodifier.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/xmlnodemodifier.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

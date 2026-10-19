@@ -11,8 +11,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "frame/framepassbase.h"
-#include "renderutil/drawfullscreenquad.h"
+#include "Nebuladevice/render/frame/framepassbase.h"
+#include "Nebuladevice/render/renderutil/drawfullscreenquad.h"
 
 //------------------------------------------------------------------------------
 namespace Frame

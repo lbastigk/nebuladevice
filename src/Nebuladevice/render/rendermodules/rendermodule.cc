@@ -2,9 +2,9 @@
 //  rendermodule.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "rendermodules/rendermodule.h"
-#include "graphics/graphicsserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/rendermodules/rendermodule.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
 
 namespace RenderModules
 {

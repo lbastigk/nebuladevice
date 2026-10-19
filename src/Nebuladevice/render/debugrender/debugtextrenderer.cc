@@ -2,14 +2,14 @@
 //  debugtextrenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debugrender/debugtextrenderer.h"
-#include "threading/thread.h"
-#include "debugrenderprotocol.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/view.h"
-#include "graphics/cameraentity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/debugrender/debugtextrenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/debugrender/debugrenderprotocol.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/view.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
 
 namespace Debug
 {

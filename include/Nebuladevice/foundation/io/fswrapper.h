@@ -11,7 +11,7 @@
     (C) 2006 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__)
-#include "io/win360/win360fswrapper.h"
+#include "Nebuladevice/foundation/io/win360/win360fswrapper.h"
 namespace IO
 {
 class FSWrapper : public Win360::Win360FSWrapper
@@ -32,7 +32,7 @@ class FSWrapper : public PS3::PS3FSWrapper
 { };
 }
 #elif __OSX__
-#include "io/osx/osxfswrapper.h"
+#include "Nebuladevice/foundation/io/osx/osxfswrapper.h"
 namespace IO
 {
 class FSWrapper : public OSX::OSXFSWrapper

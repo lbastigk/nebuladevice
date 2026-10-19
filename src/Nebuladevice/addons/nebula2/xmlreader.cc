@@ -3,11 +3,11 @@
 //  (C) 2010 RadonLabs GmbH
 //------------------------------------------------------------------------------
 
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
 // nebula3 includes
-#include "io/xmlreader.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 // nebula2 includes
 #include "mathlib/vector.h"

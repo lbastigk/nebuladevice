@@ -13,11 +13,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "http/httprequesthandler.h"
-#include "resources/resourceid.h"
-#include "http/html/htmlpagewriter.h"
-#include "coregraphics/shader.h"
-#include "models/modelnodeinstance.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/render/resources/resourceid.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
+#include "Nebuladevice/render/coregraphics/shader.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

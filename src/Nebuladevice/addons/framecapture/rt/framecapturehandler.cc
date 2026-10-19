@@ -2,9 +2,9 @@
 // framecapturehandler.cc
 // (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "framecapturehandler.h"
-#include "framecapture/rt/framecaptureserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/framecapture/rt/framecapturehandler.h"
+#include "Nebuladevice/addons/framecapture/rt/framecaptureserver.h"
 
 namespace FrameCapture
 {

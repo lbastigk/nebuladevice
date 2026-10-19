@@ -9,9 +9,9 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "io/stream.h"
+#include "Nebuladevice/foundation/io/stream.h"
 #include "zlib/unzip.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace IO

@@ -4,9 +4,9 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "util/stringatom.h"
-#include "math/float2.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/math/float2.h"
 
 //------------------------------------------------------------------------------
 namespace SUI

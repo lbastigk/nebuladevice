@@ -4,10 +4,10 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "graphics/modelentity.h"
-#include "graphics/abstractlightentity.h"
-#include "util/variant.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/render/graphics/modelentity.h"
+#include "Nebuladevice/render/graphics/abstractlightentity.h"
+#include "Nebuladevice/foundation/util/variant.h"
 
 //------------------------------------------------------------------------------
 namespace GraphicsFeature

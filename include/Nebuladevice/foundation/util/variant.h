@@ -10,13 +10,13 @@
     
     (C) 2006 RadonLabs GmbH.
 */
-#include "math/float4.h"
-#include "math/matrix44.h"
-#include "util/string.h"
-#include "util/guid.h"
-#include "util/blob.h"
-#include "memory/memory.h"
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/util/blob.h"
+#include "Nebuladevice/foundation/memory/memory.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 //------------------------------------------------------------------------------
 namespace Util

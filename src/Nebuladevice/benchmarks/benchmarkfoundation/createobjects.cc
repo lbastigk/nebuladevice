@@ -2,8 +2,8 @@
 //  createobjects.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "createobjects.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/benchmarks/benchmarkfoundation/createobjects.h"
 
 namespace Benchmarking
 {

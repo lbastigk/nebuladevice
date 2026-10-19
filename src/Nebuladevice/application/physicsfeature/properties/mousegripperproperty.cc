@@ -2,22 +2,22 @@
 //  /mousegripperproperty.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/mousegripperproperty.h"
-#include "game/entity.h"
-#include "physics/physicsserver.h"
-#include "physics/level.h"
-#include "core/factory.h"
-#include "input/inputserver.h"
-#include "input/mouse.h"
-#include "input/keyboard.h"
-#include "managers/focusmanager.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "graphics/graphicsserver.h"
-#include "graphics/view.h"
-#include "managers/envquerymanager.h"
-#include "debugrender/debugshaperenderer.h"
-#include "debugrender/debugtextrenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/physicsfeature/properties/mousegripperproperty.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/addons/physics/physicsserver.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/foundation/core/factory.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/input/mouse.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/render/graphics/view.h"
+#include "Nebuladevice/application/basegamefeature/managers/envquerymanager.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
+#include "Nebuladevice/render/debugrender/debugtextrenderer.h"
 
 namespace PhysicsFeature
 {

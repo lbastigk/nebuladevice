@@ -10,8 +10,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "graphics/graphicsentity.h"
-#include "graphics/view.h"
+#include "Nebuladevice/render/graphics/graphicsentity.h"
+#include "Nebuladevice/render/graphics/view.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

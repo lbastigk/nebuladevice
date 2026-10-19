@@ -7,7 +7,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "graphics/abstractlightentity.h"
+#include "Nebuladevice/render/graphics/abstractlightentity.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

@@ -7,12 +7,12 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "interface/interfacehandlerbase.h"
-#include "io/console.h"
-#include "io/ioserver.h"
-#include "io/iointerfaceprotocol.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/iointerfaceprotocol.h"
 #if __NEBULA3_HTTP_FILESYSTEM__
-#include "http/httpclientregistry.h"
+#include "Nebuladevice/foundation/http/httpclientregistry.h"
 #endif
 
 //------------------------------------------------------------------------------

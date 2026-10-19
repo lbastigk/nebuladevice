@@ -2,8 +2,8 @@
 //  NetStreamBase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/base/netstreambase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/netstreambase.h"
 
 namespace Base
 {

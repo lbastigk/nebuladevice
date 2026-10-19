@@ -2,9 +2,9 @@
 //  frustum.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 #include "mathlib/frustum.h"
-#include "math/frustum.h"
+#include "Nebuladevice/foundation/math/frustum.h"
 
 //------------------------------------------------------------------------------
 /**

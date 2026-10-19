@@ -2,9 +2,9 @@
 //  mousebase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/base/mousebase.h"
-#include "input/inputserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/base/mousebase.h"
+#include "Nebuladevice/render/input/inputserver.h"
 
 namespace Base
 {

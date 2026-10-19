@@ -2,10 +2,10 @@
 //  xmlnodemodifier.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "xmlnodemodifier.h"
-#include "io/xmlreader.h"
-#include "io/xmlwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/xmlnodemodifier.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
 
 using namespace Util;
 using namespace IO;

@@ -2,11 +2,11 @@
 //  animbuilderloader.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkitutil/animutil/animbuilderloader.h"
-#include "io/stream.h"
-#include "io/ioserver.h"
-#include "coreanimation/naxfileformatstructs.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/animutil/animbuilderloader.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/render/coreanimation/naxfileformatstructs.h"
 
 namespace ToolkitUtil
 {

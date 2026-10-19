@@ -7,8 +7,8 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "rendermodules/rendermodule.h"
-#include "core/singleton.h"
+#include "Nebuladevice/render/rendermodules/rendermodule.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 //------------------------------------------------------------------------------
 namespace UI

@@ -12,16 +12,16 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "net/tcpserver.h"
-#include "net/socket/ipaddress.h"
-#include "io/textreader.h"
-#include "io/textwriter.h"
-#include "remote/remoteresponsewriter.h"
-#include "remote/remoterequesthandler.h"
-#include "remote/remotecommandhandler.h"
-#include "remote/defaultremoterequesthandler.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/net/tcpserver.h"
+#include "Nebuladevice/foundation/net/socket/ipaddress.h"
+#include "Nebuladevice/foundation/io/textreader.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
+#include "Nebuladevice/addons/remote/remoteresponsewriter.h"
+#include "Nebuladevice/addons/remote/remoterequesthandler.h"
+#include "Nebuladevice/addons/remote/remotecommandhandler.h"
+#include "Nebuladevice/addons/remote/defaultremoterequesthandler.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

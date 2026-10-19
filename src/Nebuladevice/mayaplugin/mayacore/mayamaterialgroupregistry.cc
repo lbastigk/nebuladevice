@@ -2,12 +2,12 @@
 //  mayamaterialgroupregistry.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayamaterialgroupregistry.h"
-#include "mayashaders/mayashaderregistry.h"
-#include "mayautil/mayaattrutil.h"
-#include "mayautil/mayashaderutil.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayamaterialgroupregistry.h"
+#include "Nebuladevice/mayaplugin/mayashaders/mayashaderregistry.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayaattrutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayashaderutil.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 namespace Maya
 {

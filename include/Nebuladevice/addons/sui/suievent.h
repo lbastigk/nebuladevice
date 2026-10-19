@@ -8,9 +8,9 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/stringatom.h"
-#include "input/inputevent.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/input/inputevent.h"
 
 //------------------------------------------------------------------------------
 namespace SUI

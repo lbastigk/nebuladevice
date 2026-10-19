@@ -7,13 +7,13 @@
 	    
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "util/string.h"
-#include "util/array.h"
-#include "ui/elements/window.h"
-#include "ui/elements/button.h"
-#include "ui/elements/label.h"
-#include "ui/elements/frame.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/addons/ui/elements/window.h"
+#include "Nebuladevice/addons/ui/elements/button.h"
+#include "Nebuladevice/addons/ui/elements/label.h"
+#include "Nebuladevice/addons/ui/elements/frame.h"
 
 namespace IO
 {

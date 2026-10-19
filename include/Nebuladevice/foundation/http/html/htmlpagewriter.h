@@ -9,11 +9,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "io/streamwriter.h"
-#include "http/html/htmlelement.h"
-#include "io/xmlwriter.h"
-#include "util/array.h"
-#include "util/stack.h"
+#include "Nebuladevice/foundation/io/streamwriter.h"
+#include "Nebuladevice/foundation/http/html/htmlelement.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/stack.h"
 
 //------------------------------------------------------------------------------
 namespace Http

@@ -6,12 +6,12 @@
     (C) 2008 Radon Labs GmbH
 */
 
-#include "core/refcounted.h"
-#include "timing/time.h"
-#include "math/matrix44.h"
-#include "util/string.h"
-#include "io/xmlreader.h"
-#include "graphics/stage.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/render/graphics/stage.h"
 
 namespace Sequencer
 {

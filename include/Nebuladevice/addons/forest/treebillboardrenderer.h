@@ -7,11 +7,11 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "forest/tree.h"
-#include "forest/treeinstance.h"
-#include "forest/treebillboardgraphicsentity.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/forest/tree.h"
+#include "Nebuladevice/addons/forest/treeinstance.h"
+#include "Nebuladevice/addons/forest/treebillboardgraphicsentity.h"
 
 //------------------------------------------------------------------------------
 namespace Forest

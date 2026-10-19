@@ -2,9 +2,9 @@
 //  game/property.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "game/property.h"
-#include "game/entity.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/application/game/entity.h"
 
 namespace Game
 {

@@ -8,15 +8,15 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "particles/particlesystem.h"
-#include "particles/particlesystemstate.h"
-#include "particles/particle.h"
-#include "math/matrix44.h"
-#include "util/ringbuffer.h"
-#include "timing/time.h"
-#include "jobs/job.h"
-#include "particles/particlerenderinfo.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/particles/particlesystem.h"
+#include "Nebuladevice/render/particles/particlesystemstate.h"
+#include "Nebuladevice/render/particles/particle.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/util/ringbuffer.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/jobs/job.h"
+#include "Nebuladevice/render/particles/particlerenderinfo.h"
 
 namespace Jobs { class JobPort; }
 

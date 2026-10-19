@@ -11,7 +11,7 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "memory/memorypool.h"
+#include "Nebuladevice/foundation/memory/memorypool.h"
 
 //------------------------------------------------------------------------------
 namespace Memory

@@ -8,7 +8,7 @@
     (C) 2010 Radon Labs GmbH
 */
 
-#include "resources/streaming/resourcecreator.h"
+#include "Nebuladevice/render/resources/streaming/resourcecreator.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

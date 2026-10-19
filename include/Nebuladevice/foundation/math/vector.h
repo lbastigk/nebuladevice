@@ -11,7 +11,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if __WIN32__ || __XBOX360__
-#include "math/xnamath/xna_vector.h"
+#include "Nebuladevice/foundation/math/xnamath/xna_vector.h"
 #elif __WII__
 #include "math/wii/wii_vector.h"
 #elif __PS3__

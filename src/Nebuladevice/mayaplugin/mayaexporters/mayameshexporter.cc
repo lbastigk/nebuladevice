@@ -2,12 +2,12 @@
 //  mayaexporterbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayameshexporter.h"
-#include "mayacore/mayamaterialgroupregistry.h"
-#include "mayautil/mayanodeutil.h"
-#include "mayautil/mayatransformutil.h"
-#include "mayamain/mayalogger.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayaexporters/mayameshexporter.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayamaterialgroupregistry.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayanodeutil.h"
+#include "Nebuladevice/mayaplugin/mayautil/mayatransformutil.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayalogger.h"
 
 #include <maya/MItDag.h>
 #include <maya/MFnMesh.h>

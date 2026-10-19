@@ -2,9 +2,9 @@
 //  animkeybuffer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coreanimation/animkeybuffer.h"
-#include "math/float4.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coreanimation/animkeybuffer.h"
+#include "Nebuladevice/foundation/math/float4.h"
 
 namespace CoreAnimation
 {

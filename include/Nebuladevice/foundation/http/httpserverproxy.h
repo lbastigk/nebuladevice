@@ -13,9 +13,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "http/httprequesthandler.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
 
 //------------------------------------------------------------------------------
 namespace Http

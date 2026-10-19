@@ -2,8 +2,8 @@
 //  videoserver.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "video/rt/videoserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/video/rt/videoserver.h"
 
 namespace Video
 {

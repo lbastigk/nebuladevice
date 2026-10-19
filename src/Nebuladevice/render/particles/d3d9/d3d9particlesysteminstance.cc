@@ -2,10 +2,10 @@
 //  d3d9particlesysteminstance.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/d3d9/d3d9particlesysteminstance.h"
-#include "particles/particlerenderer.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/d3d9/d3d9particlesysteminstance.h"
+#include "Nebuladevice/render/particles/particlerenderer.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 using namespace Particles;
 using namespace CoreGraphics;

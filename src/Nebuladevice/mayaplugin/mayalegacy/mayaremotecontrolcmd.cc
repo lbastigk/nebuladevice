@@ -2,8 +2,8 @@
 //  mayaremotecontrolcmd.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayaremotecontrolcmd.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayalegacy/mayaremotecontrolcmd.h"
 #include <maya/MSyntax.h>
 
 namespace Maya

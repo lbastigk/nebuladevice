@@ -5,8 +5,8 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "multiplayer/defaultmultiplayernotificationhandler.h"
-#include "notificationprotocol.h"
+#include "Nebuladevice/addons/network/multiplayer/defaultmultiplayernotificationhandler.h"
+#include "Nebuladevice/addons/network/notificationprotocol.h"
 
 //------------------------------------------------------------------------------
 namespace MultiplayerFeature

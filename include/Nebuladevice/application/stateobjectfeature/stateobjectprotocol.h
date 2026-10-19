@@ -4,8 +4,8 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "properties/stateinfo.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/application/stateobjectfeature/properties/stateinfo.h"
 
 //------------------------------------------------------------------------------
 namespace StateObjectFeature

@@ -2,8 +2,8 @@
 //  script/dialog/dialogdesc.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/dialog/dialogdesc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/dialog/dialogdesc.h"
 
 namespace Script
 {

@@ -2,8 +2,8 @@
 //  vertexlayoutbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/vertexlayoutbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/vertexlayoutbase.h"
 
 namespace Base
 {

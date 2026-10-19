@@ -7,11 +7,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "math/scalar.h"
-#include "math/float4.h"
-#include "math/line.h"
-#include "math/clipstatus.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/math/scalar.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/line.h"
+#include "Nebuladevice/foundation/math/clipstatus.h"
 
 //------------------------------------------------------------------------------
 namespace Math

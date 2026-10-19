@@ -2,8 +2,8 @@
 //  archiver3.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "archiverapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/archiver3/archiverapp.h"
 
 //------------------------------------------------------------------------------
 /**

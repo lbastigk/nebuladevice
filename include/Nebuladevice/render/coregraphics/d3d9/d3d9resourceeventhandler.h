@@ -7,10 +7,10 @@
     
     (C) 2010 xoyojank
 */
-#include "core/singleton.h"
-#include "coregraphics/rendereventhandler.h"
-#include "coregraphics/d3d9/d3d9resource.h"
-#include "util/list.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/coregraphics/rendereventhandler.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9resource.h"
+#include "Nebuladevice/foundation/util/list.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

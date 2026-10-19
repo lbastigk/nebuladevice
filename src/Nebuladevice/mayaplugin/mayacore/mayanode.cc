@@ -2,8 +2,8 @@
 //  mayanode.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayacore/mayanode.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayanode.h"
 
 namespace Maya
 {

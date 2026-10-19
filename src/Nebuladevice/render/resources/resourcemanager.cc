@@ -2,17 +2,17 @@
 //  resourcemanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/resourcemanager.h"
-#include "resources/resourcemapper.h"
-#include "resources/managedresource.h"
-#include "timing/timer.h"
-#include "coregraphics/texture.h"
-#include "streaming/resourcerequestinfo.h"
-#include "resource.h"
-#include "core/rtti.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/resources/resourcemapper.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/resources/streaming/resourcerequestinfo.h"
+#include "Nebuladevice/render/resources/resource.h"
+#include "Nebuladevice/foundation/core/rtti.h"
 #if __WIN32__
-#include "resources/streaming/poolresourcemapper.h"
+#include "Nebuladevice/render/resources/streaming/poolresourcemapper.h"
 #endif
 
 namespace Resources

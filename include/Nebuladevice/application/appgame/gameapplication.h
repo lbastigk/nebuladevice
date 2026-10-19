@@ -9,22 +9,22 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "app/application.h"
-#include "appgame/statehandler.h"
-#include "game/gameserver.h"
-#include "core/singleton.h"
-#include "util/dictionary.h"
-#include "util/stringatom.h"
-#include "core/coreserver.h"
-#include "debug/debuginterface.h"
-#include "io/ioserver.h"
-#include "io/iointerface.h"
-#include "http/httpinterface.h"
-#include "http/httpserverproxy.h"     
-#include "remote/remoteinterface.h"
-#include "remote/remotecontrolproxy.h"
-#include "jobs/jobsystem.h"   
-#include "io/gamecontentserver.h"
+#include "Nebuladevice/foundation/app/application.h"
+#include "Nebuladevice/application/appgame/statehandler.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/debug/debuginterface.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/iointerface.h"
+#include "Nebuladevice/foundation/http/httpinterface.h"
+#include "Nebuladevice/foundation/http/httpserverproxy.h"     
+#include "Nebuladevice/addons/remote/remoteinterface.h"
+#include "Nebuladevice/addons/remote/remotecontrolproxy.h"
+#include "Nebuladevice/foundation/jobs/jobsystem.h"   
+#include "Nebuladevice/foundation/io/gamecontentserver.h"
 
 //------------------------------------------------------------------------------
 namespace App

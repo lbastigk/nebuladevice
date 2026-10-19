@@ -2,11 +2,11 @@
 //  distributedjobscheduler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "distributedtools/distributedjobscheduler.h"
-#include "distributedtools/distributedjobs/distributedjob.h"
-#include "io/console.h"
-#include "io/textwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobscheduler.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributedjob.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
 
 using namespace IO;
 using namespace Util;

@@ -15,8 +15,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "http/httprequesthandler.h"
-#include "resources/resourceid.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/render/resources/resourceid.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

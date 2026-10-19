@@ -2,11 +2,11 @@
 // framecaptureserver.cc
 // (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "framecaptureserver.h"
-#include "io/ioserver.h"
-#include "coregraphics/renderdevice.h"
-#include "framesync/framesynchandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/framecapture/rt/framecaptureserver.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/foundation/framesync/framesynchandlerthread.h"
 
 using namespace Util;
 using namespace IO;

@@ -4,19 +4,19 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "internalmultiplayer/handle.h"
-#include "internalmultiplayer/multiplayertype.h"
-#include "internalmultiplayer/sessioninfo.h"
-#include "internalmultiplayer/internalplayer.h"
-#include "internalmultiplayer/netstream.h"
-#include "internalmultiplayer/packetpriority.h"
-#include "internalmultiplayer/packetchannel.h"
-#include "multiplayer/base/multiplayernotificationhandlerbase.h"
-#include "internalmultiplayer/base/parameterresolverbase.h"
-#include "util/array.h"
-#include "util/dictionary.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/handle.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/multiplayertype.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/sessioninfo.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalplayer.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/netstream.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/packetpriority.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/packetchannel.h"
+#include "Nebuladevice/addons/network/multiplayer/base/multiplayernotificationhandlerbase.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/parameterresolverbase.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Multiplayer

@@ -9,7 +9,7 @@
 
     (C) 2007 Radon Labs GmbH
 */    
-#include "resources/resource.h"
+#include "Nebuladevice/render/resources/resource.h"
 
 namespace CoreGraphics
 {

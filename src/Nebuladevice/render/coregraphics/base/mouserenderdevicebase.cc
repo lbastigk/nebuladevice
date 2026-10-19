@@ -2,10 +2,10 @@
 //  mouserenderdevicebase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/mouserenderdevicebase.h"
-#include "coregraphics/streamtextureloader.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/mouserenderdevicebase.h"
+#include "Nebuladevice/render/coregraphics/streamtextureloader.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 
 namespace Base
 {

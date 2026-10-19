@@ -2,10 +2,10 @@
 //  mayashapenodeextractor.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayashapenodeextractor.h"
-#include "mayacore/mayavariableregistry.h"
-#include "mayaexporters/mayameshexporter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayashapenodeextractor.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayavariableregistry.h"
+#include "Nebuladevice/mayaplugin/mayaexporters/mayameshexporter.h"
 
 namespace Maya
 {

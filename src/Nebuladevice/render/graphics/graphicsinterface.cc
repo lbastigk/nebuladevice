@@ -2,10 +2,10 @@
 //  graphicsinterface.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicshandler.h"
-#include "debugrender/debuggraphicshandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicshandler.h"
+#include "Nebuladevice/render/debugrender/debuggraphicshandler.h"
 
 namespace Graphics
 {

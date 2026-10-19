@@ -9,7 +9,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if __WIN32__
-#include "coregraphics/d3d9/d3d9displaydevice.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9displaydevice.h"
 namespace CoreGraphics
 {
 class DisplayDevice : public Direct3D9::D3D9DisplayDevice

@@ -10,8 +10,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/displayeventhandler.h"
-#include "threading/safequeue.h"
+#include "Nebuladevice/render/coregraphics/displayeventhandler.h"
+#include "Nebuladevice/foundation/threading/safequeue.h"
 
 //------------------------------------------------------------------------------
 namespace CoreGraphics

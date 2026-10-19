@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "particles/envelopecurve.h"
-#include "particles/emitterattrs.h"
+#include "Nebuladevice/render/particles/envelopecurve.h"
+#include "Nebuladevice/render/particles/emitterattrs.h"
 
 //------------------------------------------------------------------------------
 namespace Particles

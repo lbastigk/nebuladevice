@@ -2,8 +2,8 @@
 //  shellapplication.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shellapplication.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/nsh3/shellapplication.h"
 
 namespace Tools
 {

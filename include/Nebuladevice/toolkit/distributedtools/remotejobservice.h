@@ -10,11 +10,11 @@
     (C) 2009 Radon Labs GmbH
 */
 //------------------------------------------------------------------------------
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "timing/timer.h"
-#include "net/socket/ipaddress.h"
-#include "util/guid.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/timing/timer.h"
+#include "Nebuladevice/foundation/net/socket/ipaddress.h"
+#include "Nebuladevice/foundation/util/guid.h"
 
 namespace IO
 {

@@ -2,8 +2,8 @@
 //  shaderbatcher3.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "shaderbatcherapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/shaderbatcher3/shaderbatcherapp.h"
 
 //------------------------------------------------------------------------------
 /**

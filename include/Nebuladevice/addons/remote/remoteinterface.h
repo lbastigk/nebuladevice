@@ -10,8 +10,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "interface/interfacebase.h"
-#include "core/singleton.h"
+#include "Nebuladevice/foundation/interface/interfacebase.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 //------------------------------------------------------------------------------
 namespace Remote

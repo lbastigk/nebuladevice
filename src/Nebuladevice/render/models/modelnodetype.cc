@@ -2,9 +2,9 @@
 //  modelnodetype.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/modelnodetype.h"
-#include "models/modelserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/modelnodetype.h"
+#include "Nebuladevice/render/models/modelserver.h"
 
 namespace Models
 {

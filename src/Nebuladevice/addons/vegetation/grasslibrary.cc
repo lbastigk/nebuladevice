@@ -2,22 +2,22 @@
 //  grasslibrary.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grasslibrary.h"
-#include "vegetation/grassrenderer.h"
-#include "vegetation/grasspatch.h"
-#include "vegetation/grassplantmesh.h"
-#include "models/managedmodel.h"
-#include "resources/managedmesh.h"
-#include "models/nodes/transformnode.h"
-#include "models/nodes/shapenode.h"
-#include "coregraphics/memoryindexbufferloader.h"
-#include "coregraphics/memoryvertexbufferloader.h"
-#include "models/modelserver.h"
-#include "coregraphics/streammeshloader.h"
-#include "models/streammodelloader.h"
-#include "coregraphics/base/resourcebase.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grasslibrary.h"
+#include "Nebuladevice/addons/vegetation/grassrenderer.h"
+#include "Nebuladevice/addons/vegetation/grasspatch.h"
+#include "Nebuladevice/addons/vegetation/grassplantmesh.h"
+#include "Nebuladevice/render/models/managedmodel.h"
+#include "Nebuladevice/render/resources/managedmesh.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
+#include "Nebuladevice/render/models/nodes/shapenode.h"
+#include "Nebuladevice/render/coregraphics/memoryindexbufferloader.h"
+#include "Nebuladevice/render/coregraphics/memoryvertexbufferloader.h"
+#include "Nebuladevice/render/models/modelserver.h"
+#include "Nebuladevice/render/coregraphics/streammeshloader.h"
+#include "Nebuladevice/render/models/streammodelloader.h"
+#include "Nebuladevice/render/coregraphics/base/resourcebase.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 
 namespace Vegetation
 {

@@ -10,10 +10,10 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "util/stringatom.h"
-#include "models/nodes/statenodeinstance.h"
-#include "models/nodes/animatornodeinstance.h"
-#include "internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/models/nodes/animatornodeinstance.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
 
 //------------------------------------------------------------------------------
 namespace RenderUtil

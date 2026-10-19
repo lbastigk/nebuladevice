@@ -14,8 +14,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "net/socket/ipaddress.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/net/socket/ipaddress.h"
 
 namespace Net
 {

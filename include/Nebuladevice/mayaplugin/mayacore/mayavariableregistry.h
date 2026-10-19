@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "mayacore/mayavariable.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayavariable.h"
 
 //------------------------------------------------------------------------------
 namespace Maya

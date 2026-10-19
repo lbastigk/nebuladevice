@@ -2,15 +2,15 @@
 //  animeventparticlehandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/fxanimeventhandler/animeventattachmenthandler.h"
-#include "internalgraphics/internalmodelentity.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/attachmentserver.h"
-#include "characters/character.h"
-#include "fx/animeventregistry.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventattachmenthandler.h"
+#include "Nebuladevice/render/internalgraphics/internalmodelentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/attachmentserver.h"
+#include "Nebuladevice/render/characters/character.h"
+#include "Nebuladevice/addons/fx/animeventregistry.h"
 
 namespace FX
 {

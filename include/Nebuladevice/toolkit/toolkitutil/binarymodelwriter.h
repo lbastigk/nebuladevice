@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "toolkitutil/modelwriter.h"
-#include "io/binarywriter.h"
+#include "Nebuladevice/toolkit/toolkitutil/modelwriter.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

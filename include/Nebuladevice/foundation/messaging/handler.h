@@ -8,8 +8,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "messaging/message.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/messaging/message.h"
 
 //-----------------------------------------------------------------------------
 namespace Messaging

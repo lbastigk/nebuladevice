@@ -13,9 +13,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "app/consoleapplication.h"
-#include "toolkit/idlcompiler/idldocument.h"
-#include "io/uri.h"
+#include "Nebuladevice/foundation/app/consoleapplication.h"
+#include "Nebuladevice/toolkit/idlcompiler/idldocument.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace Tools

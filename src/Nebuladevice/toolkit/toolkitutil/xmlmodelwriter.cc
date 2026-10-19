@@ -2,9 +2,9 @@
 //  xmlmodelwriter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "xmlmodelwriter.h"
-#include "math/float4.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/xmlmodelwriter.h"
+#include "Nebuladevice/foundation/math/float4.h"
 
 namespace ToolkitUtil
 {

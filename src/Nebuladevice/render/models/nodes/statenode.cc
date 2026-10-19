@@ -2,13 +2,13 @@
 //  statenode.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/nodes/statenode.h"
-#include "models/nodes/statenodeinstance.h"
-#include "coregraphics/shaderserver.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/renderdevice.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/nodes/statenode.h"
+#include "Nebuladevice/render/models/nodes/statenodeinstance.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 
 namespace Models
 {

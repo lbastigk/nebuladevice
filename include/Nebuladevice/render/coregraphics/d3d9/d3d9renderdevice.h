@@ -7,9 +7,9 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "coregraphics/base/renderdevicebase.h"
-#include "coregraphics/pixelformat.h"
-#include "coregraphics/imagefileformat.h"
+#include "Nebuladevice/render/coregraphics/base/renderdevicebase.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
+#include "Nebuladevice/render/coregraphics/imagefileformat.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

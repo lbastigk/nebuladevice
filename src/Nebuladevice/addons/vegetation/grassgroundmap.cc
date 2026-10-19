@@ -2,18 +2,18 @@
 //  grassgroundmap.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vegetation/grassgroundmap.h"
-#include "vegetation/grasspatchcoords.h"
-#include "vegetation/grassrenderer.h"
-#include "vegetation/grasspatcharray.h"
-#include "frame/frameserver.h"
-#include "frame/frameshader.h"
-#include "frame/framepass.h"
-#include "internalgraphics/internalstage.h"
-#include "internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vegetation/grassgroundmap.h"
+#include "Nebuladevice/addons/vegetation/grasspatchcoords.h"
+#include "Nebuladevice/addons/vegetation/grassrenderer.h"
+#include "Nebuladevice/addons/vegetation/grasspatcharray.h"
+#include "Nebuladevice/render/frame/frameserver.h"
+#include "Nebuladevice/render/frame/frameshader.h"
+#include "Nebuladevice/render/frame/framepass.h"
+#include "Nebuladevice/render/internalgraphics/internalstage.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
 #include "internalgraphics/simplestagebuilder.h"
-#include "coregraphics/renderdevice.h"
+#include "Nebuladevice/render/coregraphics/renderdevice.h"
 
 namespace Vegetation
 {

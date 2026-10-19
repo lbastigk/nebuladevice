@@ -2,8 +2,8 @@
 //  n2reflectioninfo.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "n2reflectioninfo.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/n2util/n2reflectioninfo.h"
 
 namespace ToolkitUtil
 {

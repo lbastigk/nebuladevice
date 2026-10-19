@@ -7,11 +7,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "util/fixedarray.h"
-#include "util/dictionary.h"
-#include "util/stringatom.h"
-#include "characters/characterskin.h"
-#include "characters/characterskinlist.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/characters/characterskin.h"
+#include "Nebuladevice/render/characters/characterskinlist.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

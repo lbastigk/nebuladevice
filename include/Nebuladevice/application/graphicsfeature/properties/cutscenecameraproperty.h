@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "properties/cameraproperty.h"
-#include "graphics/cameraentity.h"
+#include "Nebuladevice/application/graphicsfeature/properties/cameraproperty.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
 
 //------------------------------------------------------------------------------
 namespace GraphicsFeature

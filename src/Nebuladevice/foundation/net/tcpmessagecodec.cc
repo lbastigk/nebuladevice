@@ -2,12 +2,12 @@
 //  tcpmessagecodec.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "net/tcpmessagecodec.h"
-#include "io/binarywriter.h"
-#include "io/binaryreader.h"
-#include "io/memorystream.h"
-#include "foundation/memory/memory.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/net/tcpmessagecodec.h"
+#include "Nebuladevice/foundation/io/binarywriter.h"
+#include "Nebuladevice/foundation/io/binaryreader.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/memory/memory.h"
 //------------------------------------------------------------------------------
 using namespace Util;
 using namespace IO;

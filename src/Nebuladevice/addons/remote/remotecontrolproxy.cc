@@ -2,10 +2,10 @@
 //  remotecontrolproxy.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remote/remotecontrolproxy.h"
-#include "remote/remoteprotocol.h"
-#include "remote/remoteinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/remote/remotecontrolproxy.h"
+#include "Nebuladevice/addons/remote/remoteprotocol.h"
+#include "Nebuladevice/addons/remote/remoteinterface.h"
 
 namespace Remote
 {

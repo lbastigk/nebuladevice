@@ -2,12 +2,12 @@
 //  sm30lightserver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/sm30/sm30lightserver.h"
-#include "coregraphics/shaderserver.h"
-#include "resources/resourcemanager.h"
-#include "lighting/shadowserver.h"
-#include "util/priorityarray.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/sm30/sm30lightserver.h"
+#include "Nebuladevice/render/coregraphics/shaderserver.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/lighting/shadowserver.h"
+#include "Nebuladevice/foundation/util/priorityarray.h"
 
 namespace Lighting
 {

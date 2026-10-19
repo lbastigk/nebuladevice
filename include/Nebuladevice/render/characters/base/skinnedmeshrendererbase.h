@@ -15,13 +15,13 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "util/array.h"
-#include "characters/skinnedmeshdrawinfo.h"
-#include "characters/skinningtechnique.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/texture.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/render/characters/skinnedmeshdrawinfo.h"
+#include "Nebuladevice/render/characters/skinningtechnique.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
 
 namespace Characters
 {

@@ -2,8 +2,8 @@
 //  memoryindexbufferloaderbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/memoryindexbufferloaderbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/memoryindexbufferloaderbase.h"
 
 namespace Base
 {

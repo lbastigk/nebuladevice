@@ -12,10 +12,10 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "particles/base/particlerendererbase.h"
-#include "coregraphics/vertexbuffer.h"
-#include "coregraphics/indexbuffer.h"
-#include "coregraphics/vertexlayout.h"
+#include "Nebuladevice/render/particles/base/particlerendererbase.h"
+#include "Nebuladevice/render/coregraphics/vertexbuffer.h"
+#include "Nebuladevice/render/coregraphics/indexbuffer.h"
+#include "Nebuladevice/render/coregraphics/vertexlayout.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

@@ -2,8 +2,8 @@
 //  inputserver.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/inputserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/inputserver.h"
 
 namespace Input
 {

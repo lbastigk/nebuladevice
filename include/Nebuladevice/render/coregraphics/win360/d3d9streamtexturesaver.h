@@ -7,7 +7,7 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/streamtexturesaverbase.h"
+#include "Nebuladevice/render/coregraphics/base/streamtexturesaverbase.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

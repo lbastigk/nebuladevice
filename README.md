@@ -8,7 +8,7 @@ This checkout is being migrated to a portable CMake project.
 - `include/Nebuladevice/` - public and internal C++ headers
 - `src/Nebuladevice/` - engine implementation sources
 - `Tests/` - GoogleTest tests and legacy test sources
-- `code/extlibs/` - bundled third-party sources and compatibility headers
+- `external/` - bundled third-party sources and compatibility headers
 - `code/` - legacy build metadata and non-C++ build assets
 
 Configure the test project with:
@@ -71,7 +71,7 @@ Nebula3 depends on the following excellent 3rd Party Open Source libraries:
 
 Kudos to them.
 
-The source code to those packages has been included with the Nebula3 SDK under INSTALLDIR/code/extlibs.
+The source code to those packages has been included with the Nebula3 SDK under INSTALLDIR/external.
 This was done for better integration with the Nebula3 build process and to prevent any
 version incompatibilities. 
 

@@ -2,8 +2,8 @@
 //  terrainrendererbase.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "terrain/base/terrainrendererbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/terrain/base/terrainrendererbase.h"
 
 
 namespace Terrain

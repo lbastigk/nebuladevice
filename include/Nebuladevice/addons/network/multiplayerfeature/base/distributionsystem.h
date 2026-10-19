@@ -8,14 +8,14 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "math/point.h"
-#include "internalmultiplayer/netstream.h"
-#include "internalmultiplayer/bitreader.h"
-#include "multiplayer/player.h"
-#include "util/queue.h"
-#include "multiplayerfeature/objectview.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/netstream.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitreader.h"
+#include "Nebuladevice/addons/network/multiplayer/player.h"
+#include "Nebuladevice/foundation/util/queue.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/objectview.h"
 
 //------------------------------------------------------------------------------
 namespace Base

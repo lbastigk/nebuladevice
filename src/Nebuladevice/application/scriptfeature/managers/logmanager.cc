@@ -3,8 +3,8 @@
 //
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/managers/logmanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/managers/logmanager.h"
 
 namespace Script
 {

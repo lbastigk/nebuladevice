@@ -8,11 +8,11 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "threading/interlocked.h"
-#include "threading/criticalsection.h"
-#include "util/array.h"
-#include "util/list.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/threading/interlocked.h"
+#include "Nebuladevice/foundation/threading/criticalsection.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/list.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

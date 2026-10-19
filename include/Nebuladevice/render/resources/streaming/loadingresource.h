@@ -10,8 +10,8 @@
 
     (C) 2010 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "resources/managedresource.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/resources/managedresource.h"
 
 //------------------------------------------------------------------------------
 namespace Resources

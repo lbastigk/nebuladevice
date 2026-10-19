@@ -8,7 +8,7 @@
     (C) 2008 Radon Labs GmbH
 */
 #if __WIN32__
-#include "characters/win32/win32skinnedmeshrenderer.h"
+#include "Nebuladevice/render/characters/win32/win32skinnedmeshrenderer.h"
 namespace Characters
 {
 class SkinnedMeshRenderer : public Win32::Win32SkinnedMeshRenderer

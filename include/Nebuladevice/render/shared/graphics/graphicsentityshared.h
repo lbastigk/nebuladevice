@@ -8,10 +8,10 @@
     
     (C) 2010 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "math/clipstatus.h"
-#include "math/bbox.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/math/clipstatus.h"
+#include "Nebuladevice/foundation/math/bbox.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace Shared

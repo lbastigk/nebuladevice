@@ -2,11 +2,11 @@
 //  characternode.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "characters/characternode.h"
-#include "characters/characternodeinstance.h"
-#include "resources/resourcemanager.h"
-#include "models/modelinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/characters/characternode.h"
+#include "Nebuladevice/render/characters/characternodeinstance.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
+#include "Nebuladevice/render/models/modelinstance.h"
 
 namespace Characters
 {

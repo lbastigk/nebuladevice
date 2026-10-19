@@ -2,8 +2,8 @@
 //  terrainpanel.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "terrainpanel.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/editor/ui/terrainpanel.h"
 #include "wx/wx.h"
 
 

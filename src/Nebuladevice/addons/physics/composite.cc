@@ -2,10 +2,10 @@
 //  physics/composite.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/composite.h"
-#include "physics/joint.h"
-#include "physics/shape.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/composite.h"
+#include "Nebuladevice/addons/physics/joint.h"
+#include "Nebuladevice/addons/physics/shape.h"
 
 namespace Physics
 {

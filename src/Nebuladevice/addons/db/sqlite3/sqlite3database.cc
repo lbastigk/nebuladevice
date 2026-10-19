@@ -2,14 +2,14 @@
 //  sqlite3database.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/dataset.h"
-#include "addons/db/sqlite3/sqlite3database.h"
-#include "addons/db/sqlite3/sqlite3command.h"
-#include "addons/db/sqlite3/sqlite3table.h"
-#include "addons/db/sqlite3/sqlite3factory.h"
-#include "io/ioserver.h"
-#include "attr/attributedefinitionbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/dataset.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3database.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3command.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3table.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3factory.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/addons/attr/attributedefinitionbase.h"
 
 namespace Attr
 {

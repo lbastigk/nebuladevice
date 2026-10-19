@@ -2,18 +2,18 @@
 //  properties/cameraproperty.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/cameraproperty.h"
-#include "managers/focusmanager.h"
-#include "game/entity.h"
-#include "graphics/graphicsserver.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "graphics/cameraentity.h"
-#include "graphics/view.h"
-#include "graphics/stage.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "basegamefeature/basegameattr/basegameattributes.h"
-#include "audio2/audio2listener.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/graphicsfeature/properties/cameraproperty.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/render/graphics/graphicsserver.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/render/graphics/cameraentity.h"
+#include "Nebuladevice/render/graphics/view.h"
+#include "Nebuladevice/render/graphics/stage.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/addons/audio2/audio2listener.h"
 
 // camera specific attributes
 namespace Attr

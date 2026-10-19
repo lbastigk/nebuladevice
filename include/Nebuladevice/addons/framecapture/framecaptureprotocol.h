@@ -4,9 +4,9 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "timing/time.h"
-#include "coregraphics/imagefileformat.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/coregraphics/imagefileformat.h"
 
 //------------------------------------------------------------------------------
 namespace FrameCapture

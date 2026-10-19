@@ -58,7 +58,7 @@ begintarget render_win32
     settype lib
     setbasedir render
     setprecompiledheader stdneb
-    setincpath_win32 "../foundation;../extlibs;../render;../addons"
+    setincpath_win32 "../foundation;../external;../render;../addons"
     setdepends {
         render_nidls_win32
         render_charevalskeletonjob_win32

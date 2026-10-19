@@ -6,7 +6,7 @@
     
     The Cubic Equation Solver is used to solve a polynome of degree 3.
 */
-#include "foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 namespace Sequencer
 {

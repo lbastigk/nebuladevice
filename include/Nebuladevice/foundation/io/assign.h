@@ -8,7 +8,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "util/keyvaluepair.h"
+#include "Nebuladevice/foundation/util/keyvaluepair.h"
 
 //------------------------------------------------------------------------------
 namespace IO

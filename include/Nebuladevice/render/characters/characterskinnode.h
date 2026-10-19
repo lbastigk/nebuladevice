@@ -7,7 +7,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "models/nodes/shapenode.h"
+#include "Nebuladevice/render/models/nodes/shapenode.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

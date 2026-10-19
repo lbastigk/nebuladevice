@@ -2,11 +2,11 @@
 //  d3d9texturecreator.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "d3d9texturecreator.h"
-#include "resources/streaming/textureinfo.h"
-#include "coregraphics/texture.h"
-#include "coregraphics/d3d9/d3d9renderdevice.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/d3d9streaming/d3d9texturecreator.h"
+#include "Nebuladevice/render/resources/streaming/textureinfo.h"
+#include "Nebuladevice/render/coregraphics/texture.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9renderdevice.h"
 
 namespace Resources
 {

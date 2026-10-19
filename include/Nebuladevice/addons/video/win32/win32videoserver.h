@@ -7,8 +7,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/singleton.h"
-#include "video/base/videoserverbase.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/video/base/videoserverbase.h"
 
 //------------------------------------------------------------------------------
 namespace Win32

@@ -10,14 +10,14 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "coregraphics/rendereventhandler.h"
-#include "coregraphics/primitivegroup.h"
-#include "coregraphics/batchtype.h"
-#include "coregraphics/imagefileformat.h"
-#include "io/stream.h"
-#include "debug/debugcounter.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/coregraphics/rendereventhandler.h"
+#include "Nebuladevice/render/coregraphics/primitivegroup.h"
+#include "Nebuladevice/render/coregraphics/batchtype.h"
+#include "Nebuladevice/render/coregraphics/imagefileformat.h"
+#include "Nebuladevice/foundation/io/stream.h"
+#include "Nebuladevice/foundation/debug/debugcounter.h"
 
 namespace CoreGraphics
 {

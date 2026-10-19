@@ -2,11 +2,11 @@
 // framecapturerendermodule.cc
 // (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "framecapturerendermodule.h"
-#include "framecapture/rt/framecapturertplugin.h"
-#include "graphics/graphicsinterface.h"
-#include "graphics/graphicsprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/framecapture/framecapturerendermodule.h"
+#include "Nebuladevice/addons/framecapture/rt/framecapturertplugin.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
 
 using namespace Graphics;
 using namespace Messaging;

@@ -2,9 +2,9 @@
 //  sqlite3filterset.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "addons/db/sqlite3/sqlite3filterset.h"
-#include "addons/db/command.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3filterset.h"
+#include "Nebuladevice/addons/db/command.h"
 
 namespace Db
 {

@@ -2,10 +2,10 @@
 //  ui/uieventhandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/uieventhandler.h"
-#include "ui/uievent.h"
-#include "ui/uimanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/uieventhandler.h"
+#include "Nebuladevice/addons/ui/uievent.h"
+#include "Nebuladevice/addons/ui/uimanager.h"
 
 namespace UI
 {

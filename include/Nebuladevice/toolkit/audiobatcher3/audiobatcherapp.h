@@ -7,8 +7,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "toolkitutil/toolkitapp.h"
-#include "toolkitutil/audioexporter.h"
+#include "Nebuladevice/toolkit/toolkitutil/toolkitapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/audioexporter.h"
 
 //------------------------------------------------------------------------------
 namespace Toolkit

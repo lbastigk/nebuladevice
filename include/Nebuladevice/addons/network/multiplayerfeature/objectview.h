@@ -8,13 +8,13 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "game/entity.h"
-#include "multiplayerfeature/networkattribute.h"
-#include "internalmultiplayer/packetpriority.h"
-#include "internalmultiplayer/bitreader.h"
-#include "internalmultiplayer/bitwriter.h"
-#include "multiplayerprotocol.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/networkattribute.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/packetpriority.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitreader.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitwriter.h"
+#include "Nebuladevice/addons/network/multiplayerprotocol.h"
 
 // forward declaration
 namespace Base

@@ -2,10 +2,10 @@
 //  svgtestpagehandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/debug/svgtestpagehandler.h"
-#include "http/svg/svgpagewriter.h"
-#include "http/svg/svglinechartwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/debug/svgtestpagehandler.h"
+#include "Nebuladevice/foundation/http/svg/svgpagewriter.h"
+#include "Nebuladevice/foundation/http/svg/svglinechartwriter.h"
 
 namespace Debug
 {

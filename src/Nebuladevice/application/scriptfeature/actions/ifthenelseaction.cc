@@ -2,13 +2,13 @@
 //  scriptfeature/masterEvents/ifthenelseaction.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/actions/ifthenelseaction.h"
-#include "scriptfeature/log/infolog.h"
-#include "scriptfeature/actionreader.h"
-#include "scriptfeature/conditions/condition.h"
-#include "scriptfeature/actions/sequenceaction.h"
-#include "scriptfeature/actions/actionlist.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/actions/ifthenelseaction.h"
+#include "Nebuladevice/application/scriptfeature/log/infolog.h"
+#include "Nebuladevice/application/scriptfeature/actionreader.h"
+#include "Nebuladevice/application/scriptfeature/conditions/condition.h"
+#include "Nebuladevice/application/scriptfeature/actions/sequenceaction.h"
+#include "Nebuladevice/application/scriptfeature/actions/actionlist.h"
 
 namespace Actions
 {

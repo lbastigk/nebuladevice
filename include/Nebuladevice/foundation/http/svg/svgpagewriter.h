@@ -9,9 +9,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/streamwriter.h"
-#include "io/xmlwriter.h"
-#include "math/float2.h"
+#include "Nebuladevice/foundation/io/streamwriter.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/foundation/math/float2.h"
 
 //------------------------------------------------------------------------------
 namespace Http

@@ -25,8 +25,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "io/uri.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/io/uri.h"
 
 //------------------------------------------------------------------------------
 namespace Win360

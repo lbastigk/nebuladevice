@@ -9,8 +9,8 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "timing/time.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace BaseGameFeature

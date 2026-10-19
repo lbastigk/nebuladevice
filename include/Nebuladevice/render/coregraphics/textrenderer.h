@@ -9,7 +9,7 @@
     (C) 2008 Radon Labs GmbH
 */    
 #if __WIN32__
-#include "coregraphics/d3d9/d3d9textrenderer.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9textrenderer.h"
 namespace CoreGraphics
 {
 class TextRenderer : public Direct3D9::D3D9TextRenderer
@@ -70,7 +70,7 @@ public:
 };
 } // namespace CoreGraphics
 #else
-#include "coregraphics/base/textrendererbase.h"
+#include "Nebuladevice/render/coregraphics/base/textrendererbase.h"
 namespace CoreGraphics
 {
 class TextRenderer : public Base::TextRendererBase

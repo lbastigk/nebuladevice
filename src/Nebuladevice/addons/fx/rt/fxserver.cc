@@ -2,8 +2,8 @@
 //  fx/rt/fxserver.cc
 //  (C) 2009 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/fxserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/fxserver.h"
 
 namespace FX
 {

@@ -9,9 +9,9 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "physics/contactpoint.h"
-#include "physics/filterset.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/physics/contactpoint.h"
+#include "Nebuladevice/addons/physics/filterset.h"
 #include "ode/ode.h"
 #define BAN_OPCODE_AUTOLINK
 #include "opcode/opcode.h"

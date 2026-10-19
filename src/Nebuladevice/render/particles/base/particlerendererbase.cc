@@ -2,9 +2,9 @@
 //  particlerendererbase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "particles/base/particlerendererbase.h"
-#include "particles/particlesysteminstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/particles/base/particlerendererbase.h"
+#include "Nebuladevice/render/particles/particlesysteminstance.h"
 
 namespace Base
 {

@@ -2,10 +2,10 @@
 //  synctoolapp.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "synctoolapp.h"
-#include "toolkitutil/applauncher.h"
-#include "timing/calendartime.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/synctool3/synctoolapp.h"
+#include "Nebuladevice/toolkit/toolkitutil/applauncher.h"
+#include "Nebuladevice/foundation/timing/calendartime.h"
 
 namespace Toolkit
 {

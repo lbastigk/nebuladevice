@@ -18,7 +18,7 @@ namespace Particles
     typedef PS3::PS3ParticleRenderInfo ParticleRenderInfo;
 }
 #else
-#include "particles/base/particlerenderinfobase.h"
+#include "Nebuladevice/render/particles/base/particlerenderinfobase.h"
 namespace Particles
 {
     typedef Base::ParticleRenderInfoBase ParticleRenderInfo;

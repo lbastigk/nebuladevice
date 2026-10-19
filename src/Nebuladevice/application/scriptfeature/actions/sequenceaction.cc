@@ -2,11 +2,11 @@
 //  scriptfeature/masterEvents/sequenceaction.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/actions/sequenceaction.h"
-#include "scriptfeature/actionreader.h"
-#include "scriptfeature/log/infolog.h"
-#include "basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/actions/sequenceaction.h"
+#include "Nebuladevice/application/scriptfeature/actionreader.h"
+#include "Nebuladevice/application/scriptfeature/log/infolog.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
 
 namespace Actions
 {

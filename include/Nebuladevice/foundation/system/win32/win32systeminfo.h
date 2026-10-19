@@ -7,7 +7,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "system/base/systeminfobase.h"
+#include "Nebuladevice/foundation/system/base/systeminfobase.h"
 
 //------------------------------------------------------------------------------
 namespace Win32

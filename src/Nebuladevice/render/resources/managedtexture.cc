@@ -2,8 +2,8 @@
 //  managedtexture.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/managedtexture.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/managedtexture.h"
 
 namespace Resources
 {

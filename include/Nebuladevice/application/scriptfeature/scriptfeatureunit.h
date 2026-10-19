@@ -8,13 +8,13 @@
 
     (C) 2008 Radon Labs GmbH
 */
-#include "game/featureunit.h"
-#include "scriptfeature/managers/dialogmanager.h"
-#include "scriptfeature/managers/logmanager.h"
-#include "scriptfeature/managers/questmanager.h"
-#include "scriptfeature/managers/scripttemplatemanager.h"
-#include "scriptfeature/managers/substitutionmanager.h"
-#include "scriptfeature/managers/scriptmanager.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/application/scriptfeature/managers/dialogmanager.h"
+#include "Nebuladevice/application/scriptfeature/managers/logmanager.h"
+#include "Nebuladevice/application/scriptfeature/managers/questmanager.h"
+#include "Nebuladevice/application/scriptfeature/managers/scripttemplatemanager.h"
+#include "Nebuladevice/application/scriptfeature/managers/substitutionmanager.h"
+#include "Nebuladevice/application/scriptfeature/managers/scriptmanager.h"
 
 //------------------------------------------------------------------------------
 namespace ScriptFeature

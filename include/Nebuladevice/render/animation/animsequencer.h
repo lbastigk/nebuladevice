@@ -14,10 +14,10 @@
 
     (C) 2008 Radon Labs GmbH
 */    
-#include "core/refcounted.h"
-#include "animation/animjob.h"
-#include "animation/animeventinfo.h"
-#include "jobs/jobport.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/render/animation/animjob.h"
+#include "Nebuladevice/render/animation/animeventinfo.h"
+#include "Nebuladevice/foundation/jobs/jobport.h"
 
 //------------------------------------------------------------------------------
 namespace Animation

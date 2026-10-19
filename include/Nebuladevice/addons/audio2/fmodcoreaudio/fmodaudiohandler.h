@@ -8,13 +8,13 @@
     (C) 2008 Radon Labs GmbH
 */
 
-#include "interface/interfacehandlerbase.h"
-#include "messaging/message.h"
-#include "audio2/audio2protocol.h"
-#include "io/console.h"
-#include "io/ioserver.h"
-#include "http/httpserverproxy.h"
-#include "timing/timer.h"
+#include "Nebuladevice/foundation/interface/interfacehandlerbase.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/audio2/audio2protocol.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/http/httpserverproxy.h"
+#include "Nebuladevice/foundation/timing/timer.h"
 
 namespace Audio2 { class FmodEventWrapper; }
 

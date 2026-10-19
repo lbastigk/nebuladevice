@@ -2,9 +2,9 @@
 //  httprequestwriter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httprequestwriter.h"
-#include "io/textwriter.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httprequestwriter.h"
+#include "Nebuladevice/foundation/io/textwriter.h"
 
 namespace Http
 {

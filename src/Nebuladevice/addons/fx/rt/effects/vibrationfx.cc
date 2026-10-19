@@ -2,9 +2,9 @@
 //  fx/rt/effects/camerashakefx.cc
 //  (C) 2005 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/effects/vibrationfx.h"
-#include "vibration/vibrationplayer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/effects/vibrationfx.h"
+#include "Nebuladevice/addons/vibration/vibrationplayer.h"
 
 namespace FX
 {

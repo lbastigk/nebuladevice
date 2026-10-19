@@ -8,9 +8,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "util/stringatom.h"
-#include "util/array.h"
-#include "models/modelnodeinstance.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

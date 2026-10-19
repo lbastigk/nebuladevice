@@ -2,10 +2,10 @@
 //  manipserver.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "manipserver.h"
-#include "input/keyboard.h"
-#include "input/inputserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/editor/edittool/manipserver.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/inputserver.h"
 #include "selectentitymanip.h"
 #include "moveentitymanip.h"
 #include "rotateentitymanip.h"

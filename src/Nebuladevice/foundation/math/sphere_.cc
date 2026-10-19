@@ -2,8 +2,8 @@
 //  sphere.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "math/sphere_.h" // avoid confilct with ODE sphere.h
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/math/sphere_.h" // avoid confilct with ODE sphere.h
 
 namespace Math
 {

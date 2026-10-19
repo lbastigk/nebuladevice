@@ -9,8 +9,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "util/stringatom.h"
-#include "timing/time.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/timing/time.h"
 
 //------------------------------------------------------------------------------
 namespace CoreAnimation

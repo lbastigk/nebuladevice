@@ -2,15 +2,15 @@
 //  runbenchmarks.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/coreserver.h"
-#include "core/sysfunc.h"
-#include "benchmarkbase/benchmarkrunner.h"
-#include "io/ioserver.h"
-#include "io/filestream.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/benchmarks/benchmarkbase/benchmarkrunner.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/filestream.h"
 
-#include "databaseinsert.h"
-#include "databasequery.h"
+#include "Nebuladevice/benchmarks/benchmarkaddon/databaseinsert.h"
+#include "Nebuladevice/benchmarks/benchmarkaddon/databasequery.h"
 
 using namespace Core;
 using namespace Benchmarking;

@@ -8,7 +8,7 @@
     (C) 2009 Radon Labs GmbH
 */
 #if (__WIN32__||__XBOX360__)
-#include "sui/base/suiserverbase.h"
+#include "Nebuladevice/addons/sui/base/suiserverbase.h"
 namespace SUI
 {
 class SUIServer : public Base::SUIServerBase

@@ -2,8 +2,8 @@
 //  shaperenderer.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/shaperenderer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
 
 namespace CoreGraphics
 {

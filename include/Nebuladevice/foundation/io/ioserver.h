@@ -14,16 +14,16 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "util/array.h"
-#include "util/string.h"
-#include "util/hashtable.h"
-#include "io/filetime.h"
-#include "io/assign.h"
-#include "util/stringatom.h"
-#include "io/assignregistry.h"
-#include "io/schemeregistry.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/string.h"
+#include "Nebuladevice/foundation/util/hashtable.h"
+#include "Nebuladevice/foundation/io/filetime.h"
+#include "Nebuladevice/foundation/io/assign.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/io/assignregistry.h"
+#include "Nebuladevice/foundation/io/schemeregistry.h"
 
 //------------------------------------------------------------------------------
 namespace IO

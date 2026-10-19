@@ -7,7 +7,7 @@
     
     (C) 2006 Radon Labs GmbH
 */    
-#include "attr/stringattrid.h"
+#include "Nebuladevice/addons/attr/stringattrid.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

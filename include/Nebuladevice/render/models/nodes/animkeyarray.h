@@ -7,9 +7,9 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "util/array.h"
-#include "models/nodes/animkey.h"
-#include "models/nodes/animlooptype.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/render/models/nodes/animkey.h"
+#include "Nebuladevice/render/models/nodes/animlooptype.h"
 
 //------------------------------------------------------------------------------
 namespace Models

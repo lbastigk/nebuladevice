@@ -2,9 +2,9 @@
 //  animsequencer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "animation/animsequencer.h"
-#include "animation/playclipjob.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/animation/animsequencer.h"
+#include "Nebuladevice/render/animation/playclipjob.h"
 
 using namespace Util;
 using namespace CoreAnimation;
@@ -12,10 +12,10 @@ using namespace Jobs;
 using namespace Math;
 
 // for debug visualization
-#include "coregraphics/shaperenderer.h"
-#include "coregraphics/transformdevice.h"
-#include "coregraphics/textrenderer.h"
-#include "threading/thread.h"
+#include "Nebuladevice/render/coregraphics/shaperenderer.h"
+#include "Nebuladevice/render/coregraphics/transformdevice.h"
+#include "Nebuladevice/render/coregraphics/textrenderer.h"
+#include "Nebuladevice/foundation/threading/thread.h"
 using namespace CoreGraphics;
 
 namespace Animation

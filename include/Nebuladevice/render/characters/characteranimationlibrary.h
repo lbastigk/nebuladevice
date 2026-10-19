@@ -7,7 +7,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

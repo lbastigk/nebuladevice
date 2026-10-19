@@ -2,9 +2,9 @@
 //  d3d9resource.cc
 //  (C) 2010 xoyojank
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9resource.h"
-#include "coregraphics/d3d9/d3d9resourceeventhandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9resource.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9resourceeventhandler.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

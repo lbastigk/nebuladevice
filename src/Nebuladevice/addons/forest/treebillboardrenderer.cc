@@ -2,11 +2,11 @@
 //  treebillboardrenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/treebillboardrenderer.h"
-#include "coregraphics/vertexcomponent.h"
-#include "coregraphics/memoryvertexbufferloader.h"
-#include "resources/resourceloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/treebillboardrenderer.h"
+#include "Nebuladevice/render/coregraphics/vertexcomponent.h"
+#include "Nebuladevice/render/coregraphics/memoryvertexbufferloader.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
 
 namespace Forest
 {

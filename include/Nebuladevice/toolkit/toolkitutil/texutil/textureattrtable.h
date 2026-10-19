@@ -8,11 +8,11 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "toolkitutil/texutil/textureattrs.h"
-#include "util/array.h"
-#include "util/dictionary.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/toolkit/toolkitutil/texutil/textureattrs.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace ToolkitUtil

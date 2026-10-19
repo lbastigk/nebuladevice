@@ -8,7 +8,7 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "coregraphics/base/shadervariationbase.h"
+#include "Nebuladevice/render/coregraphics/base/shadervariationbase.h"
 
 //------------------------------------------------------------------------------
 namespace Direct3D9

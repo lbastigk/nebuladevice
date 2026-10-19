@@ -2,10 +2,10 @@
 //  iointerface.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/iointerface.h"
-#include "io/iointerfacehandler.h"
-#include "messaging/blockinghandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/iointerface.h"
+#include "Nebuladevice/foundation/io/iointerfacehandler.h"
+#include "Nebuladevice/foundation/messaging/blockinghandlerthread.h"
 
 namespace IO
 {

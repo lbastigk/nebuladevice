@@ -2,9 +2,9 @@
 //  game/featureunit.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "game/featureunit.h"
-#include "game/gameserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/game/featureunit.h"
+#include "Nebuladevice/application/game/gameserver.h"
 
 namespace Game
 {

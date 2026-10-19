@@ -2,17 +2,17 @@
 //  managers/story/dialogmanager.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scriptfeature/managers/dialogmanager.h"
-#include "scriptfeature/managers/scripttemplatemanager.h"
-#include "scriptfeature/scriptattr/scriptattributes.h"
-#include "scriptfeature/dialog/dialogtake.h"
-#include "scriptfeature/dialog/dialog.h"
-#include "scriptfeature/dialog/dialogdesc.h"
-#include "scriptfeature/scriptprotocol.h"
-#include "db/reader.h"
-#include "db/writer.h"
-#include "db/dbserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/scriptfeature/managers/dialogmanager.h"
+#include "Nebuladevice/application/scriptfeature/managers/scripttemplatemanager.h"
+#include "Nebuladevice/application/scriptfeature/scriptattr/scriptattributes.h"
+#include "Nebuladevice/application/scriptfeature/dialog/dialogtake.h"
+#include "Nebuladevice/application/scriptfeature/dialog/dialog.h"
+#include "Nebuladevice/application/scriptfeature/dialog/dialogdesc.h"
+#include "Nebuladevice/application/scriptfeature/scriptprotocol.h"
+#include "Nebuladevice/addons/db/reader.h"
+#include "Nebuladevice/addons/db/writer.h"
+#include "Nebuladevice/addons/db/dbserver.h"
 
 //#include "kernel/nprofiler.h"
 

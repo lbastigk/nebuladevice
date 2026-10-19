@@ -2,11 +2,11 @@
 //  logfileconsolehandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/logfileconsolehandler.h"
-#include "io/ioserver.h"
-#include "timing/calendartime.h"
-#include "core/coreserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/logfileconsolehandler.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/timing/calendartime.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
 
 namespace IO
 {

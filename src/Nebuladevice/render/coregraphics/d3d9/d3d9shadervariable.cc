@@ -2,8 +2,8 @@
 //  d3d9shadervariable.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/d3d9/d3d9shadervariable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9shadervariable.h"
 
 namespace Direct3D9
 {

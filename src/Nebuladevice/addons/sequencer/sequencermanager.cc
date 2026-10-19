@@ -2,10 +2,10 @@
 //  sequenzermanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "sequencermanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sequencer/sequencermanager.h"
 
-#include "tracksequencer.h"
+#include "Nebuladevice/addons/sequencer/tracksequencer.h"
 
 namespace Sequencer
 {

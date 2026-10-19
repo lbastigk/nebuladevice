@@ -2,10 +2,10 @@
 //  win32inputdisplayeventhandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "input/win32/win32inputdisplayeventhandler.h"
-#include "input/inputserver.h"
-#include "input/inputevent.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/input/win32/win32inputdisplayeventhandler.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/input/inputevent.h"
 
 namespace Win32
 {

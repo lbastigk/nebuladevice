@@ -17,16 +17,16 @@
 
     (C) 2007 RadonLabs GmbH
 */
-#include "core/refcounted.h"
-#include "core/ptr.h"
-#include "foundation/messaging/message.h"
-#include "messaging/dispatcher.h"
-#include "game/property.h"
-#include "util/dictionary.h"
-#include "appgame/appconfig.h"
-#include "addons/db/valuetable.h"
-#include "managers/categorymanager.h"
-#include "debug/debugtimer.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/messaging/dispatcher.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
+#include "Nebuladevice/addons/db/valuetable.h"
+#include "Nebuladevice/application/basegamefeature/managers/categorymanager.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
 
 namespace Messaging
 {

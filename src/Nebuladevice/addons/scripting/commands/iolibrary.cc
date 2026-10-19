@@ -1,10 +1,10 @@
 //------------------------------------------------------------------------------
 //  MACHINE GENERATED, DON'T EDIT!
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "scripting/scriptserver.h"
-#include "scripting/arg.h"
-#include "iolibrary.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/scripting/scriptserver.h"
+#include "Nebuladevice/addons/scripting/arg.h"
+#include "Nebuladevice/addons/scripting/commands/iolibrary.h"
 
 __ImplementClass(Commands::SetAssign, 'sasn', Scripting::Command);
 __ImplementClass(Commands::GetAssign, 'gasn', Scripting::Command);

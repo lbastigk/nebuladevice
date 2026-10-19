@@ -9,12 +9,12 @@
 
     (C) 2009 Radon Labs GmbH
 */
-#include "game/property.h"
-#include "fx/rt/fxanimeventhandler/animeventattachmenthandler.h"
-#include "fx/rt/fxanimeventhandler/animeventshakehandler.h"
-#include "fx/rt/fxanimeventhandler/animeventsoundhandler.h"
-#include "fx/rt/fxanimeventhandler/animeventtiminghandler.h"
-#include "fx/rt/fxanimeventhandler/animeventvibrationhandler.h"
+#include "Nebuladevice/application/game/property.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventattachmenthandler.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventshakehandler.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventsoundhandler.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventtiminghandler.h"
+#include "Nebuladevice/addons/fx/rt/fxanimeventhandler/animeventvibrationhandler.h"
 
 //------------------------------------------------------------------------------
 namespace FxFeature

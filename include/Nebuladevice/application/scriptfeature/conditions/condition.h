@@ -11,9 +11,9 @@
    
     (C) 2005 Radon Labs GmbH
 */
-#include "messaging/message.h"
-#include "util/commandlineargs.h"
-#include "game/entity.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/util/commandlineargs.h"
+#include "Nebuladevice/application/game/entity.h"
 
 namespace Script
 {

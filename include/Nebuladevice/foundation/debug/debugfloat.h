@@ -32,13 +32,13 @@
     (C) 2009 Radon Labs GmbH
 */
 
-#include "math/float4.h"
-#include "math/matrix44.h"
-#include "math/quaternion.h"
-#include "math/plane.h"
-#include "math/scalar.h"
-#include "core/types.h"
-#include "util/typepunning.h"
+#include "Nebuladevice/foundation/math/float4.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/foundation/math/plane.h"
+#include "Nebuladevice/foundation/math/scalar.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/typepunning.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

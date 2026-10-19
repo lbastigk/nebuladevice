@@ -2,8 +2,8 @@
 //  application/statehandler.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "appgame/statehandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/appgame/statehandler.h"
 
 namespace App
 {

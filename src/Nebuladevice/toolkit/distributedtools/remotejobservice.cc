@@ -2,14 +2,14 @@
 //  remotejobservice.cc
 // (C) 2009 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remotejobservice.h"
-#include "distributedjobs/distributedjob.h"
-#include "io/xmlreader.h"
-#include "io/xmlwriter.h"
-#include "io/memorystream.h"
-#include "io/console.h"
-#include "net/messageclient.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/distributedtools/remotejobservice.h"
+#include "Nebuladevice/toolkit/distributedtools/distributedjobs/distributedjob.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/io/xmlwriter.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/foundation/io/console.h"
+#include "Nebuladevice/foundation/net/messageclient.h"
 
 using namespace Net;
 using namespace IO;

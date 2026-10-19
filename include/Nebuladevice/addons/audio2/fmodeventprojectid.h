@@ -13,7 +13,7 @@
 
     (C) 2009 Radon Labs GmbH
 */    
-#include "util/string.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 //------------------------------------------------------------------------------
 namespace Audio2

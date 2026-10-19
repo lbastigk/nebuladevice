@@ -8,12 +8,12 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "io/xmlreader.h"
-#include "util/stringatom.h"
-#include "coregraphics/vertexcomponent.h"
-#include "mayashaders/mayashaderparam.h"
-#include "mayashaders/mayashaderfilter.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/io/xmlreader.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/coregraphics/vertexcomponent.h"
+#include "Nebuladevice/mayaplugin/mayashaders/mayashaderparam.h"
+#include "Nebuladevice/mayaplugin/mayashaders/mayashaderfilter.h"
 
 //------------------------------------------------------------------------------
 namespace Maya

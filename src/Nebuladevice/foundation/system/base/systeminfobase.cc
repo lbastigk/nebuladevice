@@ -2,8 +2,8 @@
 //  systeminfobase.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "system/base/systeminfobase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/system/base/systeminfobase.h"
 
 namespace Base
 {

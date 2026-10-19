@@ -2,9 +2,9 @@
 //  transformnode.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "models/nodes/transformnode.h"
-#include "models/nodes/transformnodeinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
+#include "Nebuladevice/render/models/nodes/transformnodeinstance.h"
 
 namespace Models
 {

@@ -2,8 +2,8 @@
 //  blob.cc
 //  (C) 2006 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "util/blob.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/util/blob.h"
 #include <string.h>
 
 namespace Util

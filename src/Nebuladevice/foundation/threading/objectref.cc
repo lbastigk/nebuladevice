@@ -2,8 +2,8 @@
 //  objectref.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "threading/objectref.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/threading/objectref.h"
 
 namespace Threading
 {

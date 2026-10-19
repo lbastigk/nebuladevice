@@ -14,10 +14,10 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/rtti.h"
-#include "util/stringatom.h"
-#include "graphics/graphicsentity.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/rtti.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/render/graphics/graphicsentity.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

@@ -2,21 +2,21 @@
 //  game/PhysicsFeatureUnit.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physicsfeatureunit.h"
-#include "graphicsfeature/graphicsfeatureunit.h"
-#include "game/gameserver.h"
-#include "basegametiming/systemtimesource.h"
-#include "physics/level.h"
-#include "physics/meshcache.h"
-#include "io/ioserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/physicsfeature/physicsfeatureunit.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureunit.h"
+#include "Nebuladevice/application/game/gameserver.h"
+#include "Nebuladevice/application/basegamefeature/basegametiming/systemtimesource.h"
+#include "Nebuladevice/addons/physics/level.h"
+#include "Nebuladevice/addons/physics/meshcache.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
 
 // include all properties for known by managers::factorymanager
-#include "properties/physicsproperty.h"
-#include "properties/actorphysicsproperty.h"
-#include "properties/mousegripperproperty.h"
-#include "properties/environmentcollideproperty.h"
-#include "properties/triggerproperty.h"
+#include "Nebuladevice/application/physicsfeature/properties/physicsproperty.h"
+#include "Nebuladevice/application/physicsfeature/properties/actorphysicsproperty.h"
+#include "Nebuladevice/application/physicsfeature/properties/mousegripperproperty.h"
+#include "Nebuladevice/application/physicsfeature/properties/environmentcollideproperty.h"
+#include "Nebuladevice/application/physicsfeature/properties/triggerproperty.h"
 
 namespace PhysicsFeature
 {

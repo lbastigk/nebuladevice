@@ -9,12 +9,12 @@
     
     (C) 2003 RadonLabs GmbH
 */
-#include "core/singleton.h"
-#include "fx/rt/effects/effect.h"
-#include "fx/rt/mixer/effectmixer.h"
-#include "math/vector.h"
-#include "timing/time.h"
-#include "vibration/vibrationplayer.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/addons/fx/rt/effects/effect.h"
+#include "Nebuladevice/addons/fx/rt/mixer/effectmixer.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/addons/vibration/vibrationplayer.h"
 
 //------------------------------------------------------------------------------
 namespace FX

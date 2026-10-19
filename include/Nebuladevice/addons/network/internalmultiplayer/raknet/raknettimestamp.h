@@ -9,8 +9,8 @@
 
 (C) 2009 Radon Labs GmbH
 */
-#include "internalmultiplayer/bitwriter.h"
-#include "internalmultiplayer/bitreader.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitwriter.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/bitreader.h"
 
 namespace RakNet
 {

@@ -2,11 +2,11 @@
 //  win360fswrapper.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "io/win360/win360fswrapper.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/io/win360/win360fswrapper.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 #if __WIN32__
-#include "util/win32/win32stringconverter.h"
+#include "Nebuladevice/foundation/util/win32/win32stringconverter.h"
 #endif
 
 namespace Win360

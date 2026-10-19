@@ -9,18 +9,18 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "util/stringatom.h"
-#include "util/array.h"
-#include "math/line.h"
-#include "math/float2.h"
-#include "timing/time.h"
-#include "coregraphics/shadervariable.h"
-#include "internalgraphics/internalgraphicsentity.h"
-#include "rendermodules/rt/rtpluginregistry.h"
-#include "debug/debugtimer.h"
-#include "visibility/visibilitysystems/visibilitysystembase.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/math/line.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsentity.h"
+#include "Nebuladevice/render/rendermodules/rt/rtpluginregistry.h"
+#include "Nebuladevice/foundation/debug/debugtimer.h"
+#include "Nebuladevice/render/visibility/visibilitysystems/visibilitysystembase.h"
 
 // forward declarations
 namespace Lighting

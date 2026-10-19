@@ -2,11 +2,11 @@
 //  physics/shape.cc
 //  (C) 2003 RadonLabs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "physics/shape.h"
-#include "physics/rigidbody.h"
-#include "physics/filterset.h"
-#include "physics/level.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/physics/shape.h"
+#include "Nebuladevice/addons/physics/rigidbody.h"
+#include "Nebuladevice/addons/physics/filterset.h"
+#include "Nebuladevice/addons/physics/level.h"
 
 namespace Physics
 {

@@ -2,9 +2,9 @@
 //  application.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "app/application.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/app/application.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 namespace App
 {

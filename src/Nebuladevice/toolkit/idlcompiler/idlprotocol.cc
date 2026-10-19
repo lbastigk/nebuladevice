@@ -2,8 +2,8 @@
 //  idlprotocol.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "toolkit/idlcompiler/idlprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/idlcompiler/idlprotocol.h"
 
 namespace Tools
 {

@@ -2,8 +2,8 @@
 //  delegatetable.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "messaging/delegatetable.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/messaging/delegatetable.h"
 
 #if !(__WII__ || __PS3__)
 namespace Messaging

@@ -9,9 +9,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__WIN32__ || __XBOX360__)
-#include "threading/win360/win360criticalsection.h"
+#include "Nebuladevice/foundation/threading/win360/win360criticalsection.h"
 namespace Threading
 {
 class CriticalSection : public Win360::Win360CriticalSection
@@ -32,7 +32,7 @@ class CriticalSection : public PS3::PS3CriticalSection
 { };
 }
 #elif __OSX__
-#include "threading/osx/osxcriticalsection.h"
+#include "Nebuladevice/foundation/threading/osx/osxcriticalsection.h"
 namespace Threading
 {
 class CriticalSection : public OSX::OSXCriticalSection

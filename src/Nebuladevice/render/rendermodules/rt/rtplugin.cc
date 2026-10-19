@@ -2,8 +2,8 @@
 //  rtplugin.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "rendermodules/rt/rtplugin.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/rendermodules/rt/rtplugin.h"
 
 namespace RenderModules
 {

@@ -8,7 +8,7 @@
 
     (C) 2006 Radon Labs GmbH
 */
-#include "scriptfeature/conditions/condition.h"
+#include "Nebuladevice/application/scriptfeature/conditions/condition.h"
 
 //------------------------------------------------------------------------------
 namespace Conditions

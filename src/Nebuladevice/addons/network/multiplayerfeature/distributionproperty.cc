@@ -2,12 +2,12 @@
 //  properties/Multiplayerproperty.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayerfeature/distributionproperty.h"
-#include "game/entity.h"
-#include "multiplayerfeature/distributionmanager.h"
-#include "multiplayerfeature/objectview.h"
-#include "distributionprotocol.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionproperty.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/distributionmanager.h"
+#include "Nebuladevice/addons/network/multiplayerfeature/objectview.h"
+#include "Nebuladevice/addons/network/distributionprotocol.h"
 
 namespace Attr  
 {

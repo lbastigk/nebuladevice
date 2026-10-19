@@ -2,14 +2,14 @@
 //  mayacommandregistry.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "mayacommandregistry.h"
-#include "mayacommands/mayadirectoryregistrycmd.h"
-#include "mayacommands/mayaattrutilcmd.h"
-#include "mayacommands/mayaexportscenecmd.h"
-#include "mayalegacy/mayaenvcmd.h"
-#include "mayalegacy/mayaqueryshadercmd.h"
-#include "mayalegacy/mayaremotecontrolcmd.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/mayaplugin/mayamain/mayacommandregistry.h"
+#include "Nebuladevice/mayaplugin/mayacommands/mayadirectoryregistrycmd.h"
+#include "Nebuladevice/mayaplugin/mayacommands/mayaattrutilcmd.h"
+#include "Nebuladevice/mayaplugin/mayacommands/mayaexportscenecmd.h"
+#include "Nebuladevice/mayaplugin/mayalegacy/mayaenvcmd.h"
+#include "Nebuladevice/mayaplugin/mayalegacy/mayaqueryshadercmd.h"
+#include "Nebuladevice/mayaplugin/mayalegacy/mayaremotecontrolcmd.h"
 
 #define MNoPluginEntry
 #define MNoVersionString

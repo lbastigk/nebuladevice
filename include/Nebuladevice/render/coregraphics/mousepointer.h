@@ -12,11 +12,11 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/stringatom.h"
-#include "math/vector.h"
-#include "math/point.h"
-#include "resources/resourceid.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/foundation/math/point.h"
+#include "Nebuladevice/render/resources/resourceid.h"
 
 //------------------------------------------------------------------------------
 namespace CoreGraphics

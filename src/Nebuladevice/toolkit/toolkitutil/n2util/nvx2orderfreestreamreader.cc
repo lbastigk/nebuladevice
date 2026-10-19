@@ -2,10 +2,10 @@
 //  Nvx2OrderFreeStreamReader.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "nvx2orderfreestreamreader.h"
-#include "coregraphics/memoryvertexbufferloader.h"
-#include "coregraphics/memoryindexbufferloader.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/n2util/nvx2orderfreestreamreader.h"
+#include "Nebuladevice/render/coregraphics/memoryvertexbufferloader.h"
+#include "Nebuladevice/render/coregraphics/memoryindexbufferloader.h"
 
 #if NEBULA3_LEGACY_SUPPORT
 namespace Legacy

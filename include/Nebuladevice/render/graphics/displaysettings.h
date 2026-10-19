@@ -7,12 +7,12 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "coregraphics/adapter.h"
-#include "coregraphics/displaymode.h"
-#include "coregraphics/antialiasquality.h"
-#include "coregraphics/pixelformat.h"
-#include "coregraphics/adapterinfo.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/coregraphics/adapter.h"
+#include "Nebuladevice/render/coregraphics/displaymode.h"
+#include "Nebuladevice/render/coregraphics/antialiasquality.h"
+#include "Nebuladevice/render/coregraphics/pixelformat.h"
+#include "Nebuladevice/render/coregraphics/adapterinfo.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

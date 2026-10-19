@@ -2,8 +2,8 @@
 //  countlines3.cc
 //  (C) 2009 Radon  Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "countlinesapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/countlines3/countlinesapp.h"
 
 //------------------------------------------------------------------------------
 /**

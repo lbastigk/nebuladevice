@@ -14,7 +14,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if (__WIN32__ || __XBOX360__ || __WII__)
-#include "coregraphics/base/shadervariableinstancebase.h"
+#include "Nebuladevice/render/coregraphics/base/shadervariableinstancebase.h"
 namespace CoreGraphics
 {
 class ShaderVariableInstance : public Base::ShaderVariableInstanceBase

@@ -8,8 +8,8 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "util/stringatomtablebase.h"
-#include "core/singleton.h"
+#include "Nebuladevice/foundation/util/stringatomtablebase.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 
 //------------------------------------------------------------------------------
 namespace Util

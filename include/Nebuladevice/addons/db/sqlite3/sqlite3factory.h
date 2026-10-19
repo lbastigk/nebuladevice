@@ -9,7 +9,7 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "addons/db/dbfactory.h"
+#include "Nebuladevice/addons/db/dbfactory.h"
 
 //------------------------------------------------------------------------------
 namespace Db

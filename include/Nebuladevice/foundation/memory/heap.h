@@ -7,9 +7,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__XBOX360__ || __WIN32__)
-#include "memory/win360/win360heap.h"
+#include "Nebuladevice/foundation/memory/win360/win360heap.h"
 namespace Memory
 {
 typedef Win360::Win360Heap Heap;
@@ -27,7 +27,7 @@ namespace Memory
 typedef PS3::PS3Heap Heap;
 }
 #elif __OSX__
-#include "memory/osx/osxheap.h"
+#include "Nebuladevice/foundation/memory/osx/osxheap.h"
 namespace Memory
 {
 typedef OSX::OSXHeap Heap;

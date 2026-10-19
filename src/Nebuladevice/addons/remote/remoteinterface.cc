@@ -2,10 +2,10 @@
 //  remoteinterface.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remote/remoteinterface.h"
-#include "remote/remotemessagehandler.h"       
-#include "messaging/runthroughhandlerthread.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/remote/remoteinterface.h"
+#include "Nebuladevice/addons/remote/remotemessagehandler.h"       
+#include "Nebuladevice/foundation/messaging/runthroughhandlerthread.h"
 
 namespace Remote
 {

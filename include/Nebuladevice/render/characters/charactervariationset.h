@@ -7,10 +7,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "util/stringatom.h"
-#include "util/array.h"
-#include "util/fixedarray.h"
-#include "characters/charjointcomponents.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
+#include "Nebuladevice/render/characters/charjointcomponents.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

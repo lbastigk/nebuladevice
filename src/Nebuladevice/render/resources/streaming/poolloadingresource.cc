@@ -2,9 +2,9 @@
 //  poolloadingresource.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "poolloadingresource.h"
-#include "resourceslot.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/streaming/poolloadingresource.h"
+#include "Nebuladevice/render/resources/streaming/resourceslot.h"
 
 namespace Resources
 {

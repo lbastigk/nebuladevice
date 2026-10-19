@@ -7,9 +7,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "math/matrix44.h"
-#include "math/float2.h"
-#include "math/frustum.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/float2.h"
+#include "Nebuladevice/foundation/math/frustum.h"
 
 //------------------------------------------------------------------------------
 namespace Shared

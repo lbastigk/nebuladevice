@@ -10,8 +10,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "particles/particle.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/particles/particle.h"
 
 //------------------------------------------------------------------------------
 namespace Base

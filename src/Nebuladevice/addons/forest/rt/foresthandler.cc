@@ -2,11 +2,11 @@
 //  foresthandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "forest/rt/foresthandler.h"
-#include "io/memorystream.h"
-#include "internalgraphics/internalgraphicsserver.h"
-#include "forest/rt/forestserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/forest/rt/foresthandler.h"
+#include "Nebuladevice/foundation/io/memorystream.h"
+#include "Nebuladevice/render/internalgraphics/internalgraphicsserver.h"
+#include "Nebuladevice/addons/forest/rt/forestserver.h"
 
 namespace Forest
 {

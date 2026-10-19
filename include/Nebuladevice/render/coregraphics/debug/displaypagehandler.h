@@ -15,9 +15,9 @@
 
     (C) 2007 Radon Labs GmbH
 */
-#include "http/httprequesthandler.h"
-#include "coregraphics/adapter.h"
-#include "http/html/htmlpagewriter.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
+#include "Nebuladevice/render/coregraphics/adapter.h"
+#include "Nebuladevice/foundation/http/html/htmlpagewriter.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

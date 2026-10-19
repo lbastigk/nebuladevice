@@ -2,11 +2,11 @@
 //  properties/timeproperty.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "properties/timeproperty.h"
-//#include "basegametiming/gametimesource.h"
-#include "game/entity.h"
-#include "basegameattr/basegameattributes.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/properties/timeproperty.h"
+//#include "Nebuladevice/application/basegamefeature/basegametiming/gametimesource.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
 
 namespace BaseGameFeature
 {

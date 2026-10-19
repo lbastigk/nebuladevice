@@ -9,10 +9,10 @@
     
     (C) 2007 Radon Labs GmbH
 */    
-#include "game/manager.h"
-#include "core/singleton.h"
-#include "util/guid.h"
-#include "util/stringatom.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/foundation/util/guid.h"
+#include "Nebuladevice/foundation/util/stringatom.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

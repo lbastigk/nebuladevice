@@ -14,13 +14,13 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/singleton.h"
-#include "game/manager.h"
-#include "attr/attributecontainer.h"
-#include "game/entity.h"
-#include "graphics/graphicsentity.h"
-#include "properties/environmentgraphicsproperty.h"
-#include "appgame/appconfig.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/application/game/manager.h"
+#include "Nebuladevice/addons/attr/attributecontainer.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/render/graphics/graphicsentity.h"
+#include "Nebuladevice/application/graphicsfeature/properties/environmentgraphicsproperty.h"
+#include "Nebuladevice/application/appgame/appconfig.h"
 namespace PhysicsFeature
 {
     class EnvironmentCollideProperty;

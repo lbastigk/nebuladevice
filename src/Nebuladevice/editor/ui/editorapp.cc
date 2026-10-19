@@ -2,8 +2,8 @@
 //  editorapp.cc
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "editorapp.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/editor/ui/editorapp.h"
 #include "../app/editorapplication.h"
 
 namespace Editor

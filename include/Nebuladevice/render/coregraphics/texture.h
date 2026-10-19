@@ -8,7 +8,7 @@
     (C) 2007 Radon Labs GmbH
 */
 #if __WIN32__
-#include "coregraphics/d3d9/d3d9texture.h"
+#include "Nebuladevice/render/coregraphics/d3d9/d3d9texture.h"
 namespace CoreGraphics
 {
 class Texture : public Direct3D9::D3D9Texture

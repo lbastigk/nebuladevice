@@ -8,8 +8,8 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 //------------------------------------------------------------------------------
 namespace Vegetation

@@ -31,8 +31,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "attr/attribute.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/addons/attr/attribute.h"
 
 //------------------------------------------------------------------------------
 namespace Attr

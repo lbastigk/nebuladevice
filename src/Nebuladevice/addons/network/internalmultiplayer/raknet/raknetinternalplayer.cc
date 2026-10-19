@@ -2,9 +2,9 @@
 //  RakNetInternalPlayer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/raknet/raknetinternalplayer.h"
-#include "internalmultiplayer/internalmultiplayerserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/raknet/raknetinternalplayer.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerserver.h"
 
 namespace RakNet
 {

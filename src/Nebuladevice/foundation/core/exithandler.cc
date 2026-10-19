@@ -2,9 +2,9 @@
 //  exithandler.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "core/exithandler.h"
-#include "core/sysfunc.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/core/exithandler.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
 
 namespace Core
 {

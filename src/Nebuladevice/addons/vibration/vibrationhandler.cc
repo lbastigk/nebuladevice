@@ -2,11 +2,11 @@
 //  vibrationhandler.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "vibration/vibrationhandler.h"
-#include "core/config.h"
-#include "input/inputserver.h"
-#include "input/gamepad.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/vibration/vibrationhandler.h"
+#include "Nebuladevice/foundation/core/config.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/input/gamepad.h"
 
 namespace Vibration
 {

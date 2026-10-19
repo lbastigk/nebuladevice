@@ -10,8 +10,8 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "util/dictionary.h"
-#include "scripting/arg.h"
+#include "Nebuladevice/foundation/util/dictionary.h"
+#include "Nebuladevice/addons/scripting/arg.h"
 
 //------------------------------------------------------------------------------
 namespace Scripting

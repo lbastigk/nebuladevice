@@ -2,8 +2,8 @@
 //  lighttype.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "lighting/lighttype.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/lighting/lighttype.h"
 
 namespace Lighting
 {

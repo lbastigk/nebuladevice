@@ -8,7 +8,7 @@
     UI::Event. Derive a subclass to implement your UI logic inside
     the HandleEvent() method.
 */
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 //------------------------------------------------------------------------------
 namespace UI

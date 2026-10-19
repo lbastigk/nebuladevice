@@ -2,9 +2,9 @@
 //  simpleresourcemapper.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "resources/simpleresourcemapper.h"
-#include "resources/resourcemanager.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/resources/simpleresourcemapper.h"
+#include "Nebuladevice/render/resources/resourcemanager.h"
 
 namespace Resources
 {

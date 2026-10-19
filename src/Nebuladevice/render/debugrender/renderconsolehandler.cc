@@ -2,16 +2,16 @@
 //  renderconsolehandler.cc
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "debugrender/renderconsolehandler.h"
-#include "core/coreserver.h"
-#include "core/sysfunc.h"
-#include "threading/thread.h"
-#include "debugrender/debugrender.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/debugrender/renderconsolehandler.h"
+#include "Nebuladevice/foundation/core/coreserver.h"
+#include "Nebuladevice/foundation/core/sysfunc.h"
+#include "Nebuladevice/foundation/threading/thread.h"
+#include "Nebuladevice/render/debugrender/debugrender.h"
 
 #if !__WII__
-#include "input/keyboard.h"
-#include "input/inputserver.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/inputserver.h"
 #endif
 
 namespace Debug

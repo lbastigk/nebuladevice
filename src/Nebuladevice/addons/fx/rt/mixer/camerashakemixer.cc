@@ -2,10 +2,10 @@
 //  fx/rt/mixer/camerashakemixer.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "fx/rt/mixer/camerashakemixer.h"
-#include "fx/rt/effects/camerashakefx.h"
-#include "math/point.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/fx/rt/mixer/camerashakemixer.h"
+#include "Nebuladevice/addons/fx/rt/effects/camerashakefx.h"
+#include "Nebuladevice/foundation/math/point.h"
 
 namespace FX
 {

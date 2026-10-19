@@ -7,13 +7,13 @@
 
     (C) 2008 RadonLabs GmbH
 */
-#include "models/modelnode.h"
-#include "models/nodes/animkeyarray.h"
-#include "models/nodes/animlooptype.h"
-#include "coregraphics/shadervariable.h"
-#include "coreanimation/managedanimresource.h"
-#include "models/modelnodeinstance.h"
-#include "util/variant.h"
+#include "Nebuladevice/render/models/modelnode.h"
+#include "Nebuladevice/render/models/nodes/animkeyarray.h"
+#include "Nebuladevice/render/models/nodes/animlooptype.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coreanimation/managedanimresource.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
+#include "Nebuladevice/foundation/util/variant.h"
 
 //------------------------------------------------------------------------------
 namespace Models

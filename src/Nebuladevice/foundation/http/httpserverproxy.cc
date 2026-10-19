@@ -2,10 +2,10 @@
 //  httpserverproxy.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httpserverproxy.h"
-#include "http/httpprotocol.h"
-#include "http/httpinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httpserverproxy.h"
+#include "Nebuladevice/foundation/http/httpprotocol.h"
+#include "Nebuladevice/foundation/http/httpinterface.h"
 
 namespace Http
 {

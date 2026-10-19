@@ -7,11 +7,11 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "mayaextractors/mayaextractorbase.h"
-#include "mayacore/mayascene.h"
-#include "mayaextractors/mayahierarchyextractor.h"
-#include "mayaextractors/mayalodnodeextractor.h"
-#include "mayaextractors/mayashapenodeextractor.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayaextractorbase.h"
+#include "Nebuladevice/mayaplugin/mayacore/mayascene.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayahierarchyextractor.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayalodnodeextractor.h"
+#include "Nebuladevice/mayaplugin/mayaextractors/mayashapenodeextractor.h"
 
 //------------------------------------------------------------------------------
 namespace Maya

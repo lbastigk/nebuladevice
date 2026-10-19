@@ -7,10 +7,10 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "graphics/graphicsentity.h"
-#include "graphics/graphicsprotocol.h"
-#include "shared/graphics/modelentityshared.h"
-#include "shared/graphics/charjointinfo.h"
+#include "Nebuladevice/render/graphics/graphicsentity.h"
+#include "Nebuladevice/render/graphics/graphicsprotocol.h"
+#include "Nebuladevice/render/shared/graphics/modelentityshared.h"
+#include "Nebuladevice/render/shared/graphics/charjointinfo.h"
 
 //------------------------------------------------------------------------------
 namespace Graphics

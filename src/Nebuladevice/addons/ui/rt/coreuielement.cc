@@ -2,9 +2,9 @@
 //  uirenderer.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "ui/rt/coreuielement.h"
-#include "framesync/framesynctimer.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/ui/rt/coreuielement.h"
+#include "Nebuladevice/foundation/framesync/framesynctimer.h"
 
 namespace CoreUI
 {

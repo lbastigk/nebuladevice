@@ -7,9 +7,9 @@
     
     (C) 2006 Radon Labs GmbH
 */
-#include "core/config.h"
+#include "Nebuladevice/foundation/core/config.h"
 #if (__WIN32__ || __XBOX360__)
-#include "threading/win360/win360event.h"
+#include "Nebuladevice/foundation/threading/win360/win360event.h"
 namespace Threading
 {
 class Event : public Win360::Win360Event

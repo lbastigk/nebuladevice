@@ -2,8 +2,8 @@
 //  internalplayerbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/base/sessioninfobase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/sessioninfobase.h"
 
 namespace Base
 {

@@ -8,11 +8,11 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "internalgraphics/internalcameraentity.h"
-#include "lighting/internalabstractlightentity.h"
-#include "lighting/internalgloballightentity.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/internalgraphics/internalcameraentity.h"
+#include "Nebuladevice/render/lighting/internalabstractlightentity.h"
+#include "Nebuladevice/render/lighting/internalgloballightentity.h"
     
 //------------------------------------------------------------------------------
 namespace Lighting

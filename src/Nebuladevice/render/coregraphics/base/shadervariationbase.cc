@@ -2,8 +2,8 @@
 //  shadervariationbase.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/base/shadervariationbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/base/shadervariationbase.h"
 
 namespace Base
 {

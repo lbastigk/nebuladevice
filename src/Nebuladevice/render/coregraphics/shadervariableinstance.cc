@@ -2,8 +2,8 @@
 //  shadervariableinstance.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
 
 #if (__WIN32__ || __XBOX360__ || __WII__ || __PS3__)
 namespace CoreGraphics

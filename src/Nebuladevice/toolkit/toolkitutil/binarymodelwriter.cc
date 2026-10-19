@@ -2,9 +2,9 @@
 //  binarymodelwriter.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "binarymodelwriter.h"
-#include "system/byteorder.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/toolkit/toolkitutil/binarymodelwriter.h"
+#include "Nebuladevice/foundation/system/byteorder.h"
 
 namespace ToolkitUtil
 {

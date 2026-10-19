@@ -9,7 +9,7 @@
     
     (C) 2008 Radon Labs GmbH
 */
-#include "io/streamreader.h"
+#include "Nebuladevice/foundation/io/streamreader.h"
 
 // forward declaration
 namespace IO

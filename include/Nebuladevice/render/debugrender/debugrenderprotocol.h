@@ -4,12 +4,12 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "util/array.h"
-#include "threading/threadid.h"
-#include "coregraphics/textelement.h"
-#include "debugrender/debugshaperenderer.h"
-#include "coregraphics/shadervariable.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/threading/threadid.h"
+#include "Nebuladevice/render/coregraphics/textelement.h"
+#include "Nebuladevice/render/debugrender/debugshaperenderer.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
 
 //------------------------------------------------------------------------------
 namespace Debug

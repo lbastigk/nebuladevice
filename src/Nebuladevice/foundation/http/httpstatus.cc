@@ -2,8 +2,8 @@
 //  httpstatus.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httpstatus.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httpstatus.h"
 
 namespace Http
 {

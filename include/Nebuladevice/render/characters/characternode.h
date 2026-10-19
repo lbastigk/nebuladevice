@@ -8,12 +8,12 @@
     
     (C) 2008 Radon Labs GmbH
 */  
-#include "models/nodes/transformnode.h"
-#include "characters/character.h"
-#include "models/model.h"
-#include "models/modelnodeinstance.h"
-#include "coreanimation/animresource.h"
-#include "coreanimation/managedanimresource.h"
+#include "Nebuladevice/render/models/nodes/transformnode.h"
+#include "Nebuladevice/render/characters/character.h"
+#include "Nebuladevice/render/models/model.h"
+#include "Nebuladevice/render/models/modelnodeinstance.h"
+#include "Nebuladevice/render/coreanimation/animresource.h"
+#include "Nebuladevice/render/coreanimation/managedanimresource.h"
 
 //------------------------------------------------------------------------------
 namespace Characters

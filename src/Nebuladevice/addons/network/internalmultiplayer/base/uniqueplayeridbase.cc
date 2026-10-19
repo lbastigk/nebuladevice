@@ -2,8 +2,8 @@
 //  uniqueplayeridbase.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "internalmultiplayer/base/uniqueplayeridbase.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/base/uniqueplayeridbase.h"
 
 namespace Base
 {

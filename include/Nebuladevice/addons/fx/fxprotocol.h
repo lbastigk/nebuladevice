@@ -4,9 +4,9 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "fx/rt/effects/effect.h"
-#include "fx/rt/mixer/effectmixer.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/addons/fx/rt/effects/effect.h"
+#include "Nebuladevice/addons/fx/rt/mixer/effectmixer.h"
 
 //------------------------------------------------------------------------------
 namespace FX

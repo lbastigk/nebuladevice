@@ -8,9 +8,9 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "resources/resourcemapper.h"
-#include "resources/managedresource.h"
-#include "resources/resourceloader.h"
+#include "Nebuladevice/render/resources/resourcemapper.h"
+#include "Nebuladevice/render/resources/managedresource.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
     
 //------------------------------------------------------------------------------
 namespace Resources

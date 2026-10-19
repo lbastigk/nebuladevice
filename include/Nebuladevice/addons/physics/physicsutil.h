@@ -8,9 +8,9 @@
     
     (C) 2004 RadonLabs GmbH
 */
-#include "core/types.h"
-#include "math/vector.h"
-#include "physics/filterset.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/addons/physics/filterset.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

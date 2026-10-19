@@ -7,7 +7,7 @@
     
     (C) 2010 Radon Labs GmbH
 */
-#include "ui/elements/window.h"
+#include "Nebuladevice/addons/ui/elements/window.h"
 
 //------------------------------------------------------------------------------
 namespace UI

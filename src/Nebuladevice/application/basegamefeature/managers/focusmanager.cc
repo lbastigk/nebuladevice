@@ -2,16 +2,16 @@
 //  managers/focusmanager.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "managers/focusmanager.h"
-#include "properties/inputproperty.h"
-#include "properties/cameraproperty.h"
-#include "managers/entitymanager.h"
-#include "game/entity.h"
-#include "graphicsfeature/graphicsfeatureprotocol.h"
-#include "input/keyboard.h"
-#include "input/gamepad.h"
-#include "input/inputserver.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
+#include "Nebuladevice/application/graphicsfeature/properties/inputproperty.h"
+#include "Nebuladevice/application/graphicsfeature/properties/cameraproperty.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/game/entity.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsfeatureprotocol.h"
+#include "Nebuladevice/render/input/keyboard.h"
+#include "Nebuladevice/render/input/gamepad.h"
+#include "Nebuladevice/render/input/inputserver.h"
 
 namespace BaseGameFeature
 {

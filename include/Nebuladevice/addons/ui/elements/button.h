@@ -7,8 +7,8 @@
 
     (C) 2005 Radon Labs GmbH
 */
-#include "ui/elements/element.h"
-#include "util/fixedarray.h"
+#include "Nebuladevice/addons/ui/elements/element.h"
+#include "Nebuladevice/foundation/util/fixedarray.h"
 
 //------------------------------------------------------------------------------
 namespace UI

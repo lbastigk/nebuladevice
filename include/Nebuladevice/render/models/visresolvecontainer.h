@@ -7,8 +7,8 @@
     
     (C) 2007 Radon Labs GmbH
 */
-#include "core/ptr.h"
-#include "models/modelnodetype.h"
+#include "Nebuladevice/foundation/core/ptr.h"
+#include "Nebuladevice/render/models/modelnodetype.h"
 
 //------------------------------------------------------------------------------
 namespace Models

@@ -2,8 +2,8 @@
 //  httprequesthandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "http/httprequesthandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/foundation/http/httprequesthandler.h"
 
 namespace Http
 {

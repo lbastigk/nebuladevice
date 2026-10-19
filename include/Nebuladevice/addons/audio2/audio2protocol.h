@@ -4,18 +4,18 @@
     This file was generated with Nebula3's idlc compiler tool.
     DO NOT EDIT
 */
-#include "messaging/message.h"
-#include "io/uri.h"
-#include "util/array.h"
-#include "math/matrix44.h"
-#include "math/vector.h"
-#include "audio2/fmodeventprojectid.h"
-#include "audio2/fmodeventid.h"
-#include "audio2/fmodeventhandle.h"
-#include "audio2/fmodeventstate.h"
-#include "audio2/fmodeventcategoryid.h"
-#include "audio2/fmodeventparameterid.h"
-#include "audio2/fmodpitchunit.h"
+#include "Nebuladevice/foundation/messaging/message.h"
+#include "Nebuladevice/foundation/io/uri.h"
+#include "Nebuladevice/foundation/util/array.h"
+#include "Nebuladevice/foundation/math/matrix44.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "Nebuladevice/addons/audio2/fmodeventprojectid.h"
+#include "Nebuladevice/addons/audio2/fmodeventid.h"
+#include "Nebuladevice/addons/audio2/fmodeventhandle.h"
+#include "Nebuladevice/addons/audio2/fmodeventstate.h"
+#include "Nebuladevice/addons/audio2/fmodeventcategoryid.h"
+#include "Nebuladevice/addons/audio2/fmodeventparameterid.h"
+#include "Nebuladevice/addons/audio2/fmodpitchunit.h"
 
 //------------------------------------------------------------------------------
 namespace Audio2

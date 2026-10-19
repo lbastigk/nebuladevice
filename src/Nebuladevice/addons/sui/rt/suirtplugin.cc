@@ -2,10 +2,10 @@
 //  suirtplugin.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "sui/rt/suirtplugin.h"
-#include "frame/framebatch.h"
-#include "graphics/graphicsinterface.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/sui/rt/suirtplugin.h"
+#include "Nebuladevice/render/frame/framebatch.h"
+#include "Nebuladevice/render/graphics/graphicsinterface.h"
 
 namespace SUI
 {

@@ -2,10 +2,10 @@
 //  bbox.cc
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
+#include "Nebuladevice/foundation/stdneb.h"
 
 // nebula3 includes
-#include "math/bbox.h"
+#include "Nebuladevice/foundation/math/bbox.h"
 
 // nebula2 includes
 #include "mathlib/bbox.h"

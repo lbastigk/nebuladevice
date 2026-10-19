@@ -11,9 +11,9 @@
 
     (C) 2009 RadonLabs GmbH  
 */
-#include "core/refcounted.h"
-#include "timing/time.h"
-#include "util/string.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/foundation/util/string.h"
 
 //------------------------------------------------------------------------------
 namespace FX

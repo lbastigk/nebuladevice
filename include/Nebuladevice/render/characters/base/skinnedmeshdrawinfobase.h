@@ -10,9 +10,9 @@
     
     (C) 2009 Radon Labs GmbH
 */
-#include "core/types.h"
-#include "characters/characterinstance.h"
-#include "coregraphics/mesh.h"
+#include "Nebuladevice/foundation/core/types.h"
+#include "Nebuladevice/render/characters/characterinstance.h"
+#include "Nebuladevice/render/coregraphics/mesh.h"
 
 //------------------------------------------------------------------------------
 namespace Base

@@ -2,10 +2,10 @@
 //  network/multiplayer/multiplayermanager.cc
 //  (C) 2008 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "multiplayer/multiplayermanager.h"
-#include "internalmultiplayer/internalmultiplayerinterface.h"
-#include "core/config.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/network/multiplayer/multiplayermanager.h"
+#include "Nebuladevice/addons/network/internalmultiplayer/internalmultiplayerinterface.h"
+#include "Nebuladevice/foundation/core/config.h"
 
 namespace Multiplayer
 {

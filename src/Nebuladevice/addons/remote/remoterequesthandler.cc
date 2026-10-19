@@ -2,8 +2,8 @@
 //  remoterequesthandler.cc
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-#include "remote/remoterequesthandler.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "Nebuladevice/addons/remote/remoterequesthandler.h"
 
 namespace Remote
 {
