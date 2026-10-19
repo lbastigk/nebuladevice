@@ -54,17 +54,11 @@ be built and run individually or as a suite with the repository-local
 
 Current status:
 
-```text
-  🟢 Success       2
-  🟡 Won't build  29
-  🔴 Failed        2
-```
-
 | Status | Count | Meaning |
 | --- | ---: | --- |
-| 🟢 Success | 2 | Builds and completes successfully |
-| 🟡 Won't build | 29 | The legacy target does not currently compile or link |
-| 🔴 Failed | 2 | Builds, but fails or times out while running |
+| 🟢 Success | 6 | Builds and completes successfully |
+| 🟡 Won't build | 27 | The legacy target does not currently compile or link |
+| 🔴 Failed | 0 | Builds, but fails or times out while running |
 
 This status is a progress snapshot, not a permanent test classification. As
 targets are ported, move them between categories and update the counts above.
