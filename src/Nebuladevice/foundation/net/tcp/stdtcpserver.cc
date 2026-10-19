@@ -218,14 +218,26 @@ StdTcpServer::ListenerThread::DoWork()
                 // check if this was the wakeup function which woke us up...
                 if (!this->ThreadStopRequested())
                 {
+                    if (!serverSocket->HasRecvData())
+                    {
+                        n_sleep(0.001);
+                        continue;
+                    }
                     Ptr<Socket> newSocket;
                     if (serverSocket->Accept(newSocket))
                     {
-                        // create a new connection object and add to connection array
-                        TcpClientConnection* newConnection = (TcpClientConnection*) this->connectionClassRtti->Create();
-                        if (newConnection->Connect(newSocket))
+                        if (!this->ThreadStopRequested())
                         {
-                            this->tcpServer->AddClientConnection(newConnection);
+                            // create a new connection object and add to connection array
+                            TcpClientConnection* newConnection = (TcpClientConnection*) this->connectionClassRtti->Create();
+                            if (newConnection->Connect(newSocket))
+                            {
+                                this->tcpServer->AddClientConnection(newConnection);
+                            }
+                        }
+                        else
+                        {
+                            newSocket->Close();
                         }
                     }
                 }
@@ -251,12 +263,15 @@ StdTcpServer::ListenerThread::DoWork()
 void
 StdTcpServer::ListenerThread::EmitWakeupSignal()
 {
-    Ptr<Socket> socket = Socket::Create();
-    if (socket->Open(Socket::TCP))
+    SOCKET socket = ::socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    if (socket != INVALID_SOCKET)
     {
-        socket->SetAddress(IpAddress("127.0.0.1", this->ipAddress.GetPort()));
-        socket->Connect();
-        socket->Close();
+        sockaddr_in address = {};
+        address.sin_family = AF_INET;
+        address.sin_port = htons(this->ipAddress.GetPort());
+        address.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
+        ::connect(socket, (const sockaddr*)&address, sizeof(address));
+        closesocket(socket);
     }
 }
 
