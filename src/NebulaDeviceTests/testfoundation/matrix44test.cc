@@ -3,7 +3,7 @@
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "matrix44test.h"
+#include "NebulaDeviceTests/testfoundation/matrix44test.h"
 
 namespace Test
 {

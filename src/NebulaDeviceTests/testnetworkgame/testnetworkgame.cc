@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "NebuladeviceTests/testnetworkgame/testnetworkgameapplication.h"
+#include "NebulaDeviceTests/testnetworkgame/testnetworkgameapplication.h"
 
 ImplementNebulaApplication()
 

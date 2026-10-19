@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "NebuladeviceTests/testviewer/testviewerapplication.h"
+#include "NebulaDeviceTests/testviewer/testviewerapplication.h"
 
 ImplementNebulaApplication()
 

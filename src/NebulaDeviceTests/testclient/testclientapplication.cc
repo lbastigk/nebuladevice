@@ -3,7 +3,7 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "NebuladeviceTests/testclient/testclientapplication.h"
+#include "NebulaDeviceTests/testclient/testclientapplication.h"
 #include "Nebuladevice/foundation/io/console.h"
 #include "Nebuladevice/foundation/system/byteorder.h"
 

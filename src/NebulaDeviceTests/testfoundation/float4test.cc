@@ -3,7 +3,7 @@
 //  (C) 2007 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "float4test.h"
+#include "NebulaDeviceTests/testfoundation/float4test.h"
 
 namespace Test
 {

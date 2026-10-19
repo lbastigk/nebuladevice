@@ -3,7 +3,7 @@
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "NebuladeviceTests/texturestreamingtest_win32/texturestreamingapplication.h"
+#include "NebulaDeviceTests/texturestreamingtest_win32/texturestreamingapplication.h"
 
 ImplementNebulaApplication()
 

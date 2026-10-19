@@ -3,7 +3,7 @@
 //  (C) 2010 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "NebuladeviceTests/drasa3testui/drasa3testuiapplication.h"
+#include "NebulaDeviceTests/drasa3testui/drasa3testuiapplication.h"
 #include "Nebuladevice/render/debugrender/debugrender.h"
 #include "Nebuladevice/render/debugrender/debugshaperenderer.h"
 #include "Nebuladevice/foundation/math/quaternion.h"
