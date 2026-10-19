@@ -9,7 +9,7 @@
     (C) 2005 Radon Labs GmbH
 */
 #include "Nebuladevice/foundation/core/types.h"
-#include "ode/ode.h"
+#include "ode/ode/ode.h"
 #include "Nebuladevice/foundation/math/vector.h"
 
 //------------------------------------------------------------------------------

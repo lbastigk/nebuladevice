@@ -4,8 +4,8 @@
 //------------------------------------------------------------------------------
 
 #include "quaterniontest.h"
-#include "math/quaternion.h"
-#include "math/vector.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/foundation/math/vector.h"
 #include "mathtestutil.h"
 #include "stackalignment.h"
 #include "stackdebug.h"

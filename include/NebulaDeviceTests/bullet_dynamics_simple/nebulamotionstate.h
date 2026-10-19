@@ -6,7 +6,7 @@
     (C) 2006 Radon Labs GmbH
 */
 
-#include "LinearMath/btMotionState.h"
+#include "bullet/src/LinearMath/btMotionState.h"
 #include "NebulaDeviceTests/bullet_dynamics_simple/bulletnebulaconversion.h"
 
 class NebulaMotionState : public btMotionState

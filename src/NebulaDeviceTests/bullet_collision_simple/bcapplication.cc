@@ -12,9 +12,9 @@
 #include "Nebuladevice/foundation/debug/debugfloat.h"
 
 #if __PS3__
-#include "BulletMultiThreaded/btThreadSupportInterface.h"
-#include "SpuDispatch/BulletCollisionSpursSupport.h"
-#include "BulletMultiThreaded/SpuGatheringCollisionDispatcher.h"
+#include "bullet/src/BulletMultiThreaded/btThreadSupportInterface.h"
+#include "bullet/src/SpuDispatch/BulletCollisionSpursSupport.h"
+#include "bullet/src/BulletMultiThreaded/SpuGatheringCollisionDispatcher.h"
 #endif
 
 

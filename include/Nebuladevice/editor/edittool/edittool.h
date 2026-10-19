@@ -7,7 +7,7 @@
 
 	(C) 2011 xiongyouyi
 */
-#include "core/refcounted.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
 
 
 //------------------------------------------------------------------------------

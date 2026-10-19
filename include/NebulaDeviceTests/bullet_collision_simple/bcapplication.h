@@ -10,8 +10,8 @@
 #include "Nebuladevice/render/graphics/modelentity.h"
 #include "Nebuladevice/render/graphics/globallightentity.h"
 #include "Nebuladevice/render/graphics/pointlightentity.h"
-#include "btBulletCollisionCommon.h"
-#include "BulletMultiThreaded/btThreadSupportInterface.h"
+#include "bullet/src/btBulletCollisionCommon.h"
+#include "bullet/src/BulletMultiThreaded/btThreadSupportInterface.h"
 
 // nebula meetz bullet
 Math::vector                Bt2NebVector(const btVector3 &btV);

@@ -24,11 +24,11 @@
 #include "Nebuladevice/render/coregraphics/shaperenderer.h"
 #include "Nebuladevice/addons/physics/areaimpulse.h"
 #include "Nebuladevice/foundation/core/factory.h"
-#include "src/collision_kernel.h"
-#include "ode/ode.h"
-#include "ode/collision_trimesh.h"
+#include "ode/src/collision_kernel.h"
+#include "ode/ode/ode.h"
+#include "ode/ode/collision_trimesh.h"
 #define TRIMESH_INTERNAL
-#include "src/collision_trimesh_internal.h"
+#include "ode/src/collision_trimesh_internal.h"
 
 namespace Physics
 {

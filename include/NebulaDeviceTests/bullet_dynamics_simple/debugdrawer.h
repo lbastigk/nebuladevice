@@ -6,7 +6,7 @@
     (C) 2006 Radon Labs GmbH
 */
 
-#include "LinearMath/btIDebugDraw.h"
+#include "bullet/src/LinearMath/btIDebugDraw.h"
 
 class DebugDrawer : public btIDebugDraw
 {

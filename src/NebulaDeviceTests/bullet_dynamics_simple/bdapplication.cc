@@ -13,7 +13,7 @@
 #include "NebulaDeviceTests/bullet_dynamics_simple/debugdrawer.h"
 #include "bullet/src/btBulletCollisionCommon.h"
 #include "bullet/src/btBulletDynamicsCommon.h"
-#include "BulletMultiThreaded/btThreadSupportInterface.h"
+#include "bullet/src/BulletMultiThreaded/btThreadSupportInterface.h"
 #include "Nebuladevice/addons/audio2/audio2interface.h"
 #include "Nebuladevice/addons/audio2/audio2player.h"
 #include "Nebuladevice/addons/audio2/audio2listener.h"

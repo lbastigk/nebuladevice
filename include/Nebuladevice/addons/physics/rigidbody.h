@@ -16,7 +16,7 @@
 #include "Nebuladevice/foundation/math/plane.h"
 #include "Nebuladevice/addons/physics/materialtable.h"
 #include "Nebuladevice/addons/physics/physicsserver.h"
-#include "ode/ode.h"
+#include "ode/ode/ode.h"
 #include "Nebuladevice/foundation/util/fixedarray.h"
 
 //------------------------------------------------------------------------------

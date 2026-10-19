@@ -5,17 +5,17 @@
         
     (C) 2008 Radon Labs GmbH
 */
-#include "core/refcounted.h"
-#include "core/singleton.h"
-#include "coregraphics/shadervariable.h"
-#include "coregraphics/shadervariableinstance.h"
-#include "timing/time.h"
-#include "posteffect/rt/params/colorparams.h"
-#include "posteffect/rt/params/depthoffieldparams.h"
-#include "posteffect/rt/params/fogparams.h"
-#include "posteffect/rt/params/hdrparams.h"
-#include "posteffect/rt/params/lightparams.h"
-#include "posteffect/rt/params/skyparams.h"
+#include "Nebuladevice/foundation/core/refcounted.h"
+#include "Nebuladevice/foundation/core/singleton.h"
+#include "Nebuladevice/render/coregraphics/shadervariable.h"
+#include "Nebuladevice/render/coregraphics/shadervariableinstance.h"
+#include "Nebuladevice/foundation/timing/time.h"
+#include "Nebuladevice/addons/posteffect/rt/params/colorparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/depthoffieldparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/fogparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/hdrparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/lightparams.h"
+#include "Nebuladevice/addons/posteffect/rt/params/skyparams.h"
 
 // forward declaration
 namespace Lighting

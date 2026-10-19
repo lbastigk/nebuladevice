@@ -15,7 +15,7 @@
 #include "Nebuladevice/foundation/core/ptr.h"
 #include "Nebuladevice/addons/physics/physicsentity.h"
 #include "Nebuladevice/addons/physics/contactpoint.h"
-#include "ode/ode.h"
+#include "ode/ode/ode.h"
 #include "Nebuladevice/foundation/math/pfeedbackloop.h"
 #include "Nebuladevice/foundation/math/float2.h"
 #include "Nebuladevice/foundation/math/line.h"

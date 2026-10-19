@@ -3,17 +3,17 @@
 //  (C) 2011 xiongyouyi
 //------------------------------------------------------------------------------
 #include "stdneb.h"
-#include "entitycreatetool.h"
-#include "input/inputserver.h"
-#include "input/mouse.h"
-#include "basegamefeature/managers/entitymanager.h"
-#include "basegamefeature/managers/factorymanager.h"
-#include "basegamefeature/managers/envquerymanager.h"
-#include "basegamefeature/managers/focusmanager.h"
-#include "basegameattr/basegameattributes.h"
-#include "graphicsattr/graphicsattributes.h"
-#include "physicsattr/physicsattributes.h"
-#include "basegamefeature/basegameprotocol.h"
+#include "Nebuladevice/editor/edittool/entitycreatetool.h"
+#include "Nebuladevice/render/input/inputserver.h"
+#include "Nebuladevice/render/input/mouse.h"
+#include "Nebuladevice/application/basegamefeature/managers/entitymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/factorymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/envquerymanager.h"
+#include "Nebuladevice/application/basegamefeature/managers/focusmanager.h"
+#include "Nebuladevice/application/basegamefeature/basegameattr/basegameattributes.h"
+#include "Nebuladevice/application/graphicsfeature/graphicsattr/graphicsattributes.h"
+#include "Nebuladevice/application/physicsfeature/physicsattr/physicsattributes.h"
+#include "Nebuladevice/application/basegamefeature/basegameprotocol.h"
 
 
 

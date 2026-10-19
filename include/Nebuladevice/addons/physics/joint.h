@@ -11,7 +11,7 @@
 */
 #include "Nebuladevice/foundation/core/refcounted.h"
 #include "Nebuladevice/foundation/core/ptr.h"
-#include "ode/ode.h"
+#include "ode/ode/ode.h"
 
 //------------------------------------------------------------------------------
 namespace Physics

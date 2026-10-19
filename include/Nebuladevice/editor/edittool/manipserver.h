@@ -7,7 +7,7 @@
 
 	(C) 2011 xiongyouyi
 */
-#include "core/singleton.h"
+#include "Nebuladevice/foundation/core/singleton.h"
 #include "manip.h"
 
 //------------------------------------------------------------------------------

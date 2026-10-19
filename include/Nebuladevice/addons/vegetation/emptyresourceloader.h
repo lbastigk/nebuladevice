@@ -1,5 +1,5 @@
 #pragma once
-#include "resources\resourceloader.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
 //------------------------------------------------------------------------------
 /**
 @class Vegetation::EmptyResourceLoader

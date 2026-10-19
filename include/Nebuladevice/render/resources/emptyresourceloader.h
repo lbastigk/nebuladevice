@@ -6,7 +6,7 @@
 
 	(C) 2008 Radon Labs GmbH
 */
-#include "resources\resourceloader.h"
+#include "Nebuladevice/render/resources/resourceloader.h"
 
 namespace Resources 
 {

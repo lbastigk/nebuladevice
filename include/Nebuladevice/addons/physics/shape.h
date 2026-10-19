@@ -12,7 +12,7 @@
 #include "Nebuladevice/foundation/core/ptr.h"
 #include "Nebuladevice/addons/physics/materialtable.h"
 #include "Nebuladevice/addons/physics/collidecategory.h"
-#include "ode/ode.h"
+#include "ode/ode/ode.h"
 #include "Nebuladevice/addons/physics/contactpoint.h"
 
 //------------------------------------------------------------------------------

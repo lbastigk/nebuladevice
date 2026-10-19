@@ -4,7 +4,7 @@
 /**
 */
 
-#include "mathtestutil.h"
+#include "NebulaDeviceTests/mathtest/mathtestutil.h"
 
 namespace Test
 {

@@ -7,7 +7,7 @@
 
 	(C) 2011 xiongyouyi
 */
-#include "edittool.h"
+#include "Nebuladevice/editor/edittool/edittool.h"
 
 namespace Game
 {

@@ -5,10 +5,10 @@
 #include "stdneb.h"
 #include "NebulaDeviceTests/testaddon/datasettest.h"
 #include "Nebuladevice/addons/db/dataset.h"
-#include "testaddon/dbattrs.h"
-#include "io/ioserver.h"
-#include "io/filestream.h"
-#include "addons/db/sqlite3/sqlite3factory.h"
+#include "NebulaDeviceTests/testaddon/dbattrs.h"
+#include "Nebuladevice/foundation/io/ioserver.h"
+#include "Nebuladevice/foundation/io/filestream.h"
+#include "Nebuladevice/addons/db/sqlite3/sqlite3factory.h"
 
 namespace Test
 {
