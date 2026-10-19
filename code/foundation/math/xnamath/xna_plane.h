@@ -182,7 +182,7 @@ plane::a()
 #if __XBOX360__ || defined(_XM_NO_INTRINSICS_)
     return this->vec.x;
 #elif __WIN32__
-    return this->vec.m128_f32[0];
+    return XMVectorComponentRef(this->vec, 0);
 #endif
 }
 
@@ -204,7 +204,7 @@ plane::b()
 #if __XBOX360__ || defined(_XM_NO_INTRINSICS_)
     return this->vec.y;
 #elif __WIN32__
-    return this->vec.m128_f32[1];
+    return XMVectorComponentRef(this->vec, 1);
 #endif
 }
 
@@ -226,7 +226,7 @@ plane::c()
 #if __XBOX360__ || defined(_XM_NO_INTRINSICS_)
     return this->vec.z;
 #elif __WIN32__
-    return this->vec.m128_f32[2];
+    return XMVectorComponentRef(this->vec, 2);
 #endif
 }
 
@@ -248,7 +248,7 @@ plane::d()
 #if __XBOX360__ || defined(_XM_NO_INTRINSICS_)
     return this->vec.w;
 #elif __WIN32__
-    return this->vec.m128_f32[3];
+    return XMVectorComponentRef(this->vec, 3);
 #endif
 }
 
