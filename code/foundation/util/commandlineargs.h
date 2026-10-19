@@ -12,6 +12,10 @@
 */
 #include "util/array.h"
 #include "util/string.h"
+#if !__OSX__
+#include "math/float4.h"
+#include "math/matrix44.h"
+#endif
 
 //------------------------------------------------------------------------------
 namespace Util
