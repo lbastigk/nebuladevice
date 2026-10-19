@@ -5,11 +5,16 @@ This checkout is being migrated to a portable CMake project.
 
 ## Source layout
 
-- `include/Nebuladevice/` - public and internal C++ headers
-- `src/Nebuladevice/` - engine implementation sources
-- `Tests/` - GoogleTest tests and legacy test sources
+- `_old/` - legacy documentation and files in general
 - `external/` - bundled third-party sources and compatibility headers
-- `code/` - legacy build metadata and non-C++ build assets
+- `include/Nebuladevice/` - public and internal C++ headers
+- `include/NebuladeviceTest/` - public and internal C++ headers for unit tests
+- `lib/` - prebuilt libraries
+- `src/Nebuladevice/` - engine implementation sources
+- `src/NebuladeviceTest/` - unit test implementation sources
+- `Tests/` - Work in progress for new unit tests
+- `tools/` - build and test scripts
+- `work/` - Test data and other work in progress files
 
 Configure the test project with:
 
