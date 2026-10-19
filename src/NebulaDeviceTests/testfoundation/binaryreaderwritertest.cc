@@ -66,6 +66,7 @@ BinaryReaderWriterTest::Run()
     writer->WriteMatrix44(m44);
     writer->WriteBlob(Blob(&writeBlob, sizeof(writeBlob)));
     writer->Close();
+    const Stream::Size serializedSize = stream->GetSize();
     stream->Close();
 
     // read back with memory mapping enabled
@@ -94,6 +95,7 @@ BinaryReaderWriterTest::Run()
     // now write stuff with memory mapping enabled
     stream->SetAccessMode(Stream::WriteAccess);
     this->Verify(stream->Open());
+    stream->SetSize(serializedSize);
     writer->SetStream(stream.upcast<Stream>());
     writer->SetMemoryMappingEnabled(true);
     this->Verify(writer->Open());
@@ -139,4 +141,3 @@ BinaryReaderWriterTest::Run()
 }
 
 } // namespace Test
-
