@@ -1,6 +1,29 @@
 /**
-@mainpage The Nebula Device 3
+# NebulaDevice
 
+This checkout is being migrated to a portable CMake project.
+
+## Source layout
+
+- `include/Nebuladevice/` - public and internal C++ headers
+- `src/Nebuladevice/` - engine implementation sources
+- `Tests/` - GoogleTest tests and legacy test sources
+- `code/extlibs/` - bundled third-party sources and compatibility headers
+- `code/` - legacy build metadata and non-C++ build assets
+
+Configure the test project with:
+
+```sh
+cmake -S . -B build-tests
+cmake --build build-tests --target nebuladevice_tests
+ctest --test-dir build-tests --output-on-failure
+```
+
+The MinGW-w64 build remains available with
+`-DNEBULA_BUILD_MINGW64=ON`; its source list will be tightened as the
+refactor progresses.
+
+<!--
 Nebula3 is the next version of <b>The Nebula Device</b> Open Source game engine. 
 Nebula3 is a clean rewrite and represents the essence of 12 years of professional
 game development experience at Radon Labs.

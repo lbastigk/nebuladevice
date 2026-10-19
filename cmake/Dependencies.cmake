@@ -1,6 +1,8 @@
 include(FetchContent)
 
 set(FETCHCONTENT_QUIET FALSE)
+set(ZLIB_BUILD_TESTING OFF CACHE BOOL "Disable zlib example tests" FORCE)
+set(ZLIB_BUILD_EXAMPLES OFF CACHE BOOL "Disable zlib example programs" FORCE)
 
 FetchContent_Declare(
     zlib

@@ -8,6 +8,10 @@ option(NEBULA_BUILD_ENGINE
        "Build the native Linux NebulaDevice engine" OFF)
 option(NEBULA_BUILD_MINGW64
        "Build the NebulaDevice Foundation layer for MinGW-w64" OFF)
+option(NEBULA_BUILD_TESTS
+       "Build NebulaDevice GoogleTest tests" ON)
+option(NEBULA_BUILD_LEGACY_TESTS
+       "Build the legacy Tests/legacy programs" OFF)
 
 if(NEBULA_FETCH_DEPENDENCIES AND NOT TARGET nebuladevice_dependencies)
     include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/Dependencies.cmake")
@@ -26,7 +30,7 @@ if(NEBULA_BUILD_MINGW64)
     endif()
 
     file(GLOB_RECURSE nebula_foundation_sources CONFIGURE_DEPENDS
-        "${CMAKE_CURRENT_SOURCE_DIR}/code/foundation/*.cc"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/Nebuladevice/foundation/*.cc"
     )
 
     add_library(nebuladevice_foundation STATIC
@@ -42,8 +46,8 @@ if(NEBULA_BUILD_MINGW64)
         -fno-rtti
     )
     target_include_directories(nebuladevice_foundation PUBLIC
-        "${CMAKE_CURRENT_SOURCE_DIR}/code"
-        "${CMAKE_CURRENT_SOURCE_DIR}/code/foundation"
+        "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice"
+        "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice/foundation"
         "${CMAKE_CURRENT_SOURCE_DIR}/code/extlibs"
     )
     target_link_libraries(nebuladevice_foundation PUBLIC
@@ -54,6 +58,67 @@ if(NEBULA_BUILD_MINGW64)
         dxerr9
         winmm
     )
+endif()
+
+if(NEBULA_BUILD_LEGACY_TESTS)
+    if(NOT TARGET nebuladevice_foundation)
+        message(FATAL_ERROR
+            "NEBULA_BUILD_LEGACY_TESTS requires NEBULA_BUILD_MINGW64=ON.")
+    endif()
+
+    file(GLOB legacy_test_directories LIST_DIRECTORIES true
+        "${CMAKE_CURRENT_SOURCE_DIR}/Tests/legacy/*"
+    )
+    foreach(legacy_test_directory IN LISTS legacy_test_directories)
+        if(NOT IS_DIRECTORY "${legacy_test_directory}")
+            continue()
+        endif()
+
+        get_filename_component(legacy_test_name
+            "${legacy_test_directory}" NAME)
+        file(GLOB legacy_test_sources CONFIGURE_DEPENDS
+            "${legacy_test_directory}/*.cc"
+            "${legacy_test_directory}/*.cpp"
+            "${legacy_test_directory}/*.c"
+        )
+        if(NOT legacy_test_sources)
+            continue()
+        endif()
+
+        set(legacy_target "legacy_${legacy_test_name}")
+        add_executable("${legacy_target}" ${legacy_test_sources})
+        target_compile_definitions("${legacy_target}" PRIVATE
+            __WIN32__
+            WIN32
+            _HAS_EXCEPTIONS=0
+        )
+        target_compile_options("${legacy_target}" PRIVATE
+            -fno-exceptions
+            -fno-rtti
+        )
+        target_include_directories("${legacy_target}" PRIVATE
+            "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice"
+            "${CMAKE_CURRENT_SOURCE_DIR}/include/Nebuladevice/foundation"
+            "${CMAKE_CURRENT_SOURCE_DIR}/code/extlibs"
+        )
+        target_link_libraries("${legacy_target}" PRIVATE
+            nebuladevice_foundation
+        )
+    endforeach()
+endif()
+
+if(NEBULA_BUILD_TESTS)
+    enable_testing()
+    include(FetchContent)
+
+    FetchContent_Declare(
+        googletest
+        URL https://github.com/google/googletest/archive/refs/tags/v1.15.2.tar.gz
+        URL_HASH SHA256=7b42b4d6ed48810c5362c265a17faebe90dc2373c885e5216439d37927f02926
+    )
+    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+    FetchContent_MakeAvailable(googletest)
+    add_subdirectory(Tests)
 endif()
 
 add_library(nebuladevice INTERFACE)
