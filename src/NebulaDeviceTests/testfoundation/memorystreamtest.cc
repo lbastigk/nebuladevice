@@ -63,8 +63,10 @@ MemoryStreamTest::Run()
     writer->Close();
     stream->Close();
 
-    // do some seeking
+    // reopen for seeking without truncating the written data
+    stream->SetAccessMode(Stream::ReadAccess);
     stream->Open();
+    this->Verify(stream->GetAccessMode() == Stream::ReadAccess);
     stream->Seek(32, Stream::Begin);
     this->Verify(stream->GetPosition() == 32);
     stream->Seek(-4, Stream::Current);
@@ -112,5 +114,4 @@ MemoryStreamTest::Run()
 };
 
 }; // namespace Test
-
 

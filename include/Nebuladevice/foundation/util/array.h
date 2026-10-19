@@ -670,7 +670,7 @@ Array<TYPE>::EraseSwap(typename Array<TYPE>::Iterator iter)
     #if NEBULA3_BOUNDSCHECKS
     n_assert(this->elements && (iter >= this->elements) && (iter < (this->elements + this->size)));
     #endif
-    this->EraseSwapIndex(IndexT(iter - this->elements));
+    this->EraseIndexSwap(IndexT(iter - this->elements));
     return iter;
 }
 
