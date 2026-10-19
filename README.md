@@ -1,4 +1,3 @@
-/**
 # Nebuladevice
 
 This checkout is being migrated to a portable CMake project.
