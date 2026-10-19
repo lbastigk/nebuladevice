@@ -232,8 +232,8 @@ Win360Thread::SetMyThreadName(const char* n)
     // first update our own internal thread-name pointer
     ThreadName = n;
 
-    // update the Windows thread name so that it shows up correctly
-    // in the Debugger
+#if defined(_MSC_VER) && !defined(_WIN64)
+    // Update the legacy 32-bit MSVC debugger thread name.
     struct THREADNAME_INFO
     {
         DWORD dwType;     // must be 0x1000
@@ -254,6 +254,7 @@ Win360Thread::SetMyThreadName(const char* n)
     __except( EXCEPTION_CONTINUE_EXECUTION ) 
     {
     }
+#endif
 }
 
 //------------------------------------------------------------------------------

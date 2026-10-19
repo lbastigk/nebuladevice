@@ -3,8 +3,8 @@
 //  (C) 2006 Radon Labs GmbH
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
-#include "testrunner.h"
-#include "stackdebug.h"
+#include "NebulaDeviceTests/testbase/testrunner.h"
+#include "NebulaDeviceTests/testbase/stackdebug.h"
 
 namespace Test
 {

@@ -4,10 +4,10 @@
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
 
-#include "pointtest.h"
+#include "NebulaDeviceTests/mathtest/pointtest.h"
 #include "Nebuladevice/foundation/math/point.h"
-#include "mathtestutil.h"
-#include "stackalignment.h"
+#include "NebulaDeviceTests/mathtest/mathtestutil.h"
+#include "NebulaDeviceTests/mathtest/stackalignment.h"
 #include "NebulaDeviceTests/testbase/stackdebug.h"
 
 using namespace Math;

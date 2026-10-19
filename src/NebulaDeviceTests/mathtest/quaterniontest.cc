@@ -2,14 +2,13 @@
 //  quaterniontest.cc
 //  (C) 2009 Radon Labs GmbH
 //------------------------------------------------------------------------------
-#include "stdneb.h"
-
-#include "quaterniontest.h"
-#include "math/quaternion.h"
-#include "math/vector.h"
-#include "mathtestutil.h"
-#include "stackalignment.h"
-#include "testbase/stackdebug.h"
+#include "Nebuladevice/foundation/stdneb.h"
+#include "NebulaDeviceTests/mathtest/quaterniontest.h"
+#include "Nebuladevice/foundation/math/quaternion.h"
+#include "Nebuladevice/foundation/math/vector.h"
+#include "NebulaDeviceTests/mathtest/mathtestutil.h"
+#include "NebulaDeviceTests/mathtest/stackalignment.h"
+#include "NebulaDeviceTests/testbase/stackdebug.h"
 
 using namespace Math;
 
@@ -46,7 +45,7 @@ QuaternionTest::Run()
 	q1 = quaternion::inverse(qNormalized);
 	this->Verify(quaternionequal(q0, q1));
 
-	// construction/assignment/compüarison
+	// construction/assignment/compï¿½arison
 	{
 		quaternion a(1.0f, 2.0f, 3.0f, 4.0f);
 		quaternion b(4.0f, 3.0f, 2.0f, 1.0f);

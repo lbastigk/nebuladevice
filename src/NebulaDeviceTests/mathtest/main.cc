@@ -9,12 +9,12 @@
 
 // tests
 #include "NebulaDeviceTests/mathtest/scalartest.h"
-#include "float4test.h"
-#include "matrix44test.h"
-#include "quaterniontest.h"
-#include "vectortest.h"
-#include "pointtest.h"
-#include "planetest.h"
+#include "NebulaDeviceTests/mathtest/float4test.h"
+#include "NebulaDeviceTests/mathtest/matrix44test.h"
+#include "NebulaDeviceTests/mathtest/quaterniontest.h"
+#include "NebulaDeviceTests/mathtest/vectortest.h"
+#include "NebulaDeviceTests/mathtest/pointtest.h"
+#include "NebulaDeviceTests/mathtest/planetest.h"
 #include "NebulaDeviceTests/testbase/stackdebug.h"
 
 /*

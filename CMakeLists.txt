@@ -8,6 +8,8 @@ option(NEBULA_BUILD_ENGINE
        "Build the native Linux Nebuladevice engine" OFF)
 option(NEBULA_BUILD_MINGW64
        "Build the Nebuladevice Foundation layer for MinGW-w64" OFF)
+option(NEBULA_BUILD_MINGW32
+       "Build the Nebuladevice Foundation layer for 32-bit MinGW-w64" OFF)
 option(NEBULA_BUILD_TESTS
        "Build Nebuladevice GoogleTest tests" ON)
 option(NEBULA_BUILD_LEGACY_TESTS
@@ -23,10 +25,10 @@ if(NEBULA_BUILD_ENGINE)
         "Set NEBULA_BUILD_ENGINE=OFF until the platform layer is ported.")
 endif()
 
-if(NEBULA_BUILD_MINGW64)
+if(NEBULA_BUILD_MINGW64 OR NEBULA_BUILD_MINGW32)
     if(NOT WIN32 OR NOT CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
         message(FATAL_ERROR
-            "NEBULA_BUILD_MINGW64 requires a MinGW-w64 CMake toolchain.")
+            "A MinGW build requires a MinGW-w64 CMake toolchain.")
     endif()
 
     file(GLOB_RECURSE nebula_foundation_sources CONFIGURE_DEPENDS
@@ -34,6 +36,10 @@ if(NEBULA_BUILD_MINGW64)
     )
     list(FILTER nebula_foundation_sources EXCLUDE REGEX
         "/jobs/serial/")
+    foreach(unsupported_platform osx ps3 wii xbox360)
+        list(FILTER nebula_foundation_sources EXCLUDE REGEX
+            "/${unsupported_platform}/")
+    endforeach()
 
     add_library(nebuladevice_foundation STATIC
         ${nebula_foundation_sources}
@@ -48,6 +54,11 @@ if(NEBULA_BUILD_MINGW64)
         -fno-rtti
         -fpermissive
     )
+    if(NEBULA_BUILD_MINGW32)
+        target_compile_options(nebuladevice_foundation PRIVATE
+            -msse2
+        )
+    endif()
     target_include_directories(nebuladevice_foundation PUBLIC
         "${CMAKE_CURRENT_SOURCE_DIR}/include"
         "${CMAKE_CURRENT_SOURCE_DIR}/external"
@@ -65,11 +76,16 @@ endif()
 if(NEBULA_BUILD_LEGACY_TESTS)
     if(NOT TARGET nebuladevice_foundation)
         message(FATAL_ERROR
-            "NEBULA_BUILD_LEGACY_TESTS requires NEBULA_BUILD_MINGW64=ON.")
+            "NEBULA_BUILD_LEGACY_TESTS requires a MinGW Foundation build.")
     endif()
 
     file(GLOB legacy_test_directories LIST_DIRECTORIES true
         "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/*"
+    )
+    file(GLOB_RECURSE legacy_common_test_sources CONFIGURE_DEPENDS
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/testbase/*.cc"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/testbase/*.cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/NebulaDeviceTests/testbase/*.c"
     )
     foreach(legacy_test_directory IN LISTS legacy_test_directories)
         if(NOT IS_DIRECTORY "${legacy_test_directory}")
@@ -88,7 +104,10 @@ if(NEBULA_BUILD_LEGACY_TESTS)
         endif()
 
         set(legacy_target "legacy_${legacy_test_name}")
-        add_executable("${legacy_target}" ${legacy_test_sources})
+        add_executable("${legacy_target}"
+            ${legacy_test_sources}
+            ${legacy_common_test_sources}
+        )
         target_compile_definitions("${legacy_target}" PRIVATE
             __WIN32__
             WIN32
@@ -98,6 +117,15 @@ if(NEBULA_BUILD_LEGACY_TESTS)
             -fno-exceptions
             -fno-rtti
             -fpermissive
+        )
+        if(NEBULA_BUILD_MINGW32)
+            target_compile_options("${legacy_target}" PRIVATE
+                -msse2
+            )
+        endif()
+        target_link_options("${legacy_target}" PRIVATE
+            -static-libgcc
+            -static-libstdc++
         )
         target_include_directories("${legacy_target}" PRIVATE
             "${CMAKE_CURRENT_SOURCE_DIR}/include"
@@ -137,6 +165,6 @@ endif()
 
 add_custom_target(nebuladevice_status
     COMMAND ${CMAKE_COMMAND} -E echo
-        "Nebuladevice build is staged; select NEBULA_BUILD_MINGW64 for MinGW-w64."
+        "Nebuladevice build is staged; select a MinGW build option for MinGW-w64."
     VERBATIM
 )

@@ -4,15 +4,15 @@
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
 
-#include "matrix44test.h"
+#include "NebulaDeviceTests/mathtest/matrix44test.h"
 #include "Nebuladevice/foundation/math/matrix44.h"
 #include "Nebuladevice/foundation/math/float4.h"
 #include "Nebuladevice/foundation/math/plane.h"
 #include "Nebuladevice/foundation/math/quaternion.h"
 #include "Nebuladevice/foundation/math/point.h"
 #include "Nebuladevice/foundation/math/vector.h"
-#include "mathtestutil.h"
-#include "stackalignment.h"
+#include "NebulaDeviceTests/mathtest/mathtestutil.h"
+#include "NebulaDeviceTests/mathtest/stackalignment.h"
 #include "NebulaDeviceTests/testbase/stackdebug.h"
 
 using namespace Math;

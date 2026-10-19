@@ -23,6 +23,16 @@ The MinGW-w64 build remains available with
 `-DNEBULA_BUILD_MINGW64=ON`; its source list will be tightened as the
 refactor progresses.
 
+The original Windows target is 32-bit. Configure that compatibility build
+with:
+
+```sh
+cmake -S . -B build-mingw32 \
+  -DCMAKE_TOOLCHAIN_FILE=cmake/mingw32-toolchain.cmake \
+  -DNEBULA_BUILD_MINGW32=ON
+cmake --build build-mingw32
+```
+
 <!--
 Nebula3 is the next version of <b>The Nebula Device</b> Open Source game engine. 
 Nebula3 is a clean rewrite and represents the essence of 12 years of professional

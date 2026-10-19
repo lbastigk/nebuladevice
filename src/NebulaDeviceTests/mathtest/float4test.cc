@@ -4,11 +4,11 @@
 //------------------------------------------------------------------------------
 #include "Nebuladevice/foundation/stdneb.h"
 
-#include "float4test.h"
+#include "NebulaDeviceTests/mathtest/float4test.h"
 #include "Nebuladevice/foundation/math/float4.h"
 #include "Nebuladevice/foundation/math/matrix44.h"
-#include "mathtestutil.h"
-#include "stackalignment.h"
+#include "NebulaDeviceTests/mathtest/mathtestutil.h"
+#include "NebulaDeviceTests/mathtest/stackalignment.h"
 #include "NebulaDeviceTests/testbase/stackdebug.h"
 
 using namespace Math;
