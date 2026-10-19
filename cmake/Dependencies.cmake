@@ -1,6 +1,8 @@
 include(FetchContent)
 
 set(FETCHCONTENT_QUIET FALSE)
+set(ZLIB_BUILD_TESTING OFF CACHE BOOL "Disable zlib example tests" FORCE)
+set(ZLIB_BUILD_EXAMPLES OFF CACHE BOOL "Disable zlib example programs" FORCE)
 
 FetchContent_Declare(
     zlib
@@ -74,13 +76,37 @@ endif()
 
 if(NOT TARGET nebula_tinyxml)
     add_library(nebula_tinyxml STATIC
-        "${tinyxml_SOURCE_DIR}/tinyxml.cpp"
-        "${tinyxml_SOURCE_DIR}/tinyxmlerror.cpp"
-        "${tinyxml_SOURCE_DIR}/tinyxmlparser.cpp"
+        "${CMAKE_CURRENT_SOURCE_DIR}/external/tinyxml/tinystr.cc"
+        "${CMAKE_CURRENT_SOURCE_DIR}/external/tinyxml/tinyxml.cc"
+        "${CMAKE_CURRENT_SOURCE_DIR}/external/tinyxml/tinyxmlerror.cc"
+        "${CMAKE_CURRENT_SOURCE_DIR}/external/tinyxml/tinyxmlparser.cc"
     )
     target_include_directories(nebula_tinyxml
         PUBLIC "${tinyxml_SOURCE_DIR}"
+        PRIVATE
+            "${CMAKE_CURRENT_SOURCE_DIR}/include"
+            "${CMAKE_CURRENT_SOURCE_DIR}/external"
+            "${CMAKE_CURRENT_SOURCE_DIR}/external/tinyxml"
+            "${directxmath_SOURCE_DIR}/Inc"
+            "${wine_compat_include_dir}"
     )
+endif()
+
+if(NOT TARGET nebula_minizip)
+    add_library(nebula_minizip STATIC
+        "${CMAKE_CURRENT_SOURCE_DIR}/external/zlib/unzip.c"
+        "${CMAKE_CURRENT_SOURCE_DIR}/external/zlib/ionebula3.cc"
+    )
+    target_include_directories(nebula_minizip
+        PUBLIC
+            "${CMAKE_CURRENT_SOURCE_DIR}/external/zlib"
+        PRIVATE
+            "${CMAKE_CURRENT_SOURCE_DIR}/include"
+            "${CMAKE_CURRENT_SOURCE_DIR}/external"
+            "${directxmath_SOURCE_DIR}/Inc"
+            "${wine_compat_include_dir}"
+    )
+    target_link_libraries(nebula_minizip PUBLIC nebula_zlib)
 endif()
 
 if(NOT TARGET nebula_lua)
@@ -101,6 +127,7 @@ target_link_libraries(nebuladevice_dependencies INTERFACE
     nebula_zlib
     nebula_sqlite3
     nebula_tinyxml
+    nebula_minizip
     nebula_lua
 )
 
