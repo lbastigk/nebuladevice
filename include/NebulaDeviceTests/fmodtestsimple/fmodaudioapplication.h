@@ -16,8 +16,6 @@
 
 #include "Nebuladevice/foundation/util/array.h"
 #include "Nebuladevice/foundation/core/ptr.h"
-#include "Nebuladevice/render/input/inputserver.h"
-#include "Nebuladevice/foundation/timing/timer.h"
 #include "Nebuladevice/foundation/core/coreserver.h"
 #if USE_HTTP
 #include "Nebuladevice/foundation/http/httpinterface.h"
@@ -52,14 +50,6 @@ public:
     virtual void Run();
 
 private:
-    void ProcessInput_Test();
-    void ProcessInput_TestSoundStartStop();
-	void ProcessInput_Test3DPan();
-	void ProcessInput_Test3DVolume();
-	void ProcessInput_Test3DDoppler();
-	void ProcessInput_Test3DAll();
-
-private:
 	Ptr<Core::CoreServer> coreServer;
     Ptr<Jobs::JobSystem> jobSystem;
     Ptr<IO::GameContentServer> gameContentServer;
@@ -69,8 +59,6 @@ private:
     Ptr<Http::HttpInterface> httpInterface;
 	Ptr<Http::HttpServerProxy> httpServerProxy;
 #endif
-    Timing::Timer masterTime;
-	Ptr<Input::InputServer> inputServer;
     Ptr<Audio2::Audio2Interface> audioInterface;
     Ptr<Audio2::Audio2Server> audioServer;
     Ptr<Audio2::Audio2Player> audioPlayer;
