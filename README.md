@@ -59,11 +59,12 @@ Current status:
 | Status | Count | Meaning |
 | --- | ---: | --- |
 | 🟢 Passed | 7 | Builds and completes successfully |
-| 🟡 Build errors | 26 | The legacy target does not currently compile or link |
+| 🟡 Build errors | 23 | The legacy target does not currently compile or link |
 | 🔴 Failed | 0 | Builds, but fails or times out while running |
 
 This status is a progress snapshot, not a permanent test classification. As
 targets are ported, move them between categories and update the counts above.
+Historical console-only targets are excluded from this Linux/Wine test list.
 The runner uses a 120-second timeout for each test by default; override it
 with `NEBULA_TEST_TIMEOUT_SECONDS`.
 
